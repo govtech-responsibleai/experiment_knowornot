@@ -1,0 +1,1922 @@
+{
+  "metadata": {
+    "experiment_type": "removal",
+    "system_prompt": {
+      "identifier": "basic_llm_prompt",
+      "content": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        "
+    },
+    "input_path": "experiments/inputs/CPF_111_removal_DIRECT_basic_gpt-4o-2024-11-20_input.json",
+    "output_path": "experiments/outputs/CPF_111_removal_DIRECT_basic_gpt-4o-2024-11-20_output.json",
+    "retrieval_type": "DIRECT",
+    "creation_timestamp": "2025-05-06T13:46:36.521068",
+    "client_enum": "AZURE_OPENAI",
+    "ai_model_used": "gpt-4o-2024-11-20",
+    "knowledge_base_identifier": "CPF_111"
+  },
+  "responses": [
+    {
+      "identifier": "CPF_111_0_20250506164321",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow can I change the mode of payment for my Platform Workers CPF Transition Support (PCTS)? / I have already registered for PayNow-NRIC to receive my Government cash benefits. Do I still need to provide my bank account details?",
+        "source_context_qa": {
+          "identifier": "CPF_0",
+          "question": "How can I change the mode of payment for my Platform Workers CPF Transition Support (PCTS)? / I have already registered for PayNow-NRIC to receive my Government cash benefits. Do I still need to provide my bank account details?",
+          "expected_answer": "No further action is required from you if you have already registered for PayNow-NRIC with the participating banks. You are encouraged to register for PayNow-NRIC with a PayNow-GIRO-participating local or foreign bank in Singapore to receive your Platform Workers CPF Transition Support (PCTS) payments promptly. Payment will be made by default to your PayNow-NRIC-linked bank account.If you do not have a PayNow-NRIC-linked bank account, you can update your bank account details by logging in to oure-serviceswith your Singpass. Payment instructions received will be used for future government benefits. The Government will validate the bank account details that you have registered.If you have closed your bank account, ceased being a joint account holder, or have provided the wrong bank account details, we will inform you to update your bank account details. You will receive a notification sent to your Singpass app. If you do not have the app, a letter will be sent to your NRIC address. This notification will not be sent via SMS, WhatsApp or any other platforms.If you have not linked your NRIC to PayNow or have not provided a valid bank account to the Government, you will receive future Government cash benefits via GovCash.GovCashis a payment mode where you can withdraw your Government benefits in cash from OCBC ATMs.Citizens who are on GovCash will receive their cash benefits 2-3 weeks later than those who have linked their NRIC to PayNow or have provided a valid bank account.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "To change the mode of payment for your Platform Workers CPF Transition Support (PCTS), please provide your bank account details if you have not already done so. If you are already registered for PayNow-NRIC, you do not need to separately provide your bank account details.",
+        "citation": 6
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_1_20250506164311",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nIs the 3 years track record for new funds applied at the fund level or based on the experience of Fund Management Companies?",
+        "source_context_qa": {
+          "identifier": "CPF_1",
+          "question": "Is the 3 years track record for new funds applied at the fund level or based on the experience of Fund Management Companies?",
+          "expected_answer": "The preference for a 3 year performance track record is generally applied at the fund level. Fund managers should preferably show a minimum track record so that they can be better assessed on their ability whether they are able to give consistently good performance against the benchmark for the specific fund they manage.In the case of indexed funds or Exchange Traded Funds, the 3 year track record is applied differently. The focus will be on the fund management company's technology or systems and processes that they have established to perform the rebalancing functions to track indexes closely1and their ability to consistently maintain a low cost structure for the index funds they have under management.1Low tracking error",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "The 3-year track record requirement for new funds is applied at the level of Fund Management Companies based on their experience.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_2_20250506164311",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow is the 12-month average gross monthly income (AMI) criterion computed?",
+        "source_context_qa": {
+          "identifier": "CPF_2",
+          "question": "How is the 12-month average gross monthly income (AMI) criterion computed?",
+          "expected_answer": "The 12-month average gross monthly income is defined as:Sum of income earned in the past 12-month period ÷ Total number of months worked in the past 12-month periodTo qualify for WIS:a) Your 12-month average gross monthly income must not exceed $2,500; andb) Your gross monthly income must not exceed $2,500.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "The 12-month average gross monthly income (AMI) criterion is computed by averaging the gross income across the previous 12 months to gauge monthly earnings. This approach smooths out fluctuations and provides a representative monthly income measure.",
+        "citation": 2
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_3_20250506164312",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow much do I need to refund when I sell my property after I made a voluntary housing refund?",
+        "source_context_qa": {
+          "identifier": "CPF_3",
+          "question": "How much do I need to refund when I sell my property after I made a voluntary housing refund?",
+          "expected_answer": "On sale of your property, the selling price will be distributed, in the following order:1. Outstanding housing loan2. CPF principal amount withdrawn for the property, and its accrued interest3. Other sale expenses, e.g. legal feesThe amount to refund depends on how much you have voluntarily refunded:Full voluntary housing refund of all your CPF principal withdrawn with accrued interestIf you had made a full voluntary housing refund of all your CPF principal withdrawn with accrued interest and did not use further CPF savings for your loan repayments, you do not need to make any refund to your CPF account on sale of your property.Check yourHome ownership dashboardfor the amount of CPF to be refunded (if any).Partial voluntary housing refund of all your CPF principal withdrawn with accrued interestIf you made a partial voluntary housing refund of your CPF principal withdrawn with accrued interest and/or continued to use further CPF savings for your loan repayments, you need to refund the remaining CPF principal amount withdrawn for your property, including the accrued interest (P+I) onsale of your property.Check yourHome ownership dashboardfor the amount of CPF to be refunded (if any).",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "You generally need to refund an amount equal to the voluntary housing refund you applied, unless there are other legal considerations. Consult local financial regulations.",
+        "citation": "no citation"
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_4_20250506164312",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhy is there no tax relief for top-ups made to my children or non-immediate family?",
+        "source_context_qa": {
+          "identifier": "CPF_4",
+          "question": "Why is there no tax relief for top-ups made to my children or non-immediate family?",
+          "expected_answer": "Tax relief is an incentive given to encourage members to build up retirement savings for themselves or their immediate family members, particularly older Singaporeans who may have less retirement savings.Your children have more time to accumulate savings in their working years for their own retirement needs. Hence, there is no tax relief for top-ups made to your children or non-immediate family members.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "No citation available; the provided context doesn't offer details regarding tax relief for top-ups made to children or non-immediate family.",
+        "citation": "no citation"
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_5_20250506164313",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow will the Fixed Expense Deduction Amount be applied if I use different modes of transport?",
+        "source_context_qa": {
+          "identifier": "CPF_5",
+          "question": "How will the Fixed Expense Deduction Amount be applied if I use different modes of transport?",
+          "expected_answer": "The Fixed Expense Deduction Amount (FEDA) used for calculation of CPF will be based on the mode of transport for the respective job(s) completed.For example:Example 1:Platform worker X uses a bicycle when working for platform operator A, and a car when working for platform operator B.Platform operator A will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.Platform operator B will use the FEDA of 60% to compute the platform worker's net earnings for CPF contributions.Example 2:Platform worker Y uses motorcycle from 1 to 15 Jan, and switches to bicycle from 16 to 31 Jan.For jobs completed on 1 to 15 Jan on motorcycle, the platform operator will use the FEDA of 35% to compute the platform worker's net earnings for CPF contributions.For jobs completed on 16 to 31 Jan on bicycle, the platform operator will use the FEDA of 20% to compute the platform worker's net earnings for CPF contributions.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "The Fixed Expense Deduction Amount applies equally regardless of the mode of transport used. This simplifies expense reporting for those using multiple transportation modes.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_6_20250506164313",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow long does it take to process applications relating to the Self-Employed Scheme?",
+        "source_context_qa": {
+          "identifier": "CPF_6",
+          "question": "How long does it take to process applications relating to the Self-Employed Scheme?",
+          "expected_answer": "The applications relating to the Self-Employed Scheme will generally be processed within the service standards as stated in the table below. We strive to process all submitted applications within the service standard and will let you know if more time is needed.ServiceNormal Processing TimeManage your MediSave payableOnline: 12 working daysManual: 15 working daysRefund of CPF/MediSave contributions by self-employed personOnline: 12 working daysManual: 15 working daysThis includes time needed to liaise with other parties or seek clarification on your refund application.Adjust self-employed contributionsMake full payment for your MediSave payablesa.  Payment via PayNow / OCBC Digital: Will generally be processed almost instantlyb. Cash: 10 working daysNote: Please note that cheque payment is no longer accepted for Self-Employed contributions with effect from 1 January 2024.Self-employed person income declaration formOnline: 8 working daysManual: 10 working days",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Applications relating to the Self-Employed Scheme are typically processed within two to six weeks.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_7_20250506164314",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhy are my discounted Singtel shares not reflected in my Central Depository (CDP) statement?",
+        "source_context_qa": {
+          "identifier": "CPF_7",
+          "question": "Why are my discounted Singtel shares not reflected in my Central Depository (CDP) statement?",
+          "expected_answer": "Your discounted Singtel shares are held by the Board on your behalf. Your discounted Singtel shares would therefore be reflected in your CPF Statement of Account.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Your discounted Singtel shares may not be reflected in your CDP statement because the shares might have been issued directly to your broker's custodian account instead of your CDP account.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_8_20250506164313",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat conditions must I meet in order to receive and retain the matching grant?",
+        "source_context_qa": {
+          "identifier": "CPF_8",
+          "question": "What conditions must I meet in order to receive and retain the matching grant?",
+          "expected_answer": "To receive and retain the matching grant, you must:be eligible for the Matched Retirement Savings Scheme for the year;have received cash top-ups during the year; andstill be a Singapore Citizen when the matching grant is credited to your Retirement Account (RA) at the beginning of the following year.Do note that cash top-ups are irreversible. Read more about theirreversibilitycondition.In an unlikely event where the cash top-up is reversed and you had already received the matching grant, the grant and any interest earned on it will be recovered from your CPF account.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "To receive and retain the matching grant, you must complete the project as agreed and complete any additional conditions set by the grant provider.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_9_20250506164314",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nCan I take a policy loan on my Academic Staff Provident Fund Approved Investment Scheme (ASPFAIS) Part V insurance policy?",
+        "source_context_qa": {
+          "identifier": "CPF_9",
+          "question": "Can I take a policy loan on my Academic Staff Provident Fund Approved Investment Scheme (ASPFAIS) Part V insurance policy?",
+          "expected_answer": "Policy loans are not allowed for Part V insurance policies under the CPF Investment Scheme.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Yes, policyholders can take a policy loan on their ASPFAIS Part V insurance policy.",
+        "citation": 5
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_10_20250506164315",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nDoes the raising of the Enhanced Retirement Sum (ERS) affect my Basic Retirement Sum (BRS) and Full Retirement Sum (FRS)?",
+        "source_context_qa": {
+          "identifier": "CPF_10",
+          "question": "Does the raising of the Enhanced Retirement Sum (ERS) affect my Basic Retirement Sum (BRS) and Full Retirement Sum (FRS)?",
+          "expected_answer": "No, this will not affect yourBasic Retirement Sum (BRS) and Full Retirement Sum (FRS), which are determined when you turn age 55 and will remain the same for the rest of your life.If you are aged 55 and above, you can opt to top up more to your Retirement Account (RA), beyond your FRS, to receive higher monthly payouts in retirement. The maximum amount you can top up to your RA is the current year’sEnhanced Retirement Sum (ERS). With the raising of the ERS on 1 January 2025 from three times to 4 times of BRS, you will be able to top up more for even higher payouts.Find out more on how the BRS and FRS are determined.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "No, the raising of the Enhanced Retirement Sum (ERS) does not affect your Basic Retirement Sum (BRS) and Full Retirement Sum (FRS).",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_11_20250506164315",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat does the CPF Investment Scheme-Ordinary Account (CPFIS-OA) Total Profits/Losses statistic measure?",
+        "source_context_qa": {
+          "identifier": "CPF_11",
+          "question": "What does the CPF Investment Scheme-Ordinary Account (CPFIS-OA) Total Profits/Losses statistic measure?",
+          "expected_answer": "The CPF Investment Scheme-Ordinary Account (CPFIS-OA) Total Profits/Losses statistic provides a complete representation of the investors total portfolio performance. It takes into account not only the realised profits or losses of investments that were sold, but also the unrealised profits or losses of investments that members held during the reporting period.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "The CPF Investment Scheme-Ordinary Account (CPFIS-OA) Total Profits/Losses statistic measures the overall financial performance, including profits and losses, of investments made under the CPFIS-OA.",
+        "citation": 113
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_12_20250506164316",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat sources of MediSave contributions are eligible for Drive and Save (DAS) co-contribution?",
+        "source_context_qa": {
+          "identifier": "CPF_12",
+          "question": "What sources of MediSave contributions are eligible for Drive and Save (DAS) co-contribution?",
+          "expected_answer": "MediSave contributions1made by the taxi principal hirer to offset MediSave payable will qualify him for Drive and Save (DAS) co-contribution. CPF contributions received as an employee (from both employer and self) for taxi principal hirers who are concurrently employed, as well as government top-ups are excluded.1You may make MediSave contributions as a self-employed person viaManage your MediSave payableorGIRO.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "The sources of MediSave contributions eligible for Drive and Save (DAS) co-contribution are MediSave top-ups.",
+        "citation": 5
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_13_20250506164317",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWill I still be considered opted-in if I stop doing platform work for a period of time or change platform operator after opting-in?",
+        "source_context_qa": {
+          "identifier": "CPF_13",
+          "question": "Will I still be considered opted-in if I stop doing platform work for a period of time or change platform operator after opting-in?",
+          "expected_answer": "Yes, your opt-in status is permanent after opting in and applies to all platform operators you work with.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "No, you will not still be considered opted-in if you permanently stop doing platform work or change to a different platform operator after opting in. You would need to opt-in again for the new platform.",
+        "citation": 3
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_14_20250506164317",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat constitutes a second property for Workfare Income Supplement (WIS) scheme?",
+        "source_context_qa": {
+          "identifier": "CPF_14",
+          "question": "What constitutes a second property for Workfare Income Supplement (WIS) scheme?",
+          "expected_answer": "All types of properties e.g. Housing & Development Board flat, private property and non-residential property, are taken into account in determining the eligibility for Workfare Income Supplement (WIS) scheme.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "For the Workfare Income Supplement (WIS) scheme, a second property refers to any additional real estate owned by an individual aside from their primary residence.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_15_20250506164317",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat will CPF Board do with members or third parties who are found to have conducted manipulative transactions?",
+        "source_context_qa": {
+          "identifier": "CPF_15",
+          "question": "What will CPF Board do with members or third parties who are found to have conducted manipulative transactions?",
+          "expected_answer": "Under the law, CPF Board is empowered to recover CPF savings that is siphoned or withdrawn prematurely under such circumstances, with interest. The member could also be prohibited from making further withdrawals for a period of one year or more as the Board may determine, from the date of the contravention or from the date of the making of any false representations or furnishing of false information.The Board takes a serious view on any attempts to siphon CPF savings prematurely and will not hesitate to take legal action against CPF members and intermediaries or other parties who collaborate to do this. Third parties will be charged under the Penal Code. The Board may issue a Notice to Attend Court (NTA) to such persons. Please refer to theNTA form(PDF, 0.2MB) for a sample.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "The CPF Board may take action such as suspending or withdrawing their CPF Investment Scheme (CPFIS) account.",
+        "citation": 6
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_16_20250506164318",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhy is the deduction still happening after I have successfully deleted my recurring cash top-up arrangement?",
+        "source_context_qa": {
+          "identifier": "CPF_16",
+          "question": "Why is the deduction still happening after I have successfully deleted my recurring cash top-up arrangement?",
+          "expected_answer": "To ensure that your deduction request takes effect from current month onwards, delete it at least three working days before the current monthdeduction. Else, the deduction will still proceed.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "The deduction might still happen because transactions that were scheduled before you deleted the arrangement could still be processed.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_17_20250506164318",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI am registered with the Accounting and Corporate Regulatory Authority (ACRA) as a partner for my business. Am I considered a self-employed person or an employee of the partnership?",
+        "source_context_qa": {
+          "identifier": "CPF_17",
+          "question": "I am registered with the Accounting and Corporate Regulatory Authority (ACRA) as a partner for my business. Am I considered a self-employed person or an employee of the partnership?",
+          "expected_answer": "For more information on Partnerships, please visit theInland Revenue Authority of Singapore (IRAS) website.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "If you are registered as a partner in your business with ACRA, you are considered a self-employed person rather than an employee of the partnership.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_18_20250506164320",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhy are different Contribute As You Earn (CAYE) contribution rates applied to different service fees?",
+        "source_context_qa": {
+          "identifier": "CPF_18",
+          "question": "Why are different Contribute As You Earn (CAYE) contribution rates applied to different service fees?",
+          "expected_answer": "Contribute As You Earn (CAYE) contribution rates may change when you (i) update your CAYE contribution rate or (ii) are no longer required to make CAYE contributions. Generally, the updated CAYE contribution rate will apply to service fees paid from the next day.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Different Contribute As You Earn (CAYE) contribution rates are applied to different service fees because these fees may vary based on the nature of the service, its importance to the organization, and the amount expected to be raised. Adjusting rates allows for a balanced approach to fund allocation.",
+        "citation": "no citation"
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_19_20250506164319",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI am turning 55 later this year. How can I top up if my Retirement Account has not been created yet?",
+        "source_context_qa": {
+          "identifier": "CPF_19",
+          "question": "I am turning 55 later this year. How can I top up if my Retirement Account has not been created yet?",
+          "expected_answer": "If your Retirement Account has not been created yet, you can top up to your Special Account (SA). Cash top-ups to your SA will be considered for matching grants under the Matched Retirement Savings Scheme.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "If your Retirement Account has not been created yet and you are about to turn 55, you can still top up using the Retirement Sum Topping-Up Scheme to your Special Account instead.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_20_20250506164320",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI lost my letter containing the Payment Reference Number (PRN), can someone else take my money?",
+        "source_context_qa": {
+          "identifier": "CPF_20",
+          "question": "I lost my letter containing the Payment Reference Number (PRN), can someone else take my money?",
+          "expected_answer": "It is not possible to withdraw the money with just the Payment Reference Number as GovCash uses the Singpass Face Verification technology to authenticate users during the withdrawal of the Government benefits from OCBC ATMs. The Face Verification technology incorporates a liveness-detection capability that blocks the use of photographs, videos or masks during the verification process.This security feature prevents any fraudulent withdrawal of the Government benefits by third party using photographs or videos belonging to the beneficiary and ensuring only the eligible Singaporean can perform the withdrawal of his or her Government benefits.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "No, someone else cannot take your money even if you lose the Payment Reference Number (PRN).",
+        "citation": 8
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_21_20250506164321",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nDo all CPF Investment Scheme (CPFIS)-included Unit Trusts/ILP sub-funds charge trailer fees?",
+        "source_context_qa": {
+          "identifier": "CPF_21",
+          "question": "Do all CPF Investment Scheme (CPFIS)-included Unit Trusts/ILP sub-funds charge trailer fees?",
+          "expected_answer": "Trailer fees is subjected to the business agreements between product providers and their distributors (including financial advisors). Some funds may not have trailer fees payable to distributors.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "No, not all CPF Investment Scheme (CPFIS)-included Unit Trusts/ILP sub-funds charge trailer fees. Some funds do not charge such fees.",
+        "citation": 2
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_22_20250506164321",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nCan the minimum income criterion be waived for workers who want to work more but are unable to?",
+        "source_context_qa": {
+          "identifier": "CPF_22",
+          "question": "Can the minimum income criterion be waived for workers who want to work more but are unable to?",
+          "expected_answer": "The minimum income criterion of $500 per month was introduced from 2023 to encourage workers to work more regularly or take up higher-paying jobs.$500 per month is achievable for most regular workers. At an hourly wage of $10.501, workers who work 3-hr daily shifts for 16 days a month would already earn more than $500 per month.We recognise that some want to work more but are unable to do so due to their personal circumstances or are in greater need of support, such as Persons with Disabilities (PWDs), ComCare Short-to-Medium-Term Assistance recipients and caregivers of care recipients2. Such workers will continue to qualify for concessionary WIS, even if they earn less than $500 per month.1based on Local Qualifying Salary requirement for part-time workers from July 2024 onwards2This will generally includecaregiversresiding with care recipients who are medically certified to have permanent moderate to severe disabilities.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Yes, the minimum income criterion can be waived for workers who want to work more but are unable to due to certain constraints.",
+        "citation": 52
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_23_20250506164321",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nIf I do not intend to renew my licence, do I need to settle my outstanding MediSave payable?",
+        "source_context_qa": {
+          "identifier": "CPF_23",
+          "question": "If I do not intend to renew my licence, do I need to settle my outstanding MediSave payable?",
+          "expected_answer": "You’re required to pay your outstanding MediSave payable even if you do not intend to renew your licence.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Yes, you need to settle your outstanding MediSave payable even if you do not intend to renew your licence.",
+        "citation": 7
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_24_20250506164320",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat if I had declared my net trade income (NTI) wrongly as a self-employed person or employee income?",
+        "source_context_qa": {
+          "identifier": "CPF_24",
+          "question": "What if I had declared my net trade income (NTI) wrongly as a self-employed person or employee income?",
+          "expected_answer": "If you have wrongly declared your net trade income (NTI) to the Inland Revenue Authority of Singapore (IRAS), please visit the IRAS website atwww.iras.gov.sg, call them at 1800-356 8300, or write to them via myTax Mail onmyTax Portalusing your Singpass. Once IRAS has assessed your income for that year, you will receive a revised Notice of Computation (NOC) informing you of the revised MediSave payable. IRAS will also transmit the assessed NTI records to the CPF Board.If you have wrongly declared your NTI to the Board for Work Year 2022 or earlier, pleasewrite to ususing your Singpass.Once the Board has received your income declaration, you can check your updated NTI records by logging in to the Self-employment dashboard with your Singpass.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "If you have declared your net trade income (NTI) wrongly, you should inform the relevant tax authorities of the mistake and provide the correct information promptly. This ensures that your tax returns are accurate and aligns with the tax requirements.",
+        "citation": "no citation"
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_25_20250506164323",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow do I attend (and vote at) a Company's Annual/Extraordinary General Meetings (AGMs/EGMs) as a CPF investor?",
+        "source_context_qa": {
+          "identifier": "CPF_25",
+          "question": "How do I attend (and vote at) a Company's Annual/Extraordinary General Meetings (AGMs/EGMs) as a CPF investor?",
+          "expected_answer": "CPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on attending AGMs/EGMs.Special Arrangements due to Covid-19 MeasuresCompanies would not be able to proceed with physical general meetings during the Circuit Breaker period due to the Safe Distancing measures in place. Companies that hold AGMs/EGMs during this period may have special arrangements (e.g. \"live\" webcast). CPF investors who wish to participate in these meetings and/or vote on meeting resolutions should take note of the following:AttendanceCPF investors should refer to the company announcements on SGXNet (or Company website) for instructions on how to attend the virtual meeting. CPF investors should take note of the pre-registration deadlines (including the submission of questions to the Company which will be addressed publicly before or during the virtual meeting).VotingSince CPF investors cannot physically attend general meetings to vote, they can instead vote through their respective CPF Agent Banks. CPF investors must submit their voting instructions to their agent banksat least seven working days before the general meeting. CPF investors should contact their respective Agent Banks (DBS, OCBC, UOB) to find out more about how to submit their voting instruction(s).",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "To attend and vote at a Company's Annual/Extraordinary General Meetings (AGMs/EGMs) as a CPF investor, you need to register with your CPF Investment Scheme (CPFIS) agent bank, be nominated by the CPFIS trustee to attend, and submit a voting instruction form as required.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_26_20250506164323",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat happens if I scan the generated PayNow QR code multiple times?",
+        "source_context_qa": {
+          "identifier": "CPF_26",
+          "question": "What happens if I scan the generated PayNow QR code multiple times?",
+          "expected_answer": "To ensure that your cash top-up is processed smoothly, please only scan the PayNow QR code and make payment once as the code is only valid for a single payment. For subsequent or duplicate payments made using the same QR code, the payment will be refunded.If you need to make another top-up, you will need to submit a new application and obtain a new PayNow QR code.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "If you scan a generated PayNow QR code multiple times, the same transaction details will appear each time you scan it.",
+        "citation": 6
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_27_20250506164324",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat happens to my unused CPF transfers and cash top-ups to my recipient upon his demise or if he closes his CPF account upon leaving Singapore?",
+        "source_context_qa": {
+          "identifier": "CPF_27",
+          "question": "What happens to my unused CPF transfers and cash top-ups to my recipient upon his demise or if he closes his CPF account upon leaving Singapore?",
+          "expected_answer": "Cash top-ups and CPF transfers will generally be treated as gifts to the recipient. Any unused cash top-ups or CPF transfers will be paid to the recipient's beneficiaries upon his demise, or to the recipient himself if he closes his CPF account and withdraws his CPF savings upon leaving Singapore. This is subject tosafeguards to prevent premature withdrawals.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "The unused CPF transfers and cash top-ups are returned to you (the sender) upon your recipient's demise or closure of his CPF account upon leaving Singapore.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_28_20250506164324",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nCan I apply for refund on CPF contributions paid above the CPF annual ceiling of $102,000?",
+        "source_context_qa": {
+          "identifier": "CPF_28",
+          "question": "Can I apply for refund on CPF contributions paid above the CPF annual ceiling of $102,000?",
+          "expected_answer": "If your total net earnings under a single platform operator exceed $102,000, your platform operator will apply for a refund on the excess CPF contributions from CPF Board. After receiving the refund, your platform operator will refund your share of excess CPF contributions to you.If your total earnings acrossmultipleplatform operators exceed $102,000, you can apply for a refund on your share of the contributions.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Yes, you can apply for a refund on CPF contributions paid above the CPF annual ceiling of $102,000.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_29_20250506164324",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI received an email notification on topping up my and/or my loved ones’ retirement savings. How do I know if the notification is indeed sent by CPF Board?",
+        "source_context_qa": {
+          "identifier": "CPF_29",
+          "question": "I received an email notification on topping up my and/or my loved ones’ retirement savings. How do I know if the notification is indeed sent by CPF Board?",
+          "expected_answer": "Members will receive email notifications at the email address registered with the Board. You maycheck or update your email addresswhich you have earlier registered with us using your Singpass.To verify if the email you received is legitimate andavoid falling prey to phishing scams,Ensure that the sender's email address is correctly spelt and ends with \"@e.cpf.gov.sg\".Ensure that the hyperlinks or links you click on has a domain ending with “.gov.sg”.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "To verify if the email notification is genuinely sent by CPF Board, check that it states your full name and is sent from their official email domain, which is @e.cpf.gov.sg.",
+        "citation": 2
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_30_20250506164311",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat can members do if the funds in which they have already invested do not meet the new standards set by the Board following re-evaluation?",
+        "source_context_qa": {
+          "identifier": "CPF_30",
+          "question": "What can members do if the funds in which they have already invested do not meet the new standards set by the Board following re-evaluation?",
+          "expected_answer": "Members who have already invested in such funds can continue to remain invested in the funds, or consider switching to other funds or selling out of the funds if the funds no longer meet their investment objective.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Members may retain these holdings provided that no additional purchases are made for their accounts.",
+        "citation": 3
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_31_20250506164311",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat additional resources are available to help me better understand the Matched Retirement Savings Scheme (MRSS)?",
+        "source_context_qa": {
+          "identifier": "CPF_31",
+          "question": "What additional resources are available to help me better understand the Matched Retirement Savings Scheme (MRSS)?",
+          "expected_answer": "You may refer to the table below for an infographic (available in English, Chinese, Malay and Tamil) and a video (with audio) which elaborate on the benefits of MRSS.To access these resources, you can click on the links below:InfographicVideoEnglishEnglishChinese (华文)Chinese (华文)Malay (Bahasa Melayu)Malay (Bahasa Melayu)Tamil (தமிழ்)Tamil (தமிழ்)",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "You can refer to government websites for more detailed information or contact financial advisors knowledgeable in matched savings schemes.",
+        "citation": "no citation"
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_32_20250506164312",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhy is the Workfare Income Supplement (WIS) for platform workers aligned to that of employees only in 2029 when the increased CPF contributions for platform workers is implemented in 2025?",
+        "source_context_qa": {
+          "identifier": "CPF_32",
+          "question": "Why is the Workfare Income Supplement (WIS) for platform workers aligned to that of employees only in 2029 when the increased CPF contributions for platform workers is implemented in 2025?",
+          "expected_answer": "CPF contributions rates will gradually increase for platform workers from 2025 to 2028. To support lower-income platform workers during this period, we will provide the Platform Workers CPF Transition Support (PCTS) to help mitigate the drop in take-home earnings. PCTS will fully offset the increase in platform workers’ CPF contributions in 2025 and gradually taper down before ceasing in 2029.When the platform workers’ CPF contribution rates are fully aligned with employees in 2029, Workfare Income Supplement will be aligned with that of employees for platform workers who are mandated or opt in to the increased CPF contributions.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "The Workfare Income Supplement (WIS) for platform workers is aligned to that of employees in 2029 to allow sufficient time for the increased CPF contributions for platform workers, implemented starting in 2025, to accumulate and match the conditions already applicable to employees.",
+        "citation": 5
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_33_20250506164312",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nIs there a minimum interest rate for CPF Investment Scheme Fixed Deposit (FD) that FD Banks must offer?",
+        "source_context_qa": {
+          "identifier": "CPF_33",
+          "question": "Is there a minimum interest rate for CPF Investment Scheme Fixed Deposit (FD) that FD Banks must offer?",
+          "expected_answer": "With effect from 1 May 2007, Fixed Deposit (FD) Banks must offer a minimum effective interest rate that is at least the prevailing CPF interest rate for new placements or roll over of any CPF Investment Scheme FDs. In this way, members will not be worse off than leaving their monies in the CPF Accounts.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Yes, for CPF Investment Scheme Fixed Deposit (FD), banks must offer an interest rate at least 0.25% per annum above the prevailing CPF Ordinary Account interest rate.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_34_20250506164312",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow can I make recurring monthly or yearly top-ups conveniently via GIRO?",
+        "source_context_qa": {
+          "identifier": "CPF_34",
+          "question": "How can I make recurring monthly or yearly top-ups conveniently via GIRO?",
+          "expected_answer": "You can make small and recurring cash top-ups via GIRO by following the steps below:Step 1:Set up a GIRO arrangementStep 2: Please allow one day for your GIRO bank account to be updated in the Board's record. Thereafter, please submit a request to makerecurring cash top-ups for retirement.Please note that you must completebothsteps for recurring cash top-ups via GIRO to be successful.Currently, the online application to set up a GIRO arrangement is only available for theseparticipating banks.If you encounter any difficulties in setting up GIRO, you maywrite to usfor assistance.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "You can arrange for recurring monthly or yearly top-ups conveniently via GIRO.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_35_20250506164315",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow can I help a beneficiary with medical condition (e.g. physically immobile or mentally incapacitated) to withdraw their GovCash monies?",
+        "source_context_qa": {
+          "identifier": "CPF_35",
+          "question": "How can I help a beneficiary with medical condition (e.g. physically immobile or mentally incapacitated) to withdraw their GovCash monies?",
+          "expected_answer": "You can help a beneficiary with medical condition (e.g. who is physically immobile or mentally incapacitated) to withdraw their GovCash monies if you are:Aged 21 years and above; andA next-of-kin, or caregiver, or appointed donee under the Lasting Power of Attorney (LPA), or court-appointed Deputy of the beneficiaryTo help with the withdrawal of the GovCash monies, please bring the following documents and visit anyOCBC-New ATMduring branch operating hours, where OCBC Digital Ambassadors will be available to render assistance:a) Original documentary evidence stating the beneficiary's medical condition (e.g. doctor's memorandum, medical report or court order). The date of the document(s) should not be more than 1 year from the withdrawal date, unless it specifically states that the patient's condition is permanent or the condition is known to be permanent (e.g. bedridden, immobile, physically incapacitated, disabled, intellectually disabled, autism, down syndrome, cerebral palsy, etc);b) A photocopy of the beneficiary’s NRIC;c) Your original NRIC; andd) Beneficiary’s GovCash Payment Reference Number (PRN)You may be required to sign a Letter of Indemnity at the bank, witnessed by the bank officer.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "For beneficiaries who are physically immobile or mentally incapacitated, next-of-kin (NOK) can approach the bank with supporting documents (e.g., letter of authorisation from the beneficiary, the beneficiary's NRIC, NOK’s NRIC, and medical documents). The bank will evaluate the situation and assist accordingly.",
+        "citation": 3
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_36_20250506164314",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nMy child is below 16 years old. How do I transfer his Ordinary Account savings to his Special Account on his behalf?",
+        "source_context_qa": {
+          "identifier": "CPF_36",
+          "question": "My child is below 16 years old. How do I transfer his Ordinary Account savings to his Special Account on his behalf?",
+          "expected_answer": "If your child is below 16 years old and wishes to transfer his Ordinary Account savings to his Special Account, you can complete thisapplicationon his behalf.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Since your child is below 16 years of age, you can use the One-Time MA/SA Shielding e-Service available on the CPF website to transfer amounts from your child’s Ordinary Account (OA) to Special Account (SA).",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_37_20250506164314",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow does the Board treat the maturity proceeds by the insurer after I reached 55 years old?",
+        "source_context_qa": {
+          "identifier": "CPF_37",
+          "question": "How does the Board treat the maturity proceeds by the insurer after I reached 55 years old?",
+          "expected_answer": "The maturity proceeds from your insurance policies under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) and the CPF Investment Scheme-Special Account (CPFIS-SA) are handled differently.For insurance policies under:CPFIS-OAFor CPFIS-OA policies, the proceeds would be refunded to your CPF Investment Account with your agent bank. You can instruct your bank to transfer the monies back to your CPF Ordinary Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject to the prevailing CPF withdrawal rules. Find out more onwithdrawal of CPF savings.For policies that have already been transferred to your name earlier when you applied for withdrawal of your CPFIS investments, it would be considered as cash policies and the insurance companies would pay the proceeds directly to you.If you need to withdraw more than the default online Daily Withdrawal Limit of $2,000, find outmore.If you need to withdraw more than the maximum online Daily Withdrawal Limit, find outmore.CPFIS-SAFor CPFIS-SA policies, the proceeds would be refunded to your CPF Special Account. You can apply for withdrawal of the monies (once the proceeds are credited) subject to the prevailing CPF withdrawal rules. Find out more onwithdrawal of CPF savings.If you need to withdraw more than the default online Daily Withdrawal Limit of $2,000, find outmore.If you need to withdraw more than the maximum online Daily Withdrawal Limit, find outmore.For policies that have already been transferred to your name when you applied for withdrawal of your CPFIS investments, it would be considered as cash policies and the insurance companies would pay the proceeds directly to you.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "The insurer must transfer maturity proceeds directly to the Fund of the Board to be utilized for the member's benefit.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_38_20250506164315",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI have transferred money from Investment Account back into my CPF Ordinary Account. When does the CPF interest computation start?",
+        "source_context_qa": {
+          "identifier": "CPF_38",
+          "question": "I have transferred money from Investment Account back into my CPF Ordinary Account. When does the CPF interest computation start?",
+          "expected_answer": "When you transfer money from your Investment Account to your Ordinary Account, you will start to earn CPF interest on the transferred amount from the following month onwards.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "The CPF interest computation starts from the first day of the following month after the money is transferred back into your CPF Ordinary Account.",
+        "citation": 2
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_39_20250506164315",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow will CPF investors benefit from the reduced Total Expense Ratio (TER) caps?",
+        "source_context_qa": {
+          "identifier": "CPF_39",
+          "question": "How will CPF investors benefit from the reduced Total Expense Ratio (TER) caps?",
+          "expected_answer": "Expenses on investment have a significant impact on returns. Hence, reducing Total Expense Ratio caps will lower the expenses that CPF investors have to bear and increase a fund's per-unit net asset value. This will enable CPF members who have invested in the fund to accumulate their retirement savings faster.The following example illustrates the impact of expense ratio:Amount invested: $10,000 over 30 years, with annual return of 5%1Total expense ratio of the Fund decreases from 1.95% to 1.75%Savings =$1,475(or 6% more in his retirement savings)Expense Ratio of 1.95%Expense Ratio of 1.75%Net investment value after 30 years$24,629$26,104Savings$1,4751Assumes no front end load",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "CPF investors will benefit from reduced Total Expense Ratio (TER) caps as this translates into lower fund costs, leading to potentially higher net returns on investments and improved retirement adequacy for CPF members.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_40_20250506164317",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat documents must I provide when I lodge a report regarding CPF non/under-payment?",
+        "source_context_qa": {
+          "identifier": "CPF_40",
+          "question": "What documents must I provide when I lodge a report regarding CPF non/under-payment?",
+          "expected_answer": "You should provide documents such as your monthly pay slips or employment contract for CPF Board to determine the CPF contributions due to you.To minimise potential disputes between you and your employer, the contract must include key employment terms (KETs) and essential clauses, such as hours of work and job scope. For further information on employment contract and KETs, please refer to theMinistry of Manpower website.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "When you lodge a report about CPF non/under-payment, you need to provide supporting documents such as payslips, employment contracts, and bank statements that show the payment discrepancy.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_41_20250506164316",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat are the different evaluation factors for admission into CPF Investment Scheme (CPFIS) under the old and new entry criteria?",
+        "source_context_qa": {
+          "identifier": "CPF_41",
+          "question": "What are the different evaluation factors for admission into CPF Investment Scheme (CPFIS) under the old and new entry criteria?",
+          "expected_answer": "New funds will continue to be evaluated according to existing evaluation factors. However, new funds will have to meet a higher benchmark, and henceforth funds admitted to CPF Investment Scheme will be among the top 25 percentile of funds. In addition, new funds will have to meet an expense ratio criterion pegged at the median of all funds in the same risk class. New funds should preferably also have a track record of at least 3-years.Supplementary InformationThe specific aspects of the investment process that are looked at during the evaluation process for Unit Trusts and Investment-Linked Insurance Policies include the following:Investment Philosophy;Key Decision Makers;Research and Analysis;Portfolio Construction;Implementation/Trading; andPast Performance.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Under the old entry criteria, no minimum education qualifications were required, and there was no CPF balances threshold. The new criteria apply stricter eligibility standards, including a minimum education qualification of GCE 'A' Levels or its equivalent, and a minimum CPF balances threshold of $20,000 in Ordinary Account and $40,000 in Special Account.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_42_20250506164316",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI am on no-pay/study/medical/maternity leave. Will I be considered as employed to qualify for Workfare Income Supplement?",
+        "source_context_qa": {
+          "identifier": "CPF_42",
+          "question": "I am on no-pay/study/medical/maternity leave. Will I be considered as employed to qualify for Workfare Income Supplement?",
+          "expected_answer": "For the purpose of Workfare Income Supplement (WIS), staff on study/medical/maternity leave will be considered as employees if you are still receiving a salary and CPF contributions from your employers.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "No, being on no-pay leave does not qualify for Workfare Income Supplement as you are not currently earning an income.",
+        "citation": 8
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_43_20250506164317",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nAre CPF contributions payable by the holding company or the subsidiary company if I am seconded from the former to latter?",
+        "source_context_qa": {
+          "identifier": "CPF_43",
+          "question": "Are CPF contributions payable by the holding company or the subsidiary company if I am seconded from the former to latter?",
+          "expected_answer": "The employer who had entered into an employment contract with you is required to pay the CPF contributions.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "When you are seconded from a holding company to a subsidiary company, it is generally the subsidiary company that you are seconded to which becomes liable for CPF contributions, provided it takes responsibility as your employer during the secondment.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_44_20250506164317",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow long does it take to process voluntary top-ups application to my MediSave Account?",
+        "source_context_qa": {
+          "identifier": "CPF_44",
+          "question": "How long does it take to process voluntary top-ups application to my MediSave Account?",
+          "expected_answer": "The application relating to voluntary top-ups to MediSave Account will be processed as stated in the table below.ServiceProcessing TimeTop up MediSave AccountAlmost immediatelyIf the top-up amount is not reflected in your CPF accounts, please check your CPF account balance after five working days as more time may be needed to process the transaction. Such cases may arise due to intermittent network connectivity issues beyond CPF Board's control.Please alert us immediately if your payment is still not updated in your CPF account balance after five working days.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "It takes about 3 working days to process voluntary top-ups to your MediSave Account.",
+        "citation": 12
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_45_20250506164318",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nArising from the merger of Academic Staff Provident Fund Approved Investment Scheme and CPF Investment Scheme, do I need to inform my broker or any of the product providers of my new CPF Investment Account number?",
+        "source_context_qa": {
+          "identifier": "CPF_45",
+          "question": "Arising from the merger of Academic Staff Provident Fund Approved Investment Scheme and CPF Investment Scheme, do I need to inform my broker or any of the product providers of my new CPF Investment Account number?",
+          "expected_answer": "Your agent bank will inform the respective product providers, except stockbrokers, of your new Investment Account number. Agent banks would not be able to inform the stockbrokers on your behalf because agent banks do not know which stockbrokers you have trading accounts with.You will need to inform all your stockbrokers about your new CPF Investment Scheme Investment Account number. If your stockbrokers use the outdated investment account number, your CPF trades will fail and you will need to settle your trades using cash.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Yes, you need to inform your broker or the product providers of your new CPF Investment Account number to ensure proper fund management and association.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_46_20250506164320",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow will the increase in the annual matching grant from $600 to $2,000 per year from 2025 help seniors better meet their retirement needs?",
+        "source_context_qa": {
+          "identifier": "CPF_46",
+          "question": "How will the increase in the annual matching grant from $600 to $2,000 per year from 2025 help seniors better meet their retirement needs?",
+          "expected_answer": "Eligible seniors can top up more to their CPF retirement savings and receive the higher matching grant amount. Correspondingly, they will also receive higher monthly CPF payouts. For instance, a senior aged 55 in 2025 who makes a cash top-up of $2,000 per year over the next 10 years will see an increase in CPF retirement savings of at least $48,000 (inclusive of matching grants and CPF interest) in 2035, which translates to about a $260 increase in monthly CPF payouts*.*Estimation for a male member that starts payout at age 65 on the CPF LIFE Standard Plan.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "The increase in the annual matching grant from $600 to $2,000 per year from 2025 is likely to help seniors better meet their retirement needs by enabling them to save more effectively. Higher contributions to retirement savings would provide greater financial security during retirement, helping to cover expenses and maintain their quality of life.",
+        "citation": 2
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_47_20250506164319",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhy does CPF Board take self-employed persons to court for not contributing to their MediSave?",
+        "source_context_qa": {
+          "identifier": "CPF_47",
+          "question": "Why does CPF Board take self-employed persons to court for not contributing to their MediSave?",
+          "expected_answer": "Self-employed persons (SEPs) are required under the CPF Act to contribute to their MediSave. This ensures that SEPs have enough MediSave savings for their healthcare needs, especially during old age when they have stopped working. SEPs without enough MediSave savings and MediShield Life cover may need to tap on other sources of funds such as their family members’ MediSave savings should they be hospitalised.The CPF Board will continue to be flexible towards those with genuine financial difficulties. SEPs can requestinstalment plansto settle the outstanding amounts over a reasonable period. The CPF Board will only take recalcitrant defaulters to court as the last resort.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "The CPF Board may take self-employed persons to court for not contributing to their MediSave to enforce compliance and ensure a fair process for all CPF members, in line with their legal requirement to contribute.",
+        "citation": 8
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_48_20250506164319",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhy was the cash top-up to my / my loved one's Special or Retirement Account refunded or partially refunded?",
+        "source_context_qa": {
+          "identifier": "CPF_48",
+          "question": "Why was the cash top-up to my / my loved one's Special or Retirement Account refunded or partially refunded?",
+          "expected_answer": "Your top-up was refunded as you / your loved one had received other inflows at the same time as the cash top-up was made. These inflows had resulted in you / your loved one to meet the current Full Retirement Sum or Enhanced Retirement Sum (for members age 55 or above).",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Cash top-ups to the Special or Retirement Account can be refunded or partially refunded when the recipient has exceeded the top-up limit, reached the Full Retirement Sum, or where there may be certain other special conditions.",
+        "citation": 4
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_49_20250506164320",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nCan I top-up my CPF Investment Account under CPF Investment Scheme-Ordinary Account with cash if I do not have sufficient CPF savings for investment?",
+        "source_context_qa": {
+          "identifier": "CPF_49",
+          "question": "Can I top-up my CPF Investment Account under CPF Investment Scheme-Ordinary Account with cash if I do not have sufficient CPF savings for investment?",
+          "expected_answer": "Cash top-ups are not allowed, except in the case of taking up entitlements (e.g. rights shares) or conversion of entitlements. You may top-up your CPF Investment Account through your agent bank if you have insufficient CPF savings or stock limit to subscribe for the entitlements or conversion. However, such cash top-ups are not withdrawable or refundable, even if your applications are unsuccessful.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "No, you cannot top-up your CPF Investment Account with cash if you do not have sufficient CPF savings under the CPF Investment Scheme-Ordinary Account.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_50_20250506164321",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhy are CPF transfers not eligible for the matching grant under Matched Retirement Savings Scheme?",
+        "source_context_qa": {
+          "identifier": "CPF_50",
+          "question": "Why are CPF transfers not eligible for the matching grant under Matched Retirement Savings Scheme?",
+          "expected_answer": "The Matched Retirement Savings Scheme is designed to encourage cash top-ups to senior Singapore Citizens with lower retirement savings to help them save more. Thus, only cash top-ups to eligible members will be matched.Members making CPF transfers can still benefit from the higher interest rate in the Retirement Account.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "CPF transfers are not eligible for the matching grant under the Matched Retirement Savings Scheme (MRSS) because the scheme is designed to encourage individuals to save for their retirement, not facilitate transfers between CPF accounts.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_51_20250506164321",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow can I receive SMS notifications and stop receiving hardcopy notifications for the Workfare Income Supplement (WIS) scheme?",
+        "source_context_qa": {
+          "identifier": "CPF_51",
+          "question": "How can I receive SMS notifications and stop receiving hardcopy notifications for the Workfare Income Supplement (WIS) scheme?",
+          "expected_answer": "To receive SMS notifications, register your mobile number with CPF Board viamy cpfdigital services -Account Settingswith your Singpass.If you wish to receive notifications of your Workfare Income Supplement (WIS) by SMS instead of hardcopy letters, please log in to thee-Serviceswith your Singpass and opt-in to SMS at “Notification”.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "To receive SMS notifications for WIS and stop hardcopy notifications, you need to update your mobile number with the Government. Then, consent to receive SMS notifications by logging into the WIS webpage.",
+        "citation": 2
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_52_20250506164322",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI used to declare my income to CPFB to determine my Workfare Income Supplement (WIS)/excess Contribute As You Earn (CAYE) contributions for the year. Why is CPFB no longer accepting income declarations?",
+        "source_context_qa": {
+          "identifier": "CPF_52",
+          "question": "I used to declare my income to CPFB to determine my Workfare Income Supplement (WIS)/excess Contribute As You Earn (CAYE) contributions for the year. Why is CPFB no longer accepting income declarations?",
+          "expected_answer": "The Inland Revenue Authority of Singapore (IRAS) has been appointed as the single collecting agency for all SEPs’ income information from Work Year 2023 (or Year of Assessment 2024). This means that all SEPs will now declare their net trade income (NTI), including all other sources of income derived from Work Year 2023, to IRAS. SEPs who receive a notification (via letter/form/SMS) to file tax from IRAS or meet the requirement to file tax (i.e. NTI above $6,000 and/or Total Income above $22,000), will need to complete and submit the tax return to IRAS directly. The income tax filing period is from 1 March to 18 April annually.SEPs who do not receive a notification from IRAS or do not meet the requirement to file tax may declare their self-employed net trade income (NTI), including all other sources of income derived from Work Year 2023, to IRAS viamyTax Portalwhich will be available from 1 March to 31 October annually for taxpayers to e-File tax returns.SEPs will receive a Notice of Computation (NOC) from IRAS if they are required to make MediSave contributions, after IRAS has issued a Notice of Assessment for the relevant Year of Assessment.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "CPFB no longer accepts income declarations because they now obtain income information directly from IRAS and Finance for the purpose of assessing eligibility for Workfare Income Supplement (WIS) and computing Contribute As You Earn (CAYE) contributions.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_53_20250506164322",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the cut-off date for self-employed MediSave contributions to be eligible for tax relief?",
+        "source_context_qa": {
+          "identifier": "CPF_53",
+          "question": "What is the cut-off date for self-employed MediSave contributions to be eligible for tax relief?",
+          "expected_answer": "To be eligible for tax relief for the year, theMediSavecontributions made by self-employed persons must be credited to their CPF accounts by the last working day of the year.If you have madeMediSavecontributions during the year, the contribution amounts will be automatically transmitted to the Inland Revenue Authority of Singapore (IRAS) for tax relief in the following year.There is no tax relief for yourMediSaveCPF contributions if your assessed net trade income for the year of assessmentis zero or negative.For more details on tax deductions, please visit theIRAS websiteor call the Individual Income Tax / Property Tax Helpline at 1800-356-8300.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "The cut-off date for self-employed MediSave contributions to be eligible for tax relief is 31 December of the assessment year.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_54_20250506164323",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI am an employer or platform operator who made cash top-ups to my employees or platform workers’ CPF Accounts on their behalf. How do I claim corporate tax deductions?",
+        "source_context_qa": {
+          "identifier": "CPF_54",
+          "question": "I am an employer or platform operator who made cash top-ups to my employees or platform workers’ CPF Accounts on their behalf. How do I claim corporate tax deductions?",
+          "expected_answer": "Cash top-ups made to your employees or platform workers’ CPF Retirement Accounts/ Special Accounts, on the employees or platform workers’ behalf, are tax-deductible. You are able to claim tax deduction on the cash top-ups as part of your allowable business expenses when filing the income tax return (Form B) for self-employed person or (Form C-S/ Form C-S (Lite)/ Form C) for company.For more information, you may refer to the IRAS website onTop-Up of Employees’ CPF RetirementAccounts/ Special Accounts/ MediSave Accounts.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "As an employer or platform operator who has made cash top-ups to your employees or platform workers' CPF accounts, you can claim corporate tax deductions for these contributions provided they meet certain conditions. Specifically, tax deductions are allowed on cash top-ups made in accordance with the conditions under the statutory laws administered by the CPF Board and are subject to the existing tax treatment governing employees' CPF contributions.",
+        "citation": 60
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_55_20250506164324",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI am not a self-employed person. Why did I receive a Notice of Computation (NOC) from IRAS?",
+        "source_context_qa": {
+          "identifier": "CPF_55",
+          "question": "I am not a self-employed person. Why did I receive a Notice of Computation (NOC) from IRAS?",
+          "expected_answer": "You are registered as a self-employed in our records as the Inland Revenue Authority of Singapore (IRAS) had transmitted your net trade income to the Board, under your occupation as a Commission Agent. Examples of Commission Agents are Property Agents, Insurance Agents, Multi-Level Marketing Members, etc. Please note that if you are receiving commission for your services, you are considered a self-employed person (SEP).SEPs will receive a Notice of Computation (NOC) from IRAS informing them of the MediSave payable (if any), after IRAS has completed the income assessment for the year.If you disagree/require further clarification on the assessed income by IRAS, you can email them through the securedMyTax Mail. Should IRAS re-classify your income, your self-employed status and MediSave payable (if any) will also be updated accordingly.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "You might have received the Notice of Computation (NOC) from IRAS due to tax matters or updates that affect your individual tax situation. Individuals, not just self-employed people, can receive such notices based on changes or computations in their tax obligations.",
+        "citation": "no citation"
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_56_20250506164320",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI am making a top-up to myself from overseas. How can I set up a Singpass account if I do not have a mobile phone number registered in Singapore?",
+        "source_context_qa": {
+          "identifier": "CPF_56",
+          "question": "I am making a top-up to myself from overseas. How can I set up a Singpass account if I do not have a mobile phone number registered in Singapore?",
+          "expected_answer": "If you wish to set up a Singpass account for your top-up application but do not have a mobile phone number registered in Singapore, you may contact theSingpass Helpdeskdirectly for assistance.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "You can set up a Singpass account even if you do not have a mobile phone number registered in Singapore by using an email address instead. For international users, Singpass allows registration with an email address for authentication purposes.",
+        "citation": 7
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_57_20250506164322",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nMy net trade income in a work year was negative. Can I trade the losses to offset my income in the following year to qualify for the Workfare Income Supplement (WIS) scheme?",
+        "source_context_qa": {
+          "identifier": "CPF_57",
+          "question": "My net trade income in a work year was negative. Can I trade the losses to offset my income in the following year to qualify for the Workfare Income Supplement (WIS) scheme?",
+          "expected_answer": "Workfare Income Supplement (WIS) is based on your net trade income earned in the work year and does not include previous year's losses.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Yes, you can carry forward your trade losses to offset against your income in following years. This practice aligns with tax regulations in many systems, allowing individuals to benefit from loss offsets in subsequent tax calculations.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_58_20250506164321",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhere can I find more information on Singtel's Scrip Dividend Scheme, as announced by Singtel on 12 November 2020?",
+        "source_context_qa": {
+          "identifier": "CPF_58",
+          "question": "Where can I find more information on Singtel's Scrip Dividend Scheme, as announced by Singtel on 12 November 2020?",
+          "expected_answer": "For financial year ending 31 March 2021, Singtel has paid interim dividend at dividend rate of $0.051 per share. The scrip shares were offered at $2.422 per share. For more information, please visit theSingtel website.If you had opted for scrip shares, the number of scrip shares issued to you, in respect of your shareholdings as at 27 November 2020 (‘Record Date’), was calculated as follows:Number of scrip shares issued =Number of discounted Singtel shares (at Record Date) x Dividend rateIssue price of scrip share",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "More information on Singtel's Scrip Dividend Scheme announced on 12 November 2020 can be found under Singtel's investor relations or official announcements related to dividend schemes.",
+        "citation": "no citation"
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_59_20250506164320",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat are the platform fee components included in gross earnings that attract CPF contributions?",
+        "source_context_qa": {
+          "identifier": "CPF_59",
+          "question": "What are the platform fee components included in gross earnings that attract CPF contributions?",
+          "expected_answer": "In general, payments or benefits which are meant to supplement platform workers’ earnings will attract CPF contribution. This is the same principle for employees who may receive various benefits from employers.However, payments from platform operators meant to reimburse additional expenses already incurred by workers will not be subject to CPF contribution. For example, this can include reimbursements for fuel due to cancelled jobs, and cleaning expenses if customers made a mess in the vehicle.IllustrationCPF contributionsare payableon cash payments that are:fees directly related to your provision of the platform services and/or supplement your earnings (e.g. extended delivery, Sentosa delivery, pin drop fees, order cancellation fee if it is meant to provide earnings to riders, etc)incentives related to the rider’s provision or good performance of platform service, or to reward riders for continued provision of services (e.g. tips, welcome back incentive, new rider incentive, do X get $Y. Any additional cash gifts will also attract CPF if they are related to the provision or performance of the platform service)CPF contributionsarenotpayableon payments that are:not in cash. Any vouchers, or payments-in-kind do not attract CPF.unrelated to the provision or performance of platform service (e.g. referral incentives, incentives for participating in Corporate Social Responsibility (CSR) activities, engagement events and focus groups, etc), reimbursement of expenses (e.g. reimbursement for training programme such as safety courses, or order cancellation fee if this is meant to reimburse expenses you incurred to reach a destination)",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Gross earnings that attract CPF contributions include basic pay, overtime payment, allowances (e.g., transport, meal) and bonuses. Platform fees are not mentioned as a component.",
+        "citation": "no citation"
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_60_20250506164323",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat are the options available to me if I foresee that I do not have sufficient CPF to continue paying the instalments on my regular premium insurance policy?",
+        "source_context_qa": {
+          "identifier": "CPF_60",
+          "question": "What are the options available to me if I foresee that I do not have sufficient CPF to continue paying the instalments on my regular premium insurance policy?",
+          "expected_answer": "If you foresee difficulties in paying your future premiums using CPF, you may wish to consider the following options after consulting your insurance advisor:Pay the instalment using cash. Any proceeds from your insurance policy will then be apportioned according to the amount of premiums paid using cash and CPF;Change the payment frequency from yearly to half-yearly or even to quarterly or monthly, subject to the insurance company’s agreement, so that a lower premium will be deducted per payment;Reduce the sum assured, thus reducing the amount of premium payable; orConvert the policy to a paid-up policy.After you have decided on the option, you need to liaise with your insurance company on the payment of the premium.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "If you foresee insufficient CPF to continue paying premiums, one option is to apply to convert your regular premium policy to a single premium policy.",
+        "citation": 8
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_61_20250506164319",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nCan I cancel the payment after I have confirmed the payment utilising my GovCash on the LifeSG mobile app?",
+        "source_context_qa": {
+          "identifier": "CPF_61",
+          "question": "Can I cancel the payment after I have confirmed the payment utilising my GovCash on the LifeSG mobile app?",
+          "expected_answer": "No, your GovCash balance will be deducted upon successful payment.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "No, you cannot cancel the payment once confirmed when using GovCash via the LifeSG mobile app.",
+        "citation": 3
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_62_20250506164317",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow do I use my CPF to apply for Singapore Government Bonds and Treasury Bills (T-bills) at primary auctions? Can the application be submitted using online or ATM services?",
+        "source_context_qa": {
+          "identifier": "CPF_62",
+          "question": "How do I use my CPF to apply for Singapore Government Bonds and Treasury Bills (T-bills) at primary auctions? Can the application be submitted using online or ATM services?",
+          "expected_answer": "For CPF Investment Scheme-Ordinary Account (CPFIS-OA)Please apply for the bonds and T-bills through your CPFIS-OA agent bank. Application is restricted to your CPFIS-OA agent bank to facilitate the settlement process for bonds and T-bills purchased under CPFIS-OA.DBS/POSB: Apply through DBS/POSB's internet banking portal or digibank mobile.OCBC: Apply through OCBC’s internet banking portal or OCBC Digital application.UOB: Apply for SGS bonds in person at any UOB branch. Apply for T-bills through UOB’s internet banking portalFor step-by-step guide on how to submit your application through your CPFIS-OA agent bank’s electronic portal, you may visit their website,DBS(scroll to dropdown menu “How to apply?”),OCBC(scroll to section “Invest digitally into T-bills & SGS bonds with your CPF”) andUOB(scroll to section \"Things you should know\").After the T-bills auction closes, you can check the aggregate results of the auction at the Monetary Authority of Singapore’swebsite. If your application is successful, the T-bills allotted to you will be reflected in the CPF investment account statement sent by your agent bank.For CPF Investment Scheme-Special Account (CPFIS-SA)You may apply for the bonds and T-bills via any of the CPFIS bond dealers (i.e. DBS, OCBC or UOB).DBS/POSB: Apply in person at any DBS/POSB branch.OCBC: Apply through OCBC’s internet banking portal or OCBC Digital application.UOB: Apply in person at any UOB branch.For step-by-step guide on how to submit your application through the CPFIS bond dealer’s electronic portal, you may visit their website,OCBC(scroll to section “Invest digitally into T-bills & SGS bonds with your CPF”).After the T-bills auction closes, you can check the aggregate results of the auction at the Monetary Authority of Singapore’swebsite. If your application is successful, the T-bills allotted to you will be reflected in yourSpecial Account investment portfolio statement.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "You can use your CPF funds to apply for Singapore Government Bonds (SGBs) and Treasury Bills (T-bills) at primary auctions. Applications may not be submitted using online or ATM services, as CPF Board provides specific application instructions.",
+        "citation": 52
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_63_20250506164318",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWill my CPF Investment Scheme (CPFIS) investments be sold or liquidated when I apply to withdraw my CPFIS investments upon meeting CPF withdrawal conditions?",
+        "source_context_qa": {
+          "identifier": "CPF_63",
+          "question": "Will my CPF Investment Scheme (CPFIS) investments be sold or liquidated when I apply to withdraw my CPFIS investments upon meeting CPF withdrawal conditions?",
+          "expected_answer": "Applying to withdraw your CPFIS investments will not result in liquidation of your investment holdings. If your withdrawal application is approved, your agent bank and/or product providers will contact you on the transfer of your investments to you.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Yes, when you apply to withdraw your CPF Investment Scheme (CPFIS) investments after meeting CPF withdrawal conditions, they will be sold or liquidated.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_64_20250506164316",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nCan I withdraw the top-up monies if I have the Full Retirement Sum, or the Basic Retirement Sum if I own a property?",
+        "source_context_qa": {
+          "identifier": "CPF_64",
+          "question": "Can I withdraw the top-up monies if I have the Full Retirement Sum, or the Basic Retirement Sum if I own a property?",
+          "expected_answer": "You will not be able to withdraw the top-up monies as the higher interest rate and tax incentives are given to encourage members to build up their retirement savings. Allowing withdrawals after members have enjoyed these incentives would defeat the purpose of the topping-up scheme.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Yes, if you have met the Full Retirement Sum (FRS) or the Basic Retirement Sum (BRS) while owning a property, the excess top-up monies can be withdrawn.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_65_20250506164316",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI was ineligible for Matched Retirement Savings Scheme for the past few years after turning 71 years old. With the lifting of the age cap of 70 from 2025, will my eligibility be revised for the past few years?",
+        "source_context_qa": {
+          "identifier": "CPF_65",
+          "question": "I was ineligible for Matched Retirement Savings Scheme for the past few years after turning 71 years old. With the lifting of the age cap of 70 from 2025, will my eligibility be revised for the past few years?",
+          "expected_answer": "No, the enhancements start from 2025. With the lifting of the age cap, eligible seniors above 70 can make cash top-ups and receive the same amount of Matched Retirement Savings Scheme (MRSS) matching grant as those aged 55 to 70. The Government has also increased the annual matching grant amount to $2,000, compared to $600 before.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Your eligibility for the Matched Retirement Savings Scheme will not be revised retrospectively for the past few years with the lifting of the age cap of 70 from 2025.",
+        "citation": 2
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_66_20250506164318",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI cannot remember if I had instructed that I want/ don't want to claim tax relief for my cash top-ups to my spouse or sibling in my application. How can I check?",
+        "source_context_qa": {
+          "identifier": "CPF_66",
+          "question": "I cannot remember if I had instructed that I want/ don't want to claim tax relief for my cash top-ups to my spouse or sibling in my application. How can I check?",
+          "expected_answer": "You may check your past top-up applications by logging in to the CPF website and checking under “my cpf” > “Activities”.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "To verify whether you indicated or did not indicate claiming tax relief for your cash top-ups to your spouse or sibling in your application, you can review the original application form or documentation submitted. If this was an online submission, log in to the platform or system where the application was filed to view the submitted details.",
+        "citation": "no citation"
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_67_20250506164318",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the role of agent banks under CPF Investment Scheme-Ordinary Account (CPFIS-OA)?",
+        "source_context_qa": {
+          "identifier": "CPF_67",
+          "question": "What is the role of agent banks under CPF Investment Scheme-Ordinary Account (CPFIS-OA)?",
+          "expected_answer": "The agent banks are appointed to maintain members' CPF Investment Accounts under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) as they have an extensive network of branches and facilities to support the investment and settlement of shares and bonds listed on the Singapore Exchange. The agent banks' electronic banking services such as ATMs are easily accessible and allow members to conveniently apply for shares or bonds during an IPO. The banks are also able to handle the complex processing of corporate actions such as bonus and rights issues, dividend payments and schemes of arrangement under the CPFIS-OA.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Agent banks under the CPF Investment Scheme-Ordinary Account (CPFIS-OA) offer services such as administering investments in products allowed under the CPFIS-OA, tracking investment holdings, and processing transactions like fund redemption and switching.",
+        "citation": 15
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_68_20250506164317",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow will the restriction on investments for the first $20,000 in Ordinary Account and the first $40,000 in Special Account affect me?",
+        "source_context_qa": {
+          "identifier": "CPF_68",
+          "question": "How will the restriction on investments for the first $20,000 in Ordinary Account and the first $40,000 in Special Account affect me?",
+          "expected_answer": "The first $60,000 of your combined CPF accounts earns an extra 1% interest. To enable members to earn extra interest, only monies in excess of $20,000 in your Ordinary Account (OA) and $40,000 in your Special Account (SA) can be invested.However, you can continue to service your agent bank fees and regular premium insurance policies (excludes recurring single premium insurance policies or regular savings plans for unit trusts) even if your OA balance falls below $20,000.If you have already made investments using your OA or SA balances, you are not required to sell these investments.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "The restriction means that members cannot invest the first $20,000 of their Ordinary Account and the first $40,000 of their Special Account under the CPF Investment Scheme, affecting the amount that can be used for investments.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_69_20250506164315",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow do I determine the year of my Singapore Permanent Resident status for the purpose of CPF contributions?",
+        "source_context_qa": {
+          "identifier": "CPF_69",
+          "question": "How do I determine the year of my Singapore Permanent Resident status for the purpose of CPF contributions?",
+          "expected_answer": "The year of Singapore Permanent Resident (SPR) status determines your CPF contribution rates as an SPR.The first year rate applies from the day you obtain your SPR status. This refers to the date indicated on your entry permit (Form 5/5A) issued by the Immigration and Checkpoints Authority of Singapore (ICA). It ends on the last day of the month of your first anniversary of SPR conversion.The second and third year rates apply from the month following the anniversary of your conversion to an SPR.ExampleIf you have obtained your SPR status on 15 January 2020, the start and end dates for first, second and third year of obtaining SPR status are shown in the table below:",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "You can determine the year of your Singapore Permanent Resident status by checking the issue date printed on your CPF statement or contacting CPF Board directly.",
+        "citation": "no citation"
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_70_20250506164315",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat are the differences between topping up my retirement savings, making a Voluntary Housing Refund and topping up my MediSave Account?",
+        "source_context_qa": {
+          "identifier": "CPF_70",
+          "question": "What are the differences between topping up my retirement savings, making a Voluntary Housing Refund and topping up my MediSave Account?",
+          "expected_answer": "Find out what the differences between the various types of top-ups are below:Topping up your retirement savingsVoluntary Housing RefundTopping up your MediSave AccountTop up/refund toSpecial Account (SA) for members below 55; orRetirement Account (RA) for members 55 or above.Ordinary Account (OA); and/orRA for members 55 or above and have not met their Full Retirement Sum (FRS) in their RA.MediSave Account (MA)Eligibility for tax reliefYou can enjoy tax relief if you madecash top-ups to yourself or your loved ones up to the current FRS.However, please note that tax relief would not apply if you made a CPF transfer.You will not be eligible for tax relief.For non self-employed persons:You get to enjoytax relieffor voluntary top-ups to MA.If you are self-employed, you will enjoytax reliefon yourMediSave contributionsbased on your annual net trade income (NTI). There will be no tax relief for your MediSave contributions if your assessed NTI for the year of assessment is zero or negative.Top-up limitWhat is the maximum amount of top-ups I can receive?If you are below 55, you may top up your SA up to the current FRS.If you are 55 or above, you may top up your RA up to the current Enhanced Retirement Sum.You can check your top-up limit in yourRetirement Dashboard.Can I voluntarily refund a portion of the CPF savings I used for my property?You can make a refund of any amount, capped at the full principal amount you have withdrawn for the property, along with the accrued interest.You may check the amount that you can refund through theHome Ownership Dashboard.Do note that after making a full voluntary housing refund of the CPF savings withdrawn and accrued interest, all CPF withdrawals including monthly housing loan instalments (if any) for the property will stop.What is the voluntary top-up limit to my MediSave Account?The maximum amount you can voluntarily top up to your MA is the difference between yourBasic Healthcare Sum (BHS)and your current MA balance. Once your BHS has been reached, no further voluntary top-ups can be made to your MA. If you exceed your BHS from the top-up, the full amount of your top-up will be refunded to you.You can check your top-up limitwith these steps.WithdrawalTop-ups are meant to boost your retirement income. They will be streamed out to you as monthly payouts and cannot be used for other purposes.You can continue to use your OA savings for the current or next property after making a voluntary housing refund.However, if you would like to use your OA for the same property, after making a voluntary refund of the full principal amount used and the accrued interest, you will need to re-apply to use your CPF savings.After turning 55 and setting aside the FRS, you can withdraw the remaining balance in your OA and SA in full or in part at any time.From 55, you can make retirement withdrawals from your OA and SA in full or in part, at any time for your immediate needs, provided you have set aside your FRS.MA savings are meant for your healthcare needs and cannot be withdrawn as cash.ApplicationTop-ups can be made using cash and/or CPF transfers.How do I apply to make a top-up?Refund can only be made via cash.How can I make a voluntary refund of the housing amount withdrawn if I am not selling my property?Top-ups can only be made via cash.How can I top up to myself, my children or my loved ones’ MediSave Account?Click thislinkto find out what the CPF interest rates are.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Topping up your retirement savings helps you secure funds for old age, making a Voluntary Housing Refund reinstates the CPF funds used for housing, and topping up your MediSave Account provides funds for medical expenses.",
+        "citation": 26
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_71_20250506164313",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat supporting documents will I need if I'm making a first-time CPF transfer to my loved ones?",
+        "source_context_qa": {
+          "identifier": "CPF_71",
+          "question": "What supporting documents will I need if I'm making a first-time CPF transfer to my loved ones?",
+          "expected_answer": "For first-time CPF transfers to your loved ones, you will need to submit the following supporting documents in the top-up application.CPF transfer toSupporting documentsSpouseMarriage certificate, if your marriage is registered overseasParent(s)Your birth certificateGrandparent(s)Your and your parent(s)’s birth certificatesSibling(s)Your and your sibling(s)’s birth certificatesParent(s)-in-lawYour overseas marriage certificate* and your spouse’s birth certificate.Grandparent(s)-in-lawYour overseas marriage certificate, your spouse’s and your spouse’s parent(s)’s birth certificates*Not required if your marriage is registered in SingaporeSupporting documents are not required for cash top-ups.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "For a first-time CPF transfer to loved ones, supporting documents such as identification details of both parties and a completed transfer application form are typically required.",
+        "citation": "no citation"
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_72_20250506164313",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat happens if I have incentives accrued across a few months but only paid later? When will the payments attract CPF contribution?",
+        "source_context_qa": {
+          "identifier": "CPF_72",
+          "question": "What happens if I have incentives accrued across a few months but only paid later? When will the payments attract CPF contribution?",
+          "expected_answer": "Platform earnings and incentives attract CPF contribution when they are due and payable, not when they are accrued.For example, the CPF contributions on an incentive payment in June that is for trips done in May will be computed together with the rest of the June earnings.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "CPF contributions are required when the incentives are paid, not when they are accrued.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_73_20250506164314",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhy is Fixed Expense Deduction Amount used to calculate net earnings for platform workers?",
+        "source_context_qa": {
+          "identifier": "CPF_73",
+          "question": "Why is Fixed Expense Deduction Amount used to calculate net earnings for platform workers?",
+          "expected_answer": "Unlike employees, platform workers may incur significant work expenses which are not reimbursed (e.g. fuel cost). Hence, the computation of CPF will be based on net earnings after taking into consideration such expenses. The net earnings will be based on gross earnings minus the Fixed Expense Deduction Amount (FEDA). The use of FEDA reflects expenses for the vast majority of platform workers.The FEDA takes reference from the Fixed Expense Deduction Ratio developed by IRAS for the computation of net earnings for tax purposes. This is based on actual expense ratios, including industry feedback and surveys on the expenses of workers. Some of the common allowable business expenses incurred by delivery workers and PHC/ taxi drivers include:Rental costsFuel/charging costsRepairs and maintenance costsParkingService fees paid to operatorsMobile phone subscription planRoad taxThe use of FEDA provides significant convenience for both you and your platform operators. You will not have to keep receipts to track and compute actual expenses for your platform work and submit them to your platform operators. Your platform operators will not have to incur additional operating costs to re-compute the CPF contribution based on actual expenses.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "The Fixed Expense Deduction Amount is used to calculate net earnings for platform workers to simplify the deduction process and ensure a predictable calculation of taxable income.",
+        "citation": 2
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_74_20250506164312",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow is the Annual Value (AV) requirement for Workfare Income Supplement (WIS) decided and what address is used to determine the AV in WIS?",
+        "source_context_qa": {
+          "identifier": "CPF_74",
+          "question": "How is the Annual Value (AV) requirement for Workfare Income Supplement (WIS) decided and what address is used to determine the AV in WIS?",
+          "expected_answer": "The Annual Value (AV) threshold of $21,000 from Work Year 2024 (was $13,000), covers all HDB flats, as well as some smaller private residences. In general, Singaporeans staying in larger properties with AV above the cut-off tend to have greater access to household wealth, and therefore would not be eligible for the Workfare Income Supplement (WIS) scheme.The AV will be based on the address reflected in your NRIC. Under the National Registration Act, you must report a change of address within 28 days of moving at the Immigration & Checkpoints Authority (ICA)website.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "The Annual Value (AV) requirement for Workfare Income Supplement (WIS) is determined based on the AV of the property where the applicant lives. The address used to determine the AV is the one that is registered in official records as the residential address.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_75_20250506164311",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow much CPF monthly payout can I receive if I top up to the raised Enhanced Retirement Sum in 2025?",
+        "source_context_qa": {
+          "identifier": "CPF_75",
+          "question": "How much CPF monthly payout can I receive if I top up to the raised Enhanced Retirement Sum in 2025?",
+          "expected_answer": "It depends on several factors, including the age when one sets aside the Enhanced Retirement Sum (ERS) and when one starts payouts.The ERS in 2025 is $426,000.Illustrations on estimated monthly payouts for members who top up to ERS in 2025:Members who top up on reaching age 55 in 2025 can receive CPF LIFE monthly payouts of $3,100 – $3,300 for life from age 65.Members turning 65 in 2025 who had previously set aside their cohort Full Retirement Sum at age 55 can receive CPF LIFE monthly payouts of $2,500 – $2,700.You can use theMonthly payout estimatorto estimate your payouts if you top up to the raised ERS.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "If you top up to the raised Enhanced Retirement Sum in 2025, CPF monthly payouts can increase correspondingly, but exact payout amounts depend on your age and life expectancy.",
+        "citation": "no citation"
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_76_20250506164313",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat are the service standards for processing applications relating to employees' CPF Matters?",
+        "source_context_qa": {
+          "identifier": "CPF_76",
+          "question": "What are the service standards for processing applications relating to employees' CPF Matters?",
+          "expected_answer": "Please refer to the table for our service standards for processing applications relating to employees' CPF Matters.ServiceNormal Processing TimeFeedback on late/underpayment or omission of CPF contributions from employers (a case officer will be assigned to you).You will receive an acknowledgement of your report within 5 working days.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "The service standards for processing applications relating to employees' CPF (Central Provident Fund) Matters depend on the specific context or organization handling CPF-related queries. No specific standard is provided here.",
+        "citation": "no citation"
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_77_20250506164311",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWill I get into trouble if my actual income declared to the Inland Revenue Authority of Singapore (IRAS)/ CPF Board in the following year is different from the income estimated on Contribute As You Earn (CAYE) digital services?",
+        "source_context_qa": {
+          "identifier": "CPF_77",
+          "question": "Will I get into trouble if my actual income declared to the Inland Revenue Authority of Singapore (IRAS)/ CPF Board in the following year is different from the income estimated on Contribute As You Earn (CAYE) digital services?",
+          "expected_answer": "No, as the revenue and expenses information on Contribute As You Earn (CAYE) digital services is an estimate of your business outlook for the year. You are still required to declare your actual Net Trade Income to the Inland Revenue Authority of Singapore (IRAS)/ CPF Board to compute your MediSave payable for the year.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "No, you will not get into trouble as the estimate income declared in CAYE digital services is for planning purposes, and it does not need to match the actual income declared later. Only the actual income needs to be accurate.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_78_20250506164318",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhy is there a combined tax relief cap for top-ups to the Special Account/Retirement Account and MediSave Account from 1 January 2022?",
+        "source_context_qa": {
+          "identifier": "CPF_78",
+          "question": "Why is there a combined tax relief cap for top-ups to the Special Account/Retirement Account and MediSave Account from 1 January 2022?",
+          "expected_answer": "Thecombined tax relieffor cash top-ups to the Special/Retirement Account and MediSave Account (MA) was introduced for greater consistency across CPF schemes. This allows members to better understand and take action to benefit from these schemes.The tax relief eligibility conditions for cash top-ups made before 1 January 2022 had differed1for top-ups to retirement savings and top-ups to MA. With this change2, the tax relief eligibility conditions for cash top-ups made on or after 1 January 2022 across both schemes have been aligned.1Before 1 January 2022, the tax relief eligibility conditions for cash top-ups differed between both scheme in terms of (i) tax beneficiary [giver for Retirement Sum Topping-Up (RSTU); recipient for Voluntary Contribution to MediSave Account (VCMA)]; and (ii) tax relief cap for top-ups to self/loved ones (capped at $7k/$7k for RSTU, tax relief cap for VCMA depended on both the Basic Healthcare Sum and the amount of mandatory CPF contributions for the year).2The changes related to cash top-ups to MA do not apply to MA contributions made as a self-employed person (SEP). If you would like to make MA contributions as a SEP, visit theSelf-Employed Scheme pagefor more information on topping up your MA.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "The combined tax relief cap for top-ups to the Special Account/Retirement Account and MediSave Account was introduced to provide greater clarity in the amount of tax relief individuals can receive for cash top-ups under the Retirement Sum Topping-Up Scheme and MediSave Account top-ups.",
+        "citation": 13
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_79_20250506164322",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhy am I not able to reverse my decision after I have opted in to increase my CPF contributions as a platform worker?",
+        "source_context_qa": {
+          "identifier": "CPF_79",
+          "question": "Why am I not able to reverse my decision after I have opted in to increase my CPF contributions as a platform worker?",
+          "expected_answer": "Opting in is a concession given to help you increase your CPF contributions. By doing so, you will receive higher overall income, considering the contributions from platform operators. Staying committed to the CPF contributions will also ensure that your CPF savings will accumulate interest over time, thereby building up your housing and retirement adequacy in the long run.Allowing opt-outs will not help build up your housing and retirement adequacy in the long run. It is also not practical for platform operators to track the status of workers and apply the different rates of CPF contributions if workers opt in and out multiple times. This may incur additional business costs for platform operators and make implementation more complicated overall.As there is no deadline to opt in, you can carefully consider your decision based on your personal circumstances, before opting in to increase your CPF contributions.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Once you have opted in to increase your CPF contributions as a platform worker, the decision is locked in because it is part of aligning your contributions with the CPF policies. This ensures consistency with the contribution requirements and other platform workers.",
+        "citation": 5
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_80_20250506164324",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI have made a PayNow QR payment but I am not able to see an immediate update to my CPF balance(s). Why is my CPF account balance(s) not updated immediately?",
+        "source_context_qa": {
+          "identifier": "CPF_80",
+          "question": "I have made a PayNow QR payment but I am not able to see an immediate update to my CPF balance(s). Why is my CPF account balance(s) not updated immediately?",
+          "expected_answer": "Such cases are extremely rare and may arise due to intermittent network connectivity issues beyond CPF Board's control. As a result, the status of your PayNow payment may be delayed, and your CPF account balance(s) may not be updated instantly. Please do not worry as your CPF account balance(s) will be updated within 3-5 working days and you will receive an email notification if you have registered your email address with us. Please check your CPF account balance(s)/E-form status again after 3-5 working days and alert us immediately if your payment is still not updated.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "CPF account balances may not update immediately after a PayNow QR payment because it takes time for the payment to be processed and reflected in your account.",
+        "citation": "no citation"
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_81_20250506164323",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI have previously chosen to receive my notice of CPF contributions for self-employed persons in hardcopy. Can I still change my preference?",
+        "source_context_qa": {
+          "identifier": "CPF_81",
+          "question": "I have previously chosen to receive my notice of CPF contributions for self-employed persons in hardcopy. Can I still change my preference?",
+          "expected_answer": "Yes. Regardless of your current preference, you can update your preference anytime by completing thenotification preference form.Your updated notification preference will take effect for any subsequent notice of CPF contributions for self-employed persons thereafter.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Yes, you can change your preference to receive your notice of CPF contributions electronically if you want to.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_82_20250506164324",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nIf I participate in the Drive and Save (DAS) Scheme, will my Taxi Driver Vocational Licence (TDVL) be automatically renewed?",
+        "source_context_qa": {
+          "identifier": "CPF_82",
+          "question": "If I participate in the Drive and Save (DAS) Scheme, will my Taxi Driver Vocational Licence (TDVL) be automatically renewed?",
+          "expected_answer": "No, Taxi Driver Vocational Licences (TDVL) will not be automatically renewed upon participation in the Drive and Save (DAS) Scheme.Taxi principal hirers must have fully paid their MediSave payable or are making monthly payments via GIRO to renew their TDVLs.MediSave contributions1and co-contributions from taxi operators will offset mandatory MediSave contributions under the Self-Employed Scheme.1Taxi principal hirers may make MediSave contributions as self-employed persons viaManage your MediSave payableorGIRO.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "No, participating in the Drive and Save (DAS) Scheme will not result in your TDVL (Taxi Driver Vocational Licence) being automatically renewed.",
+        "citation": 5
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_83_20250506164323",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nCan I still receive top-ups if I have started my monthly retirement payouts?",
+        "source_context_qa": {
+          "identifier": "CPF_83",
+          "question": "Can I still receive top-ups if I have started my monthly retirement payouts?",
+          "expected_answer": "Yes, you can receive top-ups as long as you have not reached thecurrent Enhanced Retirement Sum.Find outhow much top-ups you can receive.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Yes, you can still receive top-ups even if you have started your monthly retirement payouts.",
+        "citation": 8
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_84_20250506164320",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nIf I hold a fund under the CPF Investment Scheme that does not meet the stricter criteria, when must I exercise the switching option?",
+        "source_context_qa": {
+          "identifier": "CPF_84",
+          "question": "If I hold a fund under the CPF Investment Scheme that does not meet the stricter criteria, when must I exercise the switching option?",
+          "expected_answer": "Funds that are unable to meet the stricter criteria can only take in new CPF monies till December 2010, and you will be given up till 30 June 2011 to exercise the switching option.In addition, a fund may decide to cease taking in new CPF monies earlier. If this happens, you have to exercise the switching option within the timeframe stipulated by the Fund Management Company/insurer in its communication letter to you.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "You must exercise the switching option by 31 October 2028.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_85_20250506164322",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nCan I declare actual expenses different from Fixed Expense Deduction Amount? Will my CPF contributions be adjusted?",
+        "source_context_qa": {
+          "identifier": "CPF_85",
+          "question": "Can I declare actual expenses different from Fixed Expense Deduction Amount? Will my CPF contributions be adjusted?",
+          "expected_answer": "For the convenience of both platform workers and platform operators, CPF contributions will be based on gross earnings less Fixed Expense Deduction Amount (FEDA), and are not based on declared expenses.This benefits both platform workers and platform operators as you will not have to keep receipts to track and compute actual expenses for your platform work and submit them to your platform operators. Your platform operators will also not have to incur additional operating costs to re-compute the CPF contribution based on actual expenses.FEDA is applied to all platform workers to simplify the computation of CPF contribution for both platform operators and platform workers, regardless of income levels and delivery modes. As such, we will not adjust the CPF contributions based on declared expenses.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Yes, you can declare actual expenses different from the fixed expense deduction amount. However, CPF contributions are not directly adjusted based on declaring actual expenses; they are calculated based on your wages or relevant income categories.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_86_20250506164323",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow much can I expect to receive with the Platform Workers CPF Transition Support (PCTS) scheme?",
+        "source_context_qa": {
+          "identifier": "CPF_86",
+          "question": "How much can I expect to receive with the Platform Workers CPF Transition Support (PCTS) scheme?",
+          "expected_answer": "From 2025 to 2028, Platform Workers CPF Transition Support (PCTS) will provide monthly cash support to lower-income platform workers to offset part of the year-on-year increase in the platform workers' share of CPF contributions to their Ordinary and Special Accounts (OSA).The amount of PCTS you can receive is based on age, platform earnings and other income, as well as the offset rate for the year:2025202620272028100% offset of OSA increase from previous year75% offset of OSA increase from previous year50% offset of OSA increase from previous year25% offset of OSA increase from previous yearYou can use the onlinePCTS calculatorto estimate how much you can receive.To provide an illustrative example:",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Eligible platform workers will receive financial support of up to $540 per year under the CPF Transition Support (PCTS) scheme.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_87_20250506164320",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nCan I use my excess Contribute As You Earn (CAYE) contributions to offset my outstanding MediSave payable?",
+        "source_context_qa": {
+          "identifier": "CPF_87",
+          "question": "Can I use my excess Contribute As You Earn (CAYE) contributions to offset my outstanding MediSave payable?",
+          "expected_answer": "CAYE contributions in excess of your MediSave payable for the year will be automatically used to offset your outstanding MediSave payable from previous years, if any1. Any excess thereafter will be refunded to your bank account.You can also choose to boost your healthcare savings by retaining the excess CAYE contributions in your MediSave Account to earn up to 5% interest per annum, and to offset future MediSave payable. To do so, please apply via theSelf-employment dashboardusing your Singpass.1This will take effect for CAYE contributions made from 2023. Pleasewrite to usif you do not wish to use your CAYE contributions to offset your outstanding MediSave payable from previous years.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Yes, excess Contribute-As-You-Earn (CAYE) contributions can be used to offset your outstanding MediSave payable.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_88_20250506164320",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nMy Special Account (SA) will be closed in the second half of January 2025. Can I still apply to use my SA savings under CPF Investment Scheme-Special Account from now till before my SA is closed?",
+        "source_context_qa": {
+          "identifier": "CPF_88",
+          "question": "My Special Account (SA) will be closed in the second half of January 2025. Can I still apply to use my SA savings under CPF Investment Scheme-Special Account from now till before my SA is closed?",
+          "expected_answer": "You can apply to use your Special Account (SA) savings under the CPF Investment Scheme until your SA closes in second half of January 2025. To ensure successful processing, please submit your application at least 14 days before the closure. This allows time for processing, which typically takes five to seven business days, and allows for any necessary follow-ups by the product providers to reduce the risk of failed trades.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Yes, you can use your SA savings under the CPF Investment Scheme-Special Account for investment purposes from now until before your SA is closed.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_89_20250506164319",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI have income from different types of employment (e.g. employee, self-employed person, platform worker) during the work year. When will I receive my Workfare Income Supplement (WIS) for the work year?",
+        "source_context_qa": {
+          "identifier": "CPF_89",
+          "question": "I have income from different types of employment (e.g. employee, self-employed person, platform worker) during the work year. When will I receive my Workfare Income Supplement (WIS) for the work year?",
+          "expected_answer": "You will receive monthly Workfare Income Supplement (WIS) payments based on your employee and/or platform worker income if you meet the WIS eligibility criteria for the work year (WY).If you have concurrently worked as a self-employed person (SEP) in the year, you may receive additional WIS if your total income (including net trade income) results in a higher WIS payment. You will receive the additional WIS payment after you have declared your income and made the required MediSave contributions.You will receive WIS once a year for work done as an SEP in the preceding year. The earliest payment for SEPs for a particular WY will be on 30 April WY+1*.*Payment via PayNow NRIC-linked bank account or bank crediting will be credited by end of the month while payment via GovCash will be on the first week of the following month.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "If you are eligible for Workfare Income Supplement (WIS), payments will be made to your CPF account within the first half of the next work year.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_90_20250506164319",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI am a Board Member/ Director. Am I considered a self-employed person, and do I have to contribute to my CPF?",
+        "source_context_qa": {
+          "identifier": "CPF_90",
+          "question": "I am a Board Member/ Director. Am I considered a self-employed person, and do I have to contribute to my CPF?",
+          "expected_answer": "It depends on the nature of your relationship with the company, and the nature of the moneys received.If you’re engaged as a Board Member or Director under a contract of employment (or Contract of Service) with the company, you’ll have to contribute to your CPF as an employee.If you’re engaged in a business, profession or vocation of providing services as a Board Member or Director to companies, you’ll have to contribute to your MediSave as a self-employed person (SEP).Please visit theInland Revenue Authority of Singapore (IRAS) websitefor the differences in treatment between employees and SEPs.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Board Members and Directors are generally considered self-employed persons. However, self-employed persons do not need to make CPF contributions unless they are earning income that falls under the CPF scheme requirements.",
+        "citation": "no citation"
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_91_20250506164317",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nIf I am 55 and would like to make a CPF transfer, in what order will my savings be transferred?",
+        "source_context_qa": {
+          "identifier": "CPF_91",
+          "question": "If I am 55 and would like to make a CPF transfer, in what order will my savings be transferred?",
+          "expected_answer": "CPF transfers to your Retirement Account (RA)If you are 55 or above, your CPF savings will be transferred to your RA in the following order:Special Account (SA)Ordinary Account (OA)CPF transfers to yourloved onesIf you are 55 or above, your CPF savings will betransferred to your loved onesin the following order:OASARA**If you use your RA savings for the transfer, you may no longer have enough savings to meet your Full Retirement Sum (FRS). In that case, the next time you apply for a withdrawal from your OA and SA, a portion or all of the savings will be used to meet your FRS in the RA.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "At age 55, any CPF transfers would prioritize transferring from your Ordinary Account, followed by your Special Account.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_92_20250506164316",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhen should I submit my top-up application if I want to be eligible for tax relief in the next assessment year?",
+        "source_context_qa": {
+          "identifier": "CPF_92",
+          "question": "When should I submit my top-up application if I want to be eligible for tax relief in the next assessment year?",
+          "expected_answer": "Your online top-up application and payment will need to reach us by 31 December of the year.It is important to note that the tax relief is granted based on the calendar year in which the top-up is made, regardless of the actual date of submission.We would also encourage you to top up earlier in the year. Find outwhy you should top up as early as possible.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "To be eligible for tax relief in the next assessment year, you should submit your top-up application before December 31 of the current year.",
+        "citation": 3
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_93_20250506164314",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhy are overtime pay and bonuses included in Workfare Income Supplement (WIS) assessment?",
+        "source_context_qa": {
+          "identifier": "CPF_93",
+          "question": "Why are overtime pay and bonuses included in Workfare Income Supplement (WIS) assessment?",
+          "expected_answer": "Basic salary, overtime pay, and bonuses are part of a worker’s total income that will help support the worker and his or her family. Given that the Workfare Income Supplement (WIS) is intended to supplement the income of lower-wage workers, it is most useful to assess the total income in determining one’s eligibility for WIS.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Overtime pay and bonuses are included in Workfare Income Supplement (WIS) assessment as it reflects the total amount of income earned by an individual, ensuring a fair calculation of supplement eligibility.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_94_20250506164315",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow do I change or delete my recurring cash top-up arrangement to receive the matching grant under Matched Retirement Savings Scheme?",
+        "source_context_qa": {
+          "identifier": "CPF_94",
+          "question": "How do I change or delete my recurring cash top-up arrangement to receive the matching grant under Matched Retirement Savings Scheme?",
+          "expected_answer": "If you want tochangeyour existing recurring cash top-up arrangement such as the amount and frequency, you can follow the steps below:Delete your existing recurring cash top-up arrangement in theManage recurring cash top-ups for retirementform.Create a new recurring arrangement via the sameformwith your revised amount and/or frequency of the top-ups.If you want todeleteyour existing recurring cash top-up arrangement, you can do so via theManage recurring cash top-ups for retirementform. Your application will generally be processed instantly upon submission.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "You must submit a request to either change or delete your recurring cash top-up arrangement by sending an email to the CPF Board via member@cpf.gov.sg.",
+        "citation": 7
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_95_20250506164316",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhy is PayNow (excluding PayNow Mobile Number and Virtual Payments Address) the default mode of bank payments moving forward?",
+        "source_context_qa": {
+          "identifier": "CPF_95",
+          "question": "Why is PayNow (excluding PayNow Mobile Number and Virtual Payments Address) the default mode of bank payments moving forward?",
+          "expected_answer": "PayNow (excluding PayNow Mobile Number and Virtual Payments Address) aligns with the government's drive for digital transformation and the Smart Nation initiative, as it promotes the adoption of digital payment. It also provides citizens a more secured mode of payment as they do not need to provide their bank account details to receive their service fee payments.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "PayNow, excluding PayNow Mobile Number and Virtual Payments Address, has been made the default mode for bank payments as it streamlines the payment process, offering convenience and efficiency.",
+        "citation": "no citation"
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_96_20250506164314",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat happens to my outstanding CPF contributions if my platform operator is made a bankrupt, or is under liquidation or winding up?",
+        "source_context_qa": {
+          "identifier": "CPF_96",
+          "question": "What happens to my outstanding CPF contributions if my platform operator is made a bankrupt, or is under liquidation or winding up?",
+          "expected_answer": "In the event that a platform operator is made a bankrupt, or is under liquidation or winding up, an Official Assignee or Official Receiver/Liquidator respectively, will be appointed by the High Court, company’s shareholders or creditors (depending on the company’s situation). The Board will file the claims for owed CPF contributions for affected platform workers with the Official Assignee or Official Receiver/Liquidator, as the case may be.If the platform operator is made a bankrupt, the Official Assignee will investigate into the conduct and affairs of the bankrupt and also recover and realise his assets for distribution to the bankrupt’s creditors. For a company that is under liquidation or winding up, the Official Receiver/Liquidator will investigate into the affairs and assets of the company, the conduct of its officers (including the company directors) and the claims of creditors and third parties.Any proceeds realised by the Official Assignee or Official Receiver/Liquidator will be paid in the following order in accordance with the law:costs and expenses incurred by the Official Assignee or Official Receiver/Liquidator, costs of applicant for the bankruptcy or winding up order,salary (including allowance or reimbursement),retrenchment benefits or ex-gratia payments under employment contracts,amounts due in respect of workmen’s compensation under the Work Injury Compensation Act,employee’s superannuation or provident funds (e.g. CPF)employee's remuneration in respect of vacation leave, etcplatform workers’ earningsplatform workers’ Work Injury Compensationplatform workers’ superannuation or provident funds (e.g. CPF)The bankruptcy, liquidation or winding up process will take time, and could take years to complete for complex cases. If you wish to know more about the bankruptcy, liquidation or winding up process, you can visitMinistry of Law – Insolvency Office website.It is your platform operators’ obligation to pay the CPF contributions for you. However, if your platform operator is made a bankrupt, or is under liquidation or winding up, the owed CPF contributions may not be recovered despite the Board’s actions. To find out the status of the bankruptcy administration, liquidation or winding up, you can contact the Official Assignee or Official Receiver/Liquidator directly.We would like to take this opportunity to advise you that if your platform operator is in financial difficulties, while CPF Board will continue to take enforcement actions, you should be mentally prepared that the CPF owed may not be recoverable.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "If your platform operator is made bankrupt or undergoes liquidation, your outstanding CPF contributions must still be paid. CPF obligations remain regardless of the financial situation of the employer.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_97_20250506164313",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the status of my request to make self-employed MediSave contributions via monthly instalments?",
+        "source_context_qa": {
+          "identifier": "CPF_97",
+          "question": "What is the status of my request to make self-employed MediSave contributions via monthly instalments?",
+          "expected_answer": "We will keep you informed about the status of your request to make self-employed MediSave contributions via monthly instalments, once it has been processed.Please note our normal processing time:·         Requests made via online appeal: generally 12 working days·         Manual transactions: generally 15 working daysYou can check the status of your request by clicking on thislink.You can view your approved GIRO instalment plan details on theSelf-employment dashboard. To accessmy cpfDigital Services – Self-employment dashboard, please log in to theCPF websiteusing your Singpass.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Your request to make self-employed MediSave contributions via monthly instalments needs approval and implementation by the CPF Board. Specific details on its current status are unavailable here.",
+        "citation": "no citation"
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_98_20250506164312",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nCan I invest in shares listed on the Singapore Exchange (SGX) as long as they meet the inclusion criteria under the CPF Investment Scheme (CPFIS)?",
+        "source_context_qa": {
+          "identifier": "CPF_98",
+          "question": "Can I invest in shares listed on the Singapore Exchange (SGX) as long as they meet the inclusion criteria under the CPF Investment Scheme (CPFIS)?",
+          "expected_answer": "The Board welcomes the inclusion of shares listed on the SGX Mainboard as long as they meet the inclusion criteria. However, some companies who meet the inclusion criteria have not applied to be included under CPF Investment Scheme (CPFIS), and CPF savings cannot be used for these shares. You can refer toSGX websitefor the list of shares included under the CPFIS.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Yes, you can invest in shares listed on the Singapore Exchange (SGX), provided those shares meet the inclusion criteria under the CPF Investment Scheme (CPFIS).",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_99_20250506164316",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nAs a taxi driver who takes both ride-hail and street-hail jobs, how should I make CPF contributions for my earnings?",
+        "source_context_qa": {
+          "identifier": "CPF_99",
+          "question": "As a taxi driver who takes both ride-hail and street-hail jobs, how should I make CPF contributions for my earnings?",
+          "expected_answer": "You will need to make CPF contributions on ride-hail and street-hail earnings separately.For ride-hail earnings, platform operators will deduct and make CPF contributions for you.For street-hail earnings, you will need to contribute MediSave on your own in the following year after you have declared your net trade income to IRAS. CPF Board will inform you of your MediSave payable once IRAS has assessed your income.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "As a taxi driver handling both ride-hail and street-hail jobs, you should make CPF contributions only for your earnings from ride-hail jobs as per the CPF policies. For earnings from street-hail jobs, no CPF contributions are required.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_100_20250506164313",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI have invested in a company using CPF. How can I get the latest financial statement or annual report of this company, if the company has been delisted? And what should I do if the company does not respond to my request?",
+        "source_context_qa": {
+          "identifier": "CPF_100",
+          "question": "I have invested in a company using CPF. How can I get the latest financial statement or annual report of this company, if the company has been delisted? And what should I do if the company does not respond to my request?",
+          "expected_answer": "You may approach the company for the financial statement or annual report directly. You can mail your request to their office address through registered post. The office addresses of companies can be found onACRA's BizFile portal. If you do not hear back from the company, please approach your agent bank who will follow up with ACRA.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "If a company has been delisted and you need its latest financial statement or annual report, you can contact the company's corporate secretary to request these documents. If the company does not respond to your request, you may consider approaching the Accounting and Corporate Regulatory Authority (ACRA) or seeking legal advice.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_101_20250506164313",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow much MediSave contribution do I have to make to qualify for Workfare Income Supplement (WIS)?",
+        "source_context_qa": {
+          "identifier": "CPF_101",
+          "question": "How much MediSave contribution do I have to make to qualify for Workfare Income Supplement (WIS)?",
+          "expected_answer": "If your net trade income (NTI) is more than $6,000The amount of MediSave contribution you need to make to qualify for Workfare Income Supplement (WIS) is based on your NTI earned in the Work Yearwithoutaccounting for previous years’ losses. CPF Board receives this NTI from IRAS. This amount may differ from the MediSave contributions you are required to fulfil as a self-employed person under theSelf-Employed Scheme (SES), which may be adjusted based on previous years’ losses or excess MediSave contributions.You may refer to any of the following sources for the amount of MediSave contribution that you need to make to qualify for WIS:WIS e-services: Login to the WISe-serviceswith your Singpass to check your MediSave liability payable.WIS calculator: Estimate the amount of MediSave payable using theWIS calculatorfor SEPs.If your NTI is $6,000 or less*Please see the following for the required amount of MediSave contribution to qualify for WIS, according to your age in the year you worked:30 to 34 years$24035 to 44 years$27045 to 49 years$30050 years and above$315* Note: SEPs earning less than $6,000 will also have to meet the eligibility criteria for concessionary WIS. Please refer to the concessionaryWIS eligibility criteriafor more details.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "You are required to make MediSave contributions to qualify for Workfare Income Supplement (WIS), but the exact amount varies by the individual’s situation. Generally, employees contribute between 8% to 10.5% of their salary to MediSave, depending on their age.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_102_20250506164312",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI missed the deadline to top up for the Matched Retirement Savings Scheme grant last year. Can I make a top-up this year for last year's grant?",
+        "source_context_qa": {
+          "identifier": "CPF_102",
+          "question": "I missed the deadline to top up for the Matched Retirement Savings Scheme grant last year. Can I make a top-up this year for last year's grant?",
+          "expected_answer": "No, to qualify for the Matched Retirement Savings Scheme (MRSS) grant, the cash top-up must be made by 31 December in the year of eligibility. This is stated in the eligibility notification sent at the beginning of the year of eligibility, and on the website.You can still make a top-up to earn interest rates* of up to 6% per annum and boost your monthly payouts. You can also enjoy tax relief of up to $16,000 for cash top-ups made to yourself and your loved ones in each calendar year. Please note that cash top-ups which attract MRSS grant will not qualify for tax relief.*Based on the current 4% interest rate floor on Special and Retirement Account monies.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "No, you cannot make a top-up this year for last year's grant under the Matched Retirement Savings Scheme. Top-ups must be made within the applicable qualifying period.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_103_20250506164311",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI have outstanding MediSave payable. Why am I not able to make voluntary top-ups to my CPF accounts or on another person's behalf?",
+        "source_context_qa": {
+          "identifier": "CPF_103",
+          "question": "I have outstanding MediSave payable. Why am I not able to make voluntary top-ups to my CPF accounts or on another person's behalf?",
+          "expected_answer": "As a self-employed person, you are required to be up-to-date with your MediSave payable (paid in full or on an active GIRO plan) when making top ups to your CPF accounts or on another person’s behalf.You can conveniently request for an instalment plan or make full payment for your MediSave payable via theManage your MediSave payableform. You will be able to make voluntary top-ups when you are up-to-date with your MediSave payable.Conversely, you will be able to receive voluntary top-ups from your loved ones if they are up-to-date with their MediSave payable (if applicable).",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "You cannot make voluntary top-ups to your CPF accounts or on behalf of others due to outstanding MediSave payable, as the CPF Board requires all MediSave obligations to be met before allowing any voluntary top-ups.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_104_20250506164311",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nCan I use my CPF savings for the same property after effecting a voluntary housing refund to my account?",
+        "source_context_qa": {
+          "identifier": "CPF_104",
+          "question": "Can I use my CPF savings for the same property after effecting a voluntary housing refund to my account?",
+          "expected_answer": "You can use your Ordinary Account savings for the same property after effecting a voluntary housing refund to your account so long as you still have an outstanding loan.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Yes, after effecting a voluntary housing refund, you can use your CPF savings for the same property again later as long as it does not exceed the property withdrawal limit.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_105_20250506164321",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhy are Singapore Permanent Residents (PRs) not eligible for the Workfare Income Supplement (WIS) scheme?",
+        "source_context_qa": {
+          "identifier": "CPF_105",
+          "question": "Why are Singapore Permanent Residents (PRs) not eligible for the Workfare Income Supplement (WIS) scheme?",
+          "expected_answer": "The Workfare Income Supplement (WIS) scheme is only for Singaporean lower-wage workers.If you require financial assistance, please contact theComCarehotline at 1800-222-0000, or emailAsk_SSO@msf.gov.sg.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Singapore Permanent Residents (PRs) are not eligible for the Workfare Income Supplement (WIS) scheme because the scheme specifically targets Singapore Citizens as part of its eligibility criteria.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_106_20250506164312",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nCan I continue to use my Ordinary Account savings to service my regular premium insurance bought before 1 January 2001, even if my balance falls below $20,000?",
+        "source_context_qa": {
+          "identifier": "CPF_106",
+          "question": "Can I continue to use my Ordinary Account savings to service my regular premium insurance bought before 1 January 2001, even if my balance falls below $20,000?",
+          "expected_answer": "You can continue to service the future premiums using your Ordinary Account savings, even if your balance falls below $20,000. This applies to you even after age 55 as long as you have set aside the Full Retirement Sum or the Basic Retirement Sum with sufficient property charge/pledge in the Retirement Account.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "No, you cannot use your Ordinary Account savings to service regular premium insurance bought before 1 January 2001 if your balance falls below $20,000.",
+        "citation": 3
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_107_20250506164323",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWill the interest rates on savings in the Special, MediSave and Retirement Account be maintained at a floor rate?",
+        "source_context_qa": {
+          "identifier": "CPF_107",
+          "question": "Will the interest rates on savings in the Special, MediSave and Retirement Account be maintained at a floor rate?",
+          "expected_answer": "To help CPF members grow their savings, the Government has decided to further extend the 4% floor rate for interest earned on all Special, MediSave and Retirement Account (SMRA) savings for another year until 31 December 2025.SMRA savings will earn a minimum 4% interest rate per annum until 31 December 2025.Please refer to our FAQ onhow CPF interest rates are determinedfor more information.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Yes, the interest rates on savings in the Special, MediSave, and Retirement Account will be maintained at a floor rate of 4% until 31 December 2023.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_108_20250506164323",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI am a self-employed person. Can I contribute to my MediSave together with my employees' CPF using the CPF Payment Form (CPF 91)?",
+        "source_context_qa": {
+          "identifier": "CPF_108",
+          "question": "I am a self-employed person. Can I contribute to my MediSave together with my employees' CPF using the CPF Payment Form (CPF 91)?",
+          "expected_answer": "You’re required to make your MediSave payable separately from your employees' CPF. This is because payments made using the CPF Payment Form (CPF 91) will be credited as employer contributions and will not be recognized as self-employed payments.If you would like to make CPF contributions as a self-employed person, there arevarious waysto do so.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "No, as a self-employed person, you cannot use the CPF Payment Form (CPF 91) to contribute to MediSave along with employees' CPF contributions.",
+        "citation": 1
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_109_20250506164322",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhy am I not allowed to do a CPF transfer to my extended family members (e.g. uncles/aunts/cousins)?",
+        "source_context_qa": {
+          "identifier": "CPF_109",
+          "question": "Why am I not allowed to do a CPF transfer to my extended family members (e.g. uncles/aunts/cousins)?",
+          "expected_answer": "The CPF system is meant to provide for and safeguard your individual retirement adequacy. Hence we must be careful when considering allowing CPF transfers to extended family members, beyond immediate family members such as your parents, spouse and siblings. Meanwhile, you can consider using cash to top up to your extended family member's CPF account instead.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "Transfers from CPF accounts are restricted to immediate family members (such as parents, children, or spouse) to ensure that the funds are used within the family nucleus for critical needs like housing or education.",
+        "citation": 5
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_110_20250506164323",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nI am holding two types of licences (e.g. LTA and ACRA). Do I have to contribute to MediSave for both licences?",
+        "source_context_qa": {
+          "identifier": "CPF_110",
+          "question": "I am holding two types of licences (e.g. LTA and ACRA). Do I have to contribute to MediSave for both licences?",
+          "expected_answer": "The MediSave payable is based on your annual net trade income (NTI) derived as a self-employed person and not the number of licences. If you have a total yearly NTI of more than $6,000 from your licence(s), you are required to make contributions to your MediSave Account.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "If you have an LTA license and earn income exceeding a certain threshold, you are required to contribute to MediSave. Similarly, if you have an ACRA license as a registered self-employed person and earn income above the threshold, MediSave contributions are also mandatory. However, MediSave contributions are based on your total self-employed income and not segregated by license type.",
+        "citation": 10
+      },
+      "cited_QA": null
+    },
+    {
+      "identifier": "CPF_111_111_20250506164321",
+      "experiment_input": {
+        "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nCan I withdraw my discounted Singtel shares when I reach 55 years old?",
+        "source_context_qa": {
+          "identifier": "CPF_111",
+          "question": "Can I withdraw my discounted Singtel shares when I reach 55 years old?",
+          "expected_answer": "You are required to set aside the Full Retirement Sum (FRS) in your Retirement Account (RA), before you can withdraw your discounted Singtel shares. The FRS can be set aside fully with cash, or with cash (i.e. at least the Basic Retirement Sum) and property.Have you met your CPF withdrawal conditions?YesLog in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Withdraw your shares”.We will process your application within 15 working days once we receive your application.After your discounted Singtel shares have been transferred to your CDP securities account, they will no longer be protected from any claims by your creditors and/or the Official Assignee.NoYou can only withdraw your discounted Singtel shares if you have set aside the Full Retirement Sum (FRS) in your Retirement Account at age 55. However, you can sell your discounted Singtel shares, in which the sale proceeds will be credited into your CPF Ordinary Account.To sell, please log in tomy cpf Online Serviceswith your Singpass > Select my cpf > My dashboards > Investment, look under “Discounted Singtel Shares” section and click on “Sell your shares”.",
+          "context_questions": null
+        }
+      },
+      "llm_response": {
+        "response": "No, there's no indication in the provided facts that discounted Singtel shares can be withdrawn at age 55. Usually, it depends on the plan details.",
+        "citation": "no citation"
+      },
+      "cited_QA": null
+    }
+  ]
+}

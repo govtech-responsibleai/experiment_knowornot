@@ -1,0 +1,483 @@
+2025-05-05 10:46:45,552 - INFO - Starting 5 workers to process 1046 links
+2025-05-05 10:46:46,905 - INFO - Worker 0: Processing link 1: https://ask.gov.sg/ica/questions/cltpefla200c310z3sqjmzuc3?from=agencyhomepage
+2025-05-05 10:46:47,211 - INFO - Worker 1: Processing link 2: https://ask.gov.sg/ica/questions/clvvpo7u70035kx4ga9i9ln3a?from=agencyhomepage
+2025-05-05 10:46:47,533 - INFO - Worker 2: Processing link 3: https://ask.gov.sg/ica/questions/cltpefla000bf10z36ewxteeo?from=agencyhomepage
+2025-05-05 10:46:48,407 - INFO - Worker 3: Processing link 4: https://ask.gov.sg/ica/questions/cltpefla100bj10z3tik603xl?from=agencyhomepage
+2025-05-05 10:46:49,505 - INFO - Worker 4: Processing link 5: https://ask.gov.sg/ica/questions/clos83fv9019r5k0wcxrsx196?from=agencyhomepage
+2025-05-05 10:46:50,586 - INFO - Worker 0: Completed link 1
+2025-05-05 10:46:51,288 - INFO - Worker 1: Completed link 2
+2025-05-05 10:46:51,527 - INFO - Worker 2: Completed link 3
+2025-05-05 10:46:51,549 - INFO - Worker 3: Completed link 4
+2025-05-05 10:46:51,630 - INFO - Worker 4: Completed link 5
+2025-05-05 10:46:52,935 - INFO - Worker 0: Processing link 6: https://ask.gov.sg/ica/questions/clos83fv801995k0wmiszar0x?from=agencyhomepage
+2025-05-05 10:46:53,606 - INFO - Worker 4: Processing link 7: https://ask.gov.sg/ica/questions/cltpefla500dn10z34na4nwap?from=agencyhomepage
+2025-05-05 10:46:53,625 - INFO - Worker 0: Completed link 6
+2025-05-05 10:46:53,898 - INFO - Worker 1: Processing link 8: https://ask.gov.sg/ica/questions/cltpefla200c510z3i12t1kam?from=agencyhomepage
+2025-05-05 10:46:54,242 - INFO - Worker 2: Processing link 9: https://ask.gov.sg/ica/questions/cluah22mj002f124yhx56xath?from=agencyhomepage
+2025-05-05 10:46:54,310 - INFO - Worker 4: Completed link 7
+2025-05-05 10:46:54,493 - INFO - Worker 3: Processing link 10: https://ask.gov.sg/ica/questions/cltpefla100bn10z3d5ldalhz?from=agencyhomepage
+2025-05-05 10:46:54,831 - INFO - Worker 1: Completed link 8
+2025-05-05 10:46:54,850 - INFO - Worker 2: Completed link 9
+2025-05-05 10:46:55,024 - INFO - Worker 3: Completed link 10
+2025-05-05 10:46:55,745 - INFO - Worker 4: Processing link 11: https://ask.gov.sg/ica/questions/clos83fv8019d5k0wm307cble?from=agencyhomepage
+2025-05-05 10:46:55,892 - INFO - Worker 4: Completed link 11
+2025-05-05 10:46:55,901 - INFO - Worker 0: Processing link 12: https://ask.gov.sg/ica/questions/clos83fv901a75k0wo2qwqy5c?from=agencyhomepage
+2025-05-05 10:46:55,990 - INFO - Worker 2: Processing link 13: https://ask.gov.sg/ica/questions/clqety23p003l3k36w2t96n86?from=agencyhomepage
+2025-05-05 10:46:56,119 - INFO - Worker 0: Completed link 12
+2025-05-05 10:46:56,226 - INFO - Worker 2: Completed link 13
+2025-05-05 10:46:56,956 - INFO - Worker 1: Processing link 14: https://ask.gov.sg/ica/questions/clre5y7ka00h4oimjoqv66jsh?from=agencyhomepage
+2025-05-05 10:46:57,153 - INFO - Worker 1: Completed link 14
+2025-05-05 10:46:57,268 - INFO - Worker 2: Processing link 15: https://ask.gov.sg/ica/questions/cltpefla100bz10z36jh8ropg?from=agencyhomepage
+2025-05-05 10:46:57,590 - INFO - Worker 2: Completed link 15
+2025-05-05 10:46:57,773 - INFO - Worker 4: Processing link 16: https://ask.gov.sg/ica/questions/clvvpo7u6002jkx4gzrtwyph0?from=agencyhomepage
+2025-05-05 10:46:57,836 - INFO - Worker 3: Processing link 17: https://ask.gov.sg/ica/questions/cluah22mj002h124yirkgvdy2?from=agencyhomepage
+2025-05-05 10:46:58,059 - INFO - Worker 4: Completed link 16
+2025-05-05 10:46:58,133 - INFO - Worker 3: Completed link 17
+2025-05-05 10:46:58,299 - INFO - Worker 1: Processing link 18: https://ask.gov.sg/ica/questions/clos83fv6018p5k0wm8lb89d2?from=agencyhomepage
+2025-05-05 10:46:58,466 - INFO - Worker 1: Completed link 18
+2025-05-05 10:46:58,710 - INFO - Worker 0: Processing link 19: https://ask.gov.sg/ica/questions/cltpefla200cf10z376cctuxh?from=agencyhomepage
+2025-05-05 10:46:58,882 - INFO - Worker 0: Completed link 19
+2025-05-05 10:46:59,236 - INFO - Worker 2: Processing link 20: https://ask.gov.sg/ica/questions/clvvpo7u6002vkx4g59j5rdxm?from=agencyhomepage
+2025-05-05 10:46:59,447 - INFO - Worker 2: Completed link 20
+2025-05-05 10:46:59,619 - INFO - Worker 4: Processing link 21: https://ask.gov.sg/ica/questions/cltpefla000bh10z3ec86kdml?from=agencyhomepage
+2025-05-05 10:46:59,775 - INFO - Worker 4: Completed link 21
+2025-05-05 10:47:00,064 - INFO - Worker 1: Processing link 22: https://ask.gov.sg/ica/questions/clos83fv7018r5k0wi8tows3o?from=agencyhomepage
+2025-05-05 10:47:00,196 - INFO - Worker 3: Processing link 23: https://ask.gov.sg/ica/questions/clos83fvw01lp5k0wkos1sp7c?from=agencyhomepage
+2025-05-05 10:47:00,234 - INFO - Worker 1: Completed link 22
+2025-05-05 10:47:00,348 - INFO - Worker 3: Completed link 23
+2025-05-05 10:47:00,709 - INFO - Worker 2: Processing link 24: https://ask.gov.sg/ica/questions/clos83fv8019h5k0wufh7i2b8?from=agencyhomepage
+2025-05-05 10:46:59,719 - INFO - Worker 0: Processing link 25: https://ask.gov.sg/ica/questions/clos83fv7018x5k0woa9md83y?from=agencyhomepage
+2025-05-05 10:46:59,818 - INFO - Worker 2: Completed link 24
+2025-05-05 10:46:59,891 - INFO - Worker 0: Completed link 25
+2025-05-05 10:47:01,027 - INFO - Worker 0: Processing link 26: https://ask.gov.sg/ica/questions/clxwriejl005dq3ht9zblxxsn?from=agencyhomepage
+2025-05-05 10:47:01,146 - INFO - Worker 1: Processing link 27: https://ask.gov.sg/ica/questions/cltpefla100bp10z3y4qh3o7a?from=agencyhomepage
+2025-05-05 10:47:01,198 - INFO - Worker 0: Completed link 26
+2025-05-05 10:47:01,291 - INFO - Worker 1: Completed link 27
+2025-05-05 10:47:01,605 - INFO - Worker 4: Processing link 28: https://ask.gov.sg/ica/questions/cltpefla100bx10z3qbnoa2ip?from=agencyhomepage
+2025-05-05 10:47:01,751 - INFO - Worker 4: Completed link 28
+2025-05-05 10:47:02,023 - INFO - Worker 3: Processing link 29: https://ask.gov.sg/ica/questions/clqety23q00473k36pylsc3tf?from=agencyhomepage
+2025-05-05 10:47:02,227 - INFO - Worker 3: Completed link 29
+2025-05-05 10:47:02,785 - INFO - Worker 2: Processing link 30: https://ask.gov.sg/ica/questions/clqety23q00433k36gpo1tijn?from=agencyhomepage
+2025-05-05 10:47:02,806 - INFO - Worker 1: Processing link 31: https://ask.gov.sg/ica/questions/clos83fvx01mb5k0ww9yau2xd?from=agencyhomepage
+2025-05-05 10:47:02,857 - INFO - Worker 0: Processing link 32: https://ask.gov.sg/ica/questions/cls3vzl06000vg58utwnlmxix?from=agencyhomepage
+2025-05-05 10:47:03,239 - INFO - Worker 2: Completed link 30
+2025-05-05 10:47:03,277 - INFO - Worker 1: Completed link 31
+2025-05-05 10:47:03,293 - INFO - Worker 3: Processing link 33: https://ask.gov.sg/ica/questions/clynn45ev006lzxyuenoe7b7f?from=agencyhomepage
+2025-05-05 10:47:03,302 - INFO - Worker 0: Completed link 32
+2025-05-05 10:47:03,574 - INFO - Worker 3: Completed link 33
+2025-05-05 10:47:04,645 - INFO - Worker 4: Processing link 34: https://ask.gov.sg/ica/questions/clqety23x007h3k360ho25s3a?from=agencyhomepage
+2025-05-05 10:47:04,770 - INFO - Worker 2: Processing link 35: https://ask.gov.sg/ica/questions/clos83fvy01ml5k0wtlvnecua?from=agencyhomepage
+2025-05-05 10:47:04,787 - INFO - Worker 4: Completed link 34
+2025-05-05 10:47:04,839 - INFO - Worker 3: Processing link 36: https://ask.gov.sg/ica/questions/clxwhkiyl00gadsotzc2ruv82?from=agencyhomepage
+2025-05-05 10:47:04,973 - INFO - Worker 2: Completed link 35
+2025-05-05 10:47:05,036 - INFO - Worker 3: Completed link 36
+2025-05-05 10:47:05,770 - INFO - Worker 1: Processing link 37: https://ask.gov.sg/ica/questions/clubwhv4p00l3314rcz6o76t7?from=agencyhomepage
+2025-05-05 10:47:05,823 - INFO - Worker 0: Processing link 38: https://ask.gov.sg/ica/questions/clxwhkiy3009wdsotxphlvs1u?from=agencyhomepage
+2025-05-05 10:47:05,980 - INFO - Worker 1: Completed link 37
+2025-05-05 10:47:06,025 - INFO - Worker 0: Completed link 38
+2025-05-05 10:47:06,432 - INFO - Worker 2: Processing link 39: https://ask.gov.sg/ica/questions/clqety23x007f3k36gk6udz6a?from=agencyhomepage
+2025-05-05 10:47:06,637 - INFO - Worker 2: Completed link 39
+2025-05-05 10:47:07,460 - INFO - Worker 4: Processing link 40: https://ask.gov.sg/ica/questions/clos83fw201oh5k0ww7cwkhpf?from=agencyhomepage
+2025-05-05 10:47:07,602 - INFO - Worker 0: Processing link 41: https://ask.gov.sg/ica/questions/clxwhkiy3009ydsotdrbaeo38?from=agencyhomepage
+2025-05-05 10:47:07,731 - INFO - Worker 4: Completed link 40
+2025-05-05 10:47:07,870 - INFO - Worker 0: Completed link 41
+2025-05-05 10:47:08,028 - INFO - Worker 3: Processing link 42: https://ask.gov.sg/ica/questions/clxwhkiyp00hudsotw6rtl2oh?from=agencyhomepage
+2025-05-05 10:47:08,313 - INFO - Worker 3: Completed link 42
+2025-05-05 10:47:08,815 - INFO - Worker 2: Processing link 43: https://ask.gov.sg/ica/questions/clvvpo7u6002lkx4gnn685tl9?from=agencyhomepage
+2025-05-05 10:47:08,860 - INFO - Worker 1: Processing link 44: https://ask.gov.sg/ica/questions/clos83fv701975k0we6tx179x?from=agencyhomepage
+2025-05-05 10:47:08,932 - INFO - Worker 4: Processing link 45: https://ask.gov.sg/ica/questions/clxwriejg0035q3hti1a3a9o9?from=agencyhomepage
+2025-05-05 10:47:09,121 - INFO - Worker 0: Processing link 46: https://ask.gov.sg/ica/questions/clxwhkiyf00e6dsotc54x7wqr?from=agencyhomepage
+2025-05-05 10:47:09,147 - INFO - Worker 2: Completed link 43
+2025-05-05 10:47:09,172 - INFO - Worker 1: Completed link 44
+2025-05-05 10:47:09,286 - INFO - Worker 4: Completed link 45
+2025-05-05 10:47:09,398 - INFO - Worker 0: Completed link 46
+2025-05-05 10:47:10,193 - INFO - Worker 3: Processing link 47: https://ask.gov.sg/ica/questions/clos83fvd01bv5k0wgm5gjaun?from=agencyhomepage
+2025-05-05 10:47:10,506 - INFO - Worker 3: Completed link 47
+2025-05-05 10:47:10,625 - INFO - Worker 1: Processing link 48: https://ask.gov.sg/ica/questions/clvvpo7u5002dkx4g6minbocl?from=agencyhomepage
+2025-05-05 10:47:10,793 - INFO - Worker 0: Processing link 49: https://ask.gov.sg/ica/questions/cltpefla200cl10z334cemor0?from=agencyhomepage
+2025-05-05 10:47:10,973 - INFO - Worker 1: Completed link 48
+2025-05-05 10:47:10,997 - INFO - Worker 4: Processing link 50: https://ask.gov.sg/ica/questions/cltpefla400d510z3n5fxyddx?from=agencyhomepage
+2025-05-05 10:47:11,030 - INFO - Worker 2: Processing link 51: https://ask.gov.sg/ica/questions/clos83fv8019n5k0wedr974xl?from=agencyhomepage
+2025-05-05 10:47:11,205 - INFO - Worker 0: Completed link 49
+2025-05-05 10:47:11,409 - INFO - Worker 4: Completed link 50
+2025-05-05 10:47:11,424 - INFO - Worker 2: Completed link 51
+2025-05-05 10:47:12,124 - INFO - Worker 1: Processing link 52: https://ask.gov.sg/ica/questions/clxwriejf002tq3htm07s13by?from=agencyhomepage
+2025-05-05 10:47:12,323 - INFO - Worker 1: Completed link 52
+2025-05-05 10:47:13,017 - INFO - Worker 0: Processing link 53: https://ask.gov.sg/ica/questions/clxwhkiy400a0dsotmpalwahf?from=agencyhomepage
+2025-05-05 10:47:13,196 - INFO - Worker 0: Completed link 53
+2025-05-05 10:47:13,425 - INFO - Worker 3: Processing link 54: https://ask.gov.sg/ica/questions/clos83fv901a55k0wkmls2euc?from=agencyhomepage
+2025-05-05 10:47:13,531 - INFO - Worker 4: Processing link 55: https://ask.gov.sg/ica/questions/clxwhkiyb00ckdsotsrqmrv2v?from=agencyhomepage
+2025-05-05 10:47:13,651 - INFO - Worker 3: Completed link 54
+2025-05-05 10:47:13,727 - INFO - Worker 4: Completed link 55
+2025-05-05 10:47:13,897 - INFO - Worker 2: Processing link 56: https://ask.gov.sg/ica/questions/cltpefla400d710z37vcp52ju?from=agencyhomepage
+2025-05-05 10:47:14,055 - INFO - Worker 2: Completed link 56
+2025-05-05 10:47:14,571 - INFO - Worker 1: Processing link 57: https://ask.gov.sg/ica/questions/clos83fug00v95k0wn3n1f2en?from=agencyhomepage
+2025-05-05 10:47:14,757 - INFO - Worker 1: Completed link 57
+2025-05-05 10:47:14,855 - INFO - Worker 3: Processing link 58: https://ask.gov.sg/ica/questions/clos83fvv01kv5k0wxzt0gwpk?from=agencyhomepage
+2025-05-05 10:47:15,050 - INFO - Worker 3: Completed link 58
+2025-05-05 10:47:15,593 - INFO - Worker 4: Processing link 59: https://ask.gov.sg/ica/questions/clos83fvu01kh5k0w71sey268?from=agencyhomepage
+2025-05-05 10:47:15,753 - INFO - Worker 4: Completed link 59
+2025-05-05 10:47:15,779 - INFO - Worker 0: Processing link 60: https://ask.gov.sg/ica/questions/cltpefla400d910z3sh35cknk?from=agencyhomepage
+2025-05-05 10:47:15,957 - INFO - Worker 0: Completed link 60
+2025-05-05 10:47:16,028 - INFO - Scraping was cancelled
+2025-05-05 10:47:16,030 - INFO - Saved 60 results to all_ICA_QA.json
+2025-05-05 10:47:16,140 - ERROR - An error occurred: Browser.close: Connection closed while reading from the driver
+2025-05-05 10:47:16,147 - ERROR - unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-7' coro=<worker() done, defined at /home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py:176> exception=TargetClosedError('BrowserContext.close: Target page, context or browser has been closed')>
+Traceback (most recent call last):
+  File "/home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py", line 213, in worker
+    await context.close()
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 13448, in close
+    return mapping.from_maybe_impl(await self._impl_obj.close(reason=reason))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 599, in close
+    await self._channel.send("close", {"reason": reason})
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: BrowserContext.close: Target page, context or browser has been closed
+2025-05-05 10:47:16,148 - ERROR - unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-10' coro=<worker() done, defined at /home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py:176> exception=TargetClosedError('BrowserContext.close: Target page, context or browser has been closed')>
+Traceback (most recent call last):
+  File "/home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py", line 213, in worker
+    await context.close()
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 13448, in close
+    return mapping.from_maybe_impl(await self._impl_obj.close(reason=reason))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 599, in close
+    await self._channel.send("close", {"reason": reason})
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: BrowserContext.close: Target page, context or browser has been closed
+2025-05-05 10:47:16,149 - ERROR - unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-8' coro=<worker() done, defined at /home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py:176> exception=TargetClosedError('BrowserContext.close: Target page, context or browser has been closed')>
+Traceback (most recent call last):
+  File "/home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py", line 213, in worker
+    await context.close()
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 13448, in close
+    return mapping.from_maybe_impl(await self._impl_obj.close(reason=reason))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 599, in close
+    await self._channel.send("close", {"reason": reason})
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: BrowserContext.close: Target page, context or browser has been closed
+2025-05-05 10:47:16,150 - ERROR - unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-6' coro=<worker() done, defined at /home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py:176> exception=TargetClosedError('BrowserContext.close: Target page, context or browser has been closed')>
+Traceback (most recent call last):
+  File "/home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py", line 213, in worker
+    await context.close()
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 13448, in close
+    return mapping.from_maybe_impl(await self._impl_obj.close(reason=reason))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 599, in close
+    await self._channel.send("close", {"reason": reason})
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: BrowserContext.close: Target page, context or browser has been closed
+2025-05-05 10:47:16,151 - ERROR - unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-9' coro=<worker() done, defined at /home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py:176> exception=TargetClosedError('BrowserContext.close: Target page, context or browser has been closed')>
+Traceback (most recent call last):
+  File "/home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py", line 213, in worker
+    await context.close()
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 13448, in close
+    return mapping.from_maybe_impl(await self._impl_obj.close(reason=reason))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 599, in close
+    await self._channel.send("close", {"reason": reason})
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: BrowserContext.close: Target page, context or browser has been closed
+2025-05-05 10:47:39,906 - INFO - Starting 5 workers to process 1046 links
+2025-05-05 10:47:41,399 - INFO - Worker 0: Processing link 1: https://ask.gov.sg/ica/questions/cltpefla200c310z3sqjmzuc3?from=agencyhomepage
+2025-05-05 10:47:41,713 - INFO - Worker 1: Processing link 2: https://ask.gov.sg/ica/questions/clvvpo7u70035kx4ga9i9ln3a?from=agencyhomepage
+2025-05-05 10:47:41,992 - INFO - Worker 2: Processing link 3: https://ask.gov.sg/ica/questions/cltpefla000bf10z36ewxteeo?from=agencyhomepage
+2025-05-05 10:47:42,429 - INFO - Worker 3: Processing link 4: https://ask.gov.sg/ica/questions/cltpefla100bj10z3tik603xl?from=agencyhomepage
+2025-05-05 10:47:42,844 - INFO - Worker 4: Processing link 5: https://ask.gov.sg/ica/questions/clos83fv9019r5k0wcxrsx196?from=agencyhomepage
+2025-05-05 10:47:43,011 - INFO - Worker 0: Completed link 1
+2025-05-05 10:47:43,110 - INFO - Worker 1: Completed link 2
+2025-05-05 10:47:43,276 - INFO - Worker 2: Completed link 3
+2025-05-05 10:47:43,350 - INFO - Worker 3: Completed link 4
+2025-05-05 10:47:43,402 - INFO - Worker 4: Completed link 5
+2025-05-05 10:47:44,543 - INFO - Worker 4: Processing link 6: https://ask.gov.sg/ica/questions/clos83fv801995k0wmiszar0x?from=agencyhomepage
+2025-05-05 10:47:44,583 - INFO - Worker 1: Processing link 7: https://ask.gov.sg/ica/questions/cltpefla500dn10z34na4nwap?from=agencyhomepage
+2025-05-05 10:47:44,715 - INFO - Worker 0: Processing link 8: https://ask.gov.sg/ica/questions/cltpefla200c510z3i12t1kam?from=agencyhomepage
+2025-05-05 10:47:44,997 - INFO - Worker 4: Completed link 6
+2025-05-05 10:47:45,008 - INFO - Worker 1: Completed link 7
+2025-05-05 10:47:45,079 - INFO - Worker 0: Completed link 8
+2025-05-05 10:47:46,179 - INFO - Worker 2: Processing link 9: https://ask.gov.sg/ica/questions/cluah22mj002f124yhx56xath?from=agencyhomepage
+2025-05-05 10:47:46,239 - INFO - Worker 3: Processing link 10: https://ask.gov.sg/ica/questions/cltpefla100bn10z3d5ldalhz?from=agencyhomepage
+2025-05-05 10:47:46,485 - INFO - Worker 2: Completed link 9
+2025-05-05 10:47:46,538 - INFO - Worker 3: Completed link 10
+2025-05-05 10:47:46,788 - INFO - Scraping was cancelled
+2025-05-05 10:47:46,790 - INFO - Saved 10 results to all_ICA_QA_async.json
+2025-05-05 10:47:46,923 - ERROR - An error occurred: Browser.close: Connection closed while reading from the driver
+2025-05-05 10:47:46,936 - ERROR - unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-6' coro=<worker() done, defined at /home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py:175> exception=TargetClosedError('BrowserContext.close: Target page, context or browser has been closed')>
+Traceback (most recent call last):
+  File "/home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py", line 212, in worker
+    await context.close()
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 13448, in close
+    return mapping.from_maybe_impl(await self._impl_obj.close(reason=reason))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 599, in close
+    await self._channel.send("close", {"reason": reason})
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: BrowserContext.close: Target page, context or browser has been closed
+2025-05-05 10:47:46,938 - ERROR - unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-9' coro=<worker() done, defined at /home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py:175> exception=TargetClosedError('BrowserContext.close: Target page, context or browser has been closed')>
+Traceback (most recent call last):
+  File "/home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py", line 212, in worker
+    await context.close()
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 13448, in close
+    return mapping.from_maybe_impl(await self._impl_obj.close(reason=reason))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 599, in close
+    await self._channel.send("close", {"reason": reason})
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: BrowserContext.close: Target page, context or browser has been closed
+2025-05-05 10:47:46,939 - ERROR - unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-7' coro=<worker() done, defined at /home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py:175> exception=TargetClosedError('BrowserContext.close: Target page, context or browser has been closed')>
+Traceback (most recent call last):
+  File "/home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py", line 212, in worker
+    await context.close()
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 13448, in close
+    return mapping.from_maybe_impl(await self._impl_obj.close(reason=reason))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 599, in close
+    await self._channel.send("close", {"reason": reason})
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: BrowserContext.close: Target page, context or browser has been closed
+2025-05-05 10:47:46,940 - ERROR - unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-10' coro=<worker() done, defined at /home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py:175> exception=TargetClosedError('BrowserContext.close: Target page, context or browser has been closed')>
+Traceback (most recent call last):
+  File "/home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py", line 212, in worker
+    await context.close()
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 13448, in close
+    return mapping.from_maybe_impl(await self._impl_obj.close(reason=reason))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 599, in close
+    await self._channel.send("close", {"reason": reason})
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: BrowserContext.close: Target page, context or browser has been closed
+2025-05-05 10:47:46,941 - ERROR - unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-8' coro=<worker() done, defined at /home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py:175> exception=TargetClosedError('BrowserContext.close: Target page, context or browser has been closed')>
+Traceback (most recent call last):
+  File "/home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py", line 212, in worker
+    await context.close()
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/async_api/_generated.py", line 13448, in close
+    return mapping.from_maybe_impl(await self._impl_obj.close(reason=reason))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_browser_context.py", line 599, in close
+    await self._channel.send("close", {"reason": reason})
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "/home/pradyuprasad/Documents/experiment_knowornot/.venv/lib/python3.13/site-packages/playwright/_impl/_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: BrowserContext.close: Target page, context or browser has been closed
+2025-05-05 10:51:01,072 - INFO - Loaded 60 results from all_ICA_QA.json.progress
+2025-05-05 10:51:01,072 - INFO - Resuming from 60 previously scraped results
+2025-05-05 10:51:01,072 - INFO - Skipping already processed link at index 0
+2025-05-05 10:51:01,072 - INFO - Skipping already processed link at index 1
+2025-05-05 10:51:01,072 - INFO - Skipping already processed link at index 2
+2025-05-05 10:51:01,072 - INFO - Skipping already processed link at index 3
+2025-05-05 10:51:01,072 - INFO - Skipping already processed link at index 4
+2025-05-05 10:51:01,072 - INFO - Skipping already processed link at index 5
+2025-05-05 10:51:01,072 - INFO - Skipping already processed link at index 6
+2025-05-05 10:51:01,072 - INFO - Skipping already processed link at index 7
+2025-05-05 10:51:01,072 - INFO - Skipping already processed link at index 8
+2025-05-05 10:51:01,072 - INFO - Skipping already processed link at index 9
+2025-05-05 10:51:01,072 - INFO - Skipping already processed link at index 10
+2025-05-05 10:51:01,072 - INFO - Skipping already processed link at index 11
+2025-05-05 10:51:01,072 - INFO - Skipping already processed link at index 12
+2025-05-05 10:51:01,072 - INFO - Skipping already processed link at index 13
+2025-05-05 10:51:01,072 - INFO - Skipping already processed link at index 14
+2025-05-05 10:51:01,072 - INFO - Skipping already processed link at index 15
+2025-05-05 10:51:01,072 - INFO - Skipping already processed link at index 16
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 17
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 18
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 19
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 20
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 21
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 22
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 23
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 24
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 25
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 26
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 27
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 28
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 29
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 30
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 31
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 32
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 33
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 34
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 35
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 36
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 37
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 38
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 39
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 40
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 41
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 42
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 43
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 44
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 45
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 46
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 47
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 48
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 49
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 50
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 51
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 52
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 53
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 54
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 55
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 56
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 57
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 58
+2025-05-05 10:51:01,073 - INFO - Skipping already processed link at index 59
+2025-05-05 10:51:01,074 - INFO - Starting 2 workers to process 986 links
+2025-05-05 10:51:03,905 - INFO - Scraping was cancelled
+2025-05-05 10:51:03,906 - INFO - Created backup of existing file: all_ICA_QA.json.20250505_105103.bak
+2025-05-05 10:51:03,907 - INFO - Saved 60 results to all_ICA_QA.json
+2025-05-05 10:51:03,973 - INFO - Scraping completed successfully!
+2025-05-05 10:51:03,987 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<worker() done, defined at /home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py:157> exception=TypeError("Browser.new_context() got an unexpected keyword argument 'reduce_motion'. Did you mean 'reduced_motion'?")>
+Traceback (most recent call last):
+  File "/home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py", line 161, in worker
+    context = await browser.new_context(
+                    ~~~~~~~~~~~~~~~~~~~^
+        user_agent=choice(USER_AGENTS),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+        accept_downloads=False
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: Browser.new_context() got an unexpected keyword argument 'reduce_motion'. Did you mean 'reduced_motion'?
+2025-05-05 10:51:03,990 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<worker() done, defined at /home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py:157> exception=TypeError("Browser.new_context() got an unexpected keyword argument 'reduce_motion'. Did you mean 'reduced_motion'?")>
+Traceback (most recent call last):
+  File "/home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py", line 161, in worker
+    context = await browser.new_context(
+                    ~~~~~~~~~~~~~~~~~~~^
+        user_agent=choice(USER_AGENTS),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+        accept_downloads=False
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: Browser.new_context() got an unexpected keyword argument 'reduce_motion'. Did you mean 'reduced_motion'?
+2025-05-05 10:51:50,166 - INFO - Starting 2 workers to process 1046 links
+2025-05-05 10:52:48,171 - INFO - Performing periodic save...
+2025-05-05 10:52:48,174 - INFO - Saved 0 results to all_ICA_QA_async.json
+2025-05-05 10:53:46,030 - INFO - Performing periodic save...
+2025-05-05 10:53:46,031 - INFO - Created backup of existing file: all_ICA_QA_async.json.20250505_105346.bak
+2025-05-05 10:53:46,032 - INFO - Saved 0 results to all_ICA_QA_async.json
+2025-05-05 10:54:44,963 - INFO - Performing periodic save...
+2025-05-05 10:54:44,964 - INFO - Created backup of existing file: all_ICA_QA_async.json.20250505_105444.bak
+2025-05-05 10:54:44,965 - INFO - Saved 0 results to all_ICA_QA_async.json
+2025-05-05 10:55:42,844 - INFO - Performing periodic save...
+2025-05-05 10:55:42,845 - INFO - Created backup of existing file: all_ICA_QA_async.json.20250505_105542.bak
+2025-05-05 10:55:42,845 - INFO - Saved 0 results to all_ICA_QA_async.json
+2025-05-05 10:56:40,711 - INFO - Performing periodic save...
+2025-05-05 10:56:40,712 - INFO - Created backup of existing file: all_ICA_QA_async.json.20250505_105640.bak
+2025-05-05 10:56:40,712 - INFO - Saved 0 results to all_ICA_QA_async.json
+2025-05-05 10:57:38,414 - INFO - Performing periodic save...
+2025-05-05 10:57:38,415 - INFO - Created backup of existing file: all_ICA_QA_async.json.20250505_105738.bak
+2025-05-05 10:57:38,415 - INFO - Saved 0 results to all_ICA_QA_async.json
+2025-05-05 10:58:03,521 - INFO - Scraping was cancelled
+2025-05-05 10:58:03,521 - INFO - Created backup of existing file: all_ICA_QA_async.json.20250505_105803.bak
+2025-05-05 10:58:03,522 - INFO - Saved 0 results to all_ICA_QA_async.json
+2025-05-05 10:58:03,606 - INFO - Scraping completed successfully!
+2025-05-05 10:58:03,620 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<worker() done, defined at /home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py:157> exception=TypeError("Browser.new_context() got an unexpected keyword argument 'reduce_motion'. Did you mean 'reduced_motion'?")>
+Traceback (most recent call last):
+  File "/home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py", line 161, in worker
+    context = await browser.new_context(
+                    ~~~~~~~~~~~~~~~~~~~^
+        user_agent=choice(USER_AGENTS),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+        accept_downloads=False
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: Browser.new_context() got an unexpected keyword argument 'reduce_motion'. Did you mean 'reduced_motion'?
+2025-05-05 10:58:03,620 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<worker() done, defined at /home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py:157> exception=TypeError("Browser.new_context() got an unexpected keyword argument 'reduce_motion'. Did you mean 'reduced_motion'?")>
+Traceback (most recent call last):
+  File "/home/pradyuprasad/Documents/experiment_knowornot/async_scrape_ICA.py", line 161, in worker
+    context = await browser.new_context(
+                    ~~~~~~~~~~~~~~~~~~~^
+        user_agent=choice(USER_AGENTS),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+        accept_downloads=False
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: Browser.new_context() got an unexpected keyword argument 'reduce_motion'. Did you mean 'reduced_motion'?

@@ -1,0 +1,114 @@
+Example 2: Claim computation for a Singapore Citizen aged 60 who stays
+in a Ward A (excluding IP/rider coverage)
+Length of stay: 18 days
+Procedure performed: Hip replacement
+Pro-ration factor for hospitalisation charges based on ward class: 27%
+Pro-ration factor for surgical charges based on ward class: 25%
+
+Hospital bill
+
+Pro-rated
+Hospital bill 1
+
+MediShield Life
+claim
+computation
+$3,2402
+
+$2,1253
+
+Daily ward & treatment
+charges (18 days
+normal ward)
+
+$12,000
+
+$3,240
+($12,000 x 27%)
+
+Surgical procedure
+(Table 5C)
+
+$8,500
+
+$2,125
+($8,500 x 25%)
+
+$4,000
+
+$1,000
+($4,000 x 25%)
+
+$1,0004
+
+$24,500
+
+$6,365
+
+$6,365
+
+Less deductible5
+
+-
+
+-
+
+($3,500)
+
+Claimable amount
+(less deductible)
+
+-
+
+-
+
+$2,865
+
+Less co-insurance
+
+-
+
+-
+
+($218.25)6
+
+MediShield Life pays
+
+-
+
+-
+
+$2,646.75 (11%)
+
+MediSave and/or Cash
+
+-
+
+-
+
+$21,853.25 (89%)
+
+Implant
+Total
+
+1
+
+As the insured member stayed in Ward A, the MediShield Life claim is computed based on 27% of the bill
+for daily ward & treatment charges (refer to Table G), and 25% for surgical charges (refer to Table H).
+2
+Lower of the claim limit in Table A for Daily Ward & Treatment Charges, ($830 x 18 days) + ($800 x 2 days)
+= $16,540, or 27% of charges incurred of $12,000 = $3,240. Therefore, the claimable amount is $3,240.
+3
+Lower of the claim limit in Table A for surgical procedure, $3,270 (Table 5C), or 25% of charges incurred of
+$8,500 = $2,125. Therefore, the claimable amount is $2,125.
+4
+Lower of the claim limit in Table A for implant, $7,000, or 25% of charges incurred of $4,000 = $1,000.
+Therefore, the claimable amount is $1,000.
+5
+The insured member is below 80 years old, subject to deductible of $3,500 for Ward A.
+6
+Co-insurance = ($1,500 x 10%) + ($1,365 x 5%) = $218.25.
+
+27
+
+

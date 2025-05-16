@@ -1,0 +1,98 @@
+Example 3: Claim computation for a Permanent Resident aged 40 who
+stays in Ward B2 (excluding IP/rider coverage)
+Length of stay: 54 days (including 2 days in ICU)
+Procedure performed: Pancreas operation
+Pro-ration factor for hospitalization charges based on citizenship status:
+50%
+Pro-ration factor for surgical charges based on citizenship status: 60%
+
+Daily ward & treatment
+charges (52 days + 2
+days ICU)
+Surgical procedure
+(Table 6B)
+Total
+Less deductible4
+Claimable amount
+(less deductible)
+Less co-insurance
+
+Post-subsidy
+Hospital bill
+
+Pro-rated Hospital
+bill1
+
+MediShield
+Life claim
+computation
+
+$21,340
+
+$10,670.00
+($21,340 x 50%)
+
+$10,670.002
+
+$22,690
+-
+
+$810
+($1,350 x 60%)
+$11,480.00
+-
+
+$11,480.00
+($2,500)
+
+-
+
+-
+
+$8,980.0
+
+-
+
+-
+
+MediShield Life pays
+
+-
+
+-
+
+MediSave and/or Cash
+
+-
+
+-
+
+($544.40)5
+$8,435.60
+(37%)
+$14,254.40
+(63%)
+
+$1,350
+
+$8103
+
+1
+
+As the insured member is a Permanent Resident who stayed in Ward B2, the hospitalization charges for
+the MediShield Life claim is computed based on 50% of the bill.
+2
+Lower of the claim limit in Table A for Daily Ward & Treatment Charges [($830 x 52 days) + ( $5,140 x 2
+days) + ($800 x 2 days) ] = $55,040 or 50% of charges incurred of $21,340 = $10,670. Therefore, the
+claimable amount is $10,670.
+3
+Lower of the claim limit in Table A for surgical procedure, $3,540 (Table 6B), or 60% of charges incurred of
+$1,350 = $810. Therefore, the claimable amount is $810.
+4
+The insured member is below 80 years old, subject to deductible of $2,000 for Ward B2.
+5
+Co-insurance= ($2,500 x 10%) + ($5,000 x 5%) + ($1,480 x 3%) = $544.40
+
+28
+
+

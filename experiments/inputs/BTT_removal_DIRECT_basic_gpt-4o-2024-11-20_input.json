@@ -1,0 +1,513 @@
+{
+  "metadata": {
+    "experiment_type": "removal",
+    "system_prompt": {
+      "identifier": "basic_llm_prompt",
+      "content": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        "
+    },
+    "input_path": "experiments/inputs/BTT_removal_DIRECT_basic_gpt-4o-2024-11-20_input.json",
+    "output_path": "experiments/outputs/BTT_removal_DIRECT_basic_gpt-4o-2024-11-20_output.json",
+    "retrieval_type": "DIRECT",
+    "creation_timestamp": "2025-05-05T18:28:01.150759",
+    "client_enum": "AZURE_OPENAI",
+    "ai_model_used": "gpt-4o-2024-11-20",
+    "knowledge_base_identifier": "BTT"
+  },
+  "questions": [
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the impact of leaving a vehicle engine running when stationary for reasons other than traffic conditions under the Environmental Protection and Management (Vehicular Emissions) Regulations?",
+      "source_context_qa": {
+        "identifier": "BTT_0",
+        "question": "What is the impact of leaving a vehicle engine running when stationary for reasons other than traffic conditions under the Environmental Protection and Management (Vehicular Emissions) Regulations?",
+        "expected_answer": "It is an offence, and offenders are liable to a fine of up to $5,000 if convicted in court.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat does a broken white line indicate on a two-way road?",
+      "source_context_qa": {
+        "identifier": "BTT_1",
+        "question": "What does a broken white line indicate on a two-way road?",
+        "expected_answer": "It indicates the centre line of a two-way road.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the minimum tread depth required for tyres before they need to be replaced as per Singapore's Basic Theory Test?",
+      "source_context_qa": {
+        "identifier": "BTT_2",
+        "question": "What is the minimum tread depth required for tyres before they need to be replaced as per Singapore's Basic Theory Test?",
+        "expected_answer": "Tyres should be replaced if their tread depth is less than 1.6mm.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat driving control can be used to switch on a device to clear the windshield when it is raining?",
+      "source_context_qa": {
+        "identifier": "BTT_3",
+        "question": "What driving control can be used to switch on a device to clear the windshield when it is raining?",
+        "expected_answer": "The Wiper Switch.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat key road safety measures are implemented in school zones to enhance safety?",
+      "source_context_qa": {
+        "identifier": "BTT_4",
+        "question": "What key road safety measures are implemented in school zones to enhance safety?",
+        "expected_answer": "Key road safety measures in school zones include prominent school zone signs, traffic calming measures like road humps, pedestrian crossings, parking restriction lines, railings along the road center, and red-textured road surfaces near school gates.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat precaution should motorcycle owners take to prevent theft even during short durations?",
+      "source_context_qa": {
+        "identifier": "BTT_5",
+        "question": "What precaution should motorcycle owners take to prevent theft even during short durations?",
+        "expected_answer": "Motorcycle owners should remove ignition keys and handle lock their motorcycles even for short durations.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat action must a licence holder take to have their demerit points expunged?",
+      "source_context_qa": {
+        "identifier": "BTT_6",
+        "question": "What action must a licence holder take to have their demerit points expunged?",
+        "expected_answer": "Maintain a 12-month period free of scheduled offences.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the time frame during which free parking is available on Sundays and public holidays in short-term parking lots?",
+      "source_context_qa": {
+        "identifier": "BTT_7",
+        "question": "What is the time frame during which free parking is available on Sundays and public holidays in short-term parking lots?",
+        "expected_answer": "Free parking is available from 7am to 10.30pm.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the required action if an accident occurs, regardless of its severity or visible damage?",
+      "source_context_qa": {
+        "identifier": "BTT_8",
+        "question": "What is the required action if an accident occurs, regardless of its severity or visible damage?",
+        "expected_answer": "Report the accident to your insurer within 24 hours or by the next working day with your accident vehicle, even if there is no visible damage or you are not claiming from any insurers or third parties.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat happens to the stopping distance of a vehicle on a wet road compared to a dry road?",
+      "source_context_qa": {
+        "identifier": "BTT_9",
+        "question": "What happens to the stopping distance of a vehicle on a wet road compared to a dry road?",
+        "expected_answer": "The stopping distance of a vehicle increases to about twice that on a dry road due to less friction between tyres and the wet surface.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat gear practice should be followed while driving a manual vehicle to prevent dragging the engine?",
+      "source_context_qa": {
+        "identifier": "BTT_10",
+        "question": "What gear practice should be followed while driving a manual vehicle to prevent dragging the engine?",
+        "expected_answer": "Avoid dragging the engine by using the correct gear.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat does the acronym 'SH' stand for in Singapore's Expressway Monitoring and Advisory Systems (EMAS)?",
+      "source_context_qa": {
+        "identifier": "BTT_11",
+        "question": "What does the acronym 'SH' stand for in Singapore's Expressway Monitoring and Advisory Systems (EMAS)?",
+        "expected_answer": "Shoulder",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat should drivers do if the traffic lights turn red while they are in the yellow box junction?",
+      "source_context_qa": {
+        "identifier": "BTT_12",
+        "question": "What should drivers do if the traffic lights turn red while they are in the yellow box junction?",
+        "expected_answer": "Drivers should proceed to complete their turn and clear the junction.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the minimum number of yellow reflective markings required on each side of a long vehicle for visibility enhancement?",
+      "source_context_qa": {
+        "identifier": "BTT_13",
+        "question": "What is the minimum number of yellow reflective markings required on each side of a long vehicle for visibility enhancement?",
+        "expected_answer": "Three yellow reflective markings.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat are the two sections mentioned in the document related to the Parts and Controls of a Car?",
+      "source_context_qa": {
+        "identifier": "BTT_14",
+        "question": "What are the two sections mentioned in the document related to the Parts and Controls of a Car?",
+        "expected_answer": "Front View and Rear View.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the maximum width of a vehicle allowed to enter where the corresponding road sign prohibits vehicles with width in excess of 2.3m?",
+      "source_context_qa": {
+        "identifier": "BTT_15",
+        "question": "What is the maximum width of a vehicle allowed to enter where the corresponding road sign prohibits vehicles with width in excess of 2.3m?",
+        "expected_answer": "The maximum permissible width is 2.3 meters.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the penalty for using a mobile communication device while driving in Singapore?",
+      "source_context_qa": {
+        "identifier": "BTT_16",
+        "question": "What is the penalty for using a mobile communication device while driving in Singapore?",
+        "expected_answer": "The penalty for using a mobile communication device while driving includes a fine not exceeding $1,000 or imprisonment not exceeding 6 months, or both.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is crucial before pulling out to pass another vehicle to alert other road users of your intention?",
+      "source_context_qa": {
+        "identifier": "BTT_17",
+        "question": "What is crucial before pulling out to pass another vehicle to alert other road users of your intention?",
+        "expected_answer": "Give a clear signal in good time.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the purpose of bus-stop separator areas being painted red?",
+      "source_context_qa": {
+        "identifier": "BTT_18",
+        "question": "What is the purpose of bus-stop separator areas being painted red?",
+        "expected_answer": "The red paint alerts motorists to the presence of merging vehicles from bus-stops.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat type of vehicles are permitted to use bus lanes during restricted hours other than omnibuses, bicycles, emergency service, and police vehicles?",
+      "source_context_qa": {
+        "identifier": "BTT_19",
+        "question": "What type of vehicles are permitted to use bus lanes during restricted hours other than omnibuses, bicycles, emergency service, and police vehicles?",
+        "expected_answer": "Non-scheduled buses, such as school and factory buses, are permitted to use bus lanes during restricted hours.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhere must vehicles with speed limits of 60 km/h and below travel on an expressway?",
+      "source_context_qa": {
+        "identifier": "BTT_20",
+        "question": "Where must vehicles with speed limits of 60 km/h and below travel on an expressway?",
+        "expected_answer": "They must travel along the left-hand lane of the expressway.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is recommended for optimizing fuel efficiency when using air-conditioning in a vehicle?",
+      "source_context_qa": {
+        "identifier": "BTT_21",
+        "question": "What is recommended for optimizing fuel efficiency when using air-conditioning in a vehicle?",
+        "expected_answer": "Avoid setting the air-conditioning temperature too low and increase the fan speed instead.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat type of background and border colors are used for directional signs that provide information on non-expressway roads?",
+      "source_context_qa": {
+        "identifier": "BTT_22",
+        "question": "What type of background and border colors are used for directional signs that provide information on non-expressway roads?",
+        "expected_answer": "Green backgrounds with white borders.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat actions should people take during an emergency in Fort Canning Tunnel and Woodsville Tunnel?",
+      "source_context_qa": {
+        "identifier": "BTT_23",
+        "question": "What actions should people take during an emergency in Fort Canning Tunnel and Woodsville Tunnel?",
+        "expected_answer": "People should head for the tunnel entrance or exit, whichever is safer.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhy is it important to keep a safe following distance from the vehicle in front?",
+      "source_context_qa": {
+        "identifier": "BTT_24",
+        "question": "Why is it important to keep a safe following distance from the vehicle in front?",
+        "expected_answer": "To allow enough room to stop safely if the vehicle stops abruptly.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat specific road conditions can warning signs indicate to drivers?",
+      "source_context_qa": {
+        "identifier": "BTT_25",
+        "question": "What specific road conditions can warning signs indicate to drivers?",
+        "expected_answer": "Warning signs can indicate slippery roads, gated and ungated level crossings, uneven roads, road humps, steep upward and downward slopes, roads leading to quays, river banks, or seas.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is prohibited for pedal cyclists, including trishaws, tricycles, and bicycles, beyond the point marked by certain signs?",
+      "source_context_qa": {
+        "identifier": "BTT_26",
+        "question": "What is prohibited for pedal cyclists, including trishaws, tricycles, and bicycles, beyond the point marked by certain signs?",
+        "expected_answer": "The riding of pedal-cycles, including trishaws, tricycles, and bicycles, is prohibited.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nUnder what circumstances is it permissible to drive, move, or stop on the road shoulder or verge?",
+      "source_context_qa": {
+        "identifier": "BTT_27",
+        "question": "Under what circumstances is it permissible to drive, move, or stop on the road shoulder or verge?",
+        "expected_answer": "It is permissible only in the event of a breakdown, accident, or emergency.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhich website should you visit to get information about driving overseas and applying for an International Driving Permit (IDP) in Singapore?",
+      "source_context_qa": {
+        "identifier": "BTT_28",
+        "question": "Which website should you visit to get information about driving overseas and applying for an International Driving Permit (IDP) in Singapore?",
+        "expected_answer": "Automobile Association of Singapore (AAS) website.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat does a green-down arrow on lane use signs indicate to motorists in the tunnels?",
+      "source_context_qa": {
+        "identifier": "BTT_29",
+        "question": "What does a green-down arrow on lane use signs indicate to motorists in the tunnels?",
+        "expected_answer": "It indicates that a motorist can drive on ahead.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the recommended sequence to look at a junction according to the Basic Theory Test?",
+      "source_context_qa": {
+        "identifier": "BTT_30",
+        "question": "What is the recommended sequence to look at a junction according to the Basic Theory Test?",
+        "expected_answer": "Look right, then left, then right again.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat must vehicles approaching a Police Officer from the front and behind do?",
+      "source_context_qa": {
+        "identifier": "BTT_31",
+        "question": "What must vehicles approaching a Police Officer from the front and behind do?",
+        "expected_answer": "They must stop.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the penalty for exceeding the speed limit of a vehicle by 1 to 20 kilometres per hour?",
+      "source_context_qa": {
+        "identifier": "BTT_32",
+        "question": "What is the penalty for exceeding the speed limit of a vehicle by 1 to 20 kilometres per hour?",
+        "expected_answer": "It is considered an offence.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat does the signal \"Means \\\"GO\\\" for straight ahead vehicles and \\\"GO\\\" for right turn vehicles\" indicate?",
+      "source_context_qa": {
+        "identifier": "BTT_33",
+        "question": "What does the signal \"Means \\\"GO\\\" for straight ahead vehicles and \\\"GO\\\" for right turn vehicles\" indicate?",
+        "expected_answer": "It indicates that vehicles can proceed straight ahead as well as make a right turn.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the designated use for parking lots demarcated in red within Singapore's parking guidelines?",
+      "source_context_qa": {
+        "identifier": "BTT_34",
+        "question": "What is the designated use for parking lots demarcated in red within Singapore's parking guidelines?",
+        "expected_answer": "Parking lots demarcated in red are reserved for Season Parking Ticket Holders.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is a topic discussed when learning the basic theory of driving in Singapore?",
+      "source_context_qa": {
+        "identifier": "BTT_35",
+        "question": "What is a topic discussed when learning the basic theory of driving in Singapore?",
+        "expected_answer": "Basic theory of driving.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhich category of traffic signs must be followed without exception?",
+      "source_context_qa": {
+        "identifier": "BTT_36",
+        "question": "Which category of traffic signs must be followed without exception?",
+        "expected_answer": "Mandatory signs are compulsory signs.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat action should be taken when encountering a situation that requires reduced speed to ensure safety?",
+      "source_context_qa": {
+        "identifier": "BTT_37",
+        "question": "What action should be taken when encountering a situation that requires reduced speed to ensure safety?",
+        "expected_answer": "Slow down.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat does a yellow color on Travel Time Display signboards indicate?",
+      "source_context_qa": {
+        "identifier": "BTT_38",
+        "question": "What does a yellow color on Travel Time Display signboards indicate?",
+        "expected_answer": "Yellow color indicates that the travel time displayed is between 50% to 125% more than normal travel time.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat must drivers do when driving in a tunnel to ensure they can handle ERP payments?",
+      "source_context_qa": {
+        "identifier": "BTT_39",
+        "question": "What must drivers do when driving in a tunnel to ensure they can handle ERP payments?",
+        "expected_answer": "Drivers must insert the cash card in advance for ERP payments when driving in tunnels.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat information is indicated by the car park signboard located at the entrance of each car park or along the public road?",
+      "source_context_qa": {
+        "identifier": "BTT_40",
+        "question": "What information is indicated by the car park signboard located at the entrance of each car park or along the public road?",
+        "expected_answer": "The car park signboard indicates the different parking schemes, operating hours, and parking rates available.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the minimum age requirement to qualify for a driving licence in Singapore?",
+      "source_context_qa": {
+        "identifier": "BTT_41",
+        "question": "What is the minimum age requirement to qualify for a driving licence in Singapore?",
+        "expected_answer": "The minimum age requirement to qualify for a driving licence in Singapore is 18 years old.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the maximum speed limit for vehicles traveling in a silver zone when a 40km/h speed limit sign is attached below?",
+      "source_context_qa": {
+        "identifier": "BTT_42",
+        "question": "What is the maximum speed limit for vehicles traveling in a silver zone when a 40km/h speed limit sign is attached below?",
+        "expected_answer": "40 km/h",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhen approaching a side road, what should drivers do regarding vehicles entering from it?",
+      "source_context_qa": {
+        "identifier": "BTT_43",
+        "question": "When approaching a side road, what should drivers do regarding vehicles entering from it?",
+        "expected_answer": "Give way to vehicles from the side road entering the main road.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat does the road sign indicating 'Road narrows on one side' signify?",
+      "source_context_qa": {
+        "identifier": "BTT_44",
+        "question": "What does the road sign indicating 'Road narrows on one side' signify?",
+        "expected_answer": "It warns drivers that the road ahead will narrow on one side, requiring caution and potential adjustments in lane position.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat does the yellow section in a mandatory give-way to buses area indicate?",
+      "source_context_qa": {
+        "identifier": "BTT_45",
+        "question": "What does the yellow section in a mandatory give-way to buses area indicate?",
+        "expected_answer": "It indicates a mandatory give-way to buses area.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow does driving a vehicle in the right gear impact fuel efficiency and emissions?",
+      "source_context_qa": {
+        "identifier": "BTT_46",
+        "question": "How does driving a vehicle in the right gear impact fuel efficiency and emissions?",
+        "expected_answer": "Driving the vehicle in the right gear will increase fuel efficiency and reduce emissions.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the consequence of failing to comply with prohibitory signs in Singapore's Basic Theory Test regulations?",
+      "source_context_qa": {
+        "identifier": "BTT_47",
+        "question": "What is the consequence of failing to comply with prohibitory signs in Singapore's Basic Theory Test regulations?",
+        "expected_answer": "It constitutes an offence.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat action should motorists take when they notice buses pulling out of the bus bay?",
+      "source_context_qa": {
+        "identifier": "BTT_48",
+        "question": "What action should motorists take when they notice buses pulling out of the bus bay?",
+        "expected_answer": "Motorists should slow down and watch out for buses pulling out of the bus bay.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat must a driver do before moving off to ensure safety and comply with regulations?",
+      "source_context_qa": {
+        "identifier": "BTT_49",
+        "question": "What must a driver do before moving off to ensure safety and comply with regulations?",
+        "expected_answer": "Fasten the seat belt and look in the mirrors.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow many steps are involved in the specified process for overtaking another vehicle safely according to Singapore's Basic Theory Test?",
+      "source_context_qa": {
+        "identifier": "BTT_50",
+        "question": "How many steps are involved in the specified process for overtaking another vehicle safely according to Singapore's Basic Theory Test?",
+        "expected_answer": "12 steps",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nUnder what circumstances must a driver refrain from crossing the center line of the road?",
+      "source_context_qa": {
+        "identifier": "BTT_51",
+        "question": "Under what circumstances must a driver refrain from crossing the center line of the road?",
+        "expected_answer": "A driver must not cross the center line at bends, near the crest of a rise, or anywhere else where they cannot clearly see the road ahead (Fact 3).",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is indicated by merging arrows drawn on the road in Singapore's Basic Theory Test?",
+      "source_context_qa": {
+        "identifier": "BTT_52",
+        "question": "What is indicated by merging arrows drawn on the road in Singapore's Basic Theory Test?",
+        "expected_answer": "Merging arrows indicate that two traffic lanes are merging into one traffic lane and give motorists advance warning of this situation.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat safety measures are included under road code conduct to ensure a safe following distance while driving?",
+      "source_context_qa": {
+        "identifier": "BTT_53",
+        "question": "What safety measures are included under road code conduct to ensure a safe following distance while driving?",
+        "expected_answer": "The road code conduct includes the two-second rule and stopping distance to ensure safe following distance while driving.",
+        "context_questions": null
+      }
+    },
+    {
+      "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat does the 'Two-way traffic ahead' sign instruct drivers to do?",
+      "source_context_qa": {
+        "identifier": "BTT_54",
+        "question": "What does the 'Two-way traffic ahead' sign instruct drivers to do?",
+        "expected_answer": "Slow down, keep left, and beware of oncoming traffic.",
+        "context_questions": null
+      }
+    }
+  ]
+}

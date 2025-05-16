@@ -1,0 +1,79 @@
+6.4 How are claims computed?
+Example 1: Claim computation for a Singapore Citizen aged 35 who stays
+in a Ward C (excluding IP/rider coverage)
+Length of stay: 10 days (including 8 days in ICU)
+Procedure performed: Stomach operation
+Post-Subsidy
+Hospital bill1
+
+MediShield Life
+claim computation
+
+Daily ward & treatment charges
+(2 days normal ward + 8 days ICU)
+
+$8,600
+
+$8,6002
+
+Surgical procedure (Table 6B)
+
+$1,250
+
+$1,2503
+
+Total
+
+$9,850
+
+$9,850
+
+Less deductible4
+
+-
+
+($2,000)
+
+Claimable amount
+(less deductible)
+
+-
+
+$7,850
+
+Less co-insurance
+
+-
+
+($542.50)5
+
+MediShield Life pays
+
+-
+
+$7,307.50 (74%)
+
+MediSave and/or Cash
+
+-
+
+$2,542.50 (26%)
+
+1
+
+As the insured member is a Singapore Citizen who stayed in Ward C, the MediShield Life claim is computed
+based on 100% of the bill.
+2
+Lower of the claim limit for Daily Ward & Treatment Charges, [($830 x 2 days) + ($5,140 x 8 days)+($800 x
+2 days)] = $44,380, or 100% of charges incurred of $8,600. Therefore, the claimable amount is $8,600.
+3
+Lower of the claim limit in Table A for surgical procedure, $3,540 (Table 6B), or 100% of charges incurred
+of $1,250. Therefore, the claimable amount is $1,250.
+4
+The insured member is below 80 years old, subject to deductible of $2,000 for Ward C.
+5
+Co-insurance = ($3,000 x 10%) + ($4,850 x 5%) = $542.50.
+
+26
+
+

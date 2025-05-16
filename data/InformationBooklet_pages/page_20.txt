@@ -1,0 +1,115 @@
+6.1 What is the pro-ration factor?
+MediShield Life benefits are designed to cover subsidised bills incurred by
+Singapore Citizens at public hospitals. Hence, non-subsidised bills, which are
+typically larger than subsidised bills, are pro-rated before the claims under
+MediShield Life are computed. This is to ensure that policyholders receive
+comparable MediShield Life payouts, regardless of whether they opt for
+subsidised or non-subsidised care. Similarly, Permanent Residents who receive
+less subsidies than Singapore Citizens at public hospitals will also have their
+bills pro-rated before claims under MediShield Life are computed. The
+applicable pro-ration factors are shown in Tables G and H.
+Table G: Pro-ration Factors for MediShield Life Claim Hospitalisation
+Charges
+(Applicable for admissions or treatments received on or after 1 April 2025)
+Singapore
+Citizen
+
+Permanent
+Resident
+
+Class C
+
+100%
+
+50%
+
+Class B2
+
+100%
+
+50%
+
+Class B2+
+
+100%
+
+50%
+
+Class B1
+
+34%
+
+29%
+
+Class A
+
+27%
+
+25%
+
+Private hospital
+
+16%
+
+16%
+
+Community hospital (subsidised)
+
+100%
+
+60%
+
+Community hospital (non-subsidised)
+
+45%
+
+37%
+
+Inpatient palliative care service (subsidised)
+
+100%
+
+60%
+
+Inpatient palliative care service (non-subsidised)
+
+45%
+
+37%
+
+Short stay ward (subsidised)
+
+100%
+
+50%
+
+Short stay ward (non-subsidised)
+
+27%
+
+25%
+
+Day surgery (subsidised)
+
+100%
+
+54%
+
+Day surgery (public hospital non-subsidised)
+
+33%
+
+33%
+
+Day surgery (private hospital)
+
+21%
+
+21%
+
+Ward Class / Subsidy Status
+
+Outpatient treatment (excluding dialysis and erythropoietin)
+20
+
+

@@ -1,0 +1,85 @@
+5. Examples of MediShield Life premiums computation
+without Phased Support (i.e. 1 April 2027 onwards)
+Insured A (with Additional Premiums)
+Age Next Birthday: 41
+Standard MediShield Life premium 1
+Add: Additional Premium at 30% of Standard MediShield Life premium 2
+
+$637.00
+$191.10
+
+Premium before Subsidies
+Less: Premium Subsidies at 30.0% 4
+
+$828.10
+-$248.43
+
+LESS: Total Government Subsidies
+
+-$248.43
+
+Net Premium Payable with MediSave (Inclusive of GST)
+
+$579.67
+
+Insured B
+Age Next Birthday: 70
+Standard MediShield Life premium 1
+Less: Premium Rebate 3
+
+$1,326.00
+-$32.00
+
+Premium before Subsidies
+Less: Premium Subsidies at 40.0% 4
+Less: Merdeka Generation Subsidies at 5% 6
+
+$1,294.00
+-$517.60
+-$64.70
+
+LESS: Total Government Subsidies
+
+-$582.30
+
+Net Premium Payable with MediSave (Inclusive of GST)
+
+$711.70
+
+Insured C
+Age Next Birthday: 75
+Standard MediShield Life premium 1
+
+$1,816.00
+
+Premium before Subsidies
+Less: Pioneer Generation Subsidies at 49.00% 5
+
+$1,816.00
+-$889.84
+
+LESS: Total Government Subsidies
+
+-$889.84
+
+Net Premium Payable with MediSave (Inclusive of GST)
+
+$926.16
+
+1
+
+Refer to Table B.
+Refer to Section 3.3.
+3
+Refer to Table C. Based on entry age 51-60 (as of next birthday).
+4
+Refer to Table D.
+5
+Refer to Table E.
+6
+Refer to Table F.
+2
+
+18
+
+

@@ -1,0 +1,62 @@
+Illustration of how the deductible works
+(The examples are based on assumptions that the members are below
+80 years old and stay in Ward C.
+The deductible is $2,000 per policy year. Payouts from MediShield Life are
+subject to claim limits.)
+Scenario A:
+Mr. A is hospitalised once in each
+policy year.
+1st hospitalisation
+Claimable Amount: $3,000
+Deductible: $2,000
+
+2nd hospitalisation
+Claimable Amount: $2,500
+Deductible: $2,000
+
+As the claimable amount is above
+the deductible, there is payout from
+MediShield Life
+
+As the claimable amount is above
+the deductible, there is payout from
+MediShield Life
+
+Policy Year: 1 Apr 25 – 31 Mar 26
+
+Policy Year: 1 Apr 2026 – 31 Mar 2027
+
+1 April
+2025
+
+1 April
+2026
+
+1st hospitalisation
+Claimable Amount: $1,000
+Deductible: $2,000
+As the claimable amount is
+less than the deductible of
+$2,000, there is no payout
+from MediShield Life.
+
+1 April
+2027
+
+2nd hospitalisation
+Claimable Amount: $2,000
+Deductible Balance for Policy Year:
+$1,000
+As Mr B had paid the deductible of
+$1,000 during the 1st hospitalisation, he
+only needs to pay the balance
+deductible of $1,000 for the 2nd
+hospitalisation.
+
+Scenario B:
+Mr. B is hospitalised twice in the
+same policy year.
+
+23
+
+
