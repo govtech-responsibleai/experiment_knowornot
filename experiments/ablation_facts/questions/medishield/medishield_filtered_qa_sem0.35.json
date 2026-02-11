@@ -1,0 +1,212 @@
+{
+  "path_to_store": "experiments/ablation_facts/questions/medishield/medishield_filtered_qa_sem0.35.json",
+  "knowledge_base_identifier": "medishield",
+  "creation_timestamp": "2025-07-28T11:10:27.037292",
+  "questions": [
+    {
+      "question": "What pro-ration factor do permanent residents apply for subsidised treatments for Continuation of Autologous Bone Marrow Transplant for Multiple Myeloma under Singapore's Medishield program?",
+      "answer": "67%.",
+      "identifier": "medishield_0"
+    },
+    {
+      "question": "What is the definition of a pre-existing condition in the context of insurance plans?",
+      "answer": "A pre-existing condition is a medical condition or illness that an individual already has before he is covered under an insurance plan.",
+      "identifier": "medishield_1"
+    },
+    {
+      "question": "What is the Age Next Birthday of an insured member whose date of birth is 10 October 1990 and whose policy is renewed on 1 November 2015?",
+      "answer": "26 years old.",
+      "identifier": "medishield_2"
+    },
+    {
+      "question": "What type of telephone service does Singapore impose airtime charges for when contacting 1800 service lines?",
+      "answer": "Mobile calls.",
+      "identifier": "medishield_3"
+    },
+    {
+      "question": "If the deductible is $2,000 and the total medical bill is $5,000, what will the co-insurance amount be for the remaining balance?",
+      "answer": "$300",
+      "identifier": "medishield_4"
+    },
+    {
+      "question": "Why is it advised to consider the affordability of Integrated Shield Plan (IP) premiums in the long term before obtaining an IP cover?",
+      "answer": "It is advised because IP premiums increase with age, making long-term affordability a critical factor.",
+      "identifier": "medishield_5"
+    },
+    {
+      "question": "Where can the public find detailed provisions of the MediShield Life Scheme Act and Regulations?",
+      "answer": "The public can find detailed provisions of the MediShield Life Scheme Act and Regulations at sso.agc.gov.sg.",
+      "identifier": "medishield_6"
+    },
+    {
+      "question": "Who does the fact describe as a lower-income Merdeka Generation Singapore Citizen?",
+      "answer": "A 67-year-old individual.",
+      "identifier": "medishield_7"
+    },
+    {
+      "question": "What type of dental treatments are not covered by MediShield Life for admissions or treatments received on or after 1 March 2021?",
+      "answer": "Dental work that is not due to accidental injuries is not covered by MediShield Life for admissions or treatments received on or after 1 March 2021.",
+      "identifier": "medishield_8"
+    },
+    {
+      "question": "What happens if there is insufficient balance in the MediSave Account to pay the MediShield premiums?",
+      "answer": "You (or your payer) will be informed to top up the MediSave Account or arrange for a family member to help pay the premiums.",
+      "identifier": "medishield_9"
+    },
+    {
+      "question": "What is the primary goal associated with the Medishield program as described by the term 'Better Protection'?",
+      "answer": "The primary goal of the Medishield program associated with the term 'Better Protection' is to enhance healthcare coverage for individuals.",
+      "identifier": "medishield_10"
+    },
+    {
+      "question": "What is the annual MediSave top-up range that pioneers receive under the MediShield Life program based on their birth year?",
+      "answer": "Pioneers receive annual MediSave top-ups ranging from $300 to $1,200, depending on their birth year.",
+      "identifier": "medishield_11"
+    },
+    {
+      "question": "What is the lower claim limit for a surgical procedure under Medishield, according to Table 6B?",
+      "answer": "The lower claim limit is $810, which is 60% of charges incurred ($1,350) or $3,540, whichever is less.",
+      "identifier": "medishield_12"
+    },
+    {
+      "question": "What is the deductible amount paid by Mr. B during his first hospitalization for the policy year from April 1, 2027, to March 31, 2028?",
+      "answer": "$1,000",
+      "identifier": "medishield_13"
+    },
+    {
+      "question": "How does MediShield Life coverage differ for patients in unsubsidised wards or private hospitals compared to subsidised wards?",
+      "answer": "MediShield Life covers a smaller portion of higher unsubsidised and private bills for patients in unsubsidised wards or private hospitals compared to subsidised wards.",
+      "identifier": "medishield_14"
+    },
+    {
+      "question": "What is the amount of Additional Premium for Insured A if it is calculated as 30% of the Standard MediShield Life premium?",
+      "answer": "$191.10",
+      "identifier": "medishield_15"
+    },
+    {
+      "question": "According to Singapore's Medishield program, how is a medical condition classified if it begins after the start of an insurance cover?",
+      "answer": "It is not classified as a pre-existing condition.",
+      "identifier": "medishield_16"
+    },
+    {
+      "question": "What is one financial benefit of joining the MediShield Life scheme earlier in life?",
+      "answer": "Higher premium rebates will be received.",
+      "identifier": "medishield_17"
+    },
+    {
+      "question": "What is the criterion for not receiving subsidies under the Medishield program based on residence annual value?",
+      "answer": "Residences with an Annual Value of above $31,000 will not receive subsidies under the Medishield program.",
+      "identifier": "medishield_18"
+    },
+    {
+      "question": "What is the time limit for MediShield Life to cover expenses after a patient is certified medically fit for discharge and has a feasible discharge option?",
+      "answer": "Expenses are not covered by MediShield Life and cannot be claimed after the 7th calendar day from being certified medically fit for discharge and assessed to have a feasible discharge option.",
+      "identifier": "medishield_19"
+    },
+    {
+      "question": "From which date did MediShield Life stop covering sex change operations and their related complications?",
+      "answer": "MediShield Life stopped covering sex change operations and their related complications from 1 March 2021.",
+      "identifier": "medishield_20"
+    },
+    {
+      "question": "What measures does the Singapore Government implement to keep MediShield Life premiums affordable?",
+      "answer": "The Singapore Government provides various premium subsidies and support measures to ensure that MediShield Life premiums remain affordable.",
+      "identifier": "medishield_21"
+    },
+    {
+      "question": "If a MediShield cover begins on November 1, 2015, when will it be renewed for the next policy year?",
+      "answer": "November 1, 2016.",
+      "identifier": "medishield_22"
+    },
+    {
+      "question": "As of which date is the information in the Medishield program booklet accurate according to the given fact?",
+      "answer": "1 April 2025",
+      "identifier": "medishield_23"
+    },
+    {
+      "question": "What happens to the bills of Permanent Residents at public hospitals before claims under MediShield Life are computed?",
+      "answer": "The bills of Permanent Residents at public hospitals are pro-rated before claims under MediShield Life are computed.",
+      "identifier": "medishield_24"
+    },
+    {
+      "question": "Under Singapore's MediShield Life program, can an individual claim reimbursement for treatments already covered by Workmen’s Compensation or other insurance policies?",
+      "answer": "No, treatments covered by Workmen's Compensation or other insurance policies are not covered by MediShield Life and cannot be claimed.",
+      "identifier": "medishield_25"
+    },
+    {
+      "question": "What is the meaning and scope of the phrase 'For All' in the context of Singapore's Medishield program, as suggested in source citation 1?",
+      "answer": "The phrase 'For All' signifies that Singapore's Medishield program is inclusive and designed to provide healthcare coverage for all individuals in the country, without discrimination.",
+      "identifier": "medishield_26"
+    },
+    {
+      "question": "What percentage subsidy does the Merdeka Generation receive for MediShield Life in 2025?",
+      "answer": "The Merdeka Generation receives a 5% subsidy for MediShield Life in 2025.",
+      "identifier": "medishield_27"
+    },
+    {
+      "question": "What are the two components of an Integrated Shield Plan (IP) in Singapore?",
+      "answer": "An Integrated Shield Plan (IP) consists of a MediShield Life component, which is a national medical insurance scheme by the Government, and an additional private insurance coverage component provided by a private insurer.",
+      "identifier": "medishield_28"
+    },
+    {
+      "question": "What two factors are applied to the claimable amount to compute the MediShield Life payout for inpatient treatments and day surgeries?",
+      "answer": "The deductible and co-insurance are applied to the claimable amount to compute the MediShield Life payout for inpatient treatments and day surgeries.",
+      "identifier": "medishield_29"
+    },
+    {
+      "question": "Which organization administers the MediShield Life Scheme on behalf of the Ministry of Health (MOH) in Singapore?",
+      "answer": "The Central Provident Fund (CPF) Board.",
+      "identifier": "medishield_30"
+    },
+    {
+      "question": "What are the two methods for paying MediShield premiums according to the given fact?",
+      "answer": "You can pay MediShield premiums from your MediSave account, or your family members can pay using their MediSave accounts.",
+      "identifier": "medishield_31"
+    },
+    {
+      "question": "How is the co-insurance amount calculated in Singapore's Medishield program for a medical bill of $7,850?",
+      "answer": "The co-insurance amount is calculated as ($3,000 x 10%) + ($4,850 x 5%) = $542.50.",
+      "identifier": "medishield_32"
+    },
+    {
+      "question": "How many times do you need to pay the deductible in a single insurance policy year if you are hospitalized under the Medishield program?",
+      "answer": "You need to pay the deductible only once in any insurance policy year if you are hospitalized.",
+      "identifier": "medishield_33"
+    },
+    {
+      "question": "Which medical conditions related to congenital issues are explicitly stated as not covered by MediShield Life for surgical and related complications?",
+      "answer": "MediShield Life does not cover surgical interventions and related complications for severe and fatal congenital conditions such as Trisomy 13, Bilateral Renal Agenesis, Bart’s Hydrops, and Anecephaly.",
+      "identifier": "medishield_34"
+    },
+    {
+      "question": "What is the purpose of pro-rating non-subsidized bills in the MediShield Life program?",
+      "answer": "To ensure policyholders receive comparable MediShield Life payouts, regardless of whether they opt for subsidized or non-subsidized care.",
+      "identifier": "medishield_35"
+    },
+    {
+      "question": "Who is automatically eligible for the Premium Cap and Phased Support under Singapore's Medishield program?",
+      "answer": "All Singapore Citizens and Permanent Residents are automatically eligible for the Premium Cap and Phased Support, regardless of household income and the Annual Value of their residences.",
+      "identifier": "medishield_36"
+    },
+    {
+      "question": "What does MediShield Life provide to individuals with pre-existing medical conditions?",
+      "answer": "MediShield Life provides coverage for their pre-existing medical conditions.",
+      "identifier": "medishield_37"
+    },
+    {
+      "question": "As of which date are admissions or treatments for injuries arising from direct participation in civil commotion, riot, or strike not covered under MediShield Life?",
+      "answer": "1 March 2021",
+      "identifier": "medishield_38"
+    },
+    {
+      "question": "What happens to non-subsidised bills for outpatient cancer treatments and home parenteral nutrition under Singapore's MediShield program?",
+      "answer": "They will be pro-rated.",
+      "identifier": "medishield_39"
+    },
+    {
+      "question": "What is the Standard MediShield Life premium before rebate for an individual with Age Next Birthday 70?",
+      "answer": "$1,326.00",
+      "identifier": "medishield_40"
+    }
+  ]
+}

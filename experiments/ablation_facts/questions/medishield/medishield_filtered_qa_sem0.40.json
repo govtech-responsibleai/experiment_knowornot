@@ -1,0 +1,142 @@
+{
+  "path_to_store": "experiments/ablation_facts/questions/medishield/medishield_filtered_qa_sem0.40.json",
+  "knowledge_base_identifier": "medishield",
+  "creation_timestamp": "2025-07-28T11:15:06.144005",
+  "questions": [
+    {
+      "question": "What is the annual range of additional MediSave top-ups provided to older Pioneer Generation seniors with serious pre-existing conditions from 2021 to 2025?",
+      "answer": "$50 to $200.",
+      "identifier": "medishield_0"
+    },
+    {
+      "question": "What type of charges apply for mobile calls to the 1800 service lines?",
+      "answer": "Airtime charges apply for mobile calls to the 1800 service lines.",
+      "identifier": "medishield_1"
+    },
+    {
+      "question": "Which of the following is NOT covered by MediShield Life? (A) Chemotherapy, (B) Infertility treatment, (C) Hospitalization for injuries, or (D) Dialysis.",
+      "answer": "(B) Infertility treatment.",
+      "identifier": "medishield_2"
+    },
+    {
+      "question": "If Mr. A is hospitalized once in each policy year, how often does this scenario occur assuming a policy year is defined as a 12-month coverage period?",
+      "answer": "This scenario occurs once per policy year, where a policy year is a 12-month coverage period.",
+      "identifier": "medishield_3"
+    },
+    {
+      "question": "For individuals living in residences with an Annual Value of $25,000, how much less will they receive compared to the subsidy rates listed in Table D?",
+      "answer": "They will receive 10 percentage points less than the subsidy rates listed in Table D.",
+      "identifier": "medishield_4"
+    },
+    {
+      "question": "As of what date is the information in the Medishield booklet considered accurate according to the given fact?",
+      "answer": "1 April 2025",
+      "identifier": "medishield_5"
+    },
+    {
+      "question": "What is one purpose of distributing premiums more evenly throughout a person's life in the Medishield program?",
+      "answer": "To moderate premium increases during older ages when one becomes less economically active.",
+      "identifier": "medishield_6"
+    },
+    {
+      "question": "What is the pro-ration factor for surgical charges under Singapore's MediShield program based on ward class?",
+      "answer": "25%.",
+      "identifier": "medishield_7"
+    },
+    {
+      "question": "Which severe and fatal congenital conditions are explicitly excluded from surgical intervention coverage under MediShield Life?",
+      "answer": "MediShield Life does not cover surgical interventions, including related complications, for severe and fatal congenital conditions such as Trisomy 13, Bilateral Renal Agenesis, Bart’s Hydrops, and Anencephaly.",
+      "identifier": "medishield_8"
+    },
+    {
+      "question": "If Mr. B had paid a deductible of $1,000 during his first hospitalization under the Medishield program, what amount of the deductible would he need to pay for his second hospitalization?",
+      "answer": "Mr. B would need to pay a balance deductible of $1,000 for his second hospitalization.",
+      "identifier": "medishield_9"
+    },
+    {
+      "question": "What type of insurance coverage is recommended for individuals seeking non-subsidised treatments in public or private hospitals in Singapore?",
+      "answer": "An Integrated Shield Plan (IP) is recommended for individuals seeking non-subsidised treatments in public or private hospitals in Singapore.",
+      "identifier": "medishield_10"
+    },
+    {
+      "question": "What authority does the CPF Board have concerning the administration of the MediShield Life Scheme as per legislation?",
+      "answer": "The CPF Board may impose terms and conditions for the administration of the MediShield Life Scheme as provided in the legislation.",
+      "identifier": "medishield_11"
+    },
+    {
+      "question": "When will examples of MediShield Life premiums computation without Phased Support begin to apply?",
+      "answer": "Starting 1 April 2027.",
+      "identifier": "medishield_12"
+    },
+    {
+      "question": "Under MediShield Life, up to which calendar day are expenses covered after being certified as medically fit for discharge from inpatient treatment and assessed to have a feasible discharge option?",
+      "answer": "Expenses are covered up to the 7th calendar day after being certified as medically fit for discharge and assessed to have a feasible discharge option.",
+      "identifier": "medishield_13"
+    },
+    {
+      "question": "What is the claimable amount for daily ward and treatment charges in Table A when the charges incurred are $12,000 and the claim limit is the lower of $16,540 or 27% of the incurred charges?",
+      "answer": "The claimable amount is $3,240.",
+      "identifier": "medishield_14"
+    },
+    {
+      "question": "What is the standard MediShield Life premium for Insured A if their additional premium is 30% and totals $191.10?",
+      "answer": "The standard MediShield Life premium for Insured A is $637, as $191.10 is 30% of $637.",
+      "identifier": "medishield_15"
+    },
+    {
+      "question": "Who qualifies as a Merdeka Generation senior in Singapore based on their birth year?",
+      "answer": "Singapore Citizens born on or before 31 December 1959 qualify as Merdeka Generation seniors.",
+      "identifier": "medishield_16"
+    },
+    {
+      "question": "What are the permitted payment methods for the remaining amount of a bill under Singapore's MediShield program according to source citation 7?",
+      "answer": "The remaining amount of the bill can be paid using MediSave and/or cash.",
+      "identifier": "medishield_17"
+    },
+    {
+      "question": "What is the eligibility criterion related to property ownership for receiving Premium Subsidies under Singapore's Medishield program?",
+      "answer": "Individuals who own more than one property are not eligible for Premium Subsidies.",
+      "identifier": "medishield_18"
+    },
+    {
+      "question": "What type of phone connection allows users to make free calls to the 1800 service lines under Singapore's Medishield program?",
+      "answer": "Regular landlines.",
+      "identifier": "medishield_19"
+    },
+    {
+      "question": "Where in the Medishield program documentation are Integrated Shield Plans as additional private insurance coverage explained?",
+      "answer": "Integrated Shield Plans as additional private insurance coverage are explained in section 8.1 of the Medishield program documentation.",
+      "identifier": "medishield_20"
+    },
+    {
+      "question": "What provision does MediShield Life make for individuals with pre-existing medical conditions?",
+      "answer": "MediShield Life provides coverage for individuals with pre-existing medical conditions, allowing them to receive coverage for their conditions.",
+      "identifier": "medishield_21"
+    },
+    {
+      "question": "What is the maximum percentage increase allowed for MediShield Life premiums over the next review cycle of 3 years?",
+      "answer": "35%",
+      "identifier": "medishield_22"
+    },
+    {
+      "question": "What will the net premium amount be in 2026 for Singapore's Medishield program, given a 2.5% year-on-year increase from the 2025 value of $689.42?",
+      "answer": "The net premium amount in 2026 will be $706.65, calculated as $689.42 increased by 2.5%.",
+      "identifier": "medishield_23"
+    },
+    {
+      "question": "Where can individuals find information about Pioneer Generation Subsidies eligibility in the MediShield Life booklet?",
+      "answer": "Information about Pioneer Generation Subsidies eligibility is discussed in section 4.2 of the MediShield Life booklet.",
+      "identifier": "medishield_24"
+    },
+    {
+      "question": "What adjustment is made to the bills of Permanent Residents before MediShield Life claims are computed at public hospitals?",
+      "answer": "Their bills are pro-rated because they receive less subsidies than Singapore Citizens.",
+      "identifier": "medishield_25"
+    },
+    {
+      "question": "Based on the fact provided, what is the total cost incurred for 2 days in a normal ward and 8 days in the ICU under Medishield?",
+      "answer": "$8,600.",
+      "identifier": "medishield_26"
+    }
+  ]
+}
