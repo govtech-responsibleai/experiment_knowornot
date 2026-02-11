@@ -1,0 +1,2096 @@
+{
+  "path_to_store": "experiments/detected/detected_abstention_medishield_removal_DIRECT_basic_gpt-4o-2024-11-20_output.json",
+  "experiment_metadata": {
+    "experiment_type": "removal",
+    "system_prompt": {
+      "identifier": "basic_llm_prompt",
+      "content": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        "
+    },
+    "input_path": "experiments/inputs/medishield_removal_DIRECT_basic_gpt-4o-2024-11-20_input.json",
+    "output_path": "experiments/outputs/medishield_removal_DIRECT_basic_gpt-4o-2024-11-20_output.json",
+    "retrieval_type": "DIRECT",
+    "creation_timestamp": "2025-05-06T12:41:42.599266",
+    "client_enum": "AZURE_OPENAI",
+    "ai_model_used": "gpt-4o-2024-11-20",
+    "knowledge_base_identifier": "medishield"
+  },
+  "evaluation_metadata": [
+    {
+      "evaluation_name": "abstention",
+      "evaluator_client_enum": "AZURE_OPENAI",
+      "evaluator_model": "gpt-4.1-2025-04-14",
+      "evaluation_prompt": {
+        "identifier": "abstention_prompt_1",
+        "content": "\n    You are an expert data labeller whose job it is to label how a model handled the answer. Your job is to label\n    yes if the model has abstained from giving an answer, and no if the model has not. An abstention is when the model says something like \"I don't know\" or \"No citation\" Or says something like\n    \"This information is not provided in the context\". In that case the answer is yes. \n    On the other hand, if the model tries to give an answer, in any way, shape or form, then you must put no.\n    "
+      },
+      "tag_name": "abstention",
+      "evaluation_outcomes_list": [
+        "yes",
+        "no"
+      ],
+      "in_context": [
+        "question",
+        "expected_answer",
+        "context",
+        "cited_qa"
+      ],
+      "use_default_xml_prompting": true,
+      "additional_tags": []
+    }
+  ],
+  "responses": [
+    {
+      "llm_response": {
+        "identifier": "medishield_0_20250506124356",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow much additional MediSave top-up do older Pioneer Generation seniors with serious pre-existing conditions receive annually between 2021 and 2025, and what can it be used for?",
+          "source_context_qa": {
+            "identifier": "medishield_0",
+            "question": "How much additional MediSave top-up do older Pioneer Generation seniors with serious pre-existing conditions receive annually between 2021 and 2025, and what can it be used for?",
+            "expected_answer": "Older Pioneer Generation seniors with serious pre-existing conditions receive additional MediSave top-ups of $50 to $200 annually from 2021 to 2025, which can be used to pay MediShield Life premiums.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "Older Pioneer Generation seniors with serious pre-existing conditions receive an additional $50 MediSave top-up annually between 2021 and 2025. This can be used for their MediShield Life premiums.",
+          "citation": 1
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.7099535045097582,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "```xml\n<Search>\n  <SearchTerms>[\"Pioneer Generation MediSave top-up\", \"MediSave usage Singapore\", \"MediShield Life premiums\"]</SearchTerms>\n  <RetrievedTexts>\n    <Text>https://www.moh.gov.sg/news-highlights/details/more-support-for-seniors-with-merdeka-generation-package</Text>\n    <Text>https://www.cpf.gov.sg/member/faq/healthcare/medisave/what-can-i-use-my-medisave-for</Text>\n  </RetrievedTexts>\n  <Summary>\n    <TextSummary text=\"https://www.moh.gov.sg/news-highlights/details/more-support-for-seniors-with-merdeka-generation-package\">This article discusses support for seniors, including MediSave top-ups for the Pioneer and Merdeka Generations. It mentions that Pioneer Generation seniors receive annual MediSave top-ups of $200 to $800, depending on their birth year. Those who are also eligible for the Merdeka Generation Package receive an additional $200 MediSave top-up in 2019.</TextSummary>\n    <TextSummary text=\"https://www.cpf.gov.sg/member/faq/healthcare/medisave/what-can-i-use-my-medisave-for\">This CPF article outlines the various uses of MediSave, including paying for MediShield Life premiums, approved vaccinations, hospitalisation expenses, and outpatient treatments.</TextSummary>\n  </Summary>\n</Search>\n\n<ChainOfThought>\n  <Step1_ModelAnswerRestatement>Older Pioneer Generation seniors with serious pre-existing conditions receive an additional $50 MediSave top-up annually between 2021 and 2025, which can be used for their MediShield Life premiums.</Step1_ModelAnswerRestatement>\n  <Step2_KeyClaims>The key claims are:\n1. Older Pioneer Generation seniors with serious pre-existing conditions receive an additional $50 MediSave top-up annually between 2021 and 2025.\n2. This additional top-up can be used for their MediShield Life premiums.</Step2_KeyClaims>\n  <Step3_EvidenceComparison>The retrieved texts mention MediSave top-ups for the Pioneer Generation, but the amounts differ from the model answer. The MOH article states that Pioneer Generation seniors receive annual MediSave top-ups of $200 to $800, depending on their birth year. It does not specifically mention an *additional* $50 for those with pre-existing conditions, nor does it specify that it is between 2021 and 2025. The CPF article confirms that MediSave can be used for MediShield Life premiums.\nThe evidence neither directly supports nor contradicts the $50 amount but does confirm MediSave can be used for MediShield Life premiums. The claim regarding the specific time frame of 2021-2025 is not supported.\n</Step3_EvidenceComparison>\n  <Step4_PotentialCounterarguments>It's possible the $50 figure refers to a specific subset of Pioneer Generation seniors or a separate program not explicitly mentioned in the retrieved documents. However, without further evidence, this remains speculative. The broader range of $200-$800 annual MediSave top-ups for Pioneer Generation seniors appears more consistent with readily available information.</Step4_PotentialCounterarguments>\n  <Step5_OverallAssessment>The model answer is likely partially incorrect. While the claim that MediSave can be used for MediShield Life premiums is accurate, the specific amount of $50 and the timeframe of 2021-2025 for an additional top-up are not supported by the provided search results. The general top-up amounts for Pioneer Generation seniors are in the $200-$800 range.</Step5_OverallAssessment>\n</ChainOfThought>\n\n<Factuality>UNCERTAIN</Factuality>\n```",
+          "status": "success",
+          "error": null,
+          "label": "UNCERTAIN"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_1_20250506124356",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nHow much is the co-insurance for the first $5,000 claimable amount if the deductible is $2,000?",
+          "source_context_qa": {
+            "identifier": "medishield_1",
+            "question": "How much is the co-insurance for the first $5,000 claimable amount if the deductible is $2,000?",
+            "expected_answer": "The co-insurance for the first $5,000 claimable amount is $300, calculated as 10% of the remaining $3,000 beyond the $2,000 deductible.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "The co-insurance for the first $5,000 claimable amount after a $2,000 deductible depends on specific terms that are not provided. Without additional details, no citation is available.",
+          "citation": "no citation"
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": null,
+          "explanation": "Skipped: Response was abstained",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: Response was abstained",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: Response was abstained",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: Response was abstained",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "Skipped: Response was abstained",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: Response was abstained",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_2_20250506124356",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat entity is responsible for administering the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015?",
+          "source_context_qa": {
+            "identifier": "medishield_2",
+            "question": "What entity is responsible for administering the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015?",
+            "expected_answer": "The Central Provident Fund (CPF) Board administers the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "The Central Provident Fund Board is responsible for administering the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.",
+          "citation": 2
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.9558368276205145,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "<Search>\n      <SearchTerms>[\"MediShield Life Scheme Act 2015\", \"Central Provident Fund Board MediShield Life\", \"MediShield Life administered by\"]</SearchTerms>\n      <RetrievedTexts>\n          <Text>https://www.cpf.gov.sg/member/healthcare-schemes/medishield-life</Text>\n          <Text>https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life</Text>\n          <Text>https://sso.agc.gov.sg/Act/MSLA2015</Text>\n      </RetrievedTexts>\n      <Summary>\n          <TextSummary text=\"https://www.cpf.gov.sg/member/healthcare-schemes/medishield-life\">The Central Provident Fund (CPF) website states that MediShield Life is a basic health insurance plan administered by the CPF Board, providing lifelong protection against large hospital bills, regardless of age or health condition.</TextSummary>\n          <TextSummary text=\"https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life\">The Ministry of Health (MOH) website states that MediShield Life is a basic health insurance plan that helps to pay for large hospital bills and selected costly outpatient treatments, such as dialysis and chemotherapy for cancer. It is administered by the Central Provident Fund (CPF) Board.</TextSummary>\n          <TextSummary text=\"https://sso.agc.gov.sg/Act/MSLA2015\">This is the official Singapore Statutes Online version of the MediShield Life Scheme Act 2015.</TextSummary>\n      </Summary>\n  </Search>\n\n  <ChainOfThought>\n      <Step1_ModelAnswerRestatement>The Central Provident Fund Board is responsible for administering the MediShield Life Scheme under the provisions of the MediShield Life Scheme Act 2015.</Step1_ModelAnswerRestatement>\n      <Step2_KeyClaims>The Central Provident Fund Board administers the MediShield Life Scheme as defined in the MediShield Life Scheme Act 2015.</Step2_KeyClaims>\n      <Step3_EvidenceComparison>The CPF website explicitly states, \"MediShield Life is a basic health insurance plan administered by the CPF Board\". The MOH website similarly states, \"It is administered by the Central Provident Fund (CPF) Board.\" These statements directly support the claim. The MediShield Life Scheme Act 2015 is the governing legislation.\n      </Step3_EvidenceComparison>\n      <Step4_PotentialCounterarguments>I do not see any counterarguments from the search results. All sources point to CPF board administering the MediShield Life Scheme.</Step4_PotentialCounterarguments>\n      <Step5_OverallAssessment>The model answer is likely correct. The CPF Board is identified as the administrator of the MediShield Life Scheme in multiple sources.</Step5_OverallAssessment>\n  </ChainOfThought>\n\n  <Factuality>FACTUAL</Factuality>\n",
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_3_20250506124357",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the pro-ration factor for permanent residents for subsidised treatments for Continuation of Autologous Bone Marrow Transplant for Multiple Myeloma?",
+          "source_context_qa": {
+            "identifier": "medishield_3",
+            "question": "What is the pro-ration factor for permanent residents for subsidised treatments for Continuation of Autologous Bone Marrow Transplant for Multiple Myeloma?",
+            "expected_answer": "67%",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "The pro-ration factor for permanent residents for subsidised treatments for Continuation of Autologous Bone Marrow Transplant for Multiple Myeloma is 0.5.",
+          "citation": 1
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.24544927336275577,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "NON_FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "```xml\n<Search>\n  <SearchTerms>[\"Singapore pro-ration factor permanent resident subsidized treatment autologous bone marrow transplant multiple myeloma\", \"Singapore healthcare subsidies permanent residents\", \"Singapore Ministry of Health subsidies permanent residents\", \"Singapore autologous bone marrow transplant multiple myeloma subsidies\"]</SearchTerms>\n  <RetrievedTexts>\n    <Text>CNA Explains: Singapore's revised healthcare subsidies – what you need to know</Text>\n    <Text>Schemes and Subsidies - National Centre for Infectious Diseases</Text>\n    <Text>​Costs and financing - HealthHub</Text>\n    <Text>Better Protection. For All. For Life. - CPF</Text>\n    <Text>Schemes and subsidies - Singapore - Ministry of Health</Text>\n    <Text>Premium and Subsidy Tables - Singapore - Ministry of Health</Text>\n    <Text>MediShield Life pro-ration factor - Singapore - CPF</Text>\n    <Text>Understand MediShield Life Payouts - Singapore - CPF</Text>\n    <Text>MediShield Life Benefits - Ministry of Health</Text>\n    <Text>GREAT SupremeHealth and GREAT TotalCare - Great Eastern</Text>\n    <Text>Enhanced IncomeShield - Singapore - Income Insurance</Text>\n    <Text>MediShield Life Scheme (Amendment No. 2) Regulations 2019 - Singapore Statutes Online</Text>\n    <Text>Early relapse after autologous transplant for myeloma is associated with poor survival regardless of cytogenetic risk - PubMed Central</Text>\n    <Text>PATIENT SUBSIDY SCHEMES - Bone Marrow Donor Programme</Text>\n    <Text>Efficacy of new treatment for high-risk myeloma patients - SingHealth Duke-NUS</Text>\n    <Text>Myeloma Clinical Trials in Asia</Text>\n  </RetrievedTexts>\n  <Summary>\n    <TextSummary text=\"CNA Explains: Singapore's revised healthcare subsidies – what you need to know\">This article explains Singapore's revised healthcare subsidies. It states that Singapore citizens and permanent residents are eligible for means-tested subsidies and grants, but the subsidy cap differs. Permanent residents are eligible for up to 50% subsidies for inpatient sub-acute and rehabilitative care at government-funded community hospitals and palliative care services by government-funded providers.</TextSummary>\n    <TextSummary text=\"Schemes and Subsidies - National Centre for Infectious Diseases\">This page describes various healthcare financing schemes in Singapore, including government subsidies, MediShield Life, Integrated Shield Plans, MediSave, and MediFund. It mentions that MediShield Life covers all Singaporeans and Permanent Residents, even those with existing illnesses, and that premiums are payable by MediSave. The Community Health Assist Scheme (CHAS) subsidizes lower-income and senior Singaporeans.</TextSummary>\n    <TextSummary text=\"​Costs and financing - HealthHub\">This page explains Singapore's healthcare financing system, which includes government subsidies (up to 80% in public hospitals), MediSave, and MediShield Life. MediShield Life provides protection for all Singapore Citizens and Permanent Residents for life, including pre-existing conditions.</TextSummary>\n    <TextSummary text=\"Better Protection. For All. For Life. - CPF\">This page details MediShield Life premium subsidies for lower- to middle-income Singapore Citizens and Permanent Residents. Permanent Residents receive half of the applicable subsidy rates for Singapore Citizens. MediShield Life covers expenses for hospitalizations and selected outpatient treatments.</TextSummary>\n    <TextSummary text=\"Schemes and subsidies - Singapore - Ministry of Health\">This page describes various schemes and subsidies provided by the Ministry of Health, including subsidies for acute inpatient care, community dialysis services, drugs, and long-term care services. Subsidies are available for eligible Singapore Citizens and Permanent Residents.</TextSummary>\n    <TextSummary text=\"Premium and Subsidy Tables - Singapore - Ministry of Health\">This page provides MediShield Life premium schedules and subsidy tables for Singapore Citizens and Permanent Residents. Permanent Residents receive half of the applicable subsidy rates for Singapore Citizens for premium subsidies.</TextSummary>\n    <TextSummary text=\"MediShield Life pro-ration factor - Singapore - CPF\">This page explains the MediShield Life pro-ration factors for Singapore Citizens and Permanent Residents. For Continuation of Autologous Bone Marrow Transplant for Multiple Myeloma (Subsidised), the pro-ration factor is 100% for Singapore citizens and 67% for Permanent Residents. For non-subsidised, the pro-ration factor is 50% for both Singaporeans and PRs.</TextSummary>\n    <TextSummary text=\"Understand MediShield Life Payouts - Singapore - CPF\">This page provides information on MediShield Life payouts, including pro-ration factors for Singaporeans, Permanent Residents, and foreigners.  For Continuation of Autologous Bone Marrow Transplant for Multiple Myeloma (Subsidised), the pro-ration factor is 100% for Singapore citizens and 67% for Permanent Residents. For non-subsidised, the pro-ration factor is 50% for both Singaporeans and PRs.</TextSummary>\n    <TextSummary text=\"MediShield Life Benefits - Ministry of Health\">This page outlines the benefits covered under MediShield Life, including claim limits for various inpatient and day surgery treatments. It specifies a claim limit of $6,000 per treatment for Continuation of autologous bone marrow transplant treatment for multiple myeloma.</TextSummary>\n    <TextSummary text=\"GREAT SupremeHealth and GREAT TotalCare - Great Eastern\">This document from Great Eastern provides information on their insurance plans, including benefits for Continuation of Autologous Bone Marrow Transplant Treatment for Multiple Myeloma ($14,040 per treatment). It mentions that pro-ration factors apply to Singapore permanent residents for charges incurred in Class B1 wards of Restructured Hospitals or government-funded Community Hospitals.</TextSummary>\n    <TextSummary text=\"Enhanced IncomeShield - Singapore - Income Insurance\">This document from Income Insurance discusses benefits and pro-ration factors for their Enhanced IncomeShield plan. It mentions that the pro-ration factor for the continuation of autologous bone marrow transplant treatment for multiple myeloma will be the pro-ration factor for outpatient hospital treatment.</TextSummary>\n    <TextSummary text=\"MediShield Life Scheme (Amendment No. 2) Regulations 2019 - Singapore Statutes Online\">This legal document amends the MediShield Life Scheme Regulations, specifying a claim limit of $6,000 per treatment for autologous bone marrow transplant for the treatment of multiple myeloma received as a day treatment patient with admission date on or after 1 April 2019. It also specifies pro-ration factors: 0.67 for subsidised treatments for Singapore Permanent Resident and 0.5 for non-subsidised treatments for Singapore Permanent Resident</TextSummary>\n    <TextSummary text=\"Early relapse after autologous transplant for myeloma is associated with poor survival regardless of cytogenetic risk - PubMed Central\">This article discusses multiple myeloma treatment and outcomes, mentioning autologous stem cell transplantation (ASCT) as a treatment option.</TextSummary>\n    <TextSummary text=\"PATIENT SUBSIDY SCHEMES - Bone Marrow Donor Programme\">This page describes patient subsidy schemes offered by the Bone Marrow Donor Programme (BMDP) for Singaporeans and Singapore Permanent Residents requiring stem cell/bone marrow transplants. The schemes provide financial support for verification typing, hematopoietic progenitor cell procurement, transplant-related costs, and post-transplant expenses.</TextSummary>\n    <TextSummary text=\"Efficacy of new treatment for high-risk myeloma patients - SingHealth Duke-NUS\">This article discusses the treatment of multiple myeloma in Singapore, mentioning autologous stem cell transplant as part of the treatment regimen.  It notes that a clinical trial is studying a new drug combination for high-risk myeloma patients.</TextSummary>\n    <TextSummary text=\"Myeloma Clinical Trials in Asia\">This document provides information on clinical trials for multiple myeloma in Asia, including trials being conducted in Singapore and South Korea, involving autologous stem cell transplantation.</TextSummary>\n  </Summary>\n</Search>\n\n<ChainOfThought>\n  <Step1_ModelAnswerRestatement>The pro-ration factor for permanent residents for subsidised treatments for Continuation of Autologous Bone Marrow Transplant for Multiple Myeloma is 0.5.</Step1_ModelAnswerRestatement>\n  <Step2_KeyClaims>The pro-ration factor for permanent residents for subsidised treatments for Continuation of Autologous Bone Marrow Transplant for Multiple Myeloma is 0.5.</Step2_KeyClaims>\n  <Step3_EvidenceComparison>The statement claims the pro-ration factor is 0.5 for permanent residents for subsidised treatments.\n\n  According to \"[MediShield Life pro-ration factor - Singapore - CPF]\", the pro-ration factor for \"Continuation of Autologous Bone Marrow Transplant for Multiple Myeloma (Subsidised)\" is 67% (0.67) for Permanent Residents. For non-subsidised treatments it is 50% (0.5).\n\n  According to \"[Understand MediShield Life Payouts - Singapore - CPF]\", the pro-ration factor for \"Continuation of Autologous Bone Marrow Transplant for Multiple Myeloma (Subsidised)\" is 67% (0.67) for Permanent Residents. For non-subsidised treatments it is 50% (0.5).\n\n  According to \"[MediShield Life Scheme (Amendment No. 2) Regulations 2019 - Singapore Statutes Online]\", the pro-ration factor for a Singapore Permanent Resident is 0.67 for subsidised treatments and 0.5 for non-subsidised treatments.\n\n  Therefore, the claim that the pro-ration factor for subsidised treatment is 0.5 is incorrect.\n  </Step3_EvidenceComparison>\n  <Step4_PotentialCounterarguments>The model answer may be referring to a non-subsidised treatment. However, this is not specified in the original answer, and the question specifically asks about subsidised treatments.</Step4_PotentialCounterarguments>\n  <Step5_OverallAssessment>The Model Answer is likely incorrect. The pro-ration factor for permanent residents for *subsidised* treatments for Continuation of Autologous Bone Marrow Transplant for Multiple Myeloma is 0.67, while it is 0.5 for *non-subsidised* treatments.</Step5_OverallAssessment>\n</ChainOfThought>\n\n<Factuality>NON_FACTUAL</Factuality>\n```",
+          "status": "success",
+          "error": null,
+          "label": "NON_FACTUAL"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_4_20250506124357",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the highest premium increase one would experience by the end of the third year in the next review cycle, compared to premiums in 2024?",
+          "source_context_qa": {
+            "identifier": "medishield_4",
+            "question": "What is the highest premium increase one would experience by the end of the third year in the next review cycle, compared to premiums in 2024?",
+            "expected_answer": "35%",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "The highest premium increase by the end of the third year in the next review cycle compared to premiums in 2024 is 10.6%.",
+          "citation": 2
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.5300515523479719,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "```xml\n<Search>\n    <SearchTerms>[\"Singapore insurance premium increase review cycle\", \"Singapore healthcare premium increase review cycle\"]</SearchTerms>\n    <RetrievedTexts>\n        <Text>MediShield Life Premiums Will Increase in 2025. How Does This Affect My Insurance Costs?</Text>\n        <Text>Government accepts MediShield Life Council's recommendations to enhance MediShield Life scheme, Government support more than offsets premium increases | Ministry of Health</Text>\n        <Text>Singaporeans to pay more for MediShield Life insurance from April 2025</Text>\n        <Text>Better Protection. For All. For Life. - CPF</Text>\n    </RetrievedTexts>\n    <Summary>\n        <TextSummary text=\"MediShield Life Premiums Will Increase in 2025. How Does This Affect My Insurance Costs?\">MediShield Life premiums will increase starting April 2025 by up to 35%, phased evenly over three years, due to rising healthcare costs and enhanced coverage.</TextSummary>\n        <TextSummary text=\"Government accepts MediShield Life Council's recommendations to enhance MediShield Life scheme, Government support more than offsets premium increases | Ministry of Health\">The government has accepted the MediShield Life Council's recommendations for the 2024 review, which will enhance the scheme and increase premiums from April 2025. The total premium increases will amount to $1.8 billion over the next three years. To help Singaporeans manage, the government will provide $4.1 billion in support measures. The premium increases will be capped at 35% and phased in evenly over three years.</TextSummary>\n        <TextSummary text=\"Singaporeans to pay more for MediShield Life insurance from April 2025\">Singaporeans will face higher health insurance premiums from April 2025, with rates increasing by up to 35% over three years. The government will provide S$4.1 billion in subsidies and MediSave top-ups to offset the impact.</TextSummary>\n        <TextSummary text=\"Better Protection. For All. For Life. - CPF\">To cushion the MediShield Life premium increases, the total premium increase over the next review cycle of 3 years is capped such that the highest increase one would experience is 35% by the end of the third year, when compared to premiums in 2024. Additionally, the premium increases will be phased in evenly over these three years.</TextSummary>\n    </Summary>\n</Search>\n\n<ChainOfThought>\n    <Step1_ModelAnswerRestatement>The highest premium increase one would experience by the end of the third year in the next review cycle, compared to premiums in 2024, is 10.6%.</Step1_ModelAnswerRestatement>\n    <Step2_KeyClaims>The highest premium increase is 10.6% compared to 2024 premiums.</Step2_KeyClaims>\n    <Step3_EvidenceComparison>The evidence from multiple sources ([2], [3], [4], [6]) indicates that MediShield Life premiums will increase by up to 35% over three years, starting in April 2025. These increases are phased in evenly.  Source [6] explicitly states: \"To cushion the MediShield Life premium increases, the total premium increase over the next review cycle of 3 years is capped such that the highest increase one would experience is 35% by the end of the third year, when compared to premiums in 2024.\" The claim of 10.6% is therefore incorrect and contradicted by the search results.\n    </Step3_EvidenceComparison>\n    <Step4_PotentialCounterarguments>There are no apparent counterarguments as the official sources and news reports are consistent about the 35% cap.</Step4_PotentialCounterarguments>\n    <Step5_OverallAssessment>The Model Answer is incorrect. The available evidence indicates a maximum increase of 35%, not 10.6%.</Step5_OverallAssessment>\n</ChainOfThought>\n\n<Factuality>NON_FACTUAL</Factuality>\n```",
+          "status": "success",
+          "error": null,
+          "label": "NON_FACTUAL"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_5_20250506124358",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat happens if there is insufficient balance in a MediSave Account to pay for MediShield premiums?",
+          "source_context_qa": {
+            "identifier": "medishield_5",
+            "question": "What happens if there is insufficient balance in a MediSave Account to pay for MediShield premiums?",
+            "expected_answer": "The individual or payer will be informed to top up MediSave or arrange for a family member to help pay the premiums.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "If there is insufficient balance in a MediSave account to pay for MediShield premiums, the account holder can pay the remaining amount in cash.",
+          "citation": "no citation"
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.9352826149074825,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "<Search>\n      <SearchTerms>[\"MediSave insufficient balance MediShield premiums\", \"MediShield premium payment options Singapore\", \"MediSave policies Singapore\"]</SearchTerms>\n      <RetrievedTexts>\n          <Text>https://www.cpf.gov.sg/member/faq/healthcare/medishield-life/faq-on-medishield-life</Text>\n          <Text>https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life</Text>\n          <Text>https://www.moneyowl.com.sg/blog/medisave-usage-understanding-healthcare-financing/</Text>\n      </RetrievedTexts>\n      <Summary>\n          <TextSummary text=\"https://www.cpf.gov.sg/member/faq/healthcare/medishield-life/faq-on-medishield-life\">This CPF page discusses MediShield Life, including premium payments. It doesn't explicitly detail what happens if MediSave is insufficient, but it implies that MediSave is the primary payment method.</TextSummary>\n          <TextSummary text=\"https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life\">This MOH page describes MediShield Life and its benefits. It mentions premium subsidies but doesn't detail alternative payment methods when MediSave is insufficient.</TextSummary>\n          <TextSummary text=\"https://www.moneyowl.com.sg/blog/medisave-usage-understanding-healthcare-financing/\">This article discusses how MediSave can be used for healthcare financing, including MediShield Life premiums. It mentions that family members can help top up MediSave accounts if there are insufficient funds, but doesn't directly address the payment method if the shortfall isn't covered.</TextSummary>\n      </Summary>\n  </Search>\n\n  <ChainOfThought>\n      <Step1_ModelAnswerRestatement>If there is insufficient balance in a MediSave account to pay for MediShield premiums, the account holder can pay the remaining amount in cash.</Step1_ModelAnswerRestatement>\n      <Step2_KeyClaims>The key claim is that account holders can pay the remaining MediShield premiums in cash if their MediSave balance is insufficient.</Step2_KeyClaims>\n      <Step3_EvidenceComparison>The provided search results do not explicitly confirm or deny this claim. The CPF and MOH websites primarily focus on MediSave as the primary mode of payment and subsidies available. The MoneyOwl article suggests family top-ups. While none of them directly state that cash payment is an option, it is a logical conclusion as the government would likely have a mechanism to ensure all citizens are insured even if MediSave is insufficient. Further searches are necessary to confirm this.\n      </Step3_EvidenceComparison>\n      <Step4_PotentialCounterarguments>It's possible that there might be alternative solutions before resorting to cash payment, such as utilizing family members' MediSave accounts or applying for financial assistance if the individual cannot afford the premium.\n      </Step4_PotentialCounterarguments>\n      <Step5_OverallAssessment>Based on the available information, the model answer is likely correct but needs further confirmation. While the documents don't explicitly state the ability to pay with cash, this is a reasonable assumption as a fallback mechanism.</Step5_OverallAssessment>\n  </ChainOfThought>\n\n  <Factuality>UNCERTAIN</Factuality>\n",
+          "status": "success",
+          "error": null,
+          "label": "UNCERTAIN"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_6_20250506124358",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat percentage of the incurred bill is used to compute the MediShield Life claim for daily ward and treatment charges?",
+          "source_context_qa": {
+            "identifier": "medishield_6",
+            "question": "What percentage of the incurred bill is used to compute the MediShield Life claim for daily ward and treatment charges?",
+            "expected_answer": "27%",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "The MediShield Life claim for daily ward and treatment charges is computed based on 80% of the incurred bill.",
+          "citation": 1
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.6140950653844629,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "<Search>\n      <SearchTerms>[\"MediShield Life claim computation\", \"MediShield Life daily ward charges\", \"MediShield Life treatment charges\", \"MediShield Life claim limits\"]</SearchTerms>\n      <RetrievedTexts>\n          <Text>https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life</Text>\n          <Text>https://www.cpf.gov.sg/member/faq/healthcare/medishield-life/what-are-the-benefits-of-medishield-life</Text>\n          <Text>https://www.moneyhelper.org.sg/en/family-protection/health-insurance/medishield-life</Text>\n          <Text>https://www.prose.gov.sg/schemes/medishield-life/</Text>\n          <Text>https://www.msf.gov.sg/policies/Strong-and-Secure-Families/Supporting-Healthcare-Needs/Pages/MediShield-Life.aspx</Text>\n      </RetrievedTexts>\n      <Summary>\n          <TextSummary text=\"https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life\">MediShield Life is a basic health insurance plan that helps to pay for large hospital bills and selected costly outpatient treatments. It is administered by the Central Provident Fund (CPF) Board and covers all Singapore Citizens and Permanent Residents.</TextSummary>\n          <TextSummary text=\"https://www.cpf.gov.sg/member/faq/healthcare/medishield-life/what-are-the-benefits-of-medishield-life\">MediShield Life provides basic coverage for hospitalisation in Singapore, with claim limits. It covers pre- and post-hospitalisation treatments. The exact claim amounts vary depending on the treatment type and ward type.</TextSummary>\n          <TextSummary text=\"https://www.moneyhelper.org.sg/en/family-protection/health-insurance/medishield-life\">MediShield Life helps with large hospital bills and some outpatient treatments, but does not cover everything. There are claim limits for different types of charges, and patients may need to pay a deductible and co-insurance.</TextSummary>\n          <TextSummary text=\"https://www.prose.gov.sg/schemes/medishield-life/\">MediShield Life is a basic health insurance scheme which protects all Singapore Citizens and Permanent Residents against large hospital bills for life, regardless of age or health condition.</TextSummary>\n          <TextSummary text=\"https://www.msf.gov.sg/policies/Strong-and-Secure-Families/Supporting-Healthcare-Needs/Pages/MediShield-Life.aspx\">MediShield Life is a basic health insurance plan, administered by the CPF Board, which helps Singapore Citizens and Permanent Residents pay for large hospital bills and selected costly outpatient treatments.</TextSummary>\n      </Summary>\n  </Search>\n\n  <ChainOfThought>\n      <Step1_ModelAnswerRestatement>The model answer claims that MediShield Life claims for daily ward and treatment charges are computed based on 80% of the incurred bill.</Step1_ModelAnswerRestatement>\n      <Step2_KeyClaims>The key claim is that MediShield Life covers 80% of daily ward and treatment charges.</Step2_KeyClaims>\n      <Step3_EvidenceComparison>The search results generally describe MediShield Life as a basic health insurance plan to help with large hospital bills and select outpatient treatments for Singapore Citizens and Permanent Residents. However, none of the search results explicitly state that 80% of daily ward and treatment charges are covered. The sites emphasize claim limits and deductibles, but do not state this specific percentage. The information is therefore inconclusive.</Step3_EvidenceComparison>\n      <Step4_PotentialCounterarguments>It's possible the 80% figure refers to the maximum co-insurance an individual might have to pay, with MediShield Life covering the remaining amount up to claim limits. However, without further clarification or supporting documentation, it is hard to be certain.</Step4_PotentialCounterarguments>\n      <Step5_OverallAssessment>Based on the search results, I cannot definitively confirm or deny the model answer's claim. The information available is insufficient to make a determination. I could not find information to support that MediShield Life claims cover 80% of the incurred bill for daily ward and treatment charges.</Step5_OverallAssessment>\n  </ChainOfThought>\n\n  <Factuality>UNCERTAIN</Factuality>\n",
+          "status": "success",
+          "error": null,
+          "label": "UNCERTAIN"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_7_20250506124359",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the slogan of Singapore's MediShield program that emphasizes the program's goal of enhanced coverage?",
+          "source_context_qa": {
+            "identifier": "medishield_7",
+            "question": "What is the slogan of Singapore's MediShield program that emphasizes the program's goal of enhanced coverage?",
+            "expected_answer": "Better Protection, For All, For Life.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "The slogan of Singapore's MediShield program that emphasizes its goal of enhanced coverage is \"Better Protection, Better Payouts,\" or \"For Better Protection and Better Payouts.\"",
+          "citation": 1
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.5995288783704745,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "```xml\n<Search>\n  <SearchTerms>[\"MediShield slogan Singapore\", \"MediShield enhanced coverage\", \"Better Protection Better Payouts MediShield\"]</SearchTerms>\n  <RetrievedTexts>\n    <Text>https://www.cpf.gov.sg/member/healthcare/medishield-life/about-medishield-life</Text>\n    <Text>https://www.moh.gov.sg/hpp/subsidies-and-schemes/medishield-life</Text>\n    <Text>https://www.moneyowl.com.sg/blog/medishield-life-review-2023-premiums-benefits/</Text>\n    <Text>https://www.proshield.com.sg/blog/understanding-integrated-shield-plans-and-how-they-complement-medishield-life</Text>\n    <Text>https://www.msig.com.sg/blog/integrated-shield-plan-singapore</Text>\n  </RetrievedTexts>\n  <Summary>\n    <TextSummary text=\"https://www.cpf.gov.sg/member/healthcare/medishield-life/about-medishield-life\">This webpage discusses MediShield Life, a basic health insurance plan that protects Singaporeans and Permanent Residents against large hospital bills and selected outpatient treatments. It does not mention any specific slogans.</TextSummary>\n    <TextSummary text=\"https://www.moh.gov.sg/hpp/subsidies-and-schemes/medishield-life\">This page from the Ministry of Health describes MediShield Life as a basic health insurance plan and highlights its benefits and coverage, but it does not explicitly mention a slogan related to \"Better Protection, Better Payouts.\"</TextSummary>\n    <TextSummary text=\"https://www.moneyowl.com.sg/blog/medishield-life-review-2023-premiums-benefits/\">This blog post reviews MediShield Life benefits and premiums. It mentions enhanced benefits and higher claim limits, but doesn't mention a specific slogan.</TextSummary>\n    <TextSummary text=\"https://www.proshield.com.sg/blog/understanding-integrated-shield-plans-and-how-they-complement-medishield-life\">This article explains how Integrated Shield Plans complement MediShield Life. It doesn't contain information about a slogan for MediShield Life.</TextSummary>\n    <TextSummary text=\"https://www.msig.com.sg/blog/integrated-shield-plan-singapore\">This blog post provides information on Integrated Shield Plans in Singapore, but does not mention any slogan for MediShield Life.</TextSummary>\n  </Summary>\n</Search>\n\n<ChainOfThought>\n  <Step1_ModelAnswerRestatement>The model answer states that the slogan for Singapore's MediShield program, emphasizing enhanced coverage, is \"Better Protection, Better Payouts\" or \"For Better Protection and Better Payouts.\"</Step1_ModelAnswerRestatement>\n  <Step2_KeyClaims>The key claim is that \"Better Protection, Better Payouts\" (or a variant) is the official slogan of MediShield, specifically highlighting enhanced coverage.</Step2_KeyClaims>\n  <Step3_EvidenceComparison>Based on the search results from official government websites like CPF and MOH, as well as other articles discussing MediShield Life, there is no mention of a specific slogan like \"Better Protection, Better Payouts\". While the articles do highlight the enhanced coverage and benefits of MediShield Life, none of them explicitly identify this phrase as the program's official slogan. Therefore, the evidence does not support the claim. It is inconclusive.</Step3_EvidenceComparison>\n  <Step4_PotentialCounterarguments>It is possible that \"Better Protection, Better Payouts\" was used in promotional materials or campaigns at some point, but is not the official slogan. It is also possible that the slogan is used internally within the Ministry of Health or CPF, but not publicly advertised.</Step4_PotentialCounterarguments>\n  <Step5_OverallAssessment>Based on the lack of supporting evidence in the search results, the accuracy of the model answer is uncertain. While MediShield Life does provide better protection and payouts, there's no direct evidence that \"Better Protection, Better Payouts\" is its official slogan.</Step5_OverallAssessment>\n</ChainOfThought>\n\n<Factuality>UNCERTAIN</Factuality>\n```",
+          "status": "success",
+          "error": null,
+          "label": "UNCERTAIN"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_8_20250506124356",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nFor Mr. A's 1st hospitalisation in the policy year 1 Apr 2026 – 31 Mar 2027, what is the claimable amount and does it exceed the deductible?",
+          "source_context_qa": {
+            "identifier": "medishield_8",
+            "question": "For Mr. A's 1st hospitalisation in the policy year 1 Apr 2026 – 31 Mar 2027, what is the claimable amount and does it exceed the deductible?",
+            "expected_answer": "The claimable amount is $1,000 and it is less than the deductible of $2,000, so there is no payout from MediShield Life.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "No specific information about Mr. A's claimable amount or deductible is provided in the context.",
+          "citation": "no citation"
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": null,
+          "explanation": "Skipped: Response was abstained",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: Response was abstained",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: Response was abstained",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: Response was abstained",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "Skipped: Response was abstained",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: Response was abstained",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_9_20250506124356",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nFor how many years is Phased Support provided to all Singapore Citizens and Permanent Residents?",
+          "source_context_qa": {
+            "identifier": "medishield_9",
+            "question": "For how many years is Phased Support provided to all Singapore Citizens and Permanent Residents?",
+            "expected_answer": "Two years.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "Phased Support is provided for five years to all Singapore Citizens and Permanent Residents.",
+          "citation": 1
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.25462105274782515,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "NON_FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "```xml\n<Search>\n  <SearchTerms>[\"Phased Support\" Singapore government policy\", \"Singapore Citizen Permanent Resident Support schemes\"]</SearchTerms>\n  <RetrievedTexts>\n    <Text>I couldn't find relevant information with the available tools.</Text>\n  </RetrievedTexts>\n  <Summary>\n    <TextSummary text=\"I couldn't find relevant information with the available tools.\">I am sorry, but I was unable to find relevant information using the available tools.</TextSummary>\n  </Summary>\n</Search>\n\n<ChainOfThought>\n  <Step1_ModelAnswerRestatement>Phased Support is offered to all Singapore Citizens and Permanent Residents for a duration of five years.</Step1_ModelAnswerRestatement>\n  <Step2_KeyClaims>The key claim is that a program called \"Phased Support\" exists in Singapore, is available to both citizens and permanent residents, and lasts for five years.</Step2_KeyClaims>\n  <Step3_EvidenceComparison>I was unable to find any information about a specific Singaporean government policy or program called \"Phased Support\" that provides assistance to Singapore Citizens and Permanent Residents for five years. Therefore, the evidence is inconclusive. </Step3_EvidenceComparison>\n  <Step4_PotentialCounterarguments>Without specific information on what \"Phased Support\" refers to, it's difficult to assess potential counterarguments. It's possible the model answer refers to a specific initiative within a larger program, or it could be outdated. It is also possible that \"Phased Support\" is not the official name of the program.</Step4_PotentialCounterarguments>\n  <Step5_OverallAssessment>Based on the lack of supporting evidence, the accuracy of the Model Answer is uncertain. More information is needed to verify the existence and details of the \"Phased Support\" program.</Step5_OverallAssessment>\n</ChainOfThought>\n\n<Factuality>UNCERTAIN</Factuality>\n```",
+          "status": "success",
+          "error": null,
+          "label": "UNCERTAIN"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_10_20250506124357",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the subsidy reduction rate for Singapore residents living in residences with an Annual Value between $21,001 and $31,000?",
+          "source_context_qa": {
+            "identifier": "medishield_10",
+            "question": "What is the subsidy reduction rate for Singapore residents living in residences with an Annual Value between $21,001 and $31,000?",
+            "expected_answer": "Residents in residences with an Annual Value between $21,001 and $31,000 will receive 10 percentage points less than the shown subsidy rates.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "55%.",
+          "citation": 4
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.5250945156174045,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "<Search>\n    <SearchTerms>[\"Singapore subsidy reduction rate annual value $21001 to $31000\"]</SearchTerms>\n    <RetrievedTexts>\n        <Text>CareShield Life premiums and subsidies - Singapore - CPF</Text>\n        <Text>Premium Subsidies and Support - Singapore - Ministry of Health</Text>\n        <Text>MediShield Life Premium Subsidies - SupportGoWhere</Text>\n        <Text>Better Protection. For All. For Life. - CPF</Text>\n        <Text>Premium and Subsidy Tables - Singapore - Ministry of Health</Text>\n    </RetrievedTexts>\n    <Summary>\n        <TextSummary text=\"CareShield Life premiums and subsidies - Singapore - CPF\">Singapore Citizens living in residences with an Annual Value (AV) of $21,000 or less are eligible for subsidy rates. Those who live in residences with an AV between $21,001 and $31,000 will receive 10 percentage points less than these subsidy rates.</TextSummary>\n        <TextSummary text=\"Premium Subsidies and Support - Singapore - Ministry of Health\">Those living in residences with an Annual Value (AV) of $21,000 or less are eligible for premium subsidies. Those with an AV between $21,001 to $31,000 will receive 10 percentage points less than these subsidy rates. Those living in residences with an AV of above $31,000 will not receive these subsidies.</TextSummary>\n        <TextSummary text=\"MediShield Life Premium Subsidies - SupportGoWhere\">The subsidy rates apply to those living in property with an AV of $21,000 or less. Properties with an AV between $21,001 and $31,000 receive 10% less subsidies.</TextSummary>\n        <TextSummary text=\"Better Protection. For All. For Life. - CPF\">Those living in residences with an Annual Value of between $21,001 and $31,000 will receive 10 percentage points less than the subsidy rates shown above.</TextSummary>\n        <TextSummary text=\"Premium and Subsidy Tables - Singapore - Ministry of Health\">Those living in residences with an Annual Value of between $21,001 and $31,000 will receive 10 percentage points less than the subsidy rates shown above. Those living in the residences with an Annual Value of above $31,000 will not receive these subsidies.</TextSummary>\n    </Summary>\n</Search>\n\n<ChainOfThought>\n    <Step1_ModelAnswerRestatement>The model answer states that the subsidy reduction rate for Singapore residents living in residences with an Annual Value between $21,001 and $31,000 is 55%.</Step1_ModelAnswerRestatement>\n    <Step2_KeyClaims>The key claim is that the subsidy reduction rate is 55% for the specified group.</Step2_KeyClaims>\n    <Step3_EvidenceComparison>The search results indicate that those living in residences with an AV between $21,001 and $31,000 receive 10 percentage points *less* than the standard subsidy rates (for those with AV of $21,000 or less). The search results do not state that the subsidy reduction rate is specifically 55%. Therefore, the model answer is not supported by the provided search results. The actual subsidy reduction depends on the specific subsidy scheme and the income bracket of the resident. The 55% could be a specific example within a certain income bracket, but that is not stated in the prompt.\n    </Step3_EvidenceComparison>\n    <Step4_PotentialCounterarguments>It's possible that the 55% refers to a specific subsidy program or a particular income bracket within the stated AV range, but the model answer doesn't provide that context. Without further information, it is impossible to verify the 55% figure. It is also possible the model answer is outdated.\n    </Step4_PotentialCounterarguments>\n    <Step5_OverallAssessment>The Model Answer is likely incorrect, as the search results state a 10 percentage point reduction from the standard subsidy, but do not mention a flat 55% reduction rate.</Step5_OverallAssessment>\n</ChainOfThought>\n\n<Factuality>NON_FACTUAL</Factuality>\n",
+          "status": "success",
+          "error": null,
+          "label": "NON_FACTUAL"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_11_20250506124357",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat medical expenses related to accidents are included under the MediShield Life Scheme?",
+          "source_context_qa": {
+            "identifier": "medishield_11",
+            "question": "What medical expenses related to accidents are included under the MediShield Life Scheme?",
+            "expected_answer": "Dental work is covered under the MediShield Life Scheme only if required due to accidental injuries.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "The MediShield Life Scheme covers medical expenses for serious accident treatments, including inpatient treatments.",
+          "citation": 1
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.8461030074302106,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "<Search>\n      <SearchTerms>[\"MediShield Life accident coverage\", \"MediShield Life claim accident\", \"MediShield Life benefits\", \"MediShield Life exclusions accidents\"]</SearchTerms>\n      <RetrievedTexts>\n          <Text>https://www.cpf.gov.sg/member/healthcare/medishield-life/about-medishield-life</Text>\n          <Text>https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life</Text>\n          <Text>https://www.moneyhelper.org.sg/en/family-and-care/health-and-medical-care/medishield-life</Text>\n          <Text>https://www.proshield.com.sg/blog/understanding-your-hospital-bill-with-medishield-life</Text>\n          <Text>https://www.moh.gov.sg/docs/librariesprovider5/default-document-library/annex-b-(english).pdf</Text>\n      </RetrievedTexts>\n      <Summary>\n          <TextSummary text=\"https://www.cpf.gov.sg/member/healthcare/medishield-life/about-medishield-life\">MediShield Life is a basic health insurance plan that protects all Singapore Citizens and Permanent Residents against large hospital bills for life, regardless of age or health condition. It covers treatment for serious illnesses, including inpatient treatments and selected outpatient treatments.</TextSummary>\n          <TextSummary text=\"https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life\">MediShield Life helps to pay for large hospital bills and selected costly outpatient treatments, such as dialysis and chemotherapy for cancer. It covers all Singapore Citizens and Permanent Residents.</TextSummary>\n          <TextSummary text=\"https://www.moneyhelper.org.sg/en/family-and-care/health-and-medical-care/medishield-life\">MediShield Life provides basic health insurance to Singaporeans and Permanent Residents, helping to cover large hospital bills and selected outpatient treatments like kidney dialysis and chemotherapy. It does not cover cosmetic surgery.</TextSummary>\n          <TextSummary text=\"https://www.proshield.com.sg/blog/understanding-your-hospital-bill-with-medishield-life\">MediShield Life assists with covering large hospital bills and certain outpatient treatments. It's designed to help manage healthcare costs.</TextSummary>\n          <TextSummary text=\"https://www.moh.gov.sg/docs/librariesprovider5/default-document-library/annex-b-(english).pdf\">This document provides information on claim limits for various surgical procedures and treatments covered under MediShield Life, including those potentially related to accidents (e.g., fracture repair, burn treatment). It details the specific claim limits for different procedures.</TextSummary>\n      </Summary>\n  </Search>\n\n  <ChainOfThought>\n      <Step1_ModelAnswerRestatement>The MediShield Life Scheme covers medical expenses related to treatments for serious accidents, specifically including inpatient treatments.</Step1_ModelAnswerRestatement>\n      <Step2_KeyClaims>The key claim is that MediShield Life covers medical expenses for serious accident treatments, including inpatient treatments.</Step2_KeyClaims>\n      <Step3_EvidenceComparison>The retrieved texts support the claim that MediShield Life covers medical expenses for serious illnesses and inpatient treatments. The CPF and MOH websites confirm that MediShield Life is designed to help with large hospital bills. Furthermore, the document \"annex-b-(english).pdf\" details claim limits for various surgical procedures and treatments, including those relevant to accident-related injuries like fracture repair and burn treatment. This implicitly confirms coverage for accident-related inpatient treatments. While the information explicitly mentions inpatient treatments, it does not detail specifics on what accidents are covered. However, the general description of MediShield Life suggests it would cover serious accidents requiring hospitalization.\n\n      </Step3_EvidenceComparison>\n      <Step4_PotentialCounterarguments>While the information supports the inclusion of inpatient treatments for serious accidents, it does not explicitly define \"serious accidents.\" This could lead to ambiguity in specific cases. Also, there might be exclusions or limitations based on the nature of the accident (e.g., self-inflicted injuries).\n      </Step4_PotentialCounterarguments>\n      <Step5_OverallAssessment>Based on the available information, the model answer is likely correct. MediShield Life generally covers medical expenses for serious illnesses and inpatient treatments, which would include those arising from accidents. The specific coverage details and exclusions would depend on the specific circumstances and policy terms.</Step5_OverallAssessment>\n  </ChainOfThought>\n\n  <Factuality>FACTUAL</Factuality>\n",
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_12_20250506124358",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nAs of which date is the information in the MediShield Life Scheme booklet considered accurate?",
+          "source_context_qa": {
+            "identifier": "medishield_12",
+            "question": "As of which date is the information in the MediShield Life Scheme booklet considered accurate?",
+            "expected_answer": "The information in the MediShield Life Scheme booklet is correct as of 1 April 2025.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "The information in the MediShield Life Scheme booklet is considered accurate as of October 2022.",
+          "citation": 2
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.6865613264869898,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "```xml\n<Search>\n    <SearchTerms>[\"MediShield Life Scheme booklet date\", \"MediShield Life Scheme booklet accuracy\", \"MediShield Life Scheme booklet version\"]</SearchTerms>\n    <RetrievedTexts>\n        <Text>https://www.moh.gov.sg/docs/librariesprovider5/default-document-library/annex-a-(updated-faq-on-mshl-coverage-for-serious-illnesses).pdf</Text>\n        <Text>https://www.cpf.gov.sg/member/faq/healthcare/medishield-life/i-want-to-know-more-about-medishield-life</Text>\n        <Text>https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life</Text>\n    </RetrievedTexts>\n    <Summary>\n        <TextSummary text=\"https://www.moh.gov.sg/docs/librariesprovider5/default-document-library/annex-a-(updated-faq-on-mshl-coverage-for-serious-illnesses).pdf\">This document, from the Ministry of Health, is an updated FAQ on MediShield Life coverage for serious illnesses. It does not specify the accuracy date of a MediShield Life Scheme booklet.</TextSummary>\n        <TextSummary text=\"https://www.cpf.gov.sg/member/faq/healthcare/medishield-life/i-want-to-know-more-about-medishield-life\">This page from the CPF website provides general information about MediShield Life but does not mention the accuracy date of any specific booklet.</TextSummary>\n        <TextSummary text=\"https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life\">This MOH page provides an overview of MediShield Life. It doesn't refer to a specific booklet or its accuracy date.</TextSummary>\n    </Summary>\n</Search>\n\n<ChainOfThought>\n    <Step1_ModelAnswerRestatement>The MediShield Life Scheme booklet's information is accurate as of October 2022.</Step1_ModelAnswerRestatement>\n    <Step2_KeyClaims>The key claim is that the information within the MediShield Life Scheme booklet was accurate as of October 2022.</Step2_KeyClaims>\n    <Step3_EvidenceComparison>The search results do not provide any information about a specific MediShield Life Scheme booklet or its accuracy date. Therefore, there is no evidence to support or contradict the claim. The search results are inconclusive.</Step3_EvidenceComparison>\n    <Step4_PotentialCounterarguments>Without access to the specific MediShield Life Scheme booklet in question, it's impossible to verify the date. It's possible that different versions of the booklet exist with different accuracy dates.</Step4_PotentialCounterarguments>\n    <Step5_OverallAssessment>Based on the search results, I cannot determine the accuracy of the Model Answer. The information is insufficient.</Step5_OverallAssessment>\n</ChainOfThought>\n\n<Factuality>UNCERTAIN</Factuality>\n```",
+          "status": "success",
+          "error": null,
+          "label": "UNCERTAIN"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_13_20250506124358",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the relationship between members paying premiums during their working ages under MediShield Life and the benefits they receive?",
+          "source_context_qa": {
+            "identifier": "medishield_13",
+            "question": "What is the relationship between members paying premiums during their working ages under MediShield Life and the benefits they receive?",
+            "expected_answer": "Members pay premiums ahead during their working ages under MediShield Life, and in return, they enjoy premium rebates during their older ages.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "The relationship is that premiums paid during members' working ages support a subset of their benefits in old age, creating a balance in contributions and payouts.",
+          "citation": 202
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.8364491189527326,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "<Search>\n      <SearchTerms>[\"MediShield Life premiums and benefits Singapore\", \"MediShield Life premium structure Singapore\", \"MediShield Life benefits old age Singapore\"]</SearchTerms>\n      <RetrievedTexts>\n          <Text>https://www.moh.gov.sg/hpp/medishield-life/about-medishield-life</Text>\n          <Text>https://www.cpf.gov.sg/member/faq/healthcare/medishield-life/i-want-to-know-more-about-medishield-life</Text>\n          <Text>https://www.moneyowl.com.sg/blog/medishield-life-premiums-increase-heres-what-you-should-know/</Text>\n      </RetrievedTexts>\n      <Summary>\n          <TextSummary text=\"https://www.moh.gov.sg/hpp/medishield-life/about-medishield-life\">MediShield Life is a basic health insurance plan that protects all Singapore Citizens and Permanent Residents against large hospital bills, regardless of age or health condition. It includes coverage for pre-existing conditions and is designed to be affordable, with premiums that may be subsidized for those who need assistance. Premiums increase with age.</TextSummary>\n          <TextSummary text=\"https://www.cpf.gov.sg/member/faq/healthcare/medishield-life/i-want-to-know-more-about-medishield-life\">MediShield Life premiums can be paid using MediSave. The purpose of MediShield Life is to help with large hospital bills and selected costly outpatient treatments. Premiums increase with age bands.</TextSummary>\n          <TextSummary text=\"https://www.moneyowl.com.sg/blog/medishield-life-premiums-increase-heres-what-you-should-know/\">This article discusses the MediShield Life premium increases and explains that premiums are risk-pooled and increase with age. Subsidies are available to help offset premium costs, particularly for lower-income individuals and families.</TextSummary>\n      </Summary>\n  </Search>\n\n  <ChainOfThought>\n      <Step1_ModelAnswerRestatement>The Model Answer states that premiums paid during working ages under MediShield Life support benefits received in old age, creating a balance.</Step1_ModelAnswerRestatement>\n      <Step2_KeyClaims>The key claim is that there's a direct relationship between premiums paid while working and the benefits received in old age within the MediShield Life scheme and a balance is created between contributions and payouts.</Step2_KeyClaims>\n      <Step3_EvidenceComparison>The evidence from the search results supports the idea that premiums paid throughout life contribute to the overall MediShield Life pool, which then funds benefits for all members, including older individuals. The retrieved texts indicate that MediShield Life is a risk-pooled system where premiums are collected from all members to cover healthcare costs for the entire pool, regardless of age or health status, implying that younger, working individuals contribute to the healthcare costs of older individuals. Premiums increase with age, which further reinforces the notion that those in older age brackets are drawing more from the pool and thus contributing more. The MOH link describes MediShield Life as protecting Singaporeans/PRs against large hospital bills regardless of age or health condition which further suggests that premiums paid during working years would support their benefits when they are old.\n      </Step3_EvidenceComparison>\n      <Step4_PotentialCounterarguments>A potential counterargument might be that the benefits received are not *directly* proportional to the premiums paid by an individual. Instead, it is a collective risk-pooling system, and some people might contribute more in premiums than they receive in benefits, and vice versa. Also, subsidies are available, so some people may not be paying the full premium.</Step4_PotentialCounterarguments>\n      <Step5_OverallAssessment>Based on the available information, the Model Answer is likely correct. The premiums paid by working-age individuals contribute to the overall pool that supports benefits for older members, supporting a balance in contributions and payouts across different age groups within the MediShield Life scheme.</Step5_OverallAssessment>\n  </ChainOfThought>\n\n  <Factuality>FACTUAL</Factuality>\n",
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_14_20250506124358",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the payment method allowed for premiums of additional private insurance coverage when you buy an Integrated Shield Plan (IP)?",
+          "source_context_qa": {
+            "identifier": "medishield_14",
+            "question": "What is the payment method allowed for premiums of additional private insurance coverage when you buy an Integrated Shield Plan (IP)?",
+            "expected_answer": "You can use MediSave to pay the premium for the additional private insurance coverage component up to the Additional Withdrawal Limits (AWLs).",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "Premiums for additional private insurance coverage beyond the basic MediShield Life component in an Integrated Shield Plan (IP) must be paid in cash.",
+          "citation": 14
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.38525005695992154,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "NON_FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "<Search>\n      <SearchTerms>[\"Integrated Shield Plan premium payment method Singapore\", \"MediShield Life payment Singapore\", \"private health insurance Singapore payment method\"]</SearchTerms>\n      <RetrievedTexts>\n          <Text>https://www.moneyowl.com.sg/blog/paying-your-private-integrated-shield-insurance-with-cpf-ordinary-account-oa/</Text>\n          <Text>https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life</Text>\n          <Text>https://www.cpf.gov.sg/member/faq/healthcare/medisave/faq-for-healthcare</Text>\n          <Text>https://www.msn.com/en-sg/money/savingandinvestment/here-s-how-you-can-afford-expensive-medical-bills-in-singapore/ar-AA1i85kU</Text>\n          <Text>https://www.probono.sg/news/singapore-health-insurance-guide/</Text>\n      </RetrievedTexts>\n      <Summary>\n          <TextSummary text=\"https://www.moneyowl.com.sg/blog/paying-your-private-integrated-shield-insurance-with-cpf-ordinary-account-oa/\">This article discusses using CPF Ordinary Account (OA) to pay for private Integrated Shield Plan (IP) premiums. It explains the Additional Withdrawal Limits (AWL) for using CPF OA for IPs, and notes that while you can use CPF OA to pay for the Medisave-approved portion of the IP, any additional private insurance coverage or riders must be paid in cash.</TextSummary>\n          <TextSummary text=\"https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life\">This webpage describes MediShield Life, a basic health insurance plan, and mentions that premiums can be paid using Medisave.</TextSummary>\n          <TextSummary text=\"https://www.cpf.gov.sg/member/faq/healthcare/medisave/faq-for-healthcare\">This CPF webpage clarifies that Medisave can be used to pay for MediShield Life premiums and approved private Integrated Shield Plans.</TextSummary>\n          <TextSummary text=\"https://www.msn.com/en-sg/money/savingandinvestment/here-s-how-you-can-afford-expensive-medical-bills-in-singapore/ar-AA1i85kU\">This article explains how Integrated Shield Plans (IPs) work in conjunction with MediShield Life and how riders can enhance coverage, noting that IPs and their riders help to mitigate large medical bills. It doesn't specifically address payment methods.</TextSummary>\n          <TextSummary text=\"https://www.probono.sg/news/singapore-health-insurance-guide/\">This guide explains Singapore's health insurance framework, including MediShield Life and Integrated Shield Plans. It does not mention the payment method for additional private insurance coverage.</TextSummary>\n      </Summary>\n  </Search>\n\n  <ChainOfThought>\n      <Step1_ModelAnswerRestatement>The model answer states that premiums for additional private insurance coverage beyond the basic MediShield Life component in an Integrated Shield Plan (IP) must be paid in cash.</Step1_ModelAnswerRestatement>\n      <Step2_KeyClaims>The key claim is that additional private insurance coverage premiums for IPs must be paid in cash.</Step2_KeyClaims>\n      <Step3_EvidenceComparison>The article from MoneyOwl supports this claim. It mentions that while CPF OA can be used for the Medisave-approved portion of IPs, additional private insurance coverage or riders must be paid in cash: \"...any additional private insurance coverage or riders must be paid in cash.\"</Step3_EvidenceComparison>\n      <Step4_PotentialCounterarguments>There are no obvious counterarguments. The information consistently points to cash payments for the additional private insurance portions of IP premiums.</Step4_PotentialCounterarguments>\n      <Step5_OverallAssessment>The model answer is accurate and well-supported by the available evidence.</Step5_OverallAssessment>\n  </ChainOfThought>\n\n  <Factuality>FACTUAL</Factuality>\n",
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_15_20250506124355",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nFrom which date will examples of MediShield Life premiums computation be provided without Phased Support?",
+          "source_context_qa": {
+            "identifier": "medishield_15",
+            "question": "From which date will examples of MediShield Life premiums computation be provided without Phased Support?",
+            "expected_answer": "1 April 2027",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "Examples of MediShield Life premiums computation without Phased Support will be provided from 2023.",
+          "citation": 2
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.9097595111670671,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "<Search>\n<SearchTerms>[\"MediShield Life premiums computation without Phased Support Singapore\", \"MediShield Life premium rates Singapore\", \"MediShield Life subsidy Singapore\"]</SearchTerms>\n<RetrievedTexts>\n<Text>https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life/premium-and-subsidies</Text>\n<Text>https://www.cpf.gov.sg/member/faq/healthcare-financing/medishield-life/i-want-to-know-more-about-medishield-life</Text>\n</RetrievedTexts>\n<Summary>\n<TextSummary text=\"https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life/premium-and-subsidies\">This page from the Ministry of Health details MediShield Life premiums and subsidies. It mentions that premiums are subsidized, especially for lower- to middle-income Singaporeans. It also describes the different types of subsidies available, such as premium subsidies and Additional Premium Support.</TextSummary>\n<TextSummary text=\"https://www.cpf.gov.sg/member/faq/healthcare-financing/medishield-life/i-want-to-know-more-about-medishield-life\">This CPF page provides general information about MediShield Life, including how premiums are paid and the subsidies available. It explains that premium subsidies are means-tested and that Additional Premium Support is available for those who need further assistance.</TextSummary>\n</Summary>\n</Search>\n\n<ChainOfThought>\n<Step1_ModelAnswerRestatement>The model answer states that examples of MediShield Life premium computations without Phased Support will be available from 2023.</Step1_ModelAnswerRestatement>\n<Step2_KeyClaims>The key claim is that examples of MediShield Life premium computations without Phased Support started being provided from 2023.</Step2_KeyClaims>\n<Step3_EvidenceComparison>The provided search results do not directly confirm or deny this specific claim about the date from which examples of premium computations without phased support are provided. They broadly discuss premiums, subsidies, and support schemes but do not offer specifics on when the \"phased support\" examples were discontinued in premium computations.</Step3_EvidenceComparison>\n<Step4_PotentialCounterarguments>Without more specific information, it is difficult to argue against the model answer. However, one could argue that phased support examples might still be relevant or that changes in presentation of premium computations might have occurred at a different time.</Step4_PotentialCounterarguments>\n<Step5_OverallAssessment>Based on the available information, I cannot definitively confirm or deny the model answer. The information is insufficient to make a determination.</Step5_OverallAssessment>\n</ChainOfThought>\n\n<Factuality>UNCERTAIN</Factuality>\n",
+          "status": "success",
+          "error": null,
+          "label": "UNCERTAIN"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_16_20250506124356",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWho determines subsidy eligibility for MediShield Life premiums in Singapore without requiring an application?",
+          "source_context_qa": {
+            "identifier": "medishield_16",
+            "question": "Who determines subsidy eligibility for MediShield Life premiums in Singapore without requiring an application?",
+            "expected_answer": "Eligibility for MediShield Life premium subsidies is determined using existing information in Government databases, and no application is needed.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "Eligibility for subsidies is automatically assessed by the government using data from household income and the Annual Value of the home.",
+          "citation": 1
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.9116549430880696,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "<Search>\n      <SearchTerms>[\"MediShield Life premium subsidies Singapore automatic assessment\", \"MediShield Life eligibility criteria Singapore\", \"MediShield Life premium subsidies Singapore household income Annual Value\", \"Singapore government automatic subsidy assessment\"]</SearchTerms>\n      <RetrievedTexts>\n          <Text>https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life/premium-subsidies</Text>\n          <Text>https://www.cpf.gov.sg/member/faq/healthcare/medishield-life/i-am-already-receiving-premium-subsidies-for-my-medishield-life-how-will-the-change-in-income-ceilings-affect-me</Text>\n          <Text>https://www.moneyowl.com.sg/blog/medishield-life-premiums-subsidies-and-how-to-pay-for-it/</Text>\n          <Text>https://www.prospects.com.sg/insights/understanding-singapores-healthcare-system-financing-and-subsidies/</Text>\n          <Text>https://www.msf.gov.sg/policies/Strong-and-Stable-Families/Financial-Assistance/Pages/ComCare-Short-to-Medium-Term-Assistance.aspx</Text>\n      </RetrievedTexts>\n      <Summary>\n          <TextSummary text=\"https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life/premium-subsidies\">The Ministry of Health (MOH) provides premium subsidies for MediShield Life to help Singaporeans afford their premiums. These subsidies are means-tested and based on household income or Annual Value (AV) of the home. Lower- to middle-income households receive larger subsidies. Singaporeans can check their subsidy tier online. The document mentions that no application is needed as it is based on data. </TextSummary>\n          <TextSummary text=\"https://www.cpf.gov.sg/member/faq/healthcare/medishield-life/i-am-already-receiving-premium-subsidies-for-my-medishield-life-how-will-the-change-in-income-ceilings-affect-me\">This CPF article explains how changes in income ceilings affect existing MediShield Life premium subsidies. It reiterates that subsidies are automatically adjusted based on updated income information.</TextSummary>\n          <TextSummary text=\"https://www.moneyowl.com.sg/blog/medishield-life-premiums-subsidies-and-how-to-pay-for-it/\">This article explains MediShield Life premiums, subsidies, and payment methods. It mentions that premium subsidies are means-tested, and lower-income households receive larger subsidies.</TextSummary>\n          <TextSummary text=\"https://www.prospects.com.sg/insights/understanding-singapores-healthcare-system-financing-and-subsidies/\">This article provides an overview of Singapore's healthcare financing system, including MediShield Life and its subsidies. It confirms that subsidies are available to help Singaporeans afford premiums, and that these subsidies are means-tested.</TextSummary>\n          <TextSummary text=\"https://www.msf.gov.sg/policies/Strong-and-Stable-Families/Financial-Assistance/Pages/ComCare-Short-to-Medium-Term-Assistance.aspx\">This article talks about ComCare, which provides financial assistance to low-income individuals and families, but does not directly address MediShield Life premium subsidies.</TextSummary>\n      </Summary>\n  </Search>\n\n  <ChainOfThought>\n      <Step1_ModelAnswerRestatement>The model answer states that the government automatically assesses eligibility for MediShield Life premium subsidies using data on household income and the Annual Value of the home, without requiring an application.</Step1_ModelAnswerRestatement>\n      <Step2_KeyClaims>The key claim is that MediShield Life premium subsidy eligibility is automatically assessed by the government based on household income and Annual Value, without an application.</Step2_KeyClaims>\n      <Step3_EvidenceComparison>The MOH website confirms that MediShield Life premium subsidies are means-tested and that lower- to middle-income households receive larger subsidies. It explicitly states that no application is needed, as the assessment is based on existing data. (https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life/premium-subsidies) The CPF article reinforces that subsidies are automatically adjusted based on updated income information. (https://www.cpf.gov.sg/member/faq/healthcare/medishield-life/i-am-already-receiving-premium-subsidies-for-my-medishield-life-how-will-the-change-in-income-ceilings-affect-me)</Step3_EvidenceComparison>\n      <Step4_PotentialCounterarguments>While the information strongly supports the automatic assessment based on income and Annual Value, it is possible that in some specific circumstances, individuals might need to provide additional information or clarification to facilitate the assessment. However, the general principle remains that the process is designed to be automatic without requiring an application in most cases.</Step4_PotentialCounterarguments>\n      <Step5_OverallAssessment>Based on the evidence, the model answer is accurate and well-supported. The Ministry of Health and CPF websites confirm the automatic assessment of MediShield Life premium subsidies based on household income and Annual Value, without the need for an application.</Step5_OverallAssessment>\n  </ChainOfThought>\n\n  <Factuality>FACTUAL</Factuality>\n",
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_17_20250506124357",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the maximum claim limit per policy year under Medishield in Singapore?",
+          "source_context_qa": {
+            "identifier": "medishield_17",
+            "question": "What is the maximum claim limit per policy year under Medishield in Singapore?",
+            "expected_answer": "$200,000",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "The maximum claim limit per policy year under MediShield in Singapore is $150,000.",
+          "citation": 1
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.20412426129415898,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "NON_FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "<Search>\n      <SearchTerms>[\"maximum claim limit per policy year under Medishield in Singapore\"]</SearchTerms>\n      <RetrievedTexts>\n          <Text>https://www.cpf.gov.sg/member/healthcare/medishield-life/what-medishield-life-covers</Text>\n          <Text>https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life</Text>\n          <Text>https://www.moneyowl.com.sg/blog/medishield-life-coverage-benefits-premiums/</Text>\n      </RetrievedTexts>\n      <Summary>\n          <TextSummary text=\"https://www.cpf.gov.sg/member/healthcare/medishield-life/what-medishield-life-covers\">MediShield Life provides basic coverage for large hospital bills and certain costly outpatient treatments, such as dialysis and chemotherapy for cancer. The claim limits are designed to help to pay for the costs of treatments at public hospitals. It has a maximum claim limit of S$150,000 per policy year.</TextSummary>\n          <TextSummary text=\"https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life\">MediShield Life is a basic health insurance plan that protects Singaporeans and Permanent Residents against large hospital bills and selected costly outpatient treatments, such as dialysis and chemotherapy for cancer. It has a maximum claim limit of S$150,000 per policy year.</TextSummary>\n          <TextSummary text=\"https://www.moneyowl.com.sg/blog/medishield-life-coverage-benefits-premiums/\">MediShield Life is a basic health insurance plan which helps to pay for large hospital bills and selected costly outpatient treatments. MediShield Life has a maximum claim limit of S$150,000 per policy year.</TextSummary>\n      </Summary>\n  </Search>\n\n  <ChainOfThought>\n      <Step1_ModelAnswerRestatement>The maximum claim limit per policy year under MediShield in Singapore is $150,000.</Step1_ModelAnswerRestatement>\n      <Step2_KeyClaims>The key claim is that the maximum claim limit under MediShield is $150,000 per policy year.</Step2_KeyClaims>\n      <Step3_EvidenceComparison>The CPF, MOH, and MoneyOwl websites all state that the maximum claim limit per policy year under MediShield Life is $150,000. The evidence strongly supports the claim.</Step3_EvidenceComparison>\n      <Step4_PotentialCounterarguments>There are no obvious counterarguments as all sources agree.</Step4_PotentialCounterarguments>\n      <Step5_OverallAssessment>The Model Answer is accurate and well-supported by the search results.</Step5_OverallAssessment>\n  </ChainOfThought>\n\n  <Factuality>FACTUAL</Factuality>\n",
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_18_20250506124357",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat percentage of additional premium do individuals with serious pre-existing medical conditions need to pay for MediShield Life for the first 10 years?",
+          "source_context_qa": {
+            "identifier": "medishield_18",
+            "question": "What percentage of additional premium do individuals with serious pre-existing medical conditions need to pay for MediShield Life for the first 10 years?",
+            "expected_answer": "30%",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "Individuals with serious pre-existing medical conditions need to pay 30% additional premium for MediShield Life for the first 10 years.",
+          "citation": 5
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.9713850552280201,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "<Search>\n      <SearchTerms>[\"MediShield Life pre-existing conditions premium\", \"MediShield Life additional premium pre-existing conditions\", \"MediShield Life premium loading pre-existing conditions Singapore\"]</SearchTerms>\n      <RetrievedTexts>\n          <Text>https://www.moh.gov.sg/frequently-asked-questions-on-medi shield-life</Text>\n          <Text>https://www.moneyowl.com.sg/blog/insurance/medishield-life-a-complete-guide-to-understanding-your-health-insurance/</Text>\n          <Text>https://www.cpf.gov.sg/member/faq/healthcare/medishield-life/i-want-to-find-out-more-about-medishield-life</Text>\n      </RetrievedTexts>\n      <Summary>\n          <TextSummary text=\"https://www.moh.gov.sg/frequently-asked-questions-on-medishield-life\">MediShield Life covers all Singaporeans, including those with pre-existing conditions. Individuals with serious pre-existing conditions may have to pay additional premiums, which will be capped at 50% of the standard premium. This additional premium will be gradually phased out after 10 years.</TextSummary>\n          <TextSummary text=\"https://www.moneyowl.com.sg/blog/insurance/medishield-life-a-complete-guide-to-understanding-your-health-insurance/\">MediShield Life provides coverage for all Singapore Citizens (SCs) and Permanent Residents (PRs), including those with pre-existing conditions. Those with serious pre-existing conditions pay an Additional Premium (AP) on top of the standard premium, for the first 10 years. The AP is 30% or higher, capped at 50%.</TextSummary>\n          <TextSummary text=\"https://www.cpf.gov.sg/member/faq/healthcare/medishield-life/i-want-to-find-out-more-about-medishield-life\">MediShield Life covers all Singaporeans, even with pre-existing conditions. Those with serious pre-existing conditions will pay additional premiums, capped at 50%, for the first 10 years.</TextSummary>\n      </Summary>\n  </Search>\n\n  <ChainOfThought>\n      <Step1_ModelAnswerRestatement>Individuals with serious pre-existing medical conditions need to pay 30% additional premium for MediShield Life for the first 10 years.</Step1_ModelAnswerRestatement>\n      <Step2_KeyClaims>Individuals with serious pre-existing conditions pay a 30% additional premium for MediShield Life for the first 10 years.</Step2_KeyClaims>\n      <Step3_EvidenceComparison>The retrieved texts indicate that individuals with serious pre-existing conditions *may* have to pay additional premiums for MediShield Life for the first 10 years. These additional premiums are capped at 50% of the standard premium, and one source indicates the additional premium is \"30% or higher\". Therefore, the claim that the additional premium is *exactly* 30% is not fully supported, as it could be higher. The first source states \"Individuals with serious pre-existing conditions *may* have to pay additional premiums\".</Step3_EvidenceComparison>\n      <Step4_PotentialCounterarguments>While the answer is close, the key is the *exact* percentage. It seems that 30% is a *minimum* additional premium, but could be higher, up to 50%. One could argue that stating 30% exactly is misleading. It is possible that the 30% refers to a specific tier or category of pre-existing conditions. More specific information would be needed to confirm.</Step4_PotentialCounterarguments>\n      <Step5_OverallAssessment>The answer is partially correct but potentially misleading because it presents the 30% as a fixed value rather than a minimum. The sources indicate the additional premium could be higher than 30%, capped at 50%.</Step5_OverallAssessment>\n  </ChainOfThought>\n\n  <Factuality>UNCERTAIN</Factuality>\n",
+          "status": "success",
+          "error": null,
+          "label": "UNCERTAIN"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_19_20250506124358",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the percentage of additional Merdeka Generation Subsidies provided to seniors aged 76 years and above?",
+          "source_context_qa": {
+            "identifier": "medishield_19",
+            "question": "What is the percentage of additional Merdeka Generation Subsidies provided to seniors aged 76 years and above?",
+            "expected_answer": "10%",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "The percentage of additional Merdeka Generation Subsidies provided to seniors aged 76 years and above is 3% of the subsidized bill.",
+          "citation": 3
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.19755408227443697,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "NON_FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "```xml\n<Search>\n    <SearchTerms>[\"Merdeka Generation Subsidies Singapore\", \"Merdeka Generation Package benefits\", \"Singapore healthcare subsidies for seniors\", \"age requirements for Merdeka Generation Package\"]</SearchTerms>\n    <RetrievedTexts>\n        <Text>https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/merdeka-generation-package</Text>\n        <Text>https://www.cpf.gov.sg/member/growing-your-money/schemes/merdeka-generation-package</Text>\n        <Text>https://www.aic.sg/financial-assistance/merdeka-generation-package</Text>\n    </RetrievedTexts>\n    <Summary>\n        <TextSummary text=\"https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/merdeka-generation-package\">The Merdeka Generation Package (MGP) provides eligible seniors with healthcare subsidies, including additional outpatient care subsidies, MediSave top-ups, and premium subsidies. Specific details on the percentage of subsidies were not found in this document, but it outlines eligibility criteria and the types of support offered.</TextSummary>\n        <TextSummary text=\"https://www.cpf.gov.sg/member/growing-your-money/schemes/merdeka-generation-package\">This page explains the Merdeka Generation Package, focusing on how it helps with healthcare costs, including outpatient and inpatient subsidies. It highlights MediSave top-ups, but does not mention a specific 3% additional subsidy based on age.</TextSummary>\n        <TextSummary text=\"https://www.aic.sg/financial-assistance/merdeka-generation-package\">This outlines the benefits for Merdeka Generation members, which includes subsidies for outpatient care, MediSave top-ups, and disability support. It does not specify a 3% additional subsidy for those 76 and above.</TextSummary>\n    </Summary>\n</Search>\n\n<ChainOfThought>\n    <Step1_ModelAnswerRestatement>The Model Answer states that seniors aged 76 years and above receive an additional 3% Merdeka Generation subsidy on their subsidized bill.</Step1_ModelAnswerRestatement>\n    <Step2_KeyClaims>The key claim is that there is an additional 3% Merdeka Generation subsidy specifically for seniors aged 76 and above.</Step2_KeyClaims>\n    <Step3_EvidenceComparison>The search results do not support the claim of a 3% additional subsidy for seniors aged 76 and above. The retrieved documents describe the benefits of the Merdeka Generation Package, including outpatient care subsidies and MediSave top-ups, but they do not mention any age-related increase in the percentage of subsidies. The Ministry of Health, CPF, and AIC websites describe the MGP benefits but do not specify a 3% increase based on age. Therefore, the evidence contradicts the claim.</Step3_EvidenceComparison>\n    <Step4_PotentialCounterarguments>It's possible that this information exists in a less prominent document or a specific regulation not captured in the initial search. However, the main official sources outlining the MGP do not corroborate this claim.</Step4_PotentialCounterarguments>\n    <Step5_OverallAssessment>Based on the available information, the Model Answer is likely incorrect. The official sources on the Merdeka Generation Package do not mention a 3% additional subsidy for seniors aged 76 and above.</Step5_OverallAssessment>\n</ChainOfThought>\n\n<Factuality>NON_FACTUAL</Factuality>\n```",
+          "status": "success",
+          "error": null,
+          "label": "NON_FACTUAL"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_20_20250506124358",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the annual premium in 2025 for an insured 67-year-old lower-income Merdeka Generation Singapore Citizen after the premium cap?",
+          "source_context_qa": {
+            "identifier": "medishield_20",
+            "question": "What is the annual premium in 2025 for an insured 67-year-old lower-income Merdeka Generation Singapore Citizen after the premium cap?",
+            "expected_answer": "$1,326.00 per annum.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "The annual premium in 2025 for an insured 67-year-old lower-income Merdeka Generation Singapore Citizen after the premium cap is $25.",
+          "citation": 1
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.5430550459399819,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "```xml\n<Search>\n    <SearchTerms>[\"Merdeka Generation healthcare benefits Singapore\", \"MediSave for Merdeka Generation Singapore\", \"premium cap for Merdeka Generation Singapore\", \"healthcare subsidies for elderly Singapore\", \"Singapore healthcare financing for Merdeka Generation\"]</SearchTerms>\n    <RetrievedTexts>\n        <Text>https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/merdeka-generation-package</Text>\n        <Text>https://www.cpf.gov.sg/member/faq/healthcare-financing/medisave/what-are-the-uses-of-medisave</Text>\n        <Text>https://www.moneyowl.com.sg/blog/healthcare-schemes-in-singapore-for-seniors/</Text>\n        <Text>https://www.prospects.com.sg/insights/merdeka-generation-package-singapore/</Text>\n    </RetrievedTexts>\n    <Summary>\n        <TextSummary text=\"https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/merdeka-generation-package\">The Merdeka Generation Package provides eligible Singaporeans with additional subsidies and benefits to help with healthcare costs. These include outpatient care subsidies, MediSave top-ups, and participation incentives. Specific premium caps or fixed annual premiums are not mentioned in this overview.</TextSummary>\n        <TextSummary text=\"https://www.cpf.gov.sg/member/faq/healthcare-financing/medisave/what-are-the-uses-of-medisave\">MediSave can be used to pay for approved medical expenses, including premiums for MediShield Life and other approved insurance schemes. It does not contain information about fixed premium amounts for Merdeka Generation citizens.</TextSummary>\n        <TextSummary text=\"https://www.moneyowl.com.sg/blog/healthcare-schemes-in-singapore-for-seniors/\">This article describes various healthcare schemes available to seniors in Singapore, including the Merdeka Generation Package. It mentions outpatient subsidies and MediSave top-ups but does not provide specific information on fixed annual premiums of $25 after premium caps.</TextSummary>\n        <TextSummary text=\"https://www.prospects.com.sg/insights/merdeka-generation-package-singapore/\">This article outlines the benefits of the Merdeka Generation Package, including subsidies for outpatient care, MediSave top-ups, and disability support. It does not mention a specific annual premium of $25 after premium caps.</TextSummary>\n    </Summary>\n</Search>\n\n<ChainOfThought>\n    <Step1_ModelAnswerRestatement>The annual premium in 2025 for a 67-year-old lower-income Merdeka Generation Singapore Citizen after the premium cap is stated to be $25.</Step1_ModelAnswerRestatement>\n    <Step2_KeyClaims>The key claim is that a 67-year-old lower-income Merdeka Generation Singapore Citizen will pay an annual premium of $25 in 2025 after the premium cap.</Step2_KeyClaims>\n    <Step3_EvidenceComparison>The search results regarding the Merdeka Generation Package and related healthcare financing schemes do not support the claim of a fixed $25 annual premium. The retrieved documents discuss subsidies, MediSave top-ups, and outpatient care benefits, but they do not specify any such premium amount. Therefore, the evidence does not support the claim.</Step3_EvidenceComparison>\n    <Step4_PotentialCounterarguments>Without further information, it is difficult to provide counterarguments. The premium amount could potentially be related to a specific, niche insurance scheme not covered in the general descriptions of the Merdeka Generation Package. However, based on the information available, this is not a standard or widely advertised benefit.</Step4_PotentialCounterarguments>\n    <Step5_OverallAssessment>Based on the available information, the claim that a 67-year-old lower-income Merdeka Generation Singapore Citizen will pay an annual premium of $25 in 2025 after the premium cap is likely incorrect. The search results do not provide any evidence to support this claim and instead detail broader benefits like subsidies and MediSave top-ups.</Step5_OverallAssessment>\n</ChainOfThought>\n\n<Factuality>NON_FACTUAL</Factuality>\n```",
+          "status": "success",
+          "error": null,
+          "label": "NON_FACTUAL"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_21_20250506124359",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat category of expenses are non-subsidised bills pro-rated for under the Medishield program?",
+          "source_context_qa": {
+            "identifier": "medishield_21",
+            "question": "What category of expenses are non-subsidised bills pro-rated for under the Medishield program?",
+            "expected_answer": "Non-subsidised bills are pro-rated for outpatient cancer treatments and home parenteral nutrition.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "Non-subsidised bills are pro-rated under the category of medical expenses for the MediShield program.",
+          "citation": 1
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.6280206763936439,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "```xml\n<Search>\n  <SearchTerms>[\"MediShield pro-rated non-subsidised bills\", \"MediShield medical expenses coverage\", \"MediShield claim limits\", \"MediShield non-subsidised bill pro-ration Singapore\", \"MediShield medical expenses categories\"]</SearchTerms>\n  <RetrievedTexts>\n    <Text>https://www.cpf.gov.sg/member/healthcare/medishield-life/what-medishield-life-covers</Text>\n    <Text>https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life</Text>\n    <Text>https://www.moneyowl.com.sg/blog/medishield-life-claims/</Text>\n    <Text>https://www.proshield.com.sg/understanding-your-integrated-shield-plan-how-much-does-it-cover/</Text>\n    <Text>https://www.medicaltravel.sg/blog/healthcare-financing-in-singapore/</Text>\n  </RetrievedTexts>\n  <Summary>\n    <TextSummary text=\"https://www.cpf.gov.sg/member/healthcare/medishield-life/what-medishield-life-covers\">MediShield Life helps to pay for large hospital bills and selected outpatient treatments, such as dialysis and chemotherapy for cancer. It covers hospitalisation in public hospitals, private hospitals and day surgery.</TextSummary>\n    <TextSummary text=\"https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life\">MediShield Life is a basic health insurance plan that helps to pay for large hospital bills and selected costly outpatient treatments, such as dialysis and chemotherapy for cancer. It protects all Singapore Citizens and Permanent Residents against large healthcare expenses, regardless of age or pre-existing conditions.</TextSummary>\n    <TextSummary text=\"https://www.moneyowl.com.sg/blog/medishield-life-claims/\">This article discusses MediShield Life claim limits and how they work. It also explains claim components, including daily hospitalisation limits and surgical procedure limits, to illustrate the maximum coverage and co-payment structures. It does not specifically mention the term \"pro-rated non-subsidized bills\".</TextSummary>\n    <TextSummary text=\"https://www.proshield.com.sg/understanding-your-integrated-shield-plan-how-much-does-it-cover/\">This article discusses Integrated Shield Plans (IPs) which offer higher coverage than MediShield Life. IPs are provided by private insurers and comprise a MediShield Life component, plus additional private insurance coverage. The article does not specifically mention \"pro-rated non-subsidized bills\" in relation to MediShield Life.</TextSummary>\n    <TextSummary text=\"https://www.medicaltravel.sg/blog/healthcare-financing-in-singapore/\">This blog post broadly describes healthcare financing options in Singapore, including MediShield Life, Integrated Shield Plans, and other subsidies. It doesn't specifically address the question of how non-subsidized bills are pro-rated under MediShield.</TextSummary>\n  </Summary>\n</Search>\n\n<ChainOfThought>\n  <Step1_ModelAnswerRestatement>The model answer states that non-subsidised bills are pro-rated under the category of medical expenses for the MediShield program.</Step1_ModelAnswerRestatement>\n  <Step2_KeyClaims>The key claim is that MediShield pro-rates non-subsidised medical bills as part of its coverage for medical expenses.</Step2_KeyClaims>\n  <Step3_EvidenceComparison>The search results generally describe MediShield Life as a basic health insurance plan designed to help with large hospital bills and certain outpatient treatments. However, none of the retrieved documents explicitly use the term \"pro-rated non-subsidized bills.\" The search results confirm that MediShield Life covers medical expenses, but it does not provide specific details about the pro-rating of non-subsidized bills. The provided documents focus on overall coverage, claim limits, and the purpose of MediShield Life.</Step3_EvidenceComparison>\n  <Step4_PotentialCounterarguments>Without more specific information, it's difficult to definitively confirm or deny the model answer. While MediShield Life does cover medical expenses, the mechanism for how non-subsidized bills are handled (i.e., if and how they are pro-rated) requires further clarification. There may be specific guidelines or calculation methods not covered in the retrieved search results.</Step4_PotentialCounterarguments>\n  <Step5_OverallAssessment>Based on the available information, it is uncertain if the model answer is factual. While MediShield does cover medical expenses, the pro-rating of non-subsidised bills is not clearly defined in the search results. Further research or more specific documentation on MediShield's billing procedures would be necessary to confirm this claim.</Step5_OverallAssessment>\n</ChainOfThought>\n\n<Factuality>UNCERTAIN</Factuality>\n```",
+          "status": "success",
+          "error": null,
+          "label": "UNCERTAIN"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_22_20250506124357",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhere can one find a summary of the key features of the MediShield Life Scheme?",
+          "source_context_qa": {
+            "identifier": "medishield_22",
+            "question": "Where can one find a summary of the key features of the MediShield Life Scheme?",
+            "expected_answer": "A summary of the key features of the MediShield Life Scheme can be found in the MediShield Life Scheme booklet.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "A summary of the key features of the MediShield Life Scheme can be found on Singapore’s Ministry of Health (MOH) official website or trusted health-related resources.",
+          "citation": "no citation"
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.9419708701013587,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "```xml\n<Search>\n    <SearchTerms>[\"MediShield Life Scheme summary\", \"Ministry of Health Singapore MediShield Life\"]</SearchTerms>\n    <RetrievedTexts>\n        <Text>https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life</Text>\n        <Text>https://www.cpf.gov.sg/member/faq/healthcare/medishield-life/i-want-to-know-more-about-medishield-life</Text>\n    </RetrievedTexts>\n    <Summary>\n        <TextSummary text=\"https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life\">The Ministry of Health (MOH) webpage provides detailed information about MediShield Life, including its benefits, coverage, and claim limits. It also includes information about premiums and subsidies.</TextSummary>\n        <TextSummary text=\"https://www.cpf.gov.sg/member/faq/healthcare/medishield-life/i-want-to-know-more-about-medishield-life\">The CPF website provides FAQs about MediShield Life, including eligibility, coverage, premiums, and claim procedures. It serves as a helpful resource for understanding the scheme's key features and how it works.</TextSummary>\n    </Summary>\n</Search>\n\n<ChainOfThought>\n    <Step1_ModelAnswerRestatement>The Model Answer states that a summary of MediShield Life's key features can be found on the MOH website or trusted health-related resources.</Step1_ModelAnswerRestatement>\n    <Step2_KeyClaims>The key claims are: 1) A summary of MediShield Life key features exists; 2) This summary can be found on the MOH website; 3) This summary can be found on trusted health-related resources.</Step2_KeyClaims>\n    <Step3_EvidenceComparison>The MOH website (https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life) provides extensive information on MediShield Life, including its benefits and coverage, which supports the claim that a summary of key features can be found there. The CPF website (https://www.cpf.gov.sg/member/faq/healthcare/medishield-life/i-want-to-know-more-about-medishield-life) is also a trusted resource that offers FAQs and information about MediShield Life. Therefore, the evidence supports all the claims.</Step3_EvidenceComparison>\n    <Step4_PotentialCounterarguments>While the MOH website is a primary source, the term \"trusted health-related resources\" could be interpreted broadly. However, the CPF website is a reliable alternative.</Step4_PotentialCounterarguments>\n    <Step5_OverallAssessment>The Model Answer is accurate and well-supported by the search results. The MOH website and other government resources like the CPF website offer summaries of MediShield Life's key features.</Step5_OverallAssessment>\n</ChainOfThought>\n\n<Factuality>FACTUAL</Factuality>\n```",
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_23_20250506124356",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the amount range of the deductible under MediShield Life based on age and ward class?",
+          "source_context_qa": {
+            "identifier": "medishield_23",
+            "question": "What is the amount range of the deductible under MediShield Life based on age and ward class?",
+            "expected_answer": "The deductible under MediShield Life ranges from $2,000 to $4,500, depending on the claimant's age and choice of ward class.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "The deductible under MediShield Life ranges from $1,500 to $3,000, depending on the patient's age and ward class.",
+          "citation": 2
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.8197525544732343,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "<Search>\n      <SearchTerms>[\"MediShield Life deductible amount age ward class\"]</SearchTerms>\n      <RetrievedTexts>\n          <Text>https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life</Text>\n          <Text>https://www.cpf.gov.sg/member/faq/healthcare/medishield-life/what-are-the-deductibles-co-insurance-and-claim-limits-under-medishield-life</Text>\n          <Text>https://www.moneyowl.com.sg/blog/medishield-life-deductibles-co-insurance-and-claims/</Text>\n      </RetrievedTexts>\n      <Summary>\n          <TextSummary text=\"https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life\">This webpage from the Ministry of Health details MediShield Life, a basic health insurance plan that helps to pay for large hospital bills and selected costly outpatient treatments. It mentions deductibles and co-insurance as cost-sharing features, but does not explicitly state the deductible amounts based on age and ward class.</TextSummary>\n          <TextSummary text=\"https://www.cpf.gov.sg/member/faq/healthcare/medishield-life/what-are-the-deductibles-co-insurance-and-claim-limits-under-medishield-life\">This CPF webpage explains the deductibles, co-insurance, and claim limits under MediShield Life.  It states that for patients warded in a B2 or C ward, the deductible is $3,000 if age 80 or below, and $2,000 if age 81 or above. For patients warded in A/B1 ward or private hospital, the deductible is $3,000 if age 75 or below and $2,000 if age 76 or above. It also mentions a deductible of $1,500 for day surgery.</TextSummary>\n          <TextSummary text=\"https://www.moneyowl.com.sg/blog/medishield-life-deductibles-co-insurance-and-claims/\">This article explains MediShield Life deductibles and co-insurance, stating that the deductible for B2/C wards is $3,000 if you are 80 years old or below, and $2,000 if you are 81 years old or above. For A/B1 wards or private hospitals, the deductible is $3,000 if you are 75 years old or below, and $2,000 if you are 76 years old or above. It also mentions a $1,500 deductible for day surgery.</TextSummary>\n      </Summary>\n  </Search>\n\n  <ChainOfThought>\n      <Step1_ModelAnswerRestatement>The model answer states that the deductible under MediShield Life ranges from $1,500 to $3,000, depending on the patient's age and ward class.</Step1_ModelAnswerRestatement>\n      <Step2_KeyClaims>The key claim is that the MediShield Life deductible ranges from $1,500 to $3,000, and this amount depends on age and ward class.</Step2_KeyClaims>\n      <Step3_EvidenceComparison>The CPF and MoneyOwl articles support the claim that the deductible depends on age and ward class and that $1500, $2000, and $3000 are valid deductible amounts. The $1,500 deductible applies to day surgery. The deductible for B2/C wards is $3,000 if you are 80 years old or below, and $2,000 if you are 81 years old or above. For A/B1 wards or private hospitals, the deductible is $3,000 if you are 75 years old or below, and $2,000 if you are 76 years old or above. Thus, the deductible amounts do depend on age and ward class, and the range is from $1,500 to $3,000.\n\n      </Step3_EvidenceComparison>\n      <Step4_PotentialCounterarguments>None.</Step4_PotentialCounterarguments>\n      <Step5_OverallAssessment>The model answer is accurate.</Step5_OverallAssessment>\n  </ChainOfThought>\n\n  <Factuality>FACTUAL</Factuality>\n",
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_24_20250506124358",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat percentage range do Pioneer Generation Subsidies cover for premiums, and are they influenced by household income or the Annual Value of residences?",
+          "source_context_qa": {
+            "identifier": "medishield_24",
+            "question": "What percentage range do Pioneer Generation Subsidies cover for premiums, and are they influenced by household income or the Annual Value of residences?",
+            "expected_answer": "Pioneer Generation Subsidies cover 40% to 60% of premiums, and they are not influenced by household income or the Annual Value of residences.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "Pioneer Generation Subsidies cover 40% to 60% of premiums, and they are not influenced by household income or the Annual Value of residences.",
+          "citation": 1
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.9201396108011248,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "```xml\n<Search>\n    <SearchTerms>['Pioneer Generation Package Singapore premium subsidies', 'Pioneer Generation subsidies eligibility Singapore', 'Pioneer Generation subsidies household income annual value']</SearchTerms>\n    <RetrievedTexts>\n        <Text>https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/pioneer-generation-package</Text>\n        <Text>https://www.cpf.gov.sg/member/growing-your-savings/schemes/healthcare-schemes/what-are-the-government-healthcare-schemes</Text>\n        <Text>https://www.silver.sns.gov.sg/schemes/pioneer-generation-package</Text>\n    </RetrievedTexts>\n    <Summary>\n        <TextSummary text=\"https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/pioneer-generation-package\">The Pioneer Generation Package provides various healthcare subsidies, including subsidies for MediShield Life premiums ranging from 40% to 60%. These subsidies increase with age. It explicitly states that the subsidies are regardless of household income or the Annual Value of their residences.</TextSummary>\n        <TextSummary text=\"https://www.cpf.gov.sg/member/growing-your-savings/schemes/healthcare-schemes/what-are-the-government-healthcare-schemes\">This page outlines government healthcare schemes but does not provide specific details on the Pioneer Generation Package subsidies or eligibility criteria.</TextSummary>\n        <TextSummary text=\"https://www.silver.sns.gov.sg/schemes/pioneer-generation-package\">This website provides information about the Pioneer Generation Package, including MediShield Life premium subsidies ranging from 40% to 60%, increasing with age. It also mentions outpatient care benefits and other forms of assistance. Like the MOH page, it specifies that the subsidies are not dependent on household income or the Annual Value of the residence.</TextSummary>\n    </Summary>\n</Search>\n\n<ChainOfThought>\n    <Step1_ModelAnswerRestatement>The Pioneer Generation Package provides subsidies covering 40% to 60% of premiums, and these subsidies are not influenced by household income or the Annual Value of residences.</Step1_ModelAnswerRestatement>\n    <Step2_KeyClaims>The key claims are:\n    1. Pioneer Generation Subsidies cover 40% to 60% of premiums.\n    2. These subsidies are not influenced by household income or the Annual Value of residences.</Step2_KeyClaims>\n    <Step3_EvidenceComparison>Both the Ministry of Health (MOH) and Silver Generation Office websites explicitly state that Pioneer Generation Package subsidies for MediShield Life premiums range from 40% to 60%. They also confirm that these subsidies are not dependent on household income or the Annual Value of the residence.\n    *   MOH: \"Pioneer Generation members receive ... MediShield Life premium subsidies ranging from 40% to 60%, and increasing with age. These subsidies are regardless of household income or the Annual Value of their residences.\"\n    *   Silver Generation Office: \"MediShield Life premium subsidies ranging from 40% to 60%, increasing with age... Regardless of household income or Annual Value of residence.\"\n    Therefore, the evidence strongly supports both claims.</Step3_EvidenceComparison>\n    <Step4_PotentialCounterarguments>There are no apparent counterarguments as the official government sources are consistent and explicit on these points.</Step4_PotentialCounterarguments>\n    <Step5_OverallAssessment>The Model Answer is accurate and well-supported by the provided search results from official government sources.</Step5_OverallAssessment>\n</ChainOfThought>\n\n<Factuality>FACTUAL</Factuality>\n```",
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_25_20250506124357",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat does MediShield Life protect Singapore Citizens and Permanent Residents against, regardless of their age or health condition?",
+          "source_context_qa": {
+            "identifier": "medishield_25",
+            "question": "What does MediShield Life protect Singapore Citizens and Permanent Residents against, regardless of their age or health condition?",
+            "expected_answer": "MediShield Life protects Singapore Citizens and Permanent Residents against large healthcare bills for life, regardless of their age or health condition.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "MediShield Life protects Singapore Citizens and Permanent Residents against large hospital bills and selected costly outpatient treatments.",
+          "citation": 1
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.9715560879767873,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "<Search>\n      <SearchTerms>[\"MediShield Life Singapore Citizens and Permanent Residents coverage\", \"MediShield Life benefits\", \"MediShield Life exclusions Singapore\", \"MediShield Life large hospital bills\", \"MediShield Life outpatient treatments\"]</SearchTerms>\n      <RetrievedTexts>\n          <Text>https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life</Text>\n          <Text>https://www.cpf.gov.sg/member/healthcare/medishield-life/about-medishield-life</Text>\n          <Text>https://www.moneyowl.com.sg/blog/medishield-life-everything-you-need-to-know/</Text>\n          <Text>https://www.prospectsasean.com/singapores-medishield-life-scheme-enhanced-benefits-and-increased-premiums/#:~:text=MediShield%20Life%20is%20a%20universal,regardless%20of%20age%20or%20health.</Text>\n          <Text>https://www.income.com.sg/blog/understanding-medishield-life-benefits-premium-and-coverage</Text>\n      </RetrievedTexts>\n      <Summary>\n          <TextSummary text=\"https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life\">MediShield Life is a basic health insurance plan that protects Singapore Citizens and Permanent Residents against large hospital bills and selected costly outpatient treatments, such as dialysis and chemotherapy for cancer. It is administered by the Central Provident Fund (CPF) Board.</TextSummary>\n          <TextSummary text=\"https://www.cpf.gov.sg/member/healthcare/medishield-life/about-medishield-life\">MediShield Life helps to pay for large hospital bills and selected costly outpatient treatments, such as dialysis and chemotherapy for cancer. All Singapore Citizens and Permanent Residents are covered, regardless of age or health condition.</TextSummary>\n          <TextSummary text=\"https://www.moneyowl.com.sg/blog/medishield-life-everything-you-need-to-know/\">MediShield Life is a basic health insurance that helps Singapore Citizens and Permanent Residents pay for large hospital bills and selected costly outpatient treatments like dialysis and chemotherapy.</TextSummary>\n          <TextSummary text=\"https://www.prospectsasean.com/singapores-medishield-life-scheme-enhanced-benefits-and-increased-premiums/#:~:text=MediShield%20Life%20is%20a%20universal,regardless%20of%20age%20or%20health.\">MediShield Life is a universal healthcare scheme in Singapore that provides basic health insurance coverage for all Singapore Citizens and Permanent Residents, regardless of age or health condition, protecting them against large hospital bills.</TextSummary>\n          <TextSummary text=\"https://www.income.com.sg/blog/understanding-medishield-life-benefits-premium-and-coverage\">MediShield Life provides coverage for large hospital bills and certain outpatient treatments, like kidney dialysis and chemotherapy.</TextSummary>\n      </Summary>\n  </Search>\n\n  <ChainOfThought>\n      <Step1_ModelAnswerRestatement>MediShield Life is designed to protect Singapore Citizens and Permanent Residents from the financial burden of large hospital bills and specific costly outpatient treatments.</Step1_ModelAnswerRestatement>\n      <Step2_KeyClaims>MediShield Life covers Singapore Citizens and Permanent Residents. MediShield Life protects against large hospital bills. MediShield Life protects against selected costly outpatient treatments.</Step2_KeyClaims>\n      <Step3_EvidenceComparison>The official Ministry of Health (MOH) and CPF websites state that MediShield Life covers all Singapore Citizens and Permanent Residents, regardless of age or health condition, and helps to pay for large hospital bills and selected costly outpatient treatments like dialysis and chemotherapy (https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life, https://www.cpf.gov.sg/member/healthcare/medishield-life/about-medishield-life). Other sources also corroborate this information (https://www.moneyowl.com.sg/blog/medishield-life-everything-you-need-to-know/, https://www.prospectsasean.com/singapores-medishield-life-scheme-enhanced-benefits-and-increased-premiums/#:~:text=MediShield%20Life%20is%20a%20universal,regardless%20of%20age%20or%20health., https://www.income.com.sg/blog/understanding-medishield-life-benefits-premium-and-coverage). The evidence strongly supports the claims made in the model answer.</Step3_EvidenceComparison>\n      <Step4_PotentialCounterarguments>While MediShield Life provides basic coverage, it's important to note that it doesn't cover all medical expenses. There are claim limits and exclusions. Some may argue that the coverage is insufficient for very expensive or complex medical conditions, necessitating additional private insurance. However, this doesn't negate the fact that MediShield Life does provide a basic level of protection against large hospital bills and selected outpatient treatments.</Step4_PotentialCounterarguments>\n      <Step5_OverallAssessment>The model answer is accurate and well-supported by the search results. It correctly identifies the core purpose and coverage of MediShield Life.</Step5_OverallAssessment>\n  </ChainOfThought>\n\n  <Factuality>FACTUAL</Factuality>\n",
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_26_20250506124357",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat kind of authority does the CPF Board have regarding the terms and conditions of the MediShield Life scheme?",
+          "source_context_qa": {
+            "identifier": "medishield_26",
+            "question": "What kind of authority does the CPF Board have regarding the terms and conditions of the MediShield Life scheme?",
+            "expected_answer": "The CPF Board may impose and vary the terms and conditions of the MediShield Life scheme as provided for in the legislation.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "The CPF Board is authorized to set and determine the terms and conditions of the MediShield Life scheme.",
+          "citation": 1
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.3247743403952336,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "NON_FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "<Search>\n      <SearchTerms>[\"CPF Board MediShield Life terms and conditions\", \"MediShield Life scheme authority\", \"Ministry of Health MediShield Life\"]</SearchTerms>\n      <RetrievedTexts>\n          <Text>https://www.cpf.gov.sg/member/healthcare/medishield-life</Text>\n          <Text>https://www.moh.gov.sg/hpp/medishield-life</Text>\n          <Text>https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life</Text>\n      </RetrievedTexts>\n      <Summary>\n          <TextSummary text=\"https://www.cpf.gov.sg/member/healthcare/medishield-life\">This CPF webpage describes MediShield Life as a basic health insurance plan administered by the CPF Board, providing coverage for large hospital bills and certain outpatient treatments.</TextSummary>\n          <TextSummary text=\"https://www.moh.gov.sg/hpp/medishield-life\">This Ministry of Health webpage introduces MediShield Life as a basic health insurance plan, highlighting its role in helping to pay for large hospital bills and selected costly outpatient treatments.</TextSummary>\n          <TextSummary text=\"https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life\">This MOH page explains MediShield Life, emphasizing that it is administered by the CPF Board but falls under the purview of the Ministry of Health.</TextSummary>\n      </Summary>\n  </Search>\n\n  <ChainOfThought>\n      <Step1_ModelAnswerRestatement>The CPF Board has the authority to set and determine the terms and conditions of the MediShield Life scheme.</Step1_ModelAnswerRestatement>\n      <Step2_KeyClaims>The CPF Board is authorized to set and determine the terms and conditions of the MediShield Life scheme.</Step2_KeyClaims>\n      <Step3_EvidenceComparison>The retrieved texts confirm that the CPF Board administers MediShield Life. However, it is also clear that the scheme falls under the purview of the Ministry of Health (MOH). The MOH likely sets the overall policy and framework, while the CPF Board handles the administration and implementation. Therefore, the claim that the CPF Board *solely* determines the terms and conditions is likely inaccurate, as the MOH would have significant input and oversight. The MOH website states MediShield Life is under their purview.\n      </Step3_EvidenceComparison>\n      <Step4_PotentialCounterarguments>One could argue that \"administration\" includes setting some terms and conditions. However, the MOH's oversight suggests that major policy decisions regarding coverage, premiums, and claim limits would likely involve the MOH.</Step4_PotentialCounterarguments>\n      <Step5_OverallAssessment>Based on the information, the Model Answer is likely incorrect. While the CPF Board administers MediShield Life, the Ministry of Health has overall responsibility for the scheme, suggesting that the CPF Board does not have *sole* authority to set all terms and conditions.</Step5_OverallAssessment>\n  </ChainOfThought>\n\n  <Factuality>NON_FACTUAL</Factuality>\n",
+          "status": "success",
+          "error": null,
+          "label": "NON_FACTUAL"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_27_20250506124358",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWho is automatically eligible for the Premium Cap and Phased Support provided under MediShield Life?",
+          "source_context_qa": {
+            "identifier": "medishield_27",
+            "question": "Who is automatically eligible for the Premium Cap and Phased Support provided under MediShield Life?",
+            "expected_answer": "All Singapore Citizens and Permanent Residents, regardless of household income and Annual Value of their residences, are automatically eligible.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "Singapore Citizens and Permanent Residents are automatically eligible for the Premium Cap and Phased Support under MediShield Life.",
+          "citation": 3
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.592388572844211,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "```xml\n<Search>\n    <SearchTerms>[\"MediShield Life premium cap eligibility\", \"MediShield Life phased support eligibility\", \"MediShield Life eligibility Singapore citizens\", \"MediShield Life eligibility permanent residents\"]</SearchTerms>\n    <RetrievedTexts>\n        <Text>https://www.cpf.gov.sg/member/healthcare/medishield-life/about-medishield-life</Text>\n        <Text>https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life</Text>\n        <Text>https://www.moneyhelper.sg/articles/healthcare/medishield-life-premiums-and-claims</Text>\n        <Text>https://www.proshield.com.sg/medishield-life-premium/</Text>\n        <Text>https://www.income.com.sg/blog/understanding-your-medishield-life-premiums</Text>\n    </RetrievedTexts>\n    <Summary>\n        <TextSummary text=\"https://www.cpf.gov.sg/member/healthcare/medishield-life/about-medishield-life\">MediShield Life is a basic health insurance plan administered by the Central Provident Fund (CPF) Board, providing coverage for all Singapore Citizens (SCs) and Permanent Residents (PRs) against large hospital bills and costly outpatient treatments.</TextSummary>\n        <TextSummary text=\"https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life\">MediShield Life provides universal healthcare coverage for all Singapore Citizens and Permanent Residents, ensuring protection against large hospital bills and selected costly outpatient treatments. The government provides premium subsidies and other forms of support to help Singaporeans afford their premiums, especially for lower- to middle-income households.</TextSummary>\n        <TextSummary text=\"https://www.moneyhelper.sg/articles/healthcare/medishield-life-premiums-and-claims\">MediShield Life is mandatory for all Singapore Citizens and Permanent Residents. Premium subsidies are available, particularly for lower- and middle-income families.</TextSummary>\n        <TextSummary text=\"https://www.proshield.com.sg/medishield-life-premium/\">This article discusses MediShield Life premiums and factors affecting them. It does not explicitly mention automatic eligibility for premium caps or phased support, but it implies that these are related to premium affordability for Singapore Citizens and Permanent Residents.</TextSummary>\n        <TextSummary text=\"https://www.income.com.sg/blog/understanding-your-medishield-life-premiums\">This article explains how MediShield Life premiums work and the subsidies available to help Singaporeans manage healthcare costs. It mentions premium subsidies, but does not explicitly discuss automatic eligibility for premium caps or phased support.</TextSummary>\n    </Summary>\n</Search>\n\n<ChainOfThought>\n    <Step1_ModelAnswerRestatement>Singapore Citizens and Permanent Residents are automatically eligible for the Premium Cap and Phased Support under MediShield Life.</Step1_ModelAnswerRestatement>\n    <Step2_KeyClaims>The key claim is that Singapore Citizens and Permanent Residents are *automatically* eligible for both the Premium Cap and Phased Support under MediShield Life.</Step2_KeyClaims>\n    <Step3_EvidenceComparison>The retrieved documents confirm that MediShield Life covers all Singapore Citizens and Permanent Residents. They also mention premium subsidies and support to help with affordability. However, the term \"automatic eligibility\" for Premium Cap and Phased Support requires further clarification. While SCs and PRs are covered by MediShield Life, it is not explicitly stated if the Premium Cap and Phased Support are automatically applied without any assessment or application process.\n\n    The MOH website states that the government provides premium subsidies and other forms of support, suggesting that some assessment might be involved to determine the level of support.\n    </Step3_EvidenceComparison>\n    <Step4_PotentialCounterarguments>The \"automatic\" aspect of eligibility might be conditional. While all SCs and PRs are covered by MediShield Life, the level of premium support received (via premium caps and phased support) might depend on factors like income, age, and household circumstances. There could be an assessment process to determine the specific level of support each individual receives, meaning it's not *entirely* automatic. The absence of explicit confirmation of 'automatic' eligibility in the search results suggests that some conditions or application might be necessary to determine the precise premium support level.\n\n    It's also possible that enrollment in MediShield Life is automatic for SCs/PRs, but the determination of the premium cap and phased support requires some form of assessment.\n    </Step4_PotentialCounterarguments>\n    <Step5_OverallAssessment>While the core of the statement is likely correct (SCs/PRs are the target group), the word \"automatically\" requires a degree of nuance. The search results support the general eligibility of SCs and PRs for MediShield Life and its related support mechanisms, however it does not explicitly confirm if the Premium Cap and Phased Support are automatically granted without any assessment. Therefore, the statement is potentially misleading. More information is needed to determine if an assessment is necessary to receive the Premium Cap and Phased Support. Therefore the factuality is uncertain.\n</Step5_OverallAssessment>\n</ChainOfThought>\n\n<Factuality>UNCERTAIN</Factuality>\n```",
+          "status": "success",
+          "error": null,
+          "label": "UNCERTAIN"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    },
+    {
+      "llm_response": {
+        "identifier": "medishield_28_20250506124358",
+        "experiment_input": {
+          "prompt_to_llm": "\n\n      You are a helpful assistant who answers questions.\n      Cite the specific fact when you answer it with the number from the context.\n      If no relevant fact is found, say \"no citation.\"\n\n      Pick one citation at the maximum, or no citation\n\n\n        \nWhat is the eligibility for subsidies under Singapore's Medishield program for residents living in residences with an Annual Value above $31,000?",
+          "source_context_qa": {
+            "identifier": "medishield_28",
+            "question": "What is the eligibility for subsidies under Singapore's Medishield program for residents living in residences with an Annual Value above $31,000?",
+            "expected_answer": "Residents living in residences with an Annual Value above $31,000 are not eligible to receive subsidies under the Medishield program.",
+            "context_questions": null
+          }
+        },
+        "llm_response": {
+          "response": "Residents living in residences with an Annual Value above $31,000 are generally not eligible for subsidies under Singapore's MediShield program.",
+          "citation": 1
+        },
+        "cited_QA": null
+      },
+      "detections": [
+        {
+          "detector_type": "tlm",
+          "confidence": 0.6011361262708669,
+          "explanation": null,
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "aws_bedrock",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "azure_content_safety",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "deepeval",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        },
+        {
+          "detector_type": "gemini",
+          "confidence": null,
+          "explanation": "```xml\n<Search>\n    <SearchTerms>[\"MediShield Life subsidies annual value above $31,000\", \"Singapore MediShield Life subsidy eligibility criteria annual value\"]</SearchTerms>\n    <RetrievedTexts>\n        <Text>Annual Value is an assessment criterion for MediShield Life Premium Subsidies. Will there be any flexibility in premium payment for \"asset-rich, cash-poor\" citizens? - CPF</Text>\n        <Text>Will I be eligible for MediShield Life Premium Subsidies? - CPF</Text>\n        <Text>MediShield Life Premium Subsidies - SupportGoWhere</Text>\n        <Text>Premium Subsidies and Support - Singapore - Ministry of Health</Text>\n        <Text>What are the different types of Government subsidies to help Singaporeans with their MediShield Life premiums? Who is eligible for them? - AskGov</Text>\n        <Text>Annex D Revised MediShield Life Premiums Table D1: MediShield Life Premium Schedule for Singapore Citizens in 2021 - Isomer</Text>\n        <Text>REVISION TO ANNUAL VALUE THRESHOLDS FOR MOH SCHEMES FROM 2025 - CHAS</Text>\n    </RetrievedTexts>\n    <Summary>\n        <TextSummary text=\"Annual Value is an assessment criterion for MediShield Life Premium Subsidies. Will there be any flexibility in premium payment for \"asset-rich, cash-poor\" citizens? - CPF\">This document explains that Annual Value (AV) is used to determine MediShield Life Premium Subsidies, targeting those in greater need. It notes that those owning multiple properties are ineligible for subsidies. The $31,000 AV threshold covers all HDB flats and some private properties. Additional Premium Support is available on a case-by-case basis. Those living in homes with higher AVs continue to benefit from healthcare subsidies at polyclinics and public hospitals and receive MediSave top-ups.</TextSummary>\n        <TextSummary text=\"Will I be eligible for MediShield Life Premium Subsidies? - CPF\">This document states that Singapore residents with a household monthly income per person not exceeding $3600, an annual value of residence not exceeding $31000, and who do not own multiple properties are eligible for MediShield Life premium subsidies. Those with lower incomes or lower AVs enjoy higher subsidy rates. Permanent Residents receive half the subsidy rates applicable to Singapore Citizens.</TextSummary>\n        <TextSummary text=\"MediShield Life Premium Subsidies - SupportGoWhere\">This document details eligibility criteria for Premium Subsidies, Pioneer Generation Subsidies, and Merdeka Generation Subsidies. Premium Subsidies of up to 50% are available for eligible lower-to-middle-income households. The subsidy rates apply to those living in property with an AV of $21,000 or less. Properties with an AV between $21,001 and $31,000 receive 10% less subsidies. Permanent Residents receive half the subsidy rate applicable to Singapore Citizens. Pioneer Generation Subsidies are applicable regardless of household monthly income or AV of residence.</TextSummary>\n        <TextSummary text=\"Premium Subsidies and Support - Singapore - Ministry of Health\">This document explains that the government provides support to keep premiums affordable, including subsidies for lower-to-middle-income families with a household monthly income per person of $3,600 and below, living in residences with an Annual Value of $31,000 and below. Those eligible can receive subsidies of up to 60% of their premiums. Those living in residences with an AV of above $31,000 will not receive these subsidies. Pioneer Generation Subsidies are available regardless of income or AV.</TextSummary>\n        <TextSummary text=\"What are the different types of Government subsidies to help Singaporeans with their MediShield Life premiums? Who is eligible for them? - AskGov\">This document outlines premium subsidies for lower- to middle-income Singapore Residents with household monthly income per person of $3600 and below and living in residences with an Annual Value of $31000 and below. It also mentions subsidies for Merdeka and Pioneer Generations, as well as additional premium support for needy Singaporeans.</TextSummary>\n        <TextSummary text=\"Annex D Revised MediShield Life Premiums Table D1: MediShield Life Premium Schedule for Singapore Citizens in 2021 - Isomer\">This document provides MediShield Life premium schedules for Singapore citizens, noting that premium subsidies are applied for those living in properties with an Annual Value of $13,000 or less. Those with an Annual Value of between $13,001 to $21,000 will receive 10 percentage points less subsidy, while those with an Annual Value of above $21,000 will not receive premium subsidies. It also specifies income levels for lower, lower-middle, and upper-middle-income individuals.</TextSummary>\n        <TextSummary text=\"REVISION TO ANNUAL VALUE THRESHOLDS FOR MOH SCHEMES FROM 2025 - CHAS\">This document discusses revisions to Annual Value (AV) thresholds for MOH schemes from 2025. It explains that the Ministry of Health uses residential property AV in conjunction with Per Capita Household Income for means-testing. Changes in subsidy arising from AV changes will be automatically extended to healthcare schemes.</TextSummary>\n    </Summary>\n</Search>\n\n<ChainOfThought>\n    <Step1_ModelAnswerRestatement>Residents living in residences with an Annual Value above $31,000 are generally not eligible for subsidies under Singapore's MediShield program.</Step1_ModelAnswerRestatement>\n    <Step2_KeyClaims>The key claim is that residents with homes having an Annual Value above $31,000 are generally not eligible for MediShield subsidies.</Step2_KeyClaims>\n    <Step3_EvidenceComparison>Multiple sources support the claim that residents living in residences with an Annual Value above $31,000 are generally not eligible for MediShield Life premium subsidies.\n        *   [4] states: \"Those living in residences with an AV of above $31,000 will not receive these subsidies.\"\n        *   [5] states: Premium Subsidies (up to 60%) for lower- to middle-income Singapore Residents with household monthly income per person of $3600 and below and living in residences with an Annual Value of $31000 and below.\n        *   [1] states: \"The $31,000 AV threshold covers all HDB flats and some private properties.\"\n        *   [2] states: Singapore Residents with household monthly income per person not exceeding $3600, annual value of residence not exceeding $31000 and who do not own multiple properties will be eligible for MediShield Life premium subsidies\n        *   [6] states:  Those with an Annual Value of between $13,001 to $21,000 will receive 10 percentage points less subsidy, while those with Annual Value of above $21,000 will not receive premium subsidies.\n    </Step3_EvidenceComparison>\n    <Step4_PotentialCounterarguments>While the general rule is ineligibility for those above $31,000 AV, there are exceptions. Pioneer Generation members receive subsidies regardless of their home's AV [3, 4, 5]. Also, individuals facing financial difficulties can apply for Additional Premium Support on a case-by-case basis [1, 5]. Furthermore, even with a higher AV, individuals still benefit from other healthcare subsidies at polyclinics and public hospitals [1]. The model answer could be seen as an overgeneralization if it doesn't acknowledge these exceptions, but the inclusion of \"generally\" softens this.\n    </Step4_PotentialCounterarguments>\n    <Step5_OverallAssessment>The model answer is likely correct. While exceptions exist (Pioneer Generation, Additional Premium Support), the primary rule is that those with homes above $31,000 AV are not eligible for MediShield Life premium subsidies based on AV.</Step5_OverallAssessment>\n</ChainOfThought>\n\n<Factuality>FACTUAL</Factuality>\n```",
+          "status": "success",
+          "error": null,
+          "label": "FACTUAL"
+        },
+        {
+          "detector_type": "ragas",
+          "confidence": null,
+          "explanation": "Skipped: No context questions found.",
+          "status": "skipped",
+          "error": null,
+          "label": null
+        }
+      ]
+    }
+  ],
+  "detection_metadata": {
+    "tlm": {
+      "detector_type": "tlm",
+      "confidence_threshold": 0.5,
+      "timestamp": "2025-06-22T13:51:50.184502"
+    },
+    "aws_bedrock": {
+      "detector_type": "aws_bedrock",
+      "confidence_threshold": 0.5,
+      "timestamp": "2025-06-22T13:51:50.184525",
+      "additional_config": {
+        "guardrail_identifier": "2dys6brgxdlr",
+        "guardrail_version": "1",
+        "aws_region": "ap-southeast-1"
+      }
+    },
+    "azure_content_safety": {
+      "detector_type": "azure_content_safety",
+      "confidence_threshold": 0.5,
+      "timestamp": "2025-06-22T13:51:50.184532",
+      "additional_config": {
+        "endpoint": "https://gt-az-content-safety.cognitiveservices.azure.com/",
+        "region": "eastus",
+        "api_version": "2024-09-15-preview"
+      }
+    },
+    "deepeval": {
+      "detector_type": "deepeval",
+      "confidence_threshold": 0.5,
+      "timestamp": "2025-06-22T13:51:50.184544"
+    },
+    "gemini": {
+      "detector_type": "gemini",
+      "confidence_threshold": 0.5,
+      "timestamp": "2025-06-22T13:51:50.184553",
+      "additional_config": {
+        "model": "gemini-2.0-flash"
+      }
+    },
+    "ragas": {
+      "detector_type": "ragas",
+      "confidence_threshold": 0.5,
+      "timestamp": "2025-06-22T13:51:50.184569",
+      "additional_config": {
+        "azure_deployment": "gpt-4o-2024-11-20",
+        "openai_api_version": "2024-10-21",
+        "azure_endpoint": "https://aip-rai-prototyping.openai.azure.com/",
+        "model": "gpt-4o-2024-11-20",
+        "validate_base_url": false
+      }
+    }
+  }
+}
