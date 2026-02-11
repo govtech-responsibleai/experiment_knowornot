@@ -1,0 +1,932 @@
+{
+  "path_to_store": "experiments/ablation_facts/questions/BTT/BTT_filtered_qa_sem0.50.json",
+  "knowledge_base_identifier": "BTT",
+  "creation_timestamp": "2025-07-29T23:53:47.150060",
+  "questions": [
+    {
+      "question": "What do Work Permit and S-pass holders in Singapore need to pass to convert their foreign driving license for most Class 3 vehicles, excluding light goods vehicles, mini vans, and small buses?",
+      "answer": "They need to pass the Basic Theory Test.",
+      "identifier": "BTT_0"
+    },
+    {
+      "question": "When should you check the coolant levels in a car without a coolant reservoir?",
+      "answer": "When the engine is cool.",
+      "identifier": "BTT_1"
+    },
+    {
+      "question": "What is the purpose of the additional flashing lights at the doors during an emergency?",
+      "answer": "To alert motorists of the emergency situation, the need for evacuation, and to draw their attention to the exit locations.",
+      "identifier": "BTT_2"
+    },
+    {
+      "question": "What type of lock is recommended for cyclists to secure their bicycle when left unattended?",
+      "answer": "A U-lock is recommended for cyclists to secure their bicycle when left unattended.",
+      "identifier": "BTT_3"
+    },
+    {
+      "question": "What is the typical characteristic of traffic volume in rural areas?",
+      "answer": "Traffic in rural areas is generally light.",
+      "identifier": "BTT_4"
+    },
+    {
+      "question": "Why are smooth or bald tyres a safety risk when braking hard?",
+      "answer": "They can cause skids, regardless of whether the road is wet or dry.",
+      "identifier": "BTT_5"
+    },
+    {
+      "question": "What is the primary difference between electric and manual transmission motorcycles based on their transmission system?",
+      "answer": "Electric motorcycles use an automatic transmission without a clutch, while manual transmission motorcycles use a clutch.",
+      "identifier": "BTT_6"
+    },
+    {
+      "question": "During what hours is coupon parking applicable in specific lots marked for it?",
+      "answer": "Coupon parking is applicable from 7am to 10.30pm in specific lots.",
+      "identifier": "BTT_7"
+    },
+    {
+      "question": "What could happen if you fail to report an accident to your insurer along with your accident vehicle?",
+      "answer": "Claims may be prejudiced or declined later by insurers.",
+      "identifier": "BTT_8"
+    },
+    {
+      "question": "What are the three main negative impacts of idling engines as mentioned in the fact?",
+      "answer": "Idling engines waste fuel, generate unnecessary pollution to the environment, and cause fumes and noise nuisance to the public.",
+      "identifier": "BTT_9"
+    },
+    {
+      "question": "Which component on the instrument panel is used to indicate the vehicle's current speed?",
+      "answer": "The speedometer.",
+      "identifier": "BTT_10"
+    },
+    {
+      "question": "What is the approximate range of a vehicle's headlight on high beam?",
+      "answer": "About 100 metres.",
+      "identifier": "BTT_11"
+    },
+    {
+      "question": "When turning right into a one-way street, which lane should you enter?",
+      "answer": "You should enter the extreme right lane of the one-way street.",
+      "identifier": "BTT_12"
+    },
+    {
+      "question": "What equipment can motorists use to extinguish small-scale vehicle fires?",
+      "answer": "Portable fire extinguishers.",
+      "identifier": "BTT_13"
+    },
+    {
+      "question": "What is the recommended action when encountering an injured animal and you are not confident in handling it?",
+      "answer": "Avoid touching or moving the injured animal, as it may still defend itself.",
+      "identifier": "BTT_14"
+    },
+    {
+      "question": "When must a driver stop when signaled by a school patrol warden?",
+      "answer": "When the school patrol warden is showing a 'STOP-Children' sign.",
+      "identifier": "BTT_15"
+    },
+    {
+      "question": "What does a road sign indicating a series of bends represent?",
+      "answer": "It is a warning sign to slow down.",
+      "identifier": "BTT_16"
+    },
+    {
+      "question": "Why is it particularly dangerous to judge the depth of flood water at night?",
+      "answer": "Because at night, the depth of flood water can be deceptive.",
+      "identifier": "BTT_17"
+    },
+    {
+      "question": "Why is it important to stay patient and not rush or lose your cool while driving on the road?",
+      "answer": "Staying patient while driving helps to avoid rash decisions, reduces the risk of accidents, ensures the safety of all road users, and maintains smooth traffic flow.",
+      "identifier": "BTT_18"
+    },
+    {
+      "question": "Which type of vehicle is prohibited from entering a tunnel based on its dimension?",
+      "answer": "A vehicle with an overall width exceeding 3 metres.",
+      "identifier": "BTT_19"
+    },
+    {
+      "question": "What is the penalty for exceeding the speed limit by 51 to 60 kilometres per hour?",
+      "answer": "Exceeding the speed limit by 51 to 60 kilometres per hour is considered an offence.",
+      "identifier": "BTT_20"
+    },
+    {
+      "question": "What is the title of the source document that covers the components and mechanisms of a car?",
+      "answer": "The title of the source document is 'Parts and Controls of a Car.'",
+      "identifier": "BTT_21"
+    },
+    {
+      "question": "What does the message 'ACCIDENT on CTE (SLE)' displayed on the TTD indicate?",
+      "answer": "It informs motorists about an accident occurring on the CTE in the direction towards SLE.",
+      "identifier": "BTT_22"
+    },
+    {
+      "question": "What function does turning on the demister perform on a vehicle's windscreen?",
+      "answer": "Turning on the demister clears the mist on the windscreen.",
+      "identifier": "BTT_23"
+    },
+    {
+      "question": "What is the term used to describe the areas on the sides of a vehicle that cannot be seen in its mirrors?",
+      "answer": "Blind spots",
+      "identifier": "BTT_24"
+    },
+    {
+      "question": "According to statistics on car thefts, which of the following items is commonly reported as stolen from vehicles?",
+      "answer": "Laptops",
+      "identifier": "BTT_25"
+    },
+    {
+      "question": "How does the consumption of alcohol and certain drugs impact driving ability?",
+      "answer": "It affects judgment, concentration, and reaction time.",
+      "identifier": "BTT_26"
+    },
+    {
+      "question": "What is the primary mode of operation for an Autonomous Vehicle (AV) when driving to a pre-determined destination?",
+      "answer": "Autonomous mode using various technologies and sensors to sense the environment and navigate.",
+      "identifier": "BTT_27"
+    },
+    {
+      "question": "What is the estimated travel time for a motorist to exit the CTE at Ang Mo Kio Avenue 1?",
+      "answer": "5 minutes",
+      "identifier": "BTT_28"
+    },
+    {
+      "question": "What background color and border color are used on signs in Singapore that provide multi-lingual directions to tourist places of interest?",
+      "answer": "The background color is brown, and the border color is white.",
+      "identifier": "BTT_29"
+    },
+    {
+      "question": "How often should drivers move their eyes to maintain awareness according to driving best practices?",
+      "answer": "Every two seconds.",
+      "identifier": "BTT_30"
+    },
+    {
+      "question": "Is it acceptable to proceed based on signals provided by unauthorized persons?",
+      "answer": "No, you should not rely on signals given by unauthorized persons to proceed.",
+      "identifier": "BTT_31"
+    },
+    {
+      "question": "What safety measure must adults below the height of 1.35m use to reduce the risk of injury in the event of an accident?",
+      "answer": "Adults below the height of 1.35m must use booster seats or approved adjustable seat belts.",
+      "identifier": "BTT_32"
+    },
+    {
+      "question": "What label must lorry owners display on the rear tailboard of their vehicles when the deck is empty?",
+      "answer": "A Maximum Passenger Capacity (MPC) label indicating the number of workers the lorry can transport.",
+      "identifier": "BTT_33"
+    },
+    {
+      "question": "What does the acronym 'BEF' stand for in the Expressway Monitoring and Advisory Systems (EMAS)?",
+      "answer": "Before",
+      "identifier": "BTT_34"
+    },
+    {
+      "question": "What primary areas does the Riding Theory Test (RTT) assess?",
+      "answer": "Riding safety aspects, techniques, and interaction with other road users.",
+      "identifier": "BTT_35"
+    },
+    {
+      "question": "What are the two essential actions you must take after parking your vehicle?",
+      "answer": "Turn off the engine and engage the hand-brake.",
+      "identifier": "BTT_36"
+    },
+    {
+      "question": "Why is it important to maintain sufficient engine oil and change it periodically?",
+      "answer": "Maintaining sufficient engine oil and changing it periodically ensures the engine operates efficiently, reduces wear and tear, and prevents potential engine damage.",
+      "identifier": "BTT_37"
+    },
+    {
+      "question": "What happens to the demerit points of a licence holder who goes 12 months without committing any scheduled offence?",
+      "answer": "All previous demerit points will be removed from the licence holder's record.",
+      "identifier": "BTT_38"
+    },
+    {
+      "question": "What is one potential consequence of road-based events such as running or cycling events?",
+      "answer": "These events may cause delays and require caution.",
+      "identifier": "BTT_39"
+    },
+    {
+      "question": "What is the primary reason for designating Silver Zones in specific housing estates?",
+      "answer": "Silver Zones are designated in housing estates with high senior populations, higher accident rates involving seniors, and proximity to places frequented by seniors.",
+      "identifier": "BTT_40"
+    },
+    {
+      "question": "In most European countries, which side of the vehicle is the steering wheel located due to the common left-hand drive system?",
+      "answer": "The steering wheel is located on the left side of the vehicle.",
+      "identifier": "BTT_41"
+    },
+    {
+      "question": "What is the purpose of ensuring that terminal connections are securely tightened in a vehicle's system, as mentioned in the Basic Theory Test guidelines?",
+      "answer": "To prevent electrical faults and ensure proper functioning of the vehicle's electrical system.",
+      "identifier": "BTT_42"
+    },
+    {
+      "question": "What is the rule regarding overtaking when double continuous white lines are painted to separate traffic flowing in opposite directions?",
+      "answer": "Overtaking is only allowed if done entirely to the left of such lines.",
+      "identifier": "BTT_43"
+    },
+    {
+      "question": "According to the principles of eco-driving, which of the following aspects is NOT included in its practice? (A) Vehicle maintenance (B) On-road driver behavior (C) Route selection (D) Speed limit enforcement",
+      "answer": "(D) Speed limit enforcement",
+      "identifier": "BTT_44"
+    },
+    {
+      "question": "What happens to a vehicle's trajectory when increasing the travelling speed around a curve?",
+      "answer": "The vehicle will be pushed more from its path.",
+      "identifier": "BTT_45"
+    },
+    {
+      "question": "What does the empty fuel tank warning light on the instrument panel indicate?",
+      "answer": "The empty fuel tank warning light indicates that the fuel level in the vehicle is low and needs refueling.",
+      "identifier": "BTT_46"
+    },
+    {
+      "question": "What is the main purpose of a Parking Enforcement Camera in operation?",
+      "answer": "To monitor and ensure compliance with parking regulations.",
+      "identifier": "BTT_47"
+    },
+    {
+      "question": "What action should a motorist take to communicate with the Operations Control Center (OCC) during emergencies?",
+      "answer": "Pick up the emergency phone set to speak to the OCC.",
+      "identifier": "BTT_48"
+    },
+    {
+      "question": "At what intervals are cross-passage doors located next to the fast lanes in the main tunnel?",
+      "answer": "The cross-passage doors are located at intervals of 100 meters.",
+      "identifier": "BTT_49"
+    },
+    {
+      "question": "What is the potential risk of opening a radiator cap when the engine is hot?",
+      "answer": "Opening the radiator cap when the engine is hot may cause injury due to the highly pressurized coolant.",
+      "identifier": "BTT_50"
+    },
+    {
+      "question": "According to the stipulated space requirements, what is the minimum area in square metres that must be allocated per worker in a vehicle?",
+      "answer": "0.372 square metres per seated worker.",
+      "identifier": "BTT_51"
+    },
+    {
+      "question": "What is the recommended method to dry brakes that have become ineffective after passing through water?",
+      "answer": "Pumping the brake pedal repeatedly.",
+      "identifier": "BTT_52"
+    },
+    {
+      "question": "What facility is provided specifically for motorcyclists in Singapore to protect them during rainfall?",
+      "answer": "Rain shelters.",
+      "identifier": "BTT_53"
+    },
+    {
+      "question": "What does a green traffic light specifically indicate for vehicles going straight ahead?",
+      "answer": "It indicates 'GO' for straight ahead vehicles only.",
+      "identifier": "BTT_54"
+    },
+    {
+      "question": "What is a recommended way to achieve higher fuel efficiency and reduce emissions when using your vehicle's air-conditioning system?",
+      "answer": "Increase the fan speed instead of setting the air-conditioning temperature too low.",
+      "identifier": "BTT_55"
+    },
+    {
+      "question": "What is offered to motorists who are on their 1st and 2nd suspensions to address their driving behavior?",
+      "answer": "Retraining courses.",
+      "identifier": "BTT_56"
+    },
+    {
+      "question": "When was Singapore’s Driver Improvement Points System (DIPS) introduced?",
+      "answer": "1 March 1983.",
+      "identifier": "BTT_57"
+    },
+    {
+      "question": "Which driving control's name is specifically mentioned as including the 'lever'?",
+      "answer": "Gear lever",
+      "identifier": "BTT_58"
+    },
+    {
+      "question": "What should a driver do to avoid being forced into the path of traffic during strong winds?",
+      "answer": "The driver should slow down and drive cautiously.",
+      "identifier": "BTT_59"
+    },
+    {
+      "question": "Why are dashed pedestrian crossing lines used instead of solid lines?",
+      "answer": "Dashed pedestrian crossing lines provide better contrast with the stop line to better demarcate the crossing area for pedestrians.",
+      "identifier": "BTT_60"
+    },
+    {
+      "question": "What can sun-glare or light reflected off objects or water on the road cause to a driver's vision, as stated in source citation 15?",
+      "answer": "It can dazzle or blind the driver's vision.",
+      "identifier": "BTT_61"
+    },
+    {
+      "question": "How does the stopping distance of a vehicle on a wet road compare to that on a dry road?",
+      "answer": "It increases to about twice that on a dry road.",
+      "identifier": "BTT_62"
+    },
+    {
+      "question": "What type of offense is committed when a driver operates a vehicle without due care or reasonable consideration for other road users?",
+      "answer": "Driving without due care or reasonable consideration for other road users is considered an offense under Singapore's traffic regulations.",
+      "identifier": "BTT_63"
+    },
+    {
+      "question": "What is the prescribed legal limit for blood alcohol content in Singapore?",
+      "answer": "80 mg of alcohol per 100 ml of blood.",
+      "identifier": "BTT_64"
+    },
+    {
+      "question": "What is the purpose of counting 'one-thousand-and-one, one-thousand-and-two' as the vehicle in front of you passes a stationary object?",
+      "answer": "To help ensure a safe following distance from the vehicle in front.",
+      "identifier": "BTT_65"
+    },
+    {
+      "question": "What is the appropriate use of a vehicle horn according to Singapore's Basic Theory Test guidelines?",
+      "answer": "Vehicle horns should not be used to express anger or frustration but should be used for safety reasons, such as alerting others to avoid an accident.",
+      "identifier": "BTT_66"
+    },
+    {
+      "question": "What do LTA EMAS and SCDF/Traffic Police response teams do in the event of a tunnel accident?",
+      "answer": "They assist motorists involved in tunnel accidents.",
+      "identifier": "BTT_67"
+    },
+    {
+      "question": "What is the minimum distance from which applicants for a Provisional Driving Licence (PDL) must be able to distinguish red, amber, and green colors?",
+      "answer": "25 metres",
+      "identifier": "BTT_68"
+    },
+    {
+      "question": "When should you use dipped headlights according to traffic regulations?",
+      "answer": "Dipped headlights should be used at night in built-up areas and during rainy weather.",
+      "identifier": "BTT_69"
+    },
+    {
+      "question": "Which view of a car displays the position of the headlights and license plate on the vehicle?",
+      "answer": "Front view",
+      "identifier": "BTT_70"
+    },
+    {
+      "question": "Which tool is used to check the oil level in a vehicle?",
+      "answer": "A dip-stick.",
+      "identifier": "BTT_71"
+    },
+    {
+      "question": "Which areas in Singapore were included in the recent expansion of the Autonomous Vehicle (AV) test-bed?",
+      "answer": "The areas included in the recent expansion of the AV test-bed are the National University of Singapore, Singapore Science Park 1 and 2, Dover, and Buona Vista.",
+      "identifier": "BTT_72"
+    },
+    {
+      "question": "Under what condition is a left turn prohibited on arterial roads?",
+      "answer": "A left turn is prohibited on arterial roads where left turn lanes are closed ahead.",
+      "identifier": "BTT_73"
+    },
+    {
+      "question": "What is the proper procedure when a cyclist is ahead of you and you want to turn at an intersection?",
+      "answer": "You must turn behind the cyclist.",
+      "identifier": "BTT_74"
+    },
+    {
+      "question": "What does the 'Basic Theory of Driving' handbook guarantee regarding the accuracy of its information?",
+      "answer": "The handbook guarantees that the information is accurate at the time of publication.",
+      "identifier": "BTT_75"
+    },
+    {
+      "question": "What is the purpose of Intelligent Road Studs in Singapore's traffic system?",
+      "answer": "They activate by blinking when the green man signal comes on to enhance pedestrian visibility and safety.",
+      "identifier": "BTT_76"
+    },
+    {
+      "question": "Where is it prohibited to park or let your vehicle wait unless you are driving a taxi?",
+      "answer": "It is prohibited to park or let your vehicle wait in any taxi stand unless you are driving a taxi.",
+      "identifier": "BTT_77"
+    },
+    {
+      "question": "What are the two payment methods accepted for parking charges under the EPS system in Singapore?",
+      "answer": "Cash card and EZ-link card.",
+      "identifier": "BTT_78"
+    },
+    {
+      "question": "What does a posted speed limit displayed on road signs with a red ring represent in smooth traffic conditions?",
+      "answer": "It represents the mandatory speed limit that motorists must comply with.",
+      "identifier": "BTT_79"
+    },
+    {
+      "question": "What is the consequence of forming up incorrectly when turning left or right in Singapore?",
+      "answer": "It is classified as an offence.",
+      "identifier": "BTT_80"
+    },
+    {
+      "question": "Does switching on your vehicle's headlights have an impact on fuel consumption?",
+      "answer": "No, switching on your vehicle's headlights does not affect fuel consumption.",
+      "identifier": "BTT_81"
+    },
+    {
+      "question": "What is the key action a driver must take to indicate their intention to change lanes?",
+      "answer": "The driver must give sufficient warning of their intention to change lanes.",
+      "identifier": "BTT_82"
+    },
+    {
+      "question": "Where are Arterial Variable Message Signs (AVMS) typically located?",
+      "answer": "Along an arterial road that leads to the entrance to the tunnel.",
+      "identifier": "BTT_83"
+    },
+    {
+      "question": "What does the term \"communicative functions\" include, as outlined in the Basic Theory Test for Singapore?",
+      "answer": "Communicative functions include sending or receiving oral or written messages, electronic documents, still or moving images, audio or video files, and providing internet access.",
+      "identifier": "BTT_84"
+    },
+    {
+      "question": "What does a yellow color on TTD signboards indicate about travel time?",
+      "answer": "It indicates that the travel time is between 50% to 125% more than normal travel time.",
+      "identifier": "BTT_85"
+    },
+    {
+      "question": "When parking a car facing uphill on a slope, which gear should the driver engage?",
+      "answer": "The driver should engage low gear.",
+      "identifier": "BTT_86"
+    },
+    {
+      "question": "According to traffic rules, where should pedestrians avoid walking near roadwork areas?",
+      "answer": "Pedestrians should avoid walking near the work area during roadwork activities.",
+      "identifier": "BTT_87"
+    },
+    {
+      "question": "How often should tyre pressure be checked to reduce drag, improve fuel economy, and reduce pollution?",
+      "answer": "At least once a month.",
+      "identifier": "BTT_88"
+    },
+    {
+      "question": "Why should a good driver reduce speed when entering a built-up area?",
+      "answer": "To enhance safety by being prepared for potential hazards such as pedestrians or vehicles entering the road.",
+      "identifier": "BTT_89"
+    },
+    {
+      "question": "What is the primary purpose of prohibitory signs in the 'SIGNS & SIGNALS' section?",
+      "answer": "The primary purpose of prohibitory signs is to indicate restrictions or rules that must be followed by road users to ensure safety and compliance with traffic regulations.",
+      "identifier": "BTT_90"
+    },
+    {
+      "question": "What benefit do motorists with a clean driving record for three continuous years receive when renewing their insurance policy with participating companies?",
+      "answer": "They enjoy a discount over and above the usual No-Claim Bonus.",
+      "identifier": "BTT_91"
+    },
+    {
+      "question": "What must a licence holder do to obtain a new licence after their current licence is revoked?",
+      "answer": "They must retake all necessary driving tests, including both theory and practical tests.",
+      "identifier": "BTT_92"
+    },
+    {
+      "question": "Where are accident scene pictures required to be submitted during the reporting process?",
+      "answer": "Accident scene pictures should be submitted at your authorised accident reporting centre during reporting.",
+      "identifier": "BTT_93"
+    },
+    {
+      "question": "According to Singapore's regulations, how many yellow reflective markings must long vehicles display on each side?",
+      "answer": "At least 3 yellow reflective markings.",
+      "identifier": "BTT_94"
+    },
+    {
+      "question": "Why is it important to cancel your vehicle's signals when they are no longer needed?",
+      "answer": "To avoid confusing other road users.",
+      "identifier": "BTT_95"
+    },
+    {
+      "question": "What should vehicles do after reaching the end of the expressway according to traffic regulations?",
+      "answer": "Vehicles should slow down and drive within the speed limit of the road.",
+      "identifier": "BTT_96"
+    },
+    {
+      "question": "What does the statement 'TTDs like these will be phased out' suggest about the status of TTDs in Singapore?",
+      "answer": "TTDs or traffic-related devices indicated in the statement will be gradually discontinued or removed from use in Singapore, as part of an updated policy or practice.",
+      "identifier": "BTT_97"
+    },
+    {
+      "question": "What must vehicles be maintained to eliminate, as per regulation?",
+      "answer": "Excessive smoke and noise emissions.",
+      "identifier": "BTT_98"
+    },
+    {
+      "question": "What should a driver observe regarding the arcs of the front and rear nearside wheels when making a turn?",
+      "answer": "The driver should notice the wide difference between the arcs that the front and rear nearside wheels take when making a turn.",
+      "identifier": "BTT_99"
+    },
+    {
+      "question": "Why is it important to scan road shoulders ahead while driving?",
+      "answer": "To identify any potential animal crossings and prevent accidents.",
+      "identifier": "BTT_100"
+    },
+    {
+      "question": "What are the full-day bus lane operational hours in Singapore, during which driving or parking of vehicles in the bus lane is prohibited?",
+      "answer": "Mondays to Saturdays from 7:30am to 11:00pm, except on Sundays and Public Holidays.",
+      "identifier": "BTT_101"
+    },
+    {
+      "question": "What is a potential danger of a car that wanders on the road due to faulty steering?",
+      "answer": "It is as dangerous as a car driven by a drunk driver.",
+      "identifier": "BTT_102"
+    },
+    {
+      "question": "What feature is unique to some directional signs based on the provided fact?",
+      "answer": "They have black letters on white backgrounds with black borders.",
+      "identifier": "BTT_103"
+    },
+    {
+      "question": "What is the average potential reduction in fuel consumption over time when practicing eco-driving?",
+      "answer": "10%",
+      "identifier": "BTT_104"
+    },
+    {
+      "question": "Where can candidates find the latest updates regarding the Basic Theory Test (BTT)?",
+      "answer": "Candidates can find the latest updates on the TP website at http://www.police.gov.sg and the LTA website at http://www.lta.gov.sg.",
+      "identifier": "BTT_105"
+    },
+    {
+      "question": "What type of water should be added if the battery water level is below the 'low' indicator in a vehicle battery?",
+      "answer": "Distilled or commercially available battery water.",
+      "identifier": "BTT_106"
+    },
+    {
+      "question": "What type of vehicle are electric-powered motorcycles and scooters classified as?",
+      "answer": "Plug-in-electric vehicles with two or three wheels.",
+      "identifier": "BTT_107"
+    },
+    {
+      "question": "When should a driver indicate their apology for causing inconvenience to others?",
+      "answer": "When they are sorry for causing inconvenience to others to soothe the affected person.",
+      "identifier": "BTT_108"
+    },
+    {
+      "question": "What type of insurance coverage is mandatory for Provisional Driving Licence (PDL) holders during driving lessons and tests?",
+      "answer": "Insurance against third-party risks.",
+      "identifier": "BTT_109"
+    },
+    {
+      "question": "What is the primary function of the water-based firefighting system in tunnels?",
+      "answer": "To suppress fire growth rates and protect major structural tunnel elements.",
+      "identifier": "BTT_110"
+    },
+    {
+      "question": "Why is it important to regularly check hydraulic brakes for leakage?",
+      "answer": "Regular checks for leakage in hydraulic brakes ensure the brake system's effectiveness and safety by preventing brake fluid loss which could lead to brake failure.",
+      "identifier": "BTT_111"
+    },
+    {
+      "question": "What is the maximum speed limit for vehicles transporting workers on the deck?",
+      "answer": "The maximum speed limit is the lower of the road speed limit or 60 km/h.",
+      "identifier": "BTT_112"
+    },
+    {
+      "question": "What is considered an offence concerning the securing of goods on a goods vehicle in Singapore?",
+      "answer": "Failing to securely tie or attach goods to a goods vehicle to prevent them from falling off is an offence.",
+      "identifier": "BTT_113"
+    },
+    {
+      "question": "What should you do if your vehicle’s headlamps, tail-lamps, or direction indicators are not functioning?",
+      "answer": "You should not drive the vehicle.",
+      "identifier": "BTT_114"
+    },
+    {
+      "question": "Which two types of crimes are identified as key concerns by the police in relation to motor vehicles?",
+      "answer": "Motor vehicle theft (MVT) and theft from vehicle (TFV)",
+      "identifier": "BTT_115"
+    },
+    {
+      "question": "What is the primary purpose of ambulances as implied by the Basic Theory Test?",
+      "answer": "To transport the sick and injured to hospitals.",
+      "identifier": "BTT_116"
+    },
+    {
+      "question": "What components are included in advanced warning lights as indicated by the 'light signals ahead' sign?",
+      "answer": "Advanced warning lights include two flashing amber lights, a 'light signals ahead' sign, and a blue 'prepare to stop' sign.",
+      "identifier": "BTT_117"
+    },
+    {
+      "question": "According to Singapore's traffic rules, who is required to wear a seatbelt while traveling in a vehicle?",
+      "answer": "All persons, irrespective of their age, are required to wear a seatbelt while traveling in a vehicle.",
+      "identifier": "BTT_118"
+    },
+    {
+      "question": "What term is used to describe the situation when a vehicle glides on the road surface due to surface water building up under the tyres?",
+      "answer": "Aquaplaning",
+      "identifier": "BTT_119"
+    },
+    {
+      "question": "If there are four waiting lanes ahead, what is the rule for vehicle placement?",
+      "answer": "Vehicles waiting to turn may take any of the four waiting lanes.",
+      "identifier": "BTT_120"
+    },
+    {
+      "question": "What type of information can Traffic Information Displays (TIDs) provide?",
+      "answer": "Traffic Information Displays (TIDs) can provide information on incident type, lane(s) affected, congestion information, travel time information, or other traffic advisory messages.",
+      "identifier": "BTT_121"
+    },
+    {
+      "question": "What is the helpline number motorists in Singapore can call for assistance if their vehicle breaks down?",
+      "answer": "1800-2255582 (1800-CALL LTA)",
+      "identifier": "BTT_122"
+    },
+    {
+      "question": "What is another name for a Bus Priority Box in Singapore's traffic regulations?",
+      "answer": "Mandatory Give-Way to Buses",
+      "identifier": "BTT_123"
+    },
+    {
+      "question": "What is the primary reference point suggested for guiding your vehicle?",
+      "answer": "The edge of the road.",
+      "identifier": "BTT_124"
+    },
+    {
+      "question": "What are the three key abilities a good driver should demonstrate under adverse conditions?",
+      "answer": "Interpret, anticipate, and act unhesitatingly.",
+      "identifier": "BTT_125"
+    },
+    {
+      "question": "What is the appropriate action to take when approaching bus-friendly hump road markings?",
+      "answer": "Slow down.",
+      "identifier": "BTT_126"
+    },
+    {
+      "question": "What is the primary reason for using the correct gear in a manual vehicle?",
+      "answer": "To avoid dragging the engine.",
+      "identifier": "BTT_127"
+    },
+    {
+      "question": "Why is it important to plan your route well in advance when driving in tunnels?",
+      "answer": "Planning your route in advance ensures that you can navigate turns, exits, and traffic in tunnels confidently and safely, reducing the risk of sudden decisions that may lead to accidents.",
+      "identifier": "BTT_128"
+    },
+    {
+      "question": "What is the minimum tread depth for tyres to comply with safety standards in Singapore?",
+      "answer": "1.6mm",
+      "identifier": "BTT_129"
+    },
+    {
+      "question": "What should motorists look out for within a car park in addition to the car park signboard to understand parking restrictions?",
+      "answer": "Motorists should look out for other parking restriction signs within the car park in addition to the car park signboard.",
+      "identifier": "BTT_130"
+    },
+    {
+      "question": "What behavior is prohibited when driving behind another vehicle?",
+      "answer": "Tailgating or harassing the vehicle in front.",
+      "identifier": "BTT_131"
+    },
+    {
+      "question": "How many steps are outlined in the correct method of overtaking?",
+      "answer": "12 steps",
+      "identifier": "BTT_132"
+    },
+    {
+      "question": "According to traffic regulations, is it permissible to reverse from a side road or minor road into a main road?",
+      "answer": "No, it is not permissible.",
+      "identifier": "BTT_133"
+    },
+    {
+      "question": "What should a driver do if the green arrow signal starts flickering and they have not yet crossed the stop-line?",
+      "answer": "The driver should not proceed if they have not crossed the stop-line when the green arrow is flickering.",
+      "identifier": "BTT_134"
+    },
+    {
+      "question": "What does the red texture on the road surface near a school gate signify?",
+      "answer": "It alerts drivers to drive carefully and watch for children crossing.",
+      "identifier": "BTT_135"
+    },
+    {
+      "question": "Which side of the road should motorists traveling at a slow speed keep to?",
+      "answer": "The left side of the road.",
+      "identifier": "BTT_136"
+    },
+    {
+      "question": "What does a broken white line adjacent to an accelerating lane indicate?",
+      "answer": "The edge of a road.",
+      "identifier": "BTT_137"
+    },
+    {
+      "question": "What is the recommended safety gap to maintain between your vehicle and the vehicle in front when stopping at a traffic light junction?",
+      "answer": "2 meters",
+      "identifier": "BTT_138"
+    },
+    {
+      "question": "What is the primary purpose of lateral shift markers in work zones?",
+      "answer": "To indicate a lateral change in the direction of the carriageway or a sharp bend in a road diversion through the work zone.",
+      "identifier": "BTT_139"
+    },
+    {
+      "question": "According to Singapore’s Basic Theory Test guidelines, where should you keep your valuables when you park your vehicle?",
+      "answer": "In the boot or in a place where they cannot be seen.",
+      "identifier": "BTT_140"
+    },
+    {
+      "question": "What is the primary reason obstructing emergency vehicles is a serious offense?",
+      "answer": "Obstructing emergency vehicles can be life-threatening for individuals in need.",
+      "identifier": "BTT_141"
+    },
+    {
+      "question": "What is the maximum allowable weight (laden or unladen) for vehicles to enter an area marked with this sign?",
+      "answer": "10 tonnes",
+      "identifier": "BTT_142"
+    },
+    {
+      "question": "Why might cyclists avoid cycling too close to the kerb?",
+      "answer": "To prevent pedal contact or getting stuck in drain holes.",
+      "identifier": "BTT_143"
+    },
+    {
+      "question": "On a three-lane carriageway, when is it acceptable for a driver to stay in the center lane?",
+      "answer": "It is acceptable to stay in the center lane when the left-hand lane is occupied by slower-moving vehicles.",
+      "identifier": "BTT_144"
+    },
+    {
+      "question": "What should drivers do if they are rushing for time and encounter heavy traffic at school zones?",
+      "answer": "Drivers are encouraged to take other routes when rushing for time and encountering heavy traffic at school zones.",
+      "identifier": "BTT_145"
+    },
+    {
+      "question": "What is one reason for using high beam lights on approaching bends with poor visibility?",
+      "answer": "To attract the attention of other road users and warn them of your approach.",
+      "identifier": "BTT_146"
+    },
+    {
+      "question": "What is the consequence of disobeying rules and regulations in The Highway Code that are legal requirements?",
+      "answer": "It constitutes a traffic offence.",
+      "identifier": "BTT_147"
+    },
+    {
+      "question": "In Singapore, where should a driver NOT stop to allow an emergency vehicle to pass?",
+      "answer": "Drivers should not stop on bridges, curves, or hill crests to allow an emergency vehicle to pass. They should proceed safely to a suitable location instead.",
+      "identifier": "BTT_148"
+    },
+    {
+      "question": "What does the alteration of numerals on a width restriction sign indicate?",
+      "answer": "It indicates different width restrictions for vehicles on the road.",
+      "identifier": "BTT_149"
+    },
+    {
+      "question": "Under the Environmental Protection and Management (Vehicular Emissions) Regulations in Singapore, when is it considered an offence to leave a vehicle engine running?",
+      "answer": "It is considered an offence to leave the vehicle engine running when stationary for reasons other than traffic conditions.",
+      "identifier": "BTT_150"
+    },
+    {
+      "question": "What is the right-of-way rule for pedestrians at pedestrian crossings in Singapore?",
+      "answer": "Pedestrians have the right-of-way at pedestrian crossings.",
+      "identifier": "BTT_151"
+    },
+    {
+      "question": "Why are excessive smoke and noise emissions considered a problem?",
+      "answer": "Because they are a nuisance and hazardous to health.",
+      "identifier": "BTT_152"
+    },
+    {
+      "question": "What is the minimum age requirement for riding a power-assisted bicycle, including carrying a pillion passenger, in Singapore?",
+      "answer": "16 years old",
+      "identifier": "BTT_153"
+    },
+    {
+      "question": "What proportion of motor vehicle thefts reported to the police involve motorcycles?",
+      "answer": "About two-thirds.",
+      "identifier": "BTT_154"
+    },
+    {
+      "question": "What should motorists, motorcyclists, and cyclists watch out for according to warnings?",
+      "answer": "Work activity and obstructions ahead.",
+      "identifier": "BTT_155"
+    },
+    {
+      "question": "Why is it important for new drivers to gradually familiarize themselves with left-hand drive conditions before driving in countries where it is practiced?",
+      "answer": "Gradual familiarization helps new drivers adapt to the different road layout and driving dynamics in left-hand drive countries, reducing the risk of accidents and improving overall road safety.",
+      "identifier": "BTT_156"
+    },
+    {
+      "question": "According to regulations, what action may authorities take if a vehicle is parked in a specified zone where parking is prohibited?",
+      "answer": "The vehicle may be towed away.",
+      "identifier": "BTT_157"
+    },
+    {
+      "question": "What is a potential danger of exhaust fumes leaking into the passenger compartment, especially when the air-conditioner is on and the car is idling?",
+      "answer": "Carbon-monoxide poisoning.",
+      "identifier": "BTT_158"
+    },
+    {
+      "question": "What does the phrase \"If you reach the same spot before you finish saying these eight words, you are following too closely\" imply for safe driving on the road?",
+      "answer": "It implies that you need to maintain a safe following distance from the vehicle in front of you to avoid being too close and risking a potential collision.",
+      "identifier": "BTT_159"
+    },
+    {
+      "question": "At an uncontrolled junction, who has the right of way if you are turning left and there is traffic coming straight from your right?",
+      "answer": "The traffic going straight from the right has the right of way.",
+      "identifier": "BTT_160"
+    },
+    {
+      "question": "If a driver in Singapore receives a fourth suspension, how long will their suspension period last?",
+      "answer": "2 years",
+      "identifier": "BTT_161"
+    },
+    {
+      "question": "What is the purpose of the door ajar warning light on a vehicle's instrument panel?",
+      "answer": "To indicate that one or more vehicle doors are not fully closed.",
+      "identifier": "BTT_162"
+    },
+    {
+      "question": "According to traffic regulations, what is the primary responsibility of drivers regardless of traffic conditions?",
+      "answer": "To be careful and alert.",
+      "identifier": "BTT_163"
+    },
+    {
+      "question": "What should cyclists attach to their bicycle to help identify it with a unique serial number?",
+      "answer": "A bicycle security label.",
+      "identifier": "BTT_164"
+    },
+    {
+      "question": "What type of parking is allowed in parking lots demarcated in yellow?",
+      "answer": "Coupon parking.",
+      "identifier": "BTT_165"
+    },
+    {
+      "question": "What are some factors mentioned that can negatively affect a driver's concentration on the road?",
+      "answer": "Tiredness, giddiness, and being unwell can negatively affect a driver's concentration.",
+      "identifier": "BTT_166"
+    },
+    {
+      "question": "Why are steel plates at unfinished roadworks particularly hazardous when wet?",
+      "answer": "Steel plates at unfinished roadworks become very slippery when wet, increasing the risk of accidents.",
+      "identifier": "BTT_167"
+    },
+    {
+      "question": "According to the rules in Singapore, when is the use of mobile communication devices permitted while driving?",
+      "answer": "It is permitted if the driver uses hands-free devices, such as wireless or wired headsets, and is not holding the mobile communication device while the vehicle is in motion.",
+      "identifier": "BTT_168"
+    },
+    {
+      "question": "What does a road sign indicating 'Pedestrians may be crossing the road ahead' imply to drivers?",
+      "answer": "It indicates that drivers should reduce their speed, stay alert, and prepare to stop if necessary, to ensure the safety of pedestrians crossing.",
+      "identifier": "BTT_169"
+    },
+    {
+      "question": "What does a green down arrow indicate when displayed on a lane use sign in Singapore?",
+      "answer": "The lane is open and available for use.",
+      "identifier": "BTT_170"
+    },
+    {
+      "question": "According to proper driving practices in Singapore, how should your speed at night compare to your speed during the day?",
+      "answer": "You should drive slower at night than during the day.",
+      "identifier": "BTT_171"
+    },
+    {
+      "question": "What should a driver do upon hearing the siren of an approaching emergency vehicle?",
+      "answer": "The driver should give way immediately by moving to the left side of the road, if safe to do so, and allow the emergency vehicle to pass.",
+      "identifier": "BTT_172"
+    },
+    {
+      "question": "What is the recommended action for a driver when the wheels lock accidentally?",
+      "answer": "The driver should release the brake pedal quickly and use intermittent braking.",
+      "identifier": "BTT_173"
+    },
+    {
+      "question": "What is a common method thieves use to access valuables inside cars at night?",
+      "answer": "Smashing the window or windscreen of the car.",
+      "identifier": "BTT_174"
+    },
+    {
+      "question": "What is the recommended action regarding driving after consuming alcohol, according to the safe rule?",
+      "answer": "Do not drive after consuming alcohol.",
+      "identifier": "BTT_175"
+    },
+    {
+      "question": "When driving at night and encountering oncoming vehicles, where should you direct your vision to avoid being blinded by the headlights?",
+      "answer": "Slightly to the left.",
+      "identifier": "BTT_176"
+    },
+    {
+      "question": "What indicates an emergency exit in the KPE/MCE tunnels?",
+      "answer": "White escape staircases and cross passage doors with green walls, identified by flashing bluish-white strobe lights.",
+      "identifier": "BTT_177"
+    },
+    {
+      "question": "What type of vehicles can be driven with a Class 3CA licence?",
+      "answer": "Automated Class 3C vehicles.",
+      "identifier": "BTT_178"
+    },
+    {
+      "question": "Why is it important to exercise extra caution at dawn and dusk while driving in areas where animals may be present?",
+      "answer": "Because dawn and dusk are peak periods for animal movements, increasing the likelihood of encountering animals on the road.",
+      "identifier": "BTT_179"
+    },
+    {
+      "question": "When encountering a passable but flooded road, what action should a driver take with regard to gear selection?",
+      "answer": "The driver should engage a lower gear to drive through the flooded road.",
+      "identifier": "BTT_180"
+    },
+    {
+      "question": "When cycling on the road, in which direction should cyclists travel relative to the flow of traffic?",
+      "answer": "Cyclists should travel with the flow of traffic.",
+      "identifier": "BTT_181"
+    },
+    {
+      "question": "What is the purpose of keeping a look-out for flashes from the brake lights of vehicles in front while driving?",
+      "answer": "The purpose is to anticipate that the vehicle in front is slowing down or stopping, allowing the driver to react accordingly and maintain safety.",
+      "identifier": "BTT_182"
+    },
+    {
+      "question": "What is the safety measure a driver should take before opening the vehicle door to prevent accidents involving cyclists?",
+      "answer": "The driver should check for cyclists before opening the vehicle door.",
+      "identifier": "BTT_183"
+    },
+    {
+      "question": "What does the high beam indicator on the instrument panel signify when illuminated?",
+      "answer": "It signifies that the vehicle's high beam headlights are turned on.",
+      "identifier": "BTT_184"
+    }
+  ]
+}

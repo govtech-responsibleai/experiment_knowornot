@@ -1,0 +1,502 @@
+{
+  "path_to_store": "experiments/ablation_facts/questions/medishield/medishield_filtered_qa_sem0.10.json",
+  "knowledge_base_identifier": "medishield",
+  "creation_timestamp": "2025-07-28T10:49:41.121885",
+  "questions": [
+    {
+      "question": "What is the pro-ration factor applied for subsidised treatments for Permanent Residents undergoing Continuation of Autologous Bone Marrow Transplant for Multiple Myeloma under the Medishield program in Singapore?",
+      "answer": "67%",
+      "identifier": "medishield_0"
+    },
+    {
+      "question": "How many days of a 10-day hospital stay were spent in the ICU as per the given information?",
+      "answer": "8 days",
+      "identifier": "medishield_1"
+    },
+    {
+      "question": "What is the cost of calls to 1800 service lines when made from regular landlines in Singapore?",
+      "answer": "Calls to 1800 service lines are free of charge if made from regular land lines.",
+      "identifier": "medishield_2"
+    },
+    {
+      "question": "What is the total co-insurance amount for a medical bill divided into $3,000 subject to 10% co-insurance and $4,850 subject to 5% co-insurance?",
+      "answer": "The total co-insurance amount is $542.50, calculated as ($3,000 x 10%) + ($4,850 x 5%).",
+      "identifier": "medishield_3"
+    },
+    {
+      "question": "What does an Integrated Shield Plan combine to provide enhanced benefits?",
+      "answer": "An Integrated Shield Plan combines MediShield Life with additional private insurance coverage.",
+      "identifier": "medishield_4"
+    },
+    {
+      "question": "What types of medical expenses related to maternity are excluded under MediShield Life coverage, with one exception?",
+      "answer": "MediShield Life does not cover maternity charges, Caesarean operations, abortions, and related complications, except for treatments of serious complications related to pregnancy and childbirth.",
+      "identifier": "medishield_5"
+    },
+    {
+      "question": "Who has the authority to impose terms and conditions for the administration of the MediShield Life Scheme according to the legislation?",
+      "answer": "The CPF Board.",
+      "identifier": "medishield_6"
+    },
+    {
+      "question": "What is the annual MediSave top-up range that pioneers receive depending on their birth year?",
+      "answer": "Pioneers receive annual MediSave top-ups ranging from $300 to $1,200 depending on their birth year.",
+      "identifier": "medishield_7"
+    },
+    {
+      "question": "Starting from which date will examples of MediShield Life premiums computation be shown without Phased Support?",
+      "answer": "Starting from 1 April 2027.",
+      "identifier": "medishield_8"
+    },
+    {
+      "question": "Which hospital ward type did a 40-year-old Permanent Resident stay in for a pancreas operation?",
+      "answer": "Ward B2",
+      "identifier": "medishield_9"
+    },
+    {
+      "question": "What happens if there is insufficient balance in the MediSave Account to pay the premiums for MediShield?",
+      "answer": "You or your payer will be informed to top up your or your payer’s MediSave.",
+      "identifier": "medishield_10"
+    },
+    {
+      "question": "What is the deductible amount for a Medishield insured member under 80 years old for Ward A?",
+      "answer": "$3,500",
+      "identifier": "medishield_11"
+    },
+    {
+      "question": "What is one purpose of distributing premiums more evenly throughout one’s life in the context of Singapore's Medishield program?",
+      "answer": "To moderate premium increases during older ages when one becomes less economically active.",
+      "identifier": "medishield_12"
+    },
+    {
+      "question": "What is the total amount allocated for premium subsidies and Merdeka Generation subsidies for 2024?",
+      "answer": "$448.23",
+      "identifier": "medishield_13"
+    },
+    {
+      "question": "Can patients seeking treatments in unsubsidised hospital wards, unsubsidised outpatient treatments in public hospitals, or private hospitals benefit from MediShield Life?",
+      "answer": "Yes, patients seeking treatments in unsubsidised hospital wards, unsubsidised outpatient treatments in public hospitals, or private hospitals can still benefit from MediShield Life.",
+      "identifier": "medishield_14"
+    },
+    {
+      "question": "Under the MediShield Life program, up to how many calendar days of expenses are covered after a patient is certified medically fit for discharge and has a feasible discharge option?",
+      "answer": "Up to 7 calendar days.",
+      "identifier": "medishield_15"
+    },
+    {
+      "question": "Under Singapore's Medishield program, how is a medical condition classified if it develops after the start of an insurance cover?",
+      "answer": "It is not considered a pre-existing condition.",
+      "identifier": "medishield_16"
+    },
+    {
+      "question": "Which of the following medical treatments is NOT covered under MediShield Life in Singapore? (A) Sub-fertility treatments (B) Chronic disease management (C) Assisted conception procedures (D) Contraceptive operations",
+      "answer": "(B) Chronic disease management is not explicitly mentioned in the fact; all other options (A, C, D) are explicitly stated as not covered.",
+      "identifier": "medishield_17"
+    },
+    {
+      "question": "How often is Mr. A hospitalized under the Medishield program according to the given fact?",
+      "answer": "Mr. A is hospitalized once in each policy year.",
+      "identifier": "medishield_18"
+    },
+    {
+      "question": "What is the age and demographic group of the insured individual in the Medishield program described as a 67-year-old lower-income Merdeka Generation Singapore Citizen?",
+      "answer": "The insured individual is 67 years old, part of the lower-income group, and belongs to the Merdeka Generation of Singapore Citizens.",
+      "identifier": "medishield_19"
+    },
+    {
+      "question": "How does joining the Medishield scheme at an earlier age affect premium rebates?",
+      "answer": "Joining the Medishield scheme at an earlier age results in higher premium rebates.",
+      "identifier": "medishield_20"
+    },
+    {
+      "question": "What is the maximum percentage increase in MediShield Life premiums by the end of the third year of the next review cycle compared to premiums in 2024?",
+      "answer": "35%",
+      "identifier": "medishield_21"
+    },
+    {
+      "question": "How are non-subsidised bills processed before claims are calculated under MediShield Life?",
+      "answer": "Non-subsidised bills are pro-rated before the claims under MediShield Life are computed.",
+      "identifier": "medishield_22"
+    },
+    {
+      "question": "What is the current name of the health insurance scheme that was previously known as the MediShield Scheme?",
+      "answer": "MediShield Life Scheme.",
+      "identifier": "medishield_23"
+    },
+    {
+      "question": "Why is it important to consider the affordability of Integrated Shield Plan (IP) premiums in the long term before purchasing one?",
+      "answer": "Because IP premiums increase with age, making it crucial to assess whether one can afford the premiums in the long term.",
+      "identifier": "medishield_24"
+    },
+    {
+      "question": "Which type of medical procedure is addressed in the provided fact about Singapore's Medishield program?",
+      "answer": "Stomach operation",
+      "identifier": "medishield_25"
+    },
+    {
+      "question": "What assurance does the MediShield Life program provide to individuals who face financial difficulties?",
+      "answer": "The MediShield Life program assures that no one will lose their coverage due to financial difficulties.",
+      "identifier": "medishield_26"
+    },
+    {
+      "question": "For a Singapore Citizen staying in Ward C, on what percentage of the bill is a MediShield Life claim computed?",
+      "answer": "100% of the bill.",
+      "identifier": "medishield_27"
+    },
+    {
+      "question": "Which fund supports the Premium Cap and Phased Support in Singapore's MediShield Life program?",
+      "answer": "The MediShield Life Fund.",
+      "identifier": "medishield_28"
+    },
+    {
+      "question": "Who is required to pay an Additional Premium of 30% for the first 10 years under the MediShield Life program?",
+      "answer": "Individuals with serious pre-existing medical conditions are required to pay an Additional Premium of 30% for the first 10 years, in addition to the standard MediShield Life premiums.",
+      "identifier": "medishield_29"
+    },
+    {
+      "question": "What type of medical bills does MediShield Life primarily aim to cover?",
+      "answer": "MediShield Life primarily aims to cover subsidised bills in public hospitals.",
+      "identifier": "medishield_30"
+    },
+    {
+      "question": "What is the maximum Annual Value of residences for individuals to be eligible to receive subsidies under the Medishield program in Singapore?",
+      "answer": "The maximum Annual Value of residences for individuals to be eligible for subsidies is $31,000.",
+      "identifier": "medishield_31"
+    },
+    {
+      "question": "Where can one find official updates and detailed information about Singapore's MediShield Life Scheme?",
+      "answer": "On the website at medishieldlife.sg.",
+      "identifier": "medishield_32"
+    },
+    {
+      "question": "Which severe and fatal rare congenital conditions are explicitly excluded from coverage under MediShield Life?",
+      "answer": "MediShield Life does not cover surgical interventions and related complications for Trisomy 13, Bilateral Renal Agenesis, Bart’s Hydrops, and Anecephaly.",
+      "identifier": "medishield_33"
+    },
+    {
+      "question": "What type of bills related to outpatient cancer treatments and home parenteral nutrition will be pro-rated under the Medishield program?",
+      "answer": "Non-subsidised bills for outpatient cancer treatments and home parenteral nutrition will be pro-rated under the Medishield program.",
+      "identifier": "medishield_34"
+    },
+    {
+      "question": "Who qualifies for the Pioneer Generation Subsidies in Singapore based on birthdate and citizenship criteria?",
+      "answer": "Singaporeans born on or before December 31, 1949, who received their citizenship by December 31, 1986.",
+      "identifier": "medishield_35"
+    },
+    {
+      "question": "How is the MediShield Life payout for inpatient treatments and day surgeries calculated?",
+      "answer": "The MediShield Life payout for inpatient treatments and day surgeries is calculated by applying the deductible and co-insurance to the claimable amount.",
+      "identifier": "medishield_36"
+    },
+    {
+      "question": "What are the payment options available for settling the remaining amount of a bill under Singapore's MediShield program?",
+      "answer": "The remaining amount of the bill can be paid using MediSave and/or cash.",
+      "identifier": "medishield_37"
+    },
+    {
+      "question": "What type of additional private insurance coverage is suggested if someone wishes to seek non-subsidised treatments in public or private hospitals in Singapore?",
+      "answer": "An Integrated Shield Plan (IP) is suggested for those who intend to seek non-subsidised treatments in public or private hospitals.",
+      "identifier": "medishield_38"
+    },
+    {
+      "question": "What is the monetary reduction associated with the Phased Support for 2026 in Singapore's Medishield program?",
+      "answer": "$20.51",
+      "identifier": "medishield_39"
+    },
+    {
+      "question": "What is the subsidy percentage increase for Merdeka Generation seniors' premiums when they turn 76 years old under the Singapore Medishield program?",
+      "answer": "The subsidy percentage increases from 5% to 10% when they turn 76 years old.",
+      "identifier": "medishield_40"
+    },
+    {
+      "question": "Does MediShield Life provide coverage for medical treatment received overseas?",
+      "answer": "No, MediShield Life does not cover overseas medical treatment.",
+      "identifier": "medishield_41"
+    },
+    {
+      "question": "What is the total length of stay for the procedure, including the time spent in the ICU, under the provided fact about the Medishield program?",
+      "answer": "54 days, including 2 days in the ICU.",
+      "identifier": "medishield_42"
+    },
+    {
+      "question": "How many times do you have to pay the deductible in a single insurance policy year under the Singapore Medishield program if you are hospitalised?",
+      "answer": "You only have to pay the deductible once in any insurance policy year you are hospitalised.",
+      "identifier": "medishield_43"
+    },
+    {
+      "question": "What is the lower of the claim limit in Table A for a surgical procedure under Singapore's Medishield program?",
+      "answer": "The lower of the claim limit is $3,540 or 100% of charges incurred up to $1,250.",
+      "identifier": "medishield_44"
+    },
+    {
+      "question": "How is the co-insurance amount calculated for a claim with a charge of $1,500 at 10% and $1,365 at 5%?",
+      "answer": "The co-insurance amount is calculated as ($1,500 x 10%) + ($1,365 x 5%), which equals $218.25.",
+      "identifier": "medishield_45"
+    },
+    {
+      "question": "How is the co-insurance amount calculated in Singapore's Medishield program for medical costs of $2,500, $5,000, and $1,480?",
+      "answer": "The co-insurance amount is calculated as ($2,500 x 10%) + ($5,000 x 5%) + ($1,480 x 3%) = $544.40.",
+      "identifier": "medishield_46"
+    },
+    {
+      "question": "What two factors are considered in determining the claimable amount under MediShield Life?",
+      "answer": "The pro-ration factor and the claim limits.",
+      "identifier": "medishield_47"
+    },
+    {
+      "question": "What is the subsidy rate received by Permanent Residents under Singapore's Medishield program compared to Singapore Citizens?",
+      "answer": "Permanent Residents receive half of the applicable subsidy rates for Singapore Citizens.",
+      "identifier": "medishield_48"
+    },
+    {
+      "question": "What is the post-subsidy hospital bill amount for the stated case in Singapore's MediShield program?",
+      "answer": "$9,850.",
+      "identifier": "medishield_49"
+    },
+    {
+      "question": "Over how many years will the premium increases for Singapore's Medishield program be phased in?",
+      "answer": "Three years.",
+      "identifier": "medishield_50"
+    },
+    {
+      "question": "What is the relationship between the premiums for Integrated Shield Plans (IP) and premiums for MediShield Life?",
+      "answer": "The premiums for Integrated Shield Plans (IP) are higher than the premiums for MediShield Life.",
+      "identifier": "medishield_51"
+    },
+    {
+      "question": "What happens to Permanent Residents' hospital bills at public hospitals before MediShield Life claims are computed?",
+      "answer": "The bills are pro-rated because Permanent Residents receive less subsidies than Singapore Citizens.",
+      "identifier": "medishield_52"
+    },
+    {
+      "question": "What are some examples of serious pre-existing conditions that may require the payment of Additional Premiums under Singapore's Medishield program?",
+      "answer": "Examples of serious pre-existing conditions include cancer, kidney failure, stroke, and heart diseases.",
+      "identifier": "medishield_53"
+    },
+    {
+      "question": "If an individual, such as Mr. B, is hospitalized twice in the same policy year under the MediShield program, what aspect of the insurance policy applies to each hospitalisation?",
+      "answer": "The coverage and payment limits of the MediShield program apply to each hospitalization individually, subject to the annual claim limit for the policy year.",
+      "identifier": "medishield_54"
+    },
+    {
+      "question": "Why does MediShield Life cover a smaller portion of the bill for unsubsidised and private treatments?",
+      "answer": "Because unsubsidised and private treatment costs are higher.",
+      "identifier": "medishield_55"
+    },
+    {
+      "question": "What is the purpose of MediSave in the context of purchasing an Integrated Shield Plan (IP) cover?",
+      "answer": "MediSave can be used to pay the premium for the additional private insurance coverage component of an Integrated Shield Plan (IP) cover, up to the Additional Withdrawal Limits (AWLs).",
+      "identifier": "medishield_56"
+    },
+    {
+      "question": "What type of medical conditions does MediShield Life cover with respect to individuals who already have them?",
+      "answer": "Pre-existing medical conditions.",
+      "identifier": "medishield_57"
+    },
+    {
+      "question": "What is the maximum percentage of a pro-rated outpatient treatment bill that MediShield Life will pay, according to the program guidelines?",
+      "answer": "90%.",
+      "identifier": "medishield_58"
+    },
+    {
+      "question": "How are premiums for Singapore's MediShield program paid each year after accounting for any applicable subsidies?",
+      "answer": "Premiums are automatically deducted from the policyholder's or their payer’s MediSave account each year.",
+      "identifier": "medishield_59"
+    },
+    {
+      "question": "What financial adjustment do individuals with pre-existing conditions face under MediShield Life in Singapore?",
+      "answer": "Individuals with pre-existing conditions may have to pay Additional Premiums under MediShield Life.",
+      "identifier": "medishield_60"
+    },
+    {
+      "question": "What measures does the Singaporean Government provide to ensure the affordability of MediShield Life premiums?",
+      "answer": "The Government provides premium subsidies and support measures to ensure that MediShield Life premiums are affordable.",
+      "identifier": "medishield_61"
+    },
+    {
+      "question": "What is the net premium increase in the revised MediShield Life premiums compared to the previous ones, after subsidies?",
+      "answer": "$56.97",
+      "identifier": "medishield_62"
+    },
+    {
+      "question": "Do policyholders under MediShield Life receive different payout amounts based on whether they choose subsidised or non-subsidised care?",
+      "answer": "No, policyholders under MediShield Life receive comparable payouts regardless of whether they opt for subsidised or non-subsidised care.",
+      "identifier": "medishield_63"
+    },
+    {
+      "question": "What type of medical expense is not covered under Singapore's MediShield Life program?",
+      "answer": "Private nursing charges.",
+      "identifier": "medishield_64"
+    },
+    {
+      "question": "What can be used to pay for the deductible, coinsurance, and the bill amounts above the claim limits under Singapore's MediShield program?",
+      "answer": "MediSave and/or cash.",
+      "identifier": "medishield_65"
+    },
+    {
+      "question": "What is the claimable amount for daily ward and treatment charges under the Medishield program according to source citation 2?",
+      "answer": "The claimable amount for daily ward and treatment charges is $10,670.",
+      "identifier": "medishield_66"
+    },
+    {
+      "question": "What factor determines the premium rebates a policyholder receives under the Medishield scheme?",
+      "answer": "The premium rebates depend on how long the policyholder has been insured under the scheme.",
+      "identifier": "medishield_67"
+    },
+    {
+      "question": "What is the annual premium before subsidies for Singapore's Medishield program in 2025 following the premium cap adjustment?",
+      "answer": "The annual premium before subsidies in 2025 is $1,326.00.",
+      "identifier": "medishield_68"
+    },
+    {
+      "question": "Who automatically receives the Premium Cap and the Phased Support under Singapore's Medishield program?",
+      "answer": "All Singapore Citizens and Permanent Residents automatically receive the Premium Cap and the Phased Support under Singapore's Medishield program, regardless of household income and the Annual Value of their residences.",
+      "identifier": "medishield_69"
+    },
+    {
+      "question": "From 2021 to 2025, how much annual additional MediSave top-up do older Pioneer Generation Seniors with serious pre-existing conditions receive, and what can it be used for?",
+      "answer": "Older Pioneer Generation Seniors with serious pre-existing conditions receive an additional MediSave top-up ranging from $50 to $200 annually from 2021 to 2025, which can be used to pay for their MediShield Life premiums.",
+      "identifier": "medishield_70"
+    },
+    {
+      "question": "What type of charges apply for mobile calls made to 1800 service lines in Singapore's Medishield program?",
+      "answer": "Airtime charges apply for mobile calls to 1800 service lines.",
+      "identifier": "medishield_71"
+    },
+    {
+      "question": "How is the hospitalization charge for MediShield Life claim computation determined for Permanent Residents staying in Ward B2?",
+      "answer": "The hospitalization charge for MediShield Life claim computation for Permanent Residents staying in Ward B2 is based on 50% of the bill.",
+      "identifier": "medishield_72"
+    },
+    {
+      "question": "What percentage of the surgical charges for Ward A is used as the basis for MediShield Life claim computation?",
+      "answer": "25%",
+      "identifier": "medishield_73"
+    },
+    {
+      "question": "What is the pro-ration factor for surgical charges for individuals under Singapore's Medishield program based on Permanent Resident citizenship status?",
+      "answer": "60%",
+      "identifier": "medishield_74"
+    },
+    {
+      "question": "What must individuals with serious pre-existing conditions do under Singapore's Medishield program?",
+      "answer": "They must pay Additional Premiums after being informed.",
+      "identifier": "medishield_75"
+    },
+    {
+      "question": "Who administers the MediShield Life Scheme on behalf of the Ministry of Health (MOH)?",
+      "answer": "The Central Provident Fund (CPF) Board administers the MediShield Life Scheme on behalf of the Ministry of Health (MOH).",
+      "identifier": "medishield_76"
+    },
+    {
+      "question": "What percentage of the previous premiums do premium subsidies account for in Singapore's Medishield program?",
+      "answer": "35.0%",
+      "identifier": "medishield_77"
+    },
+    {
+      "question": "What type of support is available for Singapore Medishield members who cannot afford their premiums?",
+      "answer": "Members who cannot afford their premiums can apply for Additional Premium Support, and the Government will assist them with the process if they are unable to do it themselves.",
+      "identifier": "medishield_78"
+    },
+    {
+      "question": "What payment method can be fully utilized to cover annual premiums under Singapore's MediShield program?",
+      "answer": "MediSave.",
+      "identifier": "medishield_79"
+    },
+    {
+      "question": "What is the time frame during which Phased Support for net premium increases is applied for MediShield Life premiums?",
+      "answer": "Until 1 April 2025.",
+      "identifier": "medishield_80"
+    },
+    {
+      "question": "Under Singapore's MediShield Life program, what happens to the Additional Premiums in terms of subsidies?",
+      "answer": "Any applicable MediShield Life premium subsidies will also apply to the Additional Premiums.",
+      "identifier": "medishield_81"
+    },
+    {
+      "question": "What will be the net premium payable after phased support under the Medishield program in 2026?",
+      "answer": "$708.79",
+      "identifier": "medishield_82"
+    },
+    {
+      "question": "What is the basis for claim computation for a 35-year-old Singapore Citizen staying in a Ward C under Medishield, excluding IP/rider coverage?",
+      "answer": "The claim computation is specifically designed for a Singapore Citizen aged 35 staying in a Ward C under Medishield, with the exclusion of IP/rider coverage.",
+      "identifier": "medishield_83"
+    },
+    {
+      "question": "What is the maximum claimable amount under the Medishield program for surgical procedures, if the charges incurred are $1,350?",
+      "answer": "The maximum claimable amount is $810, which is 60% of the charges incurred ($1,350).",
+      "identifier": "medishield_84"
+    },
+    {
+      "question": "What is the co-insurance amount for the remaining $3,000 after accounting for a $2,000 deductible in Singapore's MediShield program?",
+      "answer": "The co-insurance amount is $300.",
+      "identifier": "medishield_85"
+    },
+    {
+      "question": "What ensures that individuals maintain their MediShield Life coverage regardless of their financial status?",
+      "answer": "Individuals maintain their MediShield Life coverage regardless of their financial status because no one loses coverage due to an inability to pay insurance premiums.",
+      "identifier": "medishield_86"
+    },
+    {
+      "question": "What is provided under Singapore's Medishield program for individuals facing financial difficulties despite standard measures?",
+      "answer": "Additional Premium Support is provided for individuals facing financial difficulties despite standard measures.",
+      "identifier": "medishield_87"
+    },
+    {
+      "question": "Based on the Singapore Medishield program, what is the claim limit for daily ward and treatment charges calculations in relation to the actual charges of $21,340?",
+      "answer": "The claim limit involves either $55,040 or 50% of the actual charges of $21,340.",
+      "identifier": "medishield_88"
+    },
+    {
+      "question": "What percentage of revised premiums is covered by the Merdeka Generation subsidies under the Medishield program?",
+      "answer": "5%",
+      "identifier": "medishield_89"
+    },
+    {
+      "question": "What type of financial support does the Singapore Government provide to assist with MediShield Life premiums?",
+      "answer": "The Singapore Government provides various premium subsidies and support measures to assist Singapore Citizens and Permanent Residents with their MediShield Life premiums.",
+      "identifier": "medishield_90"
+    },
+    {
+      "question": "What is the phased support reduction amount for Medishield premiums in the year 2025?",
+      "answer": "$39.88",
+      "identifier": "medishield_91"
+    },
+    {
+      "question": "What is the claimable amount for surgical procedure charges under Singapore's Medishield program?",
+      "answer": "The claimable amount for surgical procedure charges is $2,125.",
+      "identifier": "medishield_92"
+    },
+    {
+      "question": "What type of medical expenses does MediShield Life primarily cover for Singapore Citizens?",
+      "answer": "Subsidised bills incurred at public hospitals.",
+      "identifier": "medishield_93"
+    },
+    {
+      "question": "What is the net premium cost for Singapore's Medishield program after subsidies and phased support for 2024?",
+      "answer": "$672.33",
+      "identifier": "medishield_94"
+    },
+    {
+      "question": "What type of medical expenses are NOT covered by MediShield Life according to the provided statement?",
+      "answer": "MediShield Life does not cover the purchase of kidney dialysis machines, iron-lungs, and other special appliances.",
+      "identifier": "medishield_95"
+    },
+    {
+      "question": "What is the claim limit for Daily Ward & Treatment Charges in the Singapore MediShield program if the total charges incurred are $8,600?",
+      "answer": "The claim limit would be $8,600, as it is the lower of ($44,380 calculated from the formula) or 100% of charges incurred ($8,600).",
+      "identifier": "medishield_96"
+    },
+    {
+      "question": "What is the total amount of premium subsidies and Merdeka Generation subsidies for 2025 under Singapore's Medishield program?",
+      "answer": "$596.70",
+      "identifier": "medishield_97"
+    },
+    {
+      "question": "What percentage of daily ward and treatment charges for Ward A is used in MediShield Life claim computation?",
+      "answer": "27%",
+      "identifier": "medishield_98"
+    }
+  ]
+}

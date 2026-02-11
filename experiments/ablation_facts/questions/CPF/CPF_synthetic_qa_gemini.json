@@ -1,0 +1,941 @@
+[
+  {
+    "question": "Are there circumstances where individuals can voluntarily contribute to their CPF accounts even after reaching the CPF Annual Limit through mandatory contributions?"
+  },
+  {
+    "question": "How does the Majulah Package enhance financial security for CPF members, especially those with lower lifetime incomes?"
+  },
+  {
+    "question": "Are there any financial assistance schemes available to employees or self-employed persons besides CPF and WIS?"
+  },
+  {
+    "question": "If I voluntarily contribute to my CPF accounts, will those contributions be matched under the Matched Retirement Savings Scheme for eligible individuals?"
+  },
+  {
+    "question": "What are the eligibility requirements for the Platform Workers CPF Transition Support (PCTS) scheme concerning age and CPF contribution opt-in status?"
+  },
+  {
+    "question": "If a platform operator adjusts its fee structure, how will this affect the calculation and payment of CPF contributions for platform workers?"
+  },
+  {
+    "question": "Are there any resources available to help me understand the implications of opting in to the increased CPF contributions as a platform worker?"
+  },
+  {
+    "question": "Are there resources or financial assistance programs specifically designed to help platform workers understand and manage their CPF contributions and related obligations?"
+  },
+  {
+    "question": "Are there circumstances under which the CPF board will allow the withdrawal of funds that were previously used to top up retirement savings?"
+  },
+  {
+    "question": "What are some resources available to help platform workers understand their CPF obligations and benefits?"
+  },
+  {
+    "question": "What happens to my CPF contributions if I switch platform operators after having opted into increased CPF contributions?"
+  },
+  {
+    "question": "What are the penalties for platform operators who fail to deduct and remit CPF contributions on time?"
+  },
+  {
+    "question": "Are there any scenarios where I might be required to refund the Platform Workers CPF Transition Support (PCTS) that I have already received?"
+  },
+  {
+    "question": "Are there any resources available to help platform workers understand their CPF obligations and entitlements?"
+  },
+  {
+    "question": "Are there any resources available to help me understand the benefits of making CPF contributions as a platform worker?"
+  },
+  {
+    "question": "Are there any resources available to help platform workers understand and manage their CPF contributions?"
+  },
+  {
+    "question": "Are there specific CPF schemes or initiatives to support informal caregivers who may not meet the traditional employment criteria for CPF contributions?"
+  },
+  {
+    "question": "What financial planning resources are available to help platform workers understand and manage their CPF contributions and potential Platform Workers CPF Transition Support?"
+  },
+  {
+    "question": "Are there resources available to help me plan for retirement and understand CPF better?"
+  },
+  {
+    "question": "How will the new CPF contribution rules for platform workers affect their ability to qualify for loans or other financial products?"
+  },
+  {
+    "question": "What are the conditions under which CPF contribution rates may be voluntarily increased for new Singapore Permanent Residents?"
+  },
+  {
+    "question": "Are there resources available to help employers understand their obligations regarding CPF contributions?"
+  },
+  {
+    "question": "How does the closure of the Special Account affect my ability to make CPF Investment Scheme investments after age 55?"
+  },
+  {
+    "question": "Are there any financial assistance schemes available to help platform workers adjust to the increased CPF contributions, besides PCTS?"
+  },
+  {
+    "question": "What are the implications of exceeding the CPF Annual Limit when making both mandatory and voluntary contributions as a platform worker, and how can I apply for a refund?"
+  },
+  {
+    "question": "For platform workers, will the Fixed Expense Deduction Amount (FEDA) be automatically updated, or do I need to manually adjust it based on the mode of transport I used for each job?"
+  },
+  {
+    "question": "Are there any financial planning resources or consultations available to platform workers to help them understand and manage their increased CPF contributions?"
+  },
+  {
+    "question": "If my platform operator has not yet provided me with an earnings slip, am I still required to pay CPF contributions?"
+  },
+  {
+    "question": "How can platform workers utilise the new CPF contribution calculator designed specifically for their employment circumstances?"
+  },
+  {
+    "question": "What are the potential long-term effects on CPF savings for individuals who consistently make voluntary contributions?"
+  },
+  {
+    "question": "Are there specific deadlines for opting into increased CPF contributions as a platform worker to be eligible for the Platform Workers CPF Transition Support (PCTS)?"
+  },
+  {
+    "question": "If I am eligible for both Workfare Income Supplement (WIS) and Platform Workers CPF Transition Support (PCTS), how will the payments be disbursed?"
+  },
+  {
+    "question": "If I am a platform worker and suspect that I am not receiving the Platform Workers CPF Transition Support (PCTS) that I am entitled to, how can I clarify and seek assistance?"
+  },
+  {
+    "question": "How does opting in to increased CPF contributions impact the availability of the Platform Workers CPF Transition Support (PCTS) for platform workers?"
+  },
+  {
+    "question": "For self-employed individuals, what are the steps to update or change income estimations used to calculate Contribute As You Earn (CAYE) contributions?"
+  },
+  {
+    "question": "Are there any resources available to help platform workers understand their CPF obligations and benefits?"
+  },
+  {
+    "question": "If I am a platform worker who opted in for increased CPF contributions, and I switch to a new platform operator, will the increased contributions apply immediately?"
+  },
+  {
+    "question": "What financial support schemes are available for platform workers to assist with the increased CPF contributions?"
+  },
+  {
+    "question": "What are the eligibility criteria for me to receive the Platform Workers CPF Transition Support (PCTS) if I work for multiple platform operators?"
+  },
+  {
+    "question": "Are there any financial support schemes, besides PCTS and WIS, that platform workers can leverage to enhance their financial security?"
+  },
+  {
+    "question": "If I work for multiple platform operators, will the Fixed Expense Deduction Amount (FEDA) be calculated differently by each operator?"
+  },
+  {
+    "question": "What steps can platform workers take to ensure accurate computation and remittance of CPF contributions by platform operators?"
+  },
+  {
+    "question": "Can I use the same PayNow QR code for different CPF transactions?"
+  },
+  {
+    "question": "If I am a platform worker eligible for both the Workfare Income Supplement (WIS) and the Platform Workers CPF Transition Support (PCTS), how will these benefits be coordinated and disbursed to me?"
+  },
+  {
+    "question": "What are the key policy considerations and objectives behind the introduction and design of the Platform Workers CPF Transition Support (PCTS) scheme?"
+  },
+  {
+    "question": "Are there any circumstances under which the mandatory CPF contributions for platform workers can be waived or deferred?"
+  },
+  {
+    "question": "Are there any available schemes to help platform workers with their increased CPF contributions during the transition period?"
+  },
+  {
+    "question": "Are there any resources available to help me plan for retirement and understand the impact of CPF contributions on my retirement income?"
+  },
+  {
+    "question": "What are the steps involved for employers in applying for a refund of overpaid CPF contributions?"
+  },
+  {
+    "question": "Can I use both cash and CPF savings to top up my retirement accounts in order to meet the Enhanced Retirement Sum?"
+  },
+  {
+    "question": "What resources are available to help platform workers better understand their CPF obligations and benefits?"
+  },
+  {
+    "question": "Are there any resources available to help platform workers understand the new CPF contribution changes and how they impact their finances?"
+  },
+  {
+    "question": "Can I use the new tax relief benefits for CPF contributions of platform workers from 2025 to offset previous years tax liabilities?"
+  },
+  {
+    "question": "What are the conditions to qualify for receiving ComCare support while also being eligible for Workfare Income Supplement (WIS) as a caregiver?"
+  },
+  {
+    "question": "What types of expenses qualify for the Fixed Expense Deduction Amount (FEDA) for platform workers?"
+  },
+  {
+    "question": "Are there any resources available to help me understand and plan for the changes to CPF contributions and support schemes for platform workers?"
+  },
+  {
+    "question": "How does the implementation of CPF contributions for platform workers affect their eligibility for other government support schemes?"
+  },
+  {
+    "question": "Can I make additional contributions to my CPF accounts beyond the mandatory contributions, and are there any limits or benefits associated with doing so for employees?"
+  },
+  {
+    "question": "If I work for multiple platform operators, how do I track the total amount of Fixed Expense Deduction Amount (FEDA) applied to my earnings across all platforms to ensure it aligns with my actual expenses for tax purposes?"
+  },
+  {
+    "question": "Are there any resources available to assist platform workers in understanding their CPF obligations and options?"
+  },
+  {
+    "question": "If a platform worker's platform is based overseas, how does this affect their CPF contributions and eligibility for Platform Workers CPF Transition Support (PCTS)?"
+  },
+  {
+    "question": "If my platform operator is based overseas, how will the Fixed Expense Deduction Amount be determined for my CPF contributions?"
+  },
+  {
+    "question": "Are there any government schemes available to assist platform workers in managing the increased CPF contributions?"
+  },
+  {
+    "question": "Can my marital status impact my eligibility to receive Workfare Income Supplement (WIS) as a platform worker?"
+  },
+  {
+    "question": "Are there resources available to learn about how to be better at investing through CPF?"
+  },
+  {
+    "question": "What are the potential impacts of the changes to CPF policies on the gig economy?"
+  },
+  {
+    "question": "Are there any plans to extend the Platform Workers CPF Transition Support (PCTS) beyond 2028 if economic conditions worsen?"
+  },
+  {
+    "question": "If I work for multiple platform operators, will the Platform Workers CPF Transition Support be computed and disbursed separately for each platform?"
+  },
+  {
+    "question": "Are there resources available to assist with understanding changes for platform workers and ensuring CPF contributions are correctly calculated and paid?"
+  },
+  {
+    "question": "Are there any concessions for platform workers who may face financial hardship in managing the increase in CPF contributions?"
+  },
+  {
+    "question": "Are there resources available to help platform workers understand their CPF obligations and benefits?"
+  },
+  {
+    "question": "What are the potential implications of the government's long-term strategy regarding CPF and social security schemes on wealth inequality in Singapore?"
+  },
+  {
+    "question": "What are some examples of government support programs besides Workfare Income Supplement and the upcoming Majulah Package?"
+  },
+  {
+    "question": "Are there resources available for platform workers to understand their CPF obligations and benefits?"
+  },
+  {
+    "question": "If my platform operator is based overseas, how will the Fixed Expense Deduction Amount (FEDA) be determined for my CPF contributions?"
+  },
+  {
+    "question": "Are there resources available to help me understand how the recent changes to CPF affect me as a senior worker?"
+  },
+  {
+    "question": "If I switch between different modes of transport while working for a platform operator, how is the Fixed Expense Deduction Amount calculated?"
+  },
+  {
+    "question": "As a platform worker, if my mode of transport changes during the month, how is the Fixed Expense Deduction Amount (FEDA) calculated for my CPF contributions?"
+  },
+  {
+    "question": "Are there resources available to help platform workers understand their CPF obligations and benefits?"
+  },
+  {
+    "question": "What are the potential long-term effects on retirement savings for platform workers who consistently choose not to opt in for increased CPF contributions?"
+  },
+  {
+    "question": "What are the consequences for platform operators who fail to remit CPF contributions for their workers by the stipulated deadline?"
+  },
+  {
+    "question": "What is the Platform Workers CPF Transition Support (PCTS) offset rate from 2025 to 2028 for those who are mandated or have opted in to the increased CPF contributions, and what factors determine the precise amount of support received?"
+  },
+  {
+    "question": "What are the specific steps platform operators need to take to comply with the CPF contribution requirements for their workers?"
+  },
+  {
+    "question": "How does the voluntary contribution limit interact with the fixed expense deduction amount for platform workers?"
+  },
+  {
+    "question": "Are there any specific courses or training programs that would help platform workers better understand and manage their CPF contributions and benefits, especially considering the transition and opt-in periods?"
+  },
+  {
+    "question": "If my platform operator remits CPF contributions to the wrong account or with incorrect details, how can I rectify this?"
+  },
+  {
+    "question": "If I work both as an employee and a platform worker, how will my contributions and benefits be determined?"
+  },
+  {
+    "question": "For platform workers who are mandated or opt-in to increased CPF contributions, what tax reliefs are applicable to them, particularly during the transition period and beyond?"
+  },
+  {
+    "question": "What is the process for appealing a Workfare Income Supplement (WIS) ineligibility decision?"
+  },
+  {
+    "question": "If I am eligible for both Workfare Income Supplement (WIS) as an employee and Platform Workers CPF Transition Support (PCTS) as a platform worker, how will these benefits be disbursed?"
+  },
+  {
+    "question": "If I choose to make voluntary contributions to my CPF accounts while also being eligible for the Matched Retirement Savings Scheme, which contributions will be eligible for tax relief and which will be matched by the government?"
+  },
+  {
+    "question": "Are there resources available to help platform workers understand their CPF contribution responsibilities and options?"
+  },
+  {
+    "question": "What is the deadline for platform workers to opt-in for increased CPF contribution?"
+  },
+  {
+    "question": "What recourse do platform workers have if platform operators are found to be engaging in discriminatory practices regarding CPF contributions?"
+  },
+  {
+    "question": "What are the eligibility criteria and benefits for the Platform Workers CPF Transition Support (PCTS) scheme related to offsetting increased CPF contributions?"
+  },
+  {
+    "question": "Are there any resources available to help platform workers understand their CPF obligations and benefits?"
+  },
+  {
+    "question": "What are the possible alternative housing repayment options that are available if platform worker faces difficulty servicing their Housing Development Board (HDB) loans?"
+  },
+  {
+    "question": "Are there resources available to help platform workers understand their CPF obligations and entitlements?"
+  },
+  {
+    "question": "If a platform worker uses multiple modes of transport during a month, how will the Fixed Expense Deduction Amount be calculated?"
+  },
+  {
+    "question": "Are there resources available to help me better understand the CPF system and its various aspects related to employees?"
+  },
+  {
+    "question": "As a platform worker, if I use different vehicles for different platform jobs, how will the Fixed Expense Deduction Amount (FEDA) be determined for my CPF contributions?"
+  },
+  {
+    "question": "What are the potential changes to the Matched Retirement Savings Scheme benefits, such as matching grant amounts or eligibility criteria, that may occur in 2026 and beyond?"
+  },
+  {
+    "question": "If I am a platform worker and choose to opt in for increased CPF contributions, what happens if I subsequently switch to a different platform operator?"
+  },
+  {
+    "question": "If my platform operator makes a top-up to my CPF Retirement, Special, or MediSave Account as a gesture of goodwill, is this considered for tax relief?"
+  },
+  {
+    "question": "If I am a platform worker and disagree with the net earnings or deductions reported by my platform operator, what are my options for recourse?"
+  },
+  {
+    "question": "What are the potential penalties for employers who fail to accurately report employee wages to the CPF Board?"
+  },
+  {
+    "question": "Are there resources available to help platform workers understand the changes to CPF and how to make the most of these new contributions?"
+  },
+  {
+    "question": "What are the circumstances under which the CPF Board will take enforcement action against my platform operator?"
+  },
+  {
+    "question": "Are there resources available to help platform workers understand how the increase in CPF contributions affects their earnings and benefits?"
+  },
+  {
+    "question": "What are the potential penalties for employers who default on CPF contributions for their employees?"
+  },
+  {
+    "question": "Are there resources available to help platform workers understand their CPF obligations and benefits?"
+  },
+  {
+    "question": "If I am both an employee and a platform worker, how will the changes to CPF contribution rates and allocation for platform workers affect my overall CPF contributions and savings?"
+  },
+  {
+    "question": "Are there resources available to help platform workers better understand the implications of opting in or remaining in the default CPF contribution scheme?"
+  },
+  {
+    "question": "Are there specific support schemes available to help platform workers understand and manage their CPF contributions and related responsibilities?"
+  },
+  {
+    "question": "What is the process for employers to apply for a refund of excess CPF contributions that were made in error?"
+  },
+  {
+    "question": "Can platform workers use their CPF contributions for investments under the CPF Investment Scheme?"
+  },
+  {
+    "question": "If I work for multiple platform operators, will the Fixed Expense Deduction Amount (FEDA) be applied consistently across all platforms, or will it vary based on the mode of transport used for each platform?"
+  },
+  {
+    "question": "Are there any circumstances under which I might not be eligible for PCTS even if my CPF contributions have increased?"
+  },
+  {
+    "question": "What are the potential long-term financial benefits of opting in to increased CPF contributions for platform workers born before 1995?"
+  },
+  {
+    "question": "If I am an employer and want to support my lower-wage employees' retirement and healthcare needs beyond mandatory CPF contributions, what options are available?"
+  },
+  {
+    "question": "Are there any specific resources available to help platform workers understand their CPF obligations and benefits?"
+  },
+  {
+    "question": "How will the increase in CPF contributions for platform workers affect their eligibility for other government support schemes?"
+  },
+  {
+    "question": "Are there circumstances where a platform worker can receive both Workfare Income Supplement (WIS) and Platform Workers CPF Transition Support (PCTS)?"
+  },
+  {
+    "question": "How do the revised CPF contribution rates impact the amount employees can withdraw upon retirement?"
+  },
+  {
+    "question": "If I am a platform worker and suspect that my platform operator is miscalculating the Fixed Expense Deduction Amount (FEDA), how can I verify this and what actions can I take?"
+  },
+  {
+    "question": "Are there any government initiatives available to assist platform workers with their increased CPF contributions beyond 2029, after the Platform Workers CPF Transition Support (PCTS) ceases?"
+  },
+  {
+    "question": "If I am a platform worker using a vehicle and incur expenses for vehicle maintenance, can I deduct these expenses from my gross earnings before CPF contributions are calculated?"
+  },
+  {
+    "question": "How does the closure of the Special Account affect the calculation and allocation of Workfare Income Supplement (WIS) for CPF members?"
+  },
+  {
+    "question": "How does the closure of the Special Account affect CPF members' ability to participate in the CPF Investment Scheme?"
+  },
+  {
+    "question": "If my platform operator's net earnings declaration is inaccurate, how does this affect my Platform Workers CPF Transition Support (PCTS) eligibility and what recourse do I have?"
+  },
+  {
+    "question": "Are there any concessions or support schemes available to employers to offset the costs of increased CPF contributions for platform workers?"
+  },
+  {
+    "question": "Can a platform worker use their CPF contributions to purchase investments?"
+  },
+  {
+    "question": "If my employer pays both my salary and my National Service (NS) make-up pay, who should handle the CPF contributions for both amounts?"
+  },
+  {
+    "question": "What recourse do I have if the platform operator's share of CPF contributions is not being appropriately remitted for my platform work?"
+  },
+  {
+    "question": "What are the eligibility criteria and application process for the Platform Workers CPF Transition Support (PCTS) for platform workers who contribute to both CPF and Medisave?"
+  },
+  {
+    "question": "Are there specific resources or advisory services available to assist platform workers in understanding and managing their CPF contributions and related financial planning?"
+  },
+  {
+    "question": "Are there specific scenarios or conditions under which an individual might be temporarily exempted from CPF contributions?"
+  },
+  {
+    "question": "Are there any resources available to help platform workers understand their CPF contribution obligations and options?"
+  },
+  {
+    "question": "What are the steps involved in applying for a refund of excess CPF contributions, and what documentation is needed for platform workers?"
+  },
+  {
+    "question": "If I am a platform worker contributing to CPF, and I experience a decrease in my take-home pay due to increased CPF contributions, is there any support available to mitigate this?"
+  },
+  {
+    "question": "Are there resources to help platform workers understand their CPF obligations and entitlements?"
+  },
+  {
+    "question": "What financial support is available to platform workers during the initial years of increased CPF contributions beyond the Platform Workers CPF Transition Support (PCTS)?"
+  },
+  {
+    "question": "What are the potential penalties or legal consequences for platform operators who fail to comply with the CPF contribution requirements for platform workers?"
+  },
+  {
+    "question": "What is the process for appealing a Workfare Income Supplement (WIS) ineligibility decision?"
+  },
+  {
+    "question": "Are there any specific resources or support available to help platform workers understand and manage their CPF contributions?"
+  },
+  {
+    "question": "Are there resources available to help self-employed individuals understand their CPF obligations and benefits?"
+  },
+  {
+    "question": "What are the implications for platform workers who switch platforms mid-year regarding Fixed Expense Deduction Amount (FEDA) and CPF contributions?"
+  },
+  {
+    "question": "As a self-employed individual, how can I ensure my CPF contributions are correctly classified and not mistakenly attributed to my firm's account?"
+  },
+  {
+    "question": "Are there specific scenarios where a platform worker may be eligible for both Platform Workers CPF Transition Support (PCTS) and Workfare Income Supplement (WIS) simultaneously?"
+  },
+  {
+    "question": "How will changes in employment status (e.g., starting a new job) affect my ability to receive the Platform Workers CPF Transition Support (PCTS)?"
+  },
+  {
+    "question": "Are there any financial planning resources available to help platform workers understand and manage their CPF contributions and related financial implications?"
+  },
+  {
+    "question": "Are there any financial planning resources available to help platform workers understand the long-term implications of opting in or not opting in to increased CPF contributions?"
+  },
+  {
+    "question": "Are there any resources or programs available to assist platform workers in understanding their CPF obligations and benefits?"
+  },
+  {
+    "question": "What are the penalties for platform operators who fail to deduct and remit CPF contributions for their workers?"
+  },
+  {
+    "question": "What are the potential financial planning strategies platform workers can use to maximize the benefits of increased CPF contributions and the Platform Workers CPF Transition Support?"
+  },
+  {
+    "question": "Are there any specific resources or workshops available to help platform workers understand the new CPF contribution rules and how to manage their finances?"
+  },
+  {
+    "question": "Are there resources available to help platform workers understand the implications of opting in or remaining non-opt-in for CPF contributions?"
+  },
+  {
+    "question": "What are the tax implications for voluntary CPF contributions made by employers to their employees' accounts beyond the mandatory contributions?"
+  },
+  {
+    "question": "For self-employed individuals contributing to MediSave, what options are available for managing their contributions if they are facing temporary financial difficulties?"
+  },
+  {
+    "question": "Are there any resources available to help platform workers understand their CPF obligations and entitlements?"
+  },
+  {
+    "question": "What are the implications for CPF contributions if I switch between working as an employee and as a platform worker within the same year?"
+  },
+  {
+    "question": "Can platform workers use their CPF contributions for housing, and how does it compare to employees?"
+  },
+  {
+    "question": "Can I use my CPF savings to pay for SkillsFuture courses if I am a platform worker?"
+  },
+  {
+    "question": "Are there resources available to help platform workers understand the implications of opting in or not opting in for increased CPF contributions?"
+  },
+  {
+    "question": "Are there resources available to help platform workers understand how the increased CPF contributions affect their long-term financial planning?"
+  },
+  {
+    "question": "For platform workers who are on the fence about opting in to increased CPF contributions, what resources are available to help them make an informed decision?"
+  },
+  {
+    "question": "How will the introduction of CPF contributions for platform workers affect the overall gig economy in Singapore?"
+  },
+  {
+    "question": "Are there resources to help platform workers understand CPF contributions and the opt-in process?"
+  },
+  {
+    "question": "Are there any grants or financial aid programs available to help platform workers afford the increased CPF contributions?"
+  },
+  {
+    "question": "Are there any financial support schemes available to platform workers to help them with increased costs of living, beyond Platform Workers CPF Transition Support?"
+  },
+  {
+    "question": "What are the steps for a platform worker to appeal their PCTS amount?"
+  },
+  {
+    "question": "Are there any CPF schemes specifically designed to assist individuals who are caregivers of family members with disabilities?"
+  },
+  {
+    "question": "If a platform worker is eligible for both the Matched Retirement Savings Scheme (MRSS) and Platform Workers CPF Transition Support (PCTS), how do these schemes interact, and will receiving PCTS impact the amount of matching grant they receive under MRSS?"
+  },
+  {
+    "question": "What specific documentation is required to substantiate the mode of transport used by a platform worker for accurate Fixed Expense Deduction Amount (FEDA) calculation?"
+  },
+  {
+    "question": "Can the Fixed Expense Deduction Amount (FEDA) percentages be adjusted for individual platform workers based on their actual expenses?"
+  },
+  {
+    "question": "Are there any resources available to help employers understand their obligations regarding CPF contributions for their employees?"
+  },
+  {
+    "question": "Are there resources available for platform workers to help manage the transition to increased CPF contributions?"
+  },
+  {
+    "question": "Are there any financial assistance schemes besides Workfare Income Supplement and Platform Workers CPF Transition Support available to Singaporean platform workers?"
+  },
+  {
+    "question": "Are there any resources available to help employees understand their rights regarding CPF contributions and employer obligations?"
+  },
+  {
+    "question": "Are there any specific resources or programs available to help platform workers understand their new CPF contribution obligations and plan for their retirement?"
+  },
+  {
+    "question": "Can platform operators offer additional benefits or incentives to platform workers who opt-in for increased CPF contributions?"
+  },
+  {
+    "question": "What are the potential government initiatives or programs beyond PCTS and WIS available to support platform workers in Singapore, especially those who might face financial challenges or require upskilling?"
+  },
+  {
+    "question": "What are the implications for employers if they fail to deduct and remit CPF contributions for platform workers correctly?"
+  },
+  {
+    "question": "Are there any specific support schemes available to platform workers to ease the transition to increased CPF contributions, beyond the Platform Workers CPF Transition Support (PCTS)?"
+  },
+  {
+    "question": "How does the graduated opt-in for older platform workers affect the long-term projections of CPF contributions and national savings?"
+  },
+  {
+    "question": "If my salary with an overseas employer is paid in a foreign currency, how is my CPF contribution calculated?"
+  },
+  {
+    "question": "What are the penalties for employers who fail to pay CPF contributions for their employees?"
+  },
+  {
+    "question": "Are there resources available to assist platform workers in understanding and managing their CPF contributions effectively?"
+  },
+  {
+    "question": "What types of employment income qualify for Workfare Income Supplement (WIS)?"
+  },
+  {
+    "question": "What happens to my Medisave contributions as a self-employed person if the contribution rates change mid-year?"
+  },
+  {
+    "question": "What recourse do I have if a platform operator misclassifies my earnings to avoid paying the correct CPF contributions?"
+  },
+  {
+    "question": "If my platform operator offers training programs, are the associated fees considered part of my gross earnings for CPF contribution purposes?"
+  },
+  {
+    "question": "If I am a platform worker and have received the Platform Workers CPF Transition Support (PCTS), does this affect my eligibility for other financial assistance schemes?"
+  },
+  {
+    "question": "If a platform worker is eligible for both Workfare Income Supplement (WIS) and Platform Workers CPF Transition Support (PCTS), how will these benefits be coordinated and paid out?"
+  },
+  {
+    "question": "What are the potential impacts of the closure of the Special Account (SA) on housing loan repayments for CPF members aged 55 and above?"
+  },
+  {
+    "question": "Are there resources available to help platform workers understand the implications of opting in or not opting in to increased CPF contributions?"
+  },
+  {
+    "question": "What are some examples of situations where fixed expense deductions are used to calculate net earnings for platform workers?"
+  },
+  {
+    "question": "Are there resources available to help platform workers understand the impact of increased CPF contributions on their take-home pay?"
+  },
+  {
+    "question": "What are the tax implications for employers providing CPF top-ups for employees who are platform workers?"
+  },
+  {
+    "question": "What are the potential financial planning strategies that can help individuals maximize their CPF benefits, considering the various contribution schemes and investment options?"
+  },
+  {
+    "question": "What is the process for setting up recurring MediSave contributions using GIRO, and what are the benefits of doing so for self-employed persons?"
+  },
+  {
+    "question": "If I am a platform worker who is also an employee, how will my income from both sources impact my Workfare Income Supplement eligibility and payout?"
+  },
+  {
+    "question": "Are there resources available to help platform workers understand the long-term financial implications of opting in or not opting in to increased CPF contributions?"
+  },
+  {
+    "question": "What are the tax implications for voluntary CPF contributions made by or on behalf of platform workers?"
+  },
+  {
+    "question": "Are there resources available to help platform workers understand their CPF obligations and the Platform Workers Act?"
+  },
+  {
+    "question": "What are the key differences between mandatory and voluntary CPF contributions, and how do they impact my eligibility for various schemes and tax reliefs?"
+  },
+  {
+    "question": "What is the impact on my taxes if I opt-in to increased CPF contributions as a platform worker?"
+  },
+  {
+    "question": "What are the guidelines for employers regarding the payment of CPF contributions for employees who are concurrently employed by multiple employers, particularly concerning the Ordinary Wage ceiling?"
+  },
+  {
+    "question": "What assistance is available to employers to assist them to comply with the new platform worker's CPF contributions policy?"
+  },
+  {
+    "question": "If I am a platform worker, and I have limited my share of CPF contributions for one employment, does this impact my eligibility or calculation of Platform Workers CPF Transition Support (PCTS)?"
+  },
+  {
+    "question": "Are there resources available to help platform workers understand their CPF obligations and benefits?"
+  },
+  {
+    "question": "Are there resources available to assist CPF members in understanding the recent changes to the CPF system and how they impact their retirement planning?"
+  },
+  {
+    "question": "What are the penalties for a platform operator who fails to deduct and remit CPF contributions for platform workers?"
+  },
+  {
+    "question": "If I am receiving Platform Workers CPF Transition Support (PCTS) payments, how will changes to my fixed expense deduction amount (FEDA) impact the amount I receive?"
+  },
+  {
+    "question": "If I work for multiple platform operators, how will the Fixed Expense Deduction Amount (FEDA) be determined for each platform?"
+  },
+  {
+    "question": "Are there any circumstances under which I can appeal my ineligibility for the Platform Workers CPF Transition Support (PCTS)?"
+  },
+  {
+    "question": "Are there any financial assistance schemes, beyond Workfare Income Supplement and Platform Workers CPF Transition Support, available to support platform workers in Singapore?"
+  },
+  {
+    "question": "What are the latest updates regarding changes to the CPF system for different employment types?"
+  },
+  {
+    "question": "What happens to the Platform Workers CPF Transition Support if a platform worker’s earnings fluctuate, causing them to be ineligible in certain months?"
+  },
+  {
+    "question": "If I work for multiple platform operators and have opted in to increase my CPF contributions, how will my net earnings be calculated for each platform?"
+  },
+  {
+    "question": "Are there any financial assistance schemes available to platform workers, beyond Platform Workers CPF Transition Support (PCTS) and Workfare Income Supplement (WIS)?"
+  },
+  {
+    "question": "What happens to my eligibility for the Matched Retirement Savings Scheme (MRSS) if I opt in to the increased CPF contributions as a platform worker?"
+  },
+  {
+    "question": "What are the different options available to employees for housing repayment if they face difficulties?"
+  },
+  {
+    "question": "Are there circumstances under which an individual might be temporarily exempted from CPF contributions as a platform worker, and if so, what is the process for requesting such an exemption?"
+  },
+  {
+    "question": "Are there any support schemes available for platform workers, such as financial assistance for training or vehicle maintenance?"
+  },
+  {
+    "question": "How does the Majulah Package contribute to retirement adequacy for platform workers who are also receiving Workfare Income Supplement (WIS)?"
+  },
+  {
+    "question": "What are the tax implications of receiving the Platform Workers CPF Transition Support (PCTS)?"
+  },
+  {
+    "question": "Are there any resources available to help me understand how CPF contributions affect my long-term financial planning?"
+  },
+  {
+    "question": "As a platform worker, can I choose to have my share of CPF contributions deducted from only one of the platforms I work for, to minimize the impact on my immediate earnings?"
+  },
+  {
+    "question": "Are there resources available to help platform workers understand their rights and obligations regarding CPF contributions?"
+  },
+  {
+    "question": "Are there resources available to help me understand the 2025 CPF changes for Platform Workers, such as the increased contribution rates and Platform Workers CPF Transition Support?"
+  },
+  {
+    "question": "How does the annual value of my property affect my eligibility for both Workfare Income Supplement and the Matched Retirement Savings Scheme?"
+  },
+  {
+    "question": "How does the Platform Workers CPF Transition Support (PCTS) affect my income tax?"
+  },
+  {
+    "question": "What is the process for employers to adjust or correct CPF contributions if they identify an error after submission?"
+  },
+  {
+    "question": "What assistance is available to help platform workers understand and manage the new CPF contribution system?"
+  },
+  {
+    "question": "What is the process for a self-employed individual to appeal their assessed Workfare Income Supplement (WIS) amount?"
+  },
+  {
+    "question": "Are there any government support schemes, besides Workfare and PCTS, available to help platform workers with their CPF contributions or cost of living?"
+  },
+  {
+    "question": "If I am working as a platform worker and have opted in for increased CPF contributions, how does the process of submitting my CPF contributions differ from a typical employee?"
+  },
+  {
+    "question": "Are there specific scenarios where a platform worker might need to interact directly with the CPF Board regarding their contributions, even with the new system in place?"
+  },
+  {
+    "question": "If I am a Singapore Citizen working for an overseas platform operator, am I still eligible for Platform Workers CPF Transition Support (PCTS)?"
+  },
+  {
+    "question": "Are there any specific support schemes available to platform workers to help them manage the initial increase in CPF contributions?"
+  },
+  {
+    "question": "If a platform worker has both employment income and platform income, how will this impact the amount of Workfare Income Supplement (WIS) they receive?"
+  },
+  {
+    "question": "Are there any financial planning resources or advisors that specialize in helping platform workers understand and manage their CPF contributions and other financial obligations?"
+  },
+  {
+    "question": "What are the eligibility requirements for the Platform Workers CPF Transition Support (PCTS) scheme specifically for platform workers aged 50 and above?"
+  },
+  {
+    "question": "What are the updated service standards for employers on processing applications relating to employees' CPF matters in 2024?"
+  },
+  {
+    "question": "What are the qualifying criteria for students to be exempted from CPF contributions?"
+  },
+  {
+    "question": "Can I use my CPF savings to purchase insurance plans from overseas providers?"
+  },
+  {
+    "question": "How can I estimate my potential Workfare Income Supplement (WIS) amount and Platform Workers CPF Transition Support (PCTS) payment as a platform worker?"
+  },
+  {
+    "question": "Are there resources or schemes that help platform workers manage the financial adjustments from increased CPF contributions?"
+  },
+  {
+    "question": "If I am a platform worker born before 1995 and do not opt in for increased CPF contributions, will my MediSave contributions still count towards qualifying for Workfare Income Supplement?"
+  },
+  {
+    "question": "What are the long-term projections for CPF contribution rate increases, and how might those increases impact take-home pay for various age groups of platform workers?"
+  },
+  {
+    "question": "What are the steps to appeal a Workfare Income Supplement ineligibility assessment?"
+  },
+  {
+    "question": "If I am a platform worker who opts in for increased CPF contributions, how does this affect my eligibility for other government schemes?"
+  },
+  {
+    "question": "What are the eligibility criteria and benefits of the Matched Retirement Savings Scheme for platform workers who are contributing to CPF?"
+  },
+  {
+    "question": "Are there circumstances where I can be exempted from contributing to CPF as an employee or a self-employed person?"
+  },
+  {
+    "question": "Are there any government support schemes available to platform workers to help them with the increased CPF contributions, besides the Platform Workers CPF Transition Support?"
+  },
+  {
+    "question": "What are the steps to appeal a Workfare Income Supplement (WIS) ineligibility decision?"
+  },
+  {
+    "question": "How does the implementation of CPF contribution changes for platform workers impact their eligibility for other government support schemes?"
+  },
+  {
+    "question": "Can platform operators offer additional benefits to platform workers who opt in to increased CPF contributions?"
+  },
+  {
+    "question": "How does the new Majulah Package affect CPF contributions and benefits for different age groups?"
+  },
+  {
+    "question": "Are there any resources available that explain the recent changes to the CPF system, especially for platform workers?"
+  },
+  {
+    "question": "Are there resources available to help platform workers understand the opt-in process for increased CPF contributions and manage their CPF effectively?"
+  },
+  {
+    "question": "What is the Platform Workers CPF Transition Support (PCTS) scheme, and how does it help platform workers?"
+  },
+  {
+    "question": "If I have multiple platform operator accounts, will the Platform Workers CPF Transition Support (PCTS) be calculated based on the aggregate earnings or individual earnings?"
+  },
+  {
+    "question": "What are the implications of the new Majulah Package on my existing CPF accounts and contributions?"
+  },
+  {
+    "question": "What are the potential long-term effects on retirement savings for platform workers who consistently choose not to opt in to the increased CPF contribution rates?"
+  },
+  {
+    "question": "Are there any circumstances where a platform worker's Fixed Expense Deduction Amount (FEDA) can be adjusted based on actual expenses?"
+  },
+  {
+    "question": "What are the potential long-term impacts on retirement savings for platform workers who choose not to opt-in to the increased CPF contributions, especially regarding housing affordability and healthcare expenses?"
+  },
+  {
+    "question": "As a platform worker, will the PCTS offset all of my increased CPF contributions in the initial years?"
+  },
+  {
+    "question": "What is the process for voluntary housing refunds when I am receiving distributions from my retirement account?"
+  },
+  {
+    "question": "If a platform worker is eligible for both the Platform Workers CPF Transition Support (PCTS) and the Workfare Income Supplement (WIS), how will the benefits be disbursed?"
+  },
+  {
+    "question": "Are there resources available to help platform workers understand the new CPF contribution policies?"
+  },
+  {
+    "question": "How does the staggered implementation of increased CPF contributions for platform workers affect their eligibility for government support schemes like the Platform Workers CPF Transition Support (PCTS)?"
+  },
+  {
+    "question": "If my gross earnings change during the year as a platform worker, will this affect the Platform Workers CPF Transition Support I receive?"
+  },
+  {
+    "question": "What are the criteria to qualify for the Platform Workers CPF Transition Support (PCTS), and how is the monthly amount calculated?"
+  },
+  {
+    "question": "If I am a platform worker and I am also employed, will my employer be notified when I opt in to increase my CPF contributions as a platform worker?"
+  },
+  {
+    "question": "What assistance is available for platform workers in managing their CPF contributions during a period of reduced earnings?"
+  },
+  {
+    "question": "If I have both employment income and income from platform work, how does this affect my eligibility for the Workfare Income Supplement (WIS)?"
+  },
+  {
+    "question": "Are there resources available to help me understand the requirements and benefits for employers and employees regarding CPF contributions?"
+  },
+  {
+    "question": "Are there any specific resources available to help platform workers understand the new CPF contribution rules and the opt-in process?"
+  },
+  {
+    "question": "What is the process for voluntary top-ups to CPF accounts for individuals who are overseas?"
+  },
+  {
+    "question": "Are there any support schemes or resources available to platform workers transitioning to the new CPF contribution system in 2025?"
+  },
+  {
+    "question": "If a platform worker's fixed expense deduction amount (FEDA) changes mid-month due to switching transport modes, how is the CPF contribution calculated for that month?"
+  },
+  {
+    "question": "For platform workers who are eligible for Platform Workers CPF Transition Support (PCTS), how will the support payment be impacted if they work for multiple platforms?"
+  },
+  {
+    "question": "What assistance is available for platform workers to help them understand and manage their CPF contributions under the new regulations?"
+  },
+  {
+    "question": "Are there resources available to platform workers to help them transition to increased CPF contributions?"
+  },
+  {
+    "question": "Are there any financial advisory services available specifically tailored for CPF members participating in the CPF Investment Scheme?"
+  },
+  {
+    "question": "What is the Platform Workers CPF Transition Support, and how does it mitigate the increase in CPF contributions for eligible platform workers?"
+  },
+  {
+    "question": "If I am a platform worker and receive Platform Workers CPF Transition Support (PCTS), is the support considered as taxable income?"
+  },
+  {
+    "question": "What is the Platform Workers CPF Transition Support (PCTS) and how does it benefit platform workers?"
+  },
+  {
+    "question": "If I have both employee and self-employed income, how will my Workfare Income Supplement (WIS) be calculated and disbursed?"
+  },
+  {
+    "question": "Are there resources available to help platform workers understand their CPF obligations and entitlements?"
+  },
+  {
+    "question": "Are there resources available to help Singaporeans understand their rights and responsibilities under the CPF system, particularly regarding contributions, withdrawals, and investments?"
+  },
+  {
+    "question": "Are there resources available to assist platform workers in understanding their rights and obligations related to CPF contributions?"
+  },
+  {
+    "question": "If a platform worker opts in for increased CPF contributions and later faces financial hardship, can the increased contributions be temporarily suspended?"
+  },
+  {
+    "question": "What are the eligibility requirements for a dependant's pass holder to receive CPF contributions while working in Singapore?"
+  },
+  {
+    "question": "Are there any resources available to help me understand the impact of increased CPF contributions as a platform worker?"
+  },
+  {
+    "question": "What are the consequences if a platform operator misclassifies earnings to avoid or reduce CPF contributions?"
+  },
+  {
+    "question": "If my employer pays the employee's share of CPF contributions, is this considered part of my wages, and is it subject to income tax?"
+  },
+  {
+    "question": "Are there resources available to assist platform workers in understanding their CPF obligations and the new regulations?"
+  },
+  {
+    "question": "What are the implications of the revised CPF contribution rates for employers of senior workers in 2025?"
+  },
+  {
+    "question": "If I change jobs from employment to platform work, or vice versa, how will this affect my CPF contributions and eligibility for support schemes?"
+  },
+  {
+    "question": "What is the impact of the new policy changes on withdrawals related to the Home Protection Scheme?"
+  },
+  {
+    "question": "If I have both employment income and income from self-employment as a self-employed person (SEP), how are my CPF contributions calculated and what benefits am I eligible for?"
+  },
+  {
+    "question": "What are the potential long-term financial impacts of the proposed increases to CPF contribution rates on Singaporean workers and employers?"
+  },
+  {
+    "question": "How will the introduction of CPF contributions for platform workers impact the calculation and disbursement of other government support schemes, such as ComCare?"
+  },
+  {
+    "question": "If a platform worker's income qualifies for both the Platform Workers CPF Transition Support (PCTS) and the Workfare Income Supplement (WIS) in 2029, will they receive both?"
+  },
+  {
+    "question": "Are there circumstances in which CPF contributions are not required for employees, and what are the details of these exemptions?"
+  },
+  {
+    "question": "Are there any transition support schemes available to help platform workers adjust to the increased CPF contributions?"
+  },
+  {
+    "question": "Are there any resources or support systems available to help platform workers understand and manage their CPF contributions and related benefits?"
+  },
+  {
+    "question": "As a platform worker, am I eligible for any additional financial support beyond the Platform Workers CPF Transition Support (PCTS) to help offset the increase in CPF contributions?"
+  },
+  {
+    "question": "Are there circumstances where an employee or self-employed individual can voluntarily increase their CPF contribution beyond the standard limits?"
+  },
+  {
+    "question": "Are there resources available to help employers understand their obligations regarding CPF contributions?"
+  }
+]

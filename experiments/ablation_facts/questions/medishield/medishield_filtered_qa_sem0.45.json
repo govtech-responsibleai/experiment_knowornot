@@ -1,0 +1,97 @@
+{
+  "path_to_store": "experiments/ablation_facts/questions/medishield/medishield_filtered_qa_sem0.45.json",
+  "knowledge_base_identifier": "medishield",
+  "creation_timestamp": "2025-07-28T11:19:35.843736",
+  "questions": [
+    {
+      "question": "What is the pro-ration factor applied to subsidised treatments for permanent residents undergoing continuation of Autologous Bone Marrow Transplant for Multiple Myeloma under the Medishield program?",
+      "answer": "67%.",
+      "identifier": "medishield_0"
+    },
+    {
+      "question": "What type of phone calls to 1800 service lines are free of charge in Singapore under the given conditions?",
+      "answer": "Calls made from regular land lines are free of charge.",
+      "identifier": "medishield_1"
+    },
+    {
+      "question": "Who among the following family members is eligible to pay your MediShield premium using their MediSave? a) Cousin b) Parents c) Uncle",
+      "answer": "b) Parents",
+      "identifier": "medishield_2"
+    },
+    {
+      "question": "Where can patients receiving radiotherapy for cancer find information on approved indications for Proton Beam Therapy?",
+      "answer": "Patients can find this information on the MOH (Ministry of Health) website.",
+      "identifier": "medishield_3"
+    },
+    {
+      "question": "What additional coverage do Integrated Shield Plans by private insurers provide beyond MediShield Life benefits?",
+      "answer": "Integrated Shield Plans provide additional coverage beyond MediShield Life benefits, as offered by private insurers.",
+      "identifier": "medishield_4"
+    },
+    {
+      "question": "As of which date is the information provided in the MediShield Life booklet accurate according to the source citation?",
+      "answer": "1 April 2025",
+      "identifier": "medishield_5"
+    },
+    {
+      "question": "If the claimable amount under the Medishield program is $12,000 and the deductible is $2,000, how much remains after the deductible is applied?",
+      "answer": "$10,000",
+      "identifier": "medishield_6"
+    },
+    {
+      "question": "What is one financial benefit of joining the MediShield Life scheme at an earlier age?",
+      "answer": "Joining the MediShield Life scheme earlier results in higher premium rebates.",
+      "identifier": "medishield_7"
+    },
+    {
+      "question": "What income range per month per person classifies individuals as lower-income for subsidy calculations in Singapore's MediShield program?",
+      "answer": "$0 to $1,500 per month per person.",
+      "identifier": "medishield_8"
+    },
+    {
+      "question": "What is the maximum MediShield Life premium increase allowed by the end of the third year of the review cycle, compared to premiums in 2024?",
+      "answer": "35%",
+      "identifier": "medishield_9"
+    },
+    {
+      "question": "If an individual is hospitalized twice in the same MediShield policy year, does the policy cover both hospitalisation events?",
+      "answer": "Yes, MediShield provides coverage for multiple hospitalisation events within the same policy year, subject to policy limits and exclusions.",
+      "identifier": "medishield_10"
+    },
+    {
+      "question": "What is one purpose of the approach used in Singapore's MediShield program as described in source citation 2?",
+      "answer": "The approach helps to distribute premiums more evenly throughout one’s life and moderate the premium increases during older ages when one becomes less economically active.",
+      "identifier": "medishield_11"
+    },
+    {
+      "question": "Who has the authority to impose and vary terms and conditions for the administration of the MediShield Life scheme in Singapore?",
+      "answer": "The CPF Board has the authority to impose and vary terms and conditions for the administration of the MediShield Life scheme, as provided for in the legislation.",
+      "identifier": "medishield_12"
+    },
+    {
+      "question": "How is the MediShield Life claim computed for an insured member staying in Ward A regarding daily ward and treatment charges?",
+      "answer": "It is computed based on 27% of the bill for daily ward and treatment charges.",
+      "identifier": "medishield_13"
+    },
+    {
+      "question": "What ensures that individuals do not lose MediShield Life coverage despite an inability to pay insurance premiums?",
+      "answer": "No one will lose MediShield Life coverage due to an inability to pay insurance premiums.",
+      "identifier": "medishield_14"
+    },
+    {
+      "question": "Under Singapore’s MediShield Life Scheme, which type of medical procedure is explicitly excluded from coverage?",
+      "answer": "Cosmetic surgery is explicitly excluded from coverage under the MediShield Life Scheme.",
+      "identifier": "medishield_15"
+    },
+    {
+      "question": "What specific cost component of MediShield Life do applicable subsidies also cover, as stated in the fact?",
+      "answer": "The applicable MediShield Life premium subsidies also cover the Additional Premiums.",
+      "identifier": "medishield_16"
+    },
+    {
+      "question": "For how long is the Phased Support program provided to all Singapore Citizens and Permanent Residents under the Medishield program?",
+      "answer": "The Phased Support program is provided for two years to all Singapore Citizens and Permanent Residents.",
+      "identifier": "medishield_17"
+    }
+  ]
+}

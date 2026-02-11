@@ -1,0 +1,67 @@
+{
+  "path_to_store": "experiments/ablation_facts/questions/medishield/medishield_filtered_qa_sem0.50.json",
+  "knowledge_base_identifier": "medishield",
+  "creation_timestamp": "2025-07-28T11:23:51.877544",
+  "questions": [
+    {
+      "question": "From 2021 to 2025, how much in additional annual MediSave top-ups are Older Pioneer Generation Seniors with serious pre-existing conditions eligible to receive?",
+      "answer": "Older Pioneer Generation Seniors with serious pre-existing conditions are eligible to receive additional MediSave top-ups of $50 to $200 annually from 2021 to 2025.",
+      "identifier": "medishield_0"
+    },
+    {
+      "question": "What type of phone call is subject to airtime charges according to the provided statement?",
+      "answer": "Mobile calls to 1800 service lines are subject to airtime charges.",
+      "identifier": "medishield_1"
+    },
+    {
+      "question": "What does the term 'pre-existing condition' refer to in the context of insurance?",
+      "answer": "A pre-existing condition is a medical condition or illness that an individual already has before he is covered under an insurance plan.",
+      "identifier": "medishield_2"
+    },
+    {
+      "question": "What is the co-insurance amount for a remaining $3,000 in the given scenario?",
+      "answer": "$300",
+      "identifier": "medishield_3"
+    },
+    {
+      "question": "Where can one refer to for provisions in the MediShield Life Scheme Act and Regulations?",
+      "answer": "sso.agc.gov.sg",
+      "identifier": "medishield_4"
+    },
+    {
+      "question": "What is the length of the hospital stay for a Singapore Citizen aged 60 undergoing a hip replacement procedure in Ward A?",
+      "answer": "18 days.",
+      "identifier": "medishield_5"
+    },
+    {
+      "question": "What is one main difference between Integrated Shield Plan (IP) premiums and MediShield Life premiums based on their cost structure?",
+      "answer": "Integrated Shield Plan (IP) premiums are higher than MediShield Life premiums.",
+      "identifier": "medishield_6"
+    },
+    {
+      "question": "What is the claimable amount under the MediShield program for Daily Ward & Treatment Charges based on the lower of the claim limit and incurred charges?",
+      "answer": "The claimable amount is $10,670.",
+      "identifier": "medishield_7"
+    },
+    {
+      "question": "What happens if there is insufficient balance in the MediSave Account to pay MediShield premiums?",
+      "answer": "You or your payer will be informed to top up the MediSave Account or arrange for a family member to help pay the premiums.",
+      "identifier": "medishield_8"
+    },
+    {
+      "question": "Which types of medical conditions are explicitly not covered by MediShield Life for surgical interventions and related complications?",
+      "answer": "Rare congenital conditions such as Trisomy 13, Bilateral Renal Agenesis, Bart’s Hydrops, and Anecephaly are not covered by MediShield Life for surgical interventions and related complications.",
+      "identifier": "medishield_9"
+    },
+    {
+      "question": "What is the pro-ration factor applied to subsidised treatments for Singaporeans seeking Continuation of Autologous Bone Marrow Transplant for Multiple Myeloma under Singapore's healthcare system?",
+      "answer": "100%",
+      "identifier": "medishield_10"
+    },
+    {
+      "question": "When does Medishield coverage begin for individuals who attain permanent residency in Singapore?",
+      "answer": "Coverage begins from the day they attain permanent residency.",
+      "identifier": "medishield_11"
+    }
+  ]
+}
